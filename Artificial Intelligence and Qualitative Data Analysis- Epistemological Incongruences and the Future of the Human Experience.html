@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>学术文章深度分析报告</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; line-height: 1.8; margin: 2em; color: #333; background-color: #fdfdfd; }
+        .container { max-width: 1200px; margin: auto; }
+        h1 { font-size: 2.2em; text-align: center; color: #333; margin-bottom: 0.2em; }
+        .author { text-align: center; font-size: 1.2em; color: #666; margin-top: 0; margin-bottom: 2em; border-bottom: 3px solid #005A9C; padding-bottom: 1em; }
+        h2 { font-size: 2em; margin-top: 2.5em; color: #005A9C; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; }
+        h3 { font-size: 1.5em; margin-top: 1.5em; color: #005A9C; border-bottom: 1px solid #e0e0e0; }
+        h4.argument-theme { font-size: 1.1em; color: #333; margin-top: 1.2em; margin-bottom: 0.5em; border-left: 4px solid #005A9C; padding-left: 8px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); table-layout: fixed; }
+        th, td { padding: 12px 15px; text-align: left; border: 1px solid #ddd; vertical-align: top; word-wrap: break-word; }
+        thead { background-color: #005A9C; color: white; }
+        tbody tr:nth-child(even) { background-color: #f7f9fc; }
+        tbody tr:hover { background-color: #eef4ff; }
+        a { text-decoration: none; color: #007BFF; font-weight: 500; }
+        a:hover { text-decoration: underline; color: #0056b3; }
+        ul { padding-left: 20px; margin: 0; }
+        li { margin-bottom: 10px; }
+        td ul { padding-left: 0; list-style-type: none; }
+        td ul li:last-child { margin-bottom: 0; }
+        blockquote { font-size: 0.9em; color: #555; border-left: 3px solid #ccc; padding-left: 10px; margin: 8px 0 0 0; font-style: italic; }
+        .summary-section p { text-indent: 2em; }
+        .reference-column { font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Artificial Intelligence and Qualitative Data Analysis: Epistemological Incongruences and the Future of the Human Experience</h1>
+        <p class="author">Rudolf Messner, Samuel Smith, and Carol Richards</p>
+
+        <h2>全文概要总结</h2>
+        <div class="summary-section">
+            <h3>1. 论点 (Argument)</h3>
+            <p>本文的核心论点在于，人工智能（AI）与建构主义-诠释主义（constructivist-interpretive）范式下的质性研究之间存在着根本的“认识论不一致性”（epistemological incongruence）。作者认为，AI作为一种基于概率语言模型的“无经验”（dis-experienced）技术，其本质无法真正理解和表征人类的具身体验（embodied and lived experience）。而后者恰恰是质性分析的核心，作者将其概念化为“人类经验内容”（Human Experiential Content, HEC）。因此，AI无法替代人类研究者在数据分析和理论建构中的核心诠释角色，其应用必须伴随着高度的审慎、反思以及对研究严谨性的新定义。</p>
+
+            <h3>2. 论据 (Evidence)</h3>
+            <p>文章的主要论据来源于一项创新的“质性实验”（qualitative experiment）。研究团队使用一个已完成的关于澳大利亚牧场主应对气候冲击的研究项目数据，系统性地比较了“纯人类”分析与“人机协作”分析在编码员间信度（inter-coder reliability）上的表现。实验结果揭示了AI的几项关键缺陷：1）生成与原始文本数据脱节的“幻觉”或“虚构”内容（如提及数据中不存在的“区块链”）；2）无法详尽、全面地处理所有提供的数据文件，而是重复引用少数几个文件中的内容；3）即便经过特定理论文献的“训练”，其理论应用也流于表面和泛化，无法生成植根于具体经验数据的深刻洞见；4) 编码过程依赖于表层语言触发词，而非深层概念关联。</p>
+
+            <h3>3. 论证过程 (Reasoning Process)</h3>
+            <p>作者首先奠定了理论基础，详细阐述了建构主义-诠释主义认识论，强调研究者作为“具身”主体的介入、反身性（reflexivity）以及数据与意义共构的过程。接着，将此范式与AI的“黑箱”本质和概率性运作原理进行对勘，揭示二者在本体论和认识论上的根本冲突。通过质性实验的具体发现，作者具象化了这一冲突，并引入核心概念“人类经验内容”（HEC）作为分析框架，指出AI的效用会随着研究中HEC含量的增高而递减。最终，论证了由于AI的“无经验”本质，人类研究者必须开发如“分析诱导”（analytical coaxing）等新技能，并提出一个包含“披露、证成、验证”（Disclosure, Justification, Verification）的三步骤框架，以在人机协作研究中重建和保障学术严谨性。</p>
+
+            <h3>4. 方法 (Method)</h3>
+            <p>本文采用了一种新颖的质性实验方法，旨在评估AI在质性数据分析中的功效。该方法的核心是比较编码员间信度（Inter-Coder Reliability, ICR）。研究分为两个平行路径：1）两名人类研究员使用传统质性分析软件（NVIVO 14）对19份访谈转录稿进行编码，形成一个基准“编码簿”。2）一名人类研究员与AI（包括Atlas.ti, NVIVO 14的自动编码功能, ChatGPT, ChatPDF等）协作，对同样的数据进行分析。研究团队通过一系列迭代的提示词工程——他们称之为“分析诱导”（analytical coaxing）——来引导AI进行更深入的分析。比较的焦点集中在三个方面：1）经验数据边界的确定性；2）概念指标的完整性和分析显著性；3）归纳与溯因的理论建构能力。</p>
+
+            <h3>5. 案例 (Case/Example)</h3>
+            <p>研究案例的数据来源于一项关于澳大利亚昆士兰中部牧场主在面对气候冲击和干扰时，如何利用数字技术进行决策的质性研究项目。具体的AI失败案例被用来说明其局限性。例如，当被要求应用“关系性”（relationality）理论分析三个不同的数据文件（分别代表“数字工具与数据”、“证据与评估”、“心境空间”等编码）时，AI为每个文件生成了几乎完全相同的、泛泛而谈的结论。这与人类分析师从数据中提炼出的，植根于牧场主具体经验的深刻洞见（如“我们的系统一直在围场里给牛称重，我们可以通过牛的变化在肉眼看到之前就看到土地状况的变化”）形成了鲜明对比，后者才真正体现了关系性理论的精髓。</p>
+        </div>
+
+        <h2>分章节表格化细部分析</h2>
+
+        <h3>Introduction</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>大意、细节与原文引用 (Main Idea, Details & Original Quotes)</th>
+                    <th class="reference-column">引用的文献 (按论点主题分类) (Cited Literature (Categorized by Argument Theme))</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        本章确立了研究的核心问题：将AI技术应用于以人类为中心、基于建构主义-诠释主义范式的质性研究时所产生的认识论挑战。作者指出，AI在数据分析（尤其是归纳/溯因理论发展）中的作用尚不明确。本文通过一项比较“纯人类”分析与“人机协作”分析的质性实验，评估AI作为数据分析工具的功效，旨在回答“人类数据分析与人机协作数据分析在质性研究中如何比较？”这一核心问题。
+                        <ul>
+                            <li>
+                                作者强调，本文并非一个操作指南，而是对质性研究者与AI互动经验的反思，以及由此引发的认识论问题。
+                                <blockquote>“Rather, this paper reflects on the experience of qualitative researchers engaging with AI in human centred research and on the related epistemological questions it raises.”</blockquote>
+                            </li>
+                            <li>
+                                引用了Anis & French (2023) 和 Christou (2023a, 2023b) 的观点，指出AI在提升研究效率和稳健性的同时，也对研究诚信和研究者的批判性思维能力构成威胁。
+                                <blockquote>“Recent research has highlighted the capabilities of AI tools to enhance the efficiency and, arguably, the robustness of the research process, but also the threats to research integrity and the critical thinking ability of researchers (Anis & French, 2023; Christou, 2023a, 2023b).”</blockquote>
+                            </li>
+                            <li>
+                                引用Saldaña (2021) 的观点来界定质性数据分析的核心阶段，即从数据编码到归纳/溯因的理论发展。
+                                <blockquote>“Focusing specifically on the core stages of qualitative data analysis– from data coding to its end point of inductive/abductive theory development (Saldaña, 2021) - this paper reports on a qualitative experiment in inter-coder reliability (ICR) between human researchers and a human-AI collaboration.”</blockquote>
+                            </li>
+                            <li>
+                                引用O’Connor & Joffe (2020) 的观点，说明编码员间信度（ICR）在质性研究中作为确保系统性、沟通性、一致性和透明度的良好实践。
+                                <blockquote>“ICR is claimed to be good practice in qualitative research, enabling systematicity, communicability, consistency and transparency within research teams (O’Connor & Joffe, 2020).”</blockquote>
+                            </li>
+                            <li>
+                                引用Crotty (1998) 和 Neuman (2014) 的观点，定义了建构主义-诠释主义范式，该范式通过研究者与被研究者之间的互动来理解社会现实。
+                                <blockquote>“Qualitative research is directed at comprehending human experience and meaning, and it does so through specific approaches, including the constructivist-interpretive paradigm, that seeks to understand social reality through interactions between the researcher and researched (Crotty, 1998; Neuman, 2014).”</blockquote>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="reference-column">
+                        <h4 class="argument-theme">AI在研究中的双重影响</h4>
+                        <ul>
+                            <li><strong>Anis & French (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Efficient%2C%20explicatory%2C%20and%20equitable%3A%20Why%20qualitative%20researchers%20should%20embrace%20AI%2C%20but%20cautiously%20Anis%2C%20S.%2C%20%26%20French%2C%20J.%20A." target="_blank"><em>Efficient, explicatory, and equitable: Why qualitative researchers should embrace AI, but cautiously</em></a></li>
+                            <li><strong>Christou (2023a)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20to%20use%20artificial%20intelligence%20(AI)%20as%20a%20resource%2C%20methodological%20and%20analysis%20tool%20in%20qualitative%20research%3F%20Christou%2C%20P.%20A." target="_blank"><em>How to use artificial intelligence (AI) as a resource, methodological and analysis tool in qualitative research?</em></a></li>
+                            <li><strong>Christou (2023b)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20use%20of%20artificial%20intelligence%20(AI)%20in%20qualitative%20research%20for%20theory%20development%20Christou%2C%20P.%20A." target="_blank"><em>The use of artificial intelligence (AI) in qualitative research for theory development</em></a></li>
+                        </ul>
+                        <h4 class="argument-theme">质性分析的核心过程</h4>
+                        <ul>
+                            <li><strong>Saldaña (2021)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Coding%20techniques%20for%20quantitative%20and%20mixed%20data%20Salda%C3%B1a%2C%20J." target="_blank"><em>Coding techniques for quantitative and mixed data</em>, p. 151-160</a></li>
+                        </ul>
+                         <h4 class="argument-theme">编码员间信度(ICR)的角色</h4>
+                        <ul>
+                            <li><strong>O’Connor & Joffe (2020)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Intercoder%20reliability%20in%20qualitative%20research%3A%20Debates%20and%20practical%20guidelines%20O%E2%80%99Connor%2C%20C.%2C%20%26%20Joffe%2C%20H." target="_blank"><em>Intercoder reliability in qualitative research: Debates and practical guidelines</em></a></li>
+                        </ul>
+                        <h4 class="argument-theme">建构主义-诠释主义范式</h4>
+                        <ul>
+                            <li><strong>Crotty (1998)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20foundations%20of%20social%20research%3A%20Meaning%20and%20perspective%20in%20the%20research%20process%20Crotty%2C%20M." target="_blank"><em>The foundations of social research: Meaning and perspective in the research process</em></a></li>
+                            <li><strong>Neuman (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Social%20research%20methods%3A%20Qualitative%20and%20quantitative%20approaches%20Neuman%2C%20W.%20L." target="_blank"><em>Social research methods: Qualitative and quantitative approaches</em></a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Background: AI and the Human Experience</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>大意、细节与原文引用 (Main Idea, Details & Original Quotes)</th>
+                    <th class="reference-column">引用的文献 (按论点主题分类) (Cited Literature (Categorized by Argument Theme))</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        本章系统梳理了关于AI与质性研究交叉领域的现有文献。首先承认AI在学术界已是不可逆转的趋势，并概述了其在研究中被期望带来的好处，如提高效率、处理大规模数据集等。随后，文章深入探讨了AI的诸多弊端和认识论冲突：它指出了AI宣称的“客观性”与建构主义研究中拥抱“主体性”的立场相悖；AI模型因其训练数据而固有的结构性偏见（如种族、性别）；其运作方式缺乏透明度（“黑箱效应”）；以及其产出基于语言概率而非真正意义理解的根本缺陷。
+                        <ul>
+                            <li>
+                                引用Hosseini et al. (2023) 指出AI平台正改变教育和研究的方向，尽管存在伦理、诚信和作者身份的担忧。
+                                <blockquote>“Despite concerns about ethics, integrity and authorship, AI platforms are proliferating, altering the direction of education and research (Hosseini et al., 2023).”</blockquote>
+                            </li>
+                            <li>
+                                引用Christou (2023b), Hosseini et al. (2023), Tabone & De Winter (2023), Van Manen (2023) 等人的研究，说明学界已开始关注AI对质性分析和理论发展的影响。
+                                <blockquote>“Within the burgeoning literature on AI and how it transforms traditional human activities and occupations, research on the implications of AI for qualitative analysis and inductive/abductive theory development has also begun to surface (Christou, 2023b; Hosseini et al., 2023; Tabone & De Winter, 2023; Van Manen, 2023).”</blockquote>
+                            </li>
+                            <li>
+                                列举了AI在研究中的预期效益——效率，引用了Christou (2023a, 2023b), Davidson (2024), Gohil (2023) 等多位学者的观点，说明AI被视为能加速转录、翻译、编码等任务的工具。
+                                <blockquote>“Qualitative research is considered highly labour intensive and repetitive, and AI is seen as expediting specific tasks such as transcription, translation, coding, and organising of data, which can reduce the effort and resources required in research (Christou, 2023a, 2023b; Davidson, 2024; Gohil, 2023; Jiang et al., 2021; Pattyn, 2024; Rietz & Maedche, 2021).”</blockquote>
+                            </li>
+                            <li>
+                                引用Ciechanowski et al. (2020), Davidson (2024), Tschisgale et al. (2023) 的观点，提出AI处理大数据的能力可能增强研究的普适性、客观性和稳健性。
+                                <blockquote>“Arguably, AI’s ability to access and process large sets of data may enhance generalisability, objectivity and robustness of qualitative research as some have proposed (Ciechanowski et al., 2020; Davidson, 2024; Tschisgale et al., 2023).”</blockquote>
+                            </li>
+                            <li>
+                                通过引用Crotty (1998)，作者对此类宣称提出批判，认为追求客观性的做法与建构主义认识论基础相悖，后者反而拥抱研究者的主观性。
+                                <blockquote>“However, as we argue later, these claimed benefits are at odds with the constructivist epistemological and interpretivist theoretical basis of much qualitative human-centred research, which embraces researcher subjectivities and bias through well-established reflexive models of research (for example, see Crotty, 1998).”</blockquote>
+                            </li>
+                            <li>
+                                引用Anis & French (2023), Davidson (2024), Van Manen (2023) 的观点，指出AI的对话界面虽促进了拟人化，但其本质并非人类。
+                                <blockquote>“Despite the chat box interface and dialogue style which promotes personification and anthropomorphisation of many AI tools (Anis & French, 2023; Davidson, 2024; Van Manen, 2023), AI is not analogous to humans…”</blockquote>
+                            </li>
+                             <li>
+                                引用Anis & French (2023) 和 Christou (2023a) 的研究，揭示AI模型因训练数据而存在的结构性偏见。
+                                <blockquote>“This causes AI models to exhibit structural bias relating to race, colour and gender (Anis & French, 2023; Christou, 2023a).”</blockquote>
+                            </li>
+                            <li>
+                                引用Jiang et al. (2021), Rai (2020), Tschisgale et al. (2023), Van Eschenbach (2021) 的观点，指出了AI缺乏透明度的“黑箱效应”。
+                                <blockquote>“The issue of inherent bias is further aggravated by a general lack of transparency around sources used to train AI, algorithms, and the way that AI models produce outputs, which researchers refer to as ‘black box effects’ (Jiang et al., 2021; Rai, 2020; Tschisgale et al., 2023; Van Eschenbach, 2021).”</blockquote>
+                            </li>
+                            <li>
+                                引用Gigerenzer (2023) 和 Van Manen (2023) 的观点，强调AI生成内容是基于语言使用的预测概率，而非意义本身。
+                                <blockquote>“While AI responses may appear as the result of human-like cognition, their generation is based entirely on predictive probability of language use rather than meaningfulness (Gigerenzer, 2023; Van Manen, 2023).”</blockquote>
+                            </li>
+                            <li>
+                                引用Anis & French (2023) 和 Christou (2023b) 的观点，质疑AI理解上下文、文化细微差异和默会知识的能力。
+                                <blockquote>“For example, researchers have raised doubts on the ability of AI models to understand words in their contextual and tacit meaning, which may include cultural nuances, indexical meanings and contextual speech acts (Anis & French, 2023; Christou, 2023b).”</blockquote>
+                            </li>
+                            <li>
+                                最后，引用Hamilton et al. (2023), Morgan (2023) 等人的观点，总结当前共识，即AI的最佳用途是作为人类能力的补充，而非替代。
+                                <blockquote>“Recent research on AI and qualitative analysis has concluded that the utility of AI is best realised within human-AI collaborations that complement rather than substitute human interpretation capability (Hamilton et al., 2023; Lieder & Sch¨ affer, 2024; Morgan, 2023; Pattyn, 2024).”</blockquote>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="reference-column">
+                        <h4 class="argument-theme">AI在学术界的普及与争论</h4>
+                        <ul>
+                            <li><strong>Hosseini et al. (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Using%20AI%20to%20write%20scholarly%20publications%20Hosseini%2C%20M.%2C%20Rasmussen%2C%20L.%20M.%2C%20%26%20Resnik%2C%20D.%20B." target="_blank"><em>Using AI to write scholarly publications</em></a></li>
+                            <li><strong>Tabone, W., & De Winter, J. (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Using%20ChatGPT%20for%20human%E2%80%93computer%20interaction%20research%3A%20A%20primer%20Tabone%2C%20W.%2C%20%26%20De%20Winter%2C%20J." target="_blank"><em>Using ChatGPT for human–computer interaction research: A primer</em></a></li>
+                        </ul>
+                        <h4 class="argument-theme">AI的效率优势与局限</h4>
+                        <ul>
+                             <li><strong>Christou, P. A. (2023a)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20to%20use%20artificial%20intelligence%20(AI)%20as%20a%20resource%2C%20methodological%20and%20analysis%20tool%20in%20qualitative%20research%3F%20Christou%2C%20P.%20A." target="_blank"><em>How to use artificial intelligence (AI) as a resource, methodological and analysis tool in qualitative research?</em></a></li>
+                            <li><strong>Davidson, T. (2024)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Start%20generating%3A%20Harnessing%20generative%20artificial%20intelligence%20for%20sociological%20research%20Davidson%2C%20T." target="_blank"><em>Start generating: Harnessing generative artificial intelligence for sociological research</em></a></li>
+                            <li><strong>Gohil, H. (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Factors%20influencing%20the%20adoption%20of%20artificial%20intelligence%20for%20qualitative%20data%20analysis%3A%20A%20quantitative%20study%20using%20UTAUT%20model%20Gohil%2C%20H." target="_blank"><em>Factors influencing the adoption of artificial intelligence for qualitative data analysis: A quantitative study using UTAUT model</em></a></li>
+                            <li><strong>Jiang et al. (2021)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Supporting%20serendipity%3A%20Opportunities%20and%20challenges%20for%20Human-AI%20Collaboration%20in%20qualitative%20analysis%20Jiang%2C%20J.%20A." target="_blank"><em>Supporting serendipity: Opportunities and challenges for Human-AI Collaboration in qualitative analysis</em></a></li>
+                        </ul>
+                        <h4 class="argument-theme">认识论冲突：实证主义 vs 建构主义</h4>
+                         <ul>
+                            <li><strong>Crotty, M. (1998)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20foundations%20of%20social%20research%3A%20Meaning%20and%20perspective%20in%20the%20research%20process%20Crotty%2C%20M." target="_blank"><em>The foundations of social research: Meaning and perspective in the research process</em></a></li>
+                         </ul>
+                        <h4 class="argument-theme">AI的内在缺陷：偏见与黑箱</h4>
+                         <ul>
+                            <li><strong>Anis & French (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Efficient%2C%20explicatory%2C%20and%20equitable%3A%20Why%20qualitative%20researchers%20should%20embrace%20AI%2C%20but%20cautiously%20Anis%2C%20S.%2C%20%26%20French%2C%20J.%20A." target="_blank"><em>Efficient, explicatory, and equitable: Why qualitative researchers should embrace AI, but cautiously</em></a></li>
+                            <li><strong>Rai, A. (2020)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Explainable%20AI%3A%20From%20black%20box%20to%20glass%20box%20Rai%2C%20A." target="_blank"><em>Explainable AI: From black box to glass box</em></a></li>
+                            <li><strong>Van Eschenbach, W. J. (2021)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Transparency%20and%20the%20black%20box%20problem%3A%20Why%20we%20do%20not%20trust%20AI%20Von%20Eschenbach%2C%20W.%20J." target="_blank"><em>Transparency and the black box problem: Why we do not trust AI</em></a></li>
+                         </ul>
+                         <h4 class="argument-theme">核心问题：概率语言 vs 人类意义</h4>
+                         <ul>
+                            <li><strong>Gigerenzer, G. (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Psychological%20AI%3A%20Designing%20algorithms%20informed%20by%20human%20psychology%20Gigerenzer%2C%20G." target="_blank"><em>Psychological AI: Designing algorithms informed by human psychology</em></a></li>
+                            <li><strong>Van Manen, M. (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=What%20does%20ChatGPT%20mean%20for%20qualitative%20health%20research%3F%20Van%20Manen%2C%20M." target="_blank"><em>What does ChatGPT mean for qualitative health research?</em></a></li>
+                            <li><strong>Frank et al. (2024)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20blind%20spot.%20Why%20science%20cannot%20ignore%20human%20experience%20Frank%2C%20A." target="_blank"><em>The blind spot. Why science cannot ignore human experience</em></a></li>
+                            <li><strong>Sandelowski, M. (2022)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Reembodying%20qualitative%20inquiry%20Sandelowski%2C%20M." target="_blank"><em>Reembodying qualitative inquiry</em></a></li>
+                         </ul>
+                         <h4 class="argument-theme">未来方向：人机协作</h4>
+                         <ul>
+                            <li><strong>Morgan, D. L. (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Exploring%20the%20use%20of%20artificial%20intelligence%20for%20qualitative%20data%20analysis%3A%20The%20case%20of%20ChatGPT%20Morgan%2C%20D.%20L." target="_blank"><em>Exploring the use of artificial intelligence for qualitative data analysis: The case of ChatGPT</em></a></li>
+                         </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Constructivist-Interpretive Epistemology and the Human Experience in Data Analysis for Theory Development</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>大意、细节与原文引用 (Main Idea, Details & Original Quotes)</th>
+                    <th class="reference-column">引用的文献 (按论点主题分类) (Cited Literature (Categorized by Argument Theme))</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        本章深入阐述了文章的认识论基础——建构主义-诠释主义范式。它与寻求量化关系的客观主义认识论形成对比，强调质性研究旨在理解社会建构的现实和人类的生活经验。核心论点是，这种探究从根本上依赖于研究者的在场和参与，研究者在诠释世界的过程中建构意义。本章还详细描述了与此范式相关的方法论特征，如理论抽样、迭代和溯因分析、研究者反身性，以及理论发展必须始终与“饱满的”经验数据紧密相连的原则。
+                        <ul>
+                            <li>
+                                引用Brinkmann & Kvale (2019) 的概念“生活世界”(life world)，来说明质性社会研究旨在理解日常生活中多重现实和背景下的人类经验。
+                                <blockquote>“Qualitative social research aims to understand human experience within the multiple realities and social contexts of an everyday lived world or “life world” (Brinkmann & Kvale, 2019, p. 2)…”</blockquote>
+                            </li>
+                            <li>
+                                引用Crotty (1998) 的定义，阐述了“建构主义-诠释主义”研究范式，强调研究者在与世界互动时建构意义的核心作用。
+                                <blockquote>“Epistemologically, constructivist research… proposes a process of inquiry that is fundamentally dependent on the presence and involvement of researchers, who “construct meanings as they engage with the world they are interpreting” (Crotty, 1998, p. 43).”</blockquote>
+                            </li>
+                            <li>
+                                引用Sandelowski (2002) 的观点，批判了将数据视为“客观存在”等待被发现的实证主义观念，强调了在建构主义中数据是被“建构”的。
+                                <blockquote>“Epistemologically, constructivist research does not perceive of data as existing out there to be discovered as a singular objective reality (Sandelowski, 2002), rather it proposes a process of inquiry that is fundamentally dependent on the presence and involvement of researchers…”</blockquote>
+                            </li>
+                            <li>
+                                再次引用Crotty (1998)，提出了“研究者反身性”这一关键概念，即反思观察者的位置性、关系以及数据的状态。
+                                <blockquote>“This concept has been termed ‘researcher reflexivity’ (Crotty, 1998).”</blockquote>
+                            </li>
+                            <li>
+                                引用Layder (2018) 和 Messner (2021) 的观点，概述了建构主义范式下的互动研究程序，包括理论抽样、迭代分析和研究者反身性。
+                                <blockquote>“Methodologically, the constructivist paradigm involves interactive research procedures, including theoretical sampling, data collection adjustment in line with emerging insights, iterative and abductive analysis in line with emerging theory, and researcher reflexivity (Layder, 2018; Messner, 2021).”</blockquote>
+                            </li>
+                            <li>
+                                引用Saldaña (2021) 的观点，说明分析性编码不仅仅是数据简化，而是一种诠释行为。
+                                <blockquote>“Analytical coding is thus not equivalent to simply reducing, tagging or excerpting data but represents an interpretive act (Saldaña, 2021).”</blockquote>
+                            </li>
+                            <li>
+                                引用Byron & Thatcher (2016) 和 Langley (1999) 的观点，将质性理论建构描述为一种“意义建构”（sensemaking）的过程。
+                                <blockquote>“Qualitative theorising can be described as sensemaking that includes identifying and explaining phenomena and making judgements and more general assertions about social reality (Byron & Thatcher, 2016; Langley, 1999).”</blockquote>
+                            </li>
+                            <li>
+                                引用Layder (1998) 的概念“带着理论去分析数据”（data analysis with theory in mind），强调在探究的各个阶段，理论发展都与概念性参与紧密相连。
+                                <blockquote>“…which Layder (1998) has referred to as ‘data analysis with theory in mind’ (also see Figure 1).”</blockquote>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="reference-column">
+                        <h4 class="argument-theme">质性研究的本体论与认识论</h4>
+                        <ul>
+                            <li><strong>Creswell, J. W. (2007)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Qualitative%20inquiry%20and%20research%20design%3A%20Choosing%20among%20five%20approaches%20Creswell%2C%20J.%20W." target="_blank"><em>Qualitative inquiry and research design: Choosing among five approaches</em></a></li>
+                            <li><strong>Crotty, M. (1998)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20foundations%20of%20social%20research%3A%20Meaning%20and%20perspective%20in%20the%20research%20process%20Crotty%2C%20M." target="_blank"><em>The foundations of social research: Meaning and perspective in the research process</em></a></li>
+                            <li><strong>Sandelowski, M. (2002)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Reembodying%20qualitative%20inquiry%20Sandelowski%2C%20M." target="_blank"><em>Reembodying qualitative inquiry</em></a></li>
+                            <li><strong>Brinkmann & Kvale (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Epistemological%20issues%20of%20interviewing%20Brinkmann%2C%20S.%2C%20%26%20Kvale%2C%20S." target="_blank"><em>Epistemological issues of interviewing</em></a></li>
+                        </ul>
+                        <h4 class="argument-theme">研究者的核心作用与反身性</h4>
+                        <ul>
+                            <li><strong>Borrego et al. (2009)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Quantitative%2C%20qualitative%2C%20and%20mixed%20research%20methods%20in%20engineering%20education%20Borrego%2C%20M." target="_blank"><em>Quantitative, qualitative, and mixed research methods in engineering education</em>, p. 56</a></li>
+                        </ul>
+                        <h4 class="argument-theme">迭代与溯因的分析过程</h4>
+                        <ul>
+                            <li><strong>Layder, D. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Investigative%20research%3A%20Theory%20and%20practice%20Layder%2C%20D." target="_blank"><em>Investigative research: Theory and practice</em></a></li>
+                        </ul>
+                        <h4 class="argument-theme">理论建构与经验数据的联结</h4>
+                        <ul>
+                            <li><strong>Saldaña, J. (2021)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Coding%20techniques%20for%20quantitative%20and%20mixed%20data%20Salda%C3%B1a%2C%20J." target="_blank"><em>Coding techniques for quantitative and mixed data</em>, p. 20</a></li>
+                            <li><strong>Byron & Thatcher (2016)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Editors%E2%80%99%20comments%3A%20%E2%80%9CWhat%20I%20know%20now%20that%20I%20wish%20I%20knew%20then%E2%80%9D%E2%80%94teaching%20theory%20and%20theory%20building%20Byron%2C%20K." target="_blank"><em>Editors’ comments: “What I know now that I wish I knew then”—teaching theory and theory building</em></a></li>
+                            <li><strong>Langley, A. (1999)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Strategies%20for%20theorizing%20from%20process%20data%20Langley%2C%20A." target="_blank"><em>Strategies for theorizing from process data</em></a></li>
+                            <li><strong>Layder, D. (1998)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Analysing%20data%20with%20theory%20in%20mind%20Layder%2C%20D." target="_blank"><em>Analysing data with theory in mind</em></a></li>
+                            <li><strong>Corley & Gioia (2011)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Building%20theory%20about%20theory%20building%3A%20What%20constitutes%20a%20theoretical%20contribution%3F%20Corley%2C%20K.%20G." target="_blank"><em>Building theory about theory building: What constitutes a theoretical contribution?</em></a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Findings</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>大意、细节与原文引用 (Main Idea, Details & Original Quotes)</th>
+                    <th class="reference-column">引用的文献 (按论点主题分类) (Cited Literature (Categorized by Argument Theme))</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        本章集中呈现了质性实验的核心发现，围绕三个不确定性展开。<strong>1. 经验数据边界的不确定性：</strong>AI的分析响应常常是泛化的，无法确认其是否仅基于研究者上传的数据。AI出现了“幻觉”（如生成数据中不存在的“区块链”代码），且在分析多个文件时表现出不彻底性，反复引用少数文件，降低了分析详尽性的可信度。<strong>2. 编码的不确定性：</strong>AI生成的编码要么过于笼统（“lumping”），要么过于具体（“splitting”），且缺乏与经验数据的清晰联系。研究者必须通过一种“逆向归纳”的过程（即“分析诱导”）来追溯其与数据的联系。与人类编码相比，AI编码随机性强，且常依赖表层语言触发词而非深层概念。<strong>3. 理论发展的不确定性：</strong>尽管通过特定文献进行了“训练”，AI在应用理论时表现出机械和泛化，对不同内容的数据文件产出几乎相同的结论。其所谓的“理论应用”更像是要点的罗列，而非基于数据和理论的综合、抽象和概念升华，缺乏原创性贡献。
+                        <ul>
+                            <li>
+                                指出AI响应可能来源于其预先存在的训练数据池，而不仅仅是研究者上传的数据集，即使AI明确声称如此。
+                                <blockquote>“This suggests that AI responses may be drawn from a wider pre-existing training data pool and only partially from the data set uploaded by the researchers.”</blockquote>
+                            </li>
+                            <li>
+                                引用Barrasi (2024) 和 Davidson (2024) 的术语“幻觉”或“虚构”，来描述AI生成数据中不存在内容的情况。
+                                <blockquote>“In computer science disciplines, this has been referred to as ‘hallucinations’ or ‘confabulations’ (Barrasi, 2024; Davidson, 2024).”</blockquote>
+                            </li>
+                            <li>
+                                引用Christou (2023b) 的观点，指出当数据由不参与数据建构过程的AI模型分析时，研究者与数据之间的紧密联系和真实性会被削弱。
+                                <blockquote>“The closeness of connection between researcher and data and its authenticity are diminished when empirical data files are analysed and interpreted without prior researcher involvement in the data collection process, as is the case with AI models that do not participate in the construction of data (Christou, 2023b, p. 2745).”</blockquote>
+                            </li>
+                            <li>
+                                引用Saldaña (2021) 关于“splitting”和“lumping”的描述，来说明AI编码的两个极端倾向。
+                                <blockquote>“This type of technique has been described in the qualitative methodology literature as “splitting” and “lumping” and is a process of analysis conducted by researchers to organise data into codes, themes and categories by experimenting with different configurations and data abstraction (Saldaña, 2021).”</blockquote>
+                            </li>
+                            <li>
+                                引用Morgan (2023) 的相似观察，支持了本研究发现的“逆向归纳分析”过程。
+                                <blockquote>“This process of inverted inductive analysis supports similar observations in existing research (e.g. Morgan, 2023, p. 3) and raises questions of completeness and exhaustiveness of such retro-fitted codes…”</blockquote>
+                            </li>
+                             <li>
+                                引用Richards et al. (2025) 的研究成果，通过对比人类分析提炼出的高级主题（如“支持心境空间和精神健康”）与AI生成的三个零散主题，展示了人类在概念综合上的优势。
+                                <blockquote>“These themes are related, and human analysis would typically synthesise codes of such similarity, in this case “supporting mind space and mental wellbeing” (Richards et al., 2025, p. 60), that encompasses all aspects of mental health in a single higher-level theme.”</blockquote>
+                            </li>
+                             <li>
+                                引用McInnis (2011) 的观点，指出AI未能展现理论构建中更复杂的概念性任务，如构想新概念、阐释现有概念等。
+                                <blockquote>“The more comprehensive conceptual tasks specified in the literature on theory building, such as envisioning new concepts, explicating existing concepts, relating patterns and critically debating the evidence (McInnis, 2011, p. 40), were not visible in the AI generated responses.”</blockquote>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="reference-column">
+                        <h4 class="argument-theme">AI分析的可靠性问题</h4>
+                        <ul>
+                            <li><strong>Barrasi, V. (2024)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Toward%20a%20theory%20of%20AI%20errors%20Barassi%2C%20V." target="_blank"><em>Toward a theory of AI errors</em></a></li>
+                            <li><strong>Davidson, T. (2024)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Start%20generating%3A%20Harnessing%20generative%20artificial%20intelligence%20for%20sociological%20research%20Davidson%2C%20T." target="_blank"><em>Start generating: Harnessing generative artificial intelligence for sociological research</em></a></li>
+                        </ul>
+                        <h4 class="argument-theme">质性编码的方法论</h4>
+                        <ul>
+                            <li><strong>Christou, P. A. (2023b)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20use%20of%20artificial%20intelligence%20(AI)%20in%20qualitative%20research%20for%20theory%20development%20Christou%2C%20P.%20A." target="_blank"><em>The use of artificial intelligence (AI) in qualitative research for theory development</em>, p. 2745</a></li>
+                            <li><strong>Saldaña, J. (2021)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Coding%20techniques%20for%20quantitative%20and%20mixed%20data%20Salda%C3%B1a%2C%20J." target="_blank"><em>Coding techniques for quantitative and mixed data</em></a></li>
+                            <li><strong>Morgan, D. L. (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Exploring%20the%20use%20of%20artificial%20intelligence%20for%20qualitative%20data%20analysis%3A%20The%20case%20of%20ChatGPT%20Morgan%2C%20D.%20L." target="_blank"><em>Exploring the use of artificial intelligence for qualitative data analysis: The case of ChatGPT</em>, p. 3</a></li>
+                        </ul>
+                        <h4 class="argument-theme">理论建构的复杂性</h4>
+                         <ul>
+                             <li><strong>Richards et al. (2025)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Digital%20technology%20and%20on-farm%20responses%20to%20climate%20shocks%3A%20Exploring%20the%20relations%20between%20producer%20agency%20and%20the%20security%20of%20food%20production%20Richards%2C%20C." target="_blank"><em>Digital technology and on-farm responses to climate shocks: Exploring the relations between producer agency and the security of food production</em>, p. 60</a></li>
+                            <li><strong>McInnis, D. J. (2011)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=A%20framework%20for%20conceptual%20contributions%20in%20marketing%20MacInnis%2C%20D.%20J." target="_blank"><em>A framework for conceptual contributions in marketing</em>, p. 40</a></li>
+                            <li><strong>Colquitt & Zapata Phelan (2007)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Trends%20in%20theory%20building%20and%20theory%20testing%3A%20A%20five-decade%20study%20of%20the%20academy%20of%20management%20journal%20Colquitt%2C%20J.%20A." target="_blank"><em>Trends in theory building and theory testing: A five-decade study of the academy of management journal</em></a></li>
+                         </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Discussion: Humans Working With Dis-Experienced AI in Qualitative Analysis</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>大意、细节与原文引用 (Main Idea, Details & Original Quotes)</th>
+                    <th class="reference-column">引用的文献 (按论点主题分类) (Cited Literature (Categorized by Argument Theme))</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        本章是对研究发现的理论升华和引申。作者重申核心论点：人类质性研究者不会被AI取代，因为建构主义-诠释主义分析的核心是人类经验，而AI是“无经验的”，其运作基于语言概率而非认知。为了系统化这一观点，作者提出了“人类经验内容”（Human Experiential Content, HEC）这一核心概念，并构建了一个谱系图（Figure 2），表明AI的效用随着研究方法中HEC含量的增加而递减。文章警示，若不加批判地依赖AI，可能导致真实人类数据与AI生成数据的混淆，从而动摇社会研究的经验基础。为此，作者提出了一个在人机协作研究中确保严谨性的三步骤框架：1) 披露（Disclosure），2) 证成（Justification），3) 验证（Verification）。
+                        <ul>
+                            <li>
+                                引用Gigerenzer (2023) 和 Van Manen (2023)，再次强调AI运作基于语言概率而非类人认知。
+                                <blockquote>“This is due to AI tools, as natural language processing models, operating on a principle of language probability rather than human-like cognition (Gigerenzer, 2023; Van Manen, 2023).”</blockquote>
+                            </li>
+                            <li>
+                                引用Layder (2018) 和 Godfrey-Smith (2003) 的观点，强调理论发展必须基于对所有数据的全面分析，以实现对社会现象的详尽解释，而这正是AI目前所欠缺的。
+                                <blockquote>“As Layder (2018, p. 85) states, “theory development must consider all data within the analysis to ensure comprehensive and exhaustive explanation of social phenomena is achieved”.”</blockquote>
+                            </li>
+                            <li>
+                                引用Sandelowski (2002) 的观点，提出研究无法完全实现经验的真实性，但HEC概念有助于衡量研究对生活经验描述的深度、焦点和研究者介入程度。
+                                <blockquote>“As complete experiential authenticity is arguably not achievable through research (Sandelowski, 2002, p. 106), the concept of HEC suggests that qualitative epistemologies and methodologies contain variable levels of human experiential content…”</blockquote>
+                            </li>
+                            <li>
+                                引用Frank et al. (2024) 的术语“计算本体论”(computational ontology)，指出AI训练数据与真实人类经验数据在本体论上存在根本差异。
+                                <blockquote>“AI training data… represents an entirely separate ‘computational ontology’ (Frank et al., 2024, p. 175) that is statistically derived from authentic and embodied human experience.”</blockquote>
+                            </li>
+                            <li>
+                                引用Sandelowski (2002) 的警示，指出若失去基于生活经验的验证方法，社会研究将开始“混淆词语、图像与事物”。
+                                <blockquote>“Without a coherent method of observational and conceptual verification of evidence and propositions based on lived and embodied human experience, nothing prevents social research from starting to “confuse words and images with things” (Sandelowski, 2002, p. 112).”</blockquote>
+                            </li>
+                            <li>
+                                引用Shumailov et al. (2024) 和 Snoswell (2024) 的研究，提出“模型崩溃”（model collapse）的风险，即完全依赖AI生成数据进行再训练将导致模型性能下降，这反证了新鲜人类经验数据的不可或缺性。
+                                <blockquote>“Research has proposed that Large Language Models that rely on recursively fed AI generated data have shown significant decline of coherence and intelligibility, potentially resulting in an AI collapse or, at least, a vastly diminished usefulness for scientific research (Shumailov et al., 2024; Snoswell, 2024).”</blockquote>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="reference-column">
+                        <h4 class="argument-theme">AI的本质：概率模型而非认知</h4>
+                        <ul>
+                            <li><strong>Gigerenzer, G. (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Psychological%20AI%3A%20Designing%20algorithms%20informed%20by%20human%20psychology%20Gigerenzer%2C%20G." target="_blank"><em>Psychological AI: Designing algorithms informed by human psychology</em></a></li>
+                            <li><strong>Van Manen, M. (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=What%20does%20ChatGPT%20mean%20for%20qualitative%20health%20research%3F%20Van%20Manen%2C%20M." target="_blank"><em>What does ChatGPT mean for qualitative health research?</em></a></li>
+                        </ul>
+                        <h4 class="argument-theme">人类经验内容(HEC)与AI效用</h4>
+                         <ul>
+                            <li><strong>Layder, D. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Investigative%20research%3A%20Theory%20and%20practice%20Layder%2C%20D." target="_blank"><em>Investigative research: Theory and practice</em>, p. 85</a></li>
+                            <li><strong>Godfrey-Smith, P. (2003)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Theory%20and%20Reality.%20An%20introduction%20to%20philosophy%20of%20science%20Godfrey-Smith%2C%20P." target="_blank"><em>Theory and Reality. An introduction to philosophy of science</em>, p. 55</a></li>
+                            <li><strong>Sandelowski, M. (2002)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Reembodying%20qualitative%20inquiry%20Sandelowski%2C%20M." target="_blank"><em>Reembodying qualitative inquiry</em>, p. 106, 112</a></li>
+                            <li><strong>Frank et al. (2024)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20blind%20spot.%20Why%20science%20cannot%20ignore%20human%20experience%20Frank%2C%20A." target="_blank"><em>The blind spot. Why science cannot ignore human experience</em>, p. 175</a></li>
+                         </ul>
+                        <h4 class="argument-theme">AI的未来风险与机遇</h4>
+                         <ul>
+                            <li><strong>Shumailov et al. (2024)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=AI%20models%20collapse%20when%20trained%20on%20recursively%20generated%20data%20Shumailov%2C%20I." target="_blank"><em>AI models collapse when trained on recursively generated data</em></a></li>
+                            <li><strong>Snoswell, A. (2024)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=What%20is%20%E2%80%98model%20collapse%E2%80%99%3F%20An%20expert%20explains%20the%20rumours%20about%20an%20impending%20AI%20doom%20Snoswell%2C%20A." target="_blank"><em>What is ‘model collapse’? An expert explains the rumours about an impending AI doom</em></a></li>
+                         </ul>
+                        <h4 class="argument-theme">建立研究严谨性的新框架</h4>
+                         <ul>
+                            <li><strong>Singapore Management University. (2024)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Disclosure%20on%20the%20use%20of%20AI%20in%20research%20manuscripts%3A%20How%20are%20reseachers%20doing%20it%3F%20Singapore%20Management%20University" target="_blank"><em>Disclosure on the use of AI in research manuscripts: How are reseachers doing it?</em></a></li>
+                            <li><strong>Morgan, D. L. (2023)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Exploring%20the%20use%20of%20artificial%20intelligence%20for%20qualitative%20data%20analysis%3A%20The%20case%20of%20ChatGPT%20Morgan%2C%20D.%20L." target="_blank"><em>Exploring the use of artificial intelligence for qualitative data analysis: The case of ChatGPT</em></a></li>
+                         </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
