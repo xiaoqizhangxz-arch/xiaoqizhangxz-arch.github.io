@@ -1,0 +1,60 @@
+# /.github/workflows/daily_digest.yml
+
+name: Daily Academic Paper Digest
+
+on:
+  # 1. 定时触发：使用CRON表达式
+  # 这里的 '0 5 * * *' 表示每天的 UTC 时间 05:00 运行一次
+  # 你可以根据需要调整，例如改为 '0 22 * * *' 在你所在时区的晚上运行
+  schedule:
+    - cron: '0 5 * * *'
+
+  # 2. 手动触发：允许你在 GitHub Actions 页面手动运行此工作流，方便测试
+  workflow_dispatch:
+
+jobs:
+  fetch-papers:
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 环境运行
+
+    steps:
+      # 第一步：检出你的代码
+      # 使得工作流可以访问你的仓库文件
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 第二步：设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10' # 指定 Python 版本
+
+      # 第三步：安装依赖项
+      # 从 requirements.txt 文件安装所需的库
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 第四步：运行 Python 脚本
+      # 执行我们编写的 fetch_papers.py 脚本来获取论文
+      # GITHUB_WORKSPACE 是一个环境变量，指向你仓库的根目录
+      - name: Run script to fetch papers
+        run: python scripts/fetch_papers.py
+        env:
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+
+      # 第五步：提交新的文件
+      # 如果脚本生成了新的 news/*.md 文件，则将其提交到仓库
+      - name: Commit and push if it changed
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git pull # 先拉取远程更改，避免冲突
+          git add news/
+          # 下面的命令检查是否有文件被暂存，如果有，才执行提交
+          if ! git diff --staged --quiet; then
+            git commit -m "Docs: Add daily academic digest for $(date -u +'%Y-%m-%d')"
+            git push
+          else
+            echo "No changes to commit."
+          fi
