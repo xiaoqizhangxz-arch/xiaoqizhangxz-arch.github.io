@@ -3,129 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paperbot - 学术报告索引</title>
+    <title>文档索引 | Xiaoqi's Archive</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-            line-height: 1.8;
-            margin: 0;
-            padding: 2em;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
             margin: 0 auto;
-            background-color: #fff;
-            padding: 2em 3em;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            max-width: 800px;
+            padding: 2em;
+            color: #333;
+            background-color: #fdfdfd;
         }
         h1 {
             text-align: center;
             color: #2c3e50;
-            border-bottom: 2px solid #005A9C;
+            border-bottom: 2px solid #eaecef;
             padding-bottom: 0.5em;
-            margin-bottom: 1em;
         }
         ul {
             list-style-type: none;
             padding: 0;
         }
         li {
-            margin-bottom: 1em;
-            padding-bottom: 1em;
-            border-bottom: 1px solid #eee;
+            margin-bottom: 0.9em;
+            border-left: 3px solid #3498db;
+            padding-left: 1.2em;
+            transition: background-color 0.2s ease-in-out, border-left-color 0.2s ease-in-out;
         }
-        li:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
+        li:hover {
+             background-color: #f4f6f7;
+             border-left-color: #e74c3c;
         }
         a {
             text-decoration: none;
-            color: #3498db;
+            color: #2980b9;
             font-size: 1.1em;
-            transition: color 0.2s;
-            display: block;
+            font-weight: 500;
         }
         a:hover {
-            color: #2980b9;
             text-decoration: underline;
-        }
-        .loading, .error {
-            text-align: center;
-            font-style: italic;
-            color: #888;
-            padding: 2em;
-        }
-        footer {
-            text-align: center;
-            margin-top: 2em;
-            font-size: 0.9em;
-            color: #888;
+            color: #c0392b;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Paperbot - 学术报告分析索引</h1>
-        
-        <ul id="report-list">
-            <li class="loading">正在加载报告列表...</li>
-        </ul>
-    </div>
-    
-    <footer>
-        <p>由 Gemini &amp; GitHub Pages 驱动的个人学术笔记。</p>
-    </footer>
 
-    <script>
-        // --- 配置 ---
-        // 你的 GitHub 用户名
-        const GITHUB_USERNAME = 'xiaoqizhangxz-arch';
-        // 你的 GitHub 仓库名
-        const GITHUB_REPO = 'xiaoqizhangxz-arch.github.io';
-        // --- 配置结束 ---
+    <h1>文档索引</h1>
 
-        const reportList = document.getElementById('report-list');
-        const apiUrl = `https://api.github.com/repos/${GITHUB_USERNAME}/${GITHUB_REPO}/contents/`;
+    <ul>
+        <li><a href="summary_htmls/Aguiari (2024) A processual approach to community agriculture_ Between structuralist and individualist explanations.html">Aguiari (2024) A processual approach to community agriculture_ Between structuralist and individualist explanations</a></li>
+        <li><a href="summary_htmls/Ali (2024) A Guide for Positivist Research Paradigm_ From Philosophy to Methodology.html">Ali (2024) A Guide for Positivist Research Paradigm_ From Philosophy to Methodology</a></li>
+        <li><a href="summary_htmls/Alrøe et al. (2017) Performance versus Values in Sustainability Transformation of Food Systems.html">Alrøe et al. (2017) Performance versus Values in Sustainability Transformation of Food Systems</a></li>
+        <li><a href="summary_htmls/Bear et al. (2015) Country Life_ Agricultural Technologies and the Emergence of New Rural Subjectivities.html">Bear et al. (2015) Country Life_ Agricultural Technologies and the Emergence of New Rural Subjectivities</a></li>
+        <li><a href="summary_htmls/Bellacasa (2015) Making time for soil_ Technoscientific futurity and the pace of care.html">Bellacasa (2015) Making time for soil_ Technoscientific futurity and the pace of care</a></li>
+        <li><a href="summary_htmls/Berthet et al. (2018) Organizing collective innovation in support of sustainable agro-ecosystems_ The role of network management.html">Berthet et al. (2018) Organizing collective innovation in support of sustainable agro-ecosystems_ The role of network management</a></li>
+        <li><a href="summary_htmls/Bovenkerk et al. (2021) Animals in Our Midst_ The Challenges of Co-existing with Animals in the Anthropocene.html">Bovenkerk et al. (2021) Animals in Our Midst_ The Challenges of Co-existing with Animals in the Anthropocene</a></li>
+        <li><a href="summary_htmls/Campbell et al. (2011) After the ‘Organic Industrial Complex’_ An ontological expedition through commercial organic agriculture in New Zealand.html">Campbell et al. (2011) After the ‘Organic Industrial Complex’_ An ontological expedition through commercial organic agriculture in New Zealand</a></li>
+        <li><a href="summary_htmls/Carolan (2005) Society, Biology, and Ecology _ Bringing Nature Back Into Sociology’s Disciplinary Narrative Through Critical Realism.html">Carolan (2005) Society, Biology, and Ecology _ Bringing Nature Back Into Sociology’s Disciplinary Narrative Through Critical Realism</a></li>
+        <li><a href="summary_htmls/Carolan (2006) Social change and the adoption and adaptation of knowledge claims_ Whose truth do you trust in regard to sustainable agriculture_.html">Carolan (2006) Social change and the adoption and adaptation of knowledge claims_ Whose truth do you trust in regard to sustainable agriculture_</a></li>
+        <li><a href="summary_htmls/Carolan (2008) More-than-Representational Knowledge_s of the Countryside_ How We Think as Bodies.html">Carolan (2008) More-than-Representational Knowledge_s of the Countryside_ How We Think as Bodies</a></li>
+        <li><a href="summary_htmls/Carolan (2008) The Bright- and Blind-Spots of Science_ Why Objective Knowledge is not Enough to Resolve Environmental Controversies.html">Carolan (2008) The Bright- and Blind-Spots of Science_ Why Objective Knowledge is not Enough to Resolve Environmental Controversies</a></li>
+        <li><a href="summary_htmls/Carolan (2013) The Wild Side of Agro-food Studies_ On Co-experimentation, Politics, Change, and Hope.html">Carolan (2013) The Wild Side of Agro-food Studies_ On Co-experimentation, Politics, Change, and Hope</a></li>
+        <li><a href="summary_htmls/Carolan (2015) Affective sustainable landscapes and care ecologies_ getting a real feel for alternative food communities.html">Carolan (2015) Affective sustainable landscapes and care ecologies_ getting a real feel for alternative food communities</a></li>
+        <li><a href="summary_htmls/Carolan (2017) Agro-Digital Governance and Life Itself_ Food Politics at the Intersection of Code and Affect.html">Carolan (2017) Agro-Digital Governance and Life Itself_ Food Politics at the Intersection of Code and Affect</a></li>
+        <li><a href="summary_htmls/Carolan (2020) Automated agrifood futures_ robotics, labor and the distributive politics of digital agriculture.html">Carolan (2020) Automated agrifood futures_ robotics, labor and the distributive politics of digital agriculture</a></li>
+        <li><a href="summary_htmls/Carolan (2021) Digital Urban Agriculture as Disparate Development_ The Future of Food in Three U.S. Cities Through the Lens of Stakeholder Perceptions, Networks, and Resource Flows.html">Carolan (2021) Digital Urban Agriculture as Disparate Development_ The Future of Food in Three U.S. Cities Through the Lens of Stakeholder Perceptions, Networks, and Resource Flows</a></li>
+        <li><a href="summary_htmls/Carolan et al. (2003) In Truth We Trust_ Discourse, Phenomenology, and the Social Relations of Knowledge in an Environmental Dispute.html">Carolan et al. (2003) In Truth We Trust_ Discourse, Phenomenology, and the Social Relations of Knowledge in an Environmental Dispute</a></li>
+        <li><a href="summary_htmls/Comi (2023) Farmers who tinker_ Grounded alternatives to incrementalism and the growth imperative.html">Comi (2023) Farmers who tinker_ Grounded alternatives to incrementalism and the growth imperative</a></li>
+        <li><a href="summary_htmls/Contesse et al. (2021) Unravelling non-human agency in sustainability transitions.html">Contesse et al. (2021) Unravelling non-human agency in sustainability transitions</a></li>
+        <li><a href="summary_htmls/Curry et al. (2014) The Role of Tacit Knowledge in Developing Networks for Sustainable Agriculture.html">Curry et al. (2014) The Role of Tacit Knowledge in Developing Networks for Sustainable Agriculture</a></li>
+        <li><a href="summary_htmls/Darnhofer (2020) Farming from a Process-Relational Perspective_ Making Openings for Change Visible.html">Darnhofer (2020) Farming from a Process-Relational Perspective_ Making Openings for Change Visible</a></li>
+        <li><a href="summary_htmls/Darnhofer (2021) Farming Resilience_ From Maintaining States towards Shaping Transformative Change Processes.html">Darnhofer (2021) Farming Resilience_ From Maintaining States towards Shaping Transformative Change Processes</a></li>
+        <li><a href="summary_htmls/Darnhofer et al. (2016) The resilience of family farms_ Towards a relational approach.html">Darnhofer et al. (2016) The resilience of family farms_ Towards a relational approach</a></li>
+        <li><a href="summary_htmls/Desa et al. (2022) Social Innovation and Sustainability Transition.html">Desa et al. (2022) Social Innovation and Sustainability Transition</a></li>
+        <li><a href="summary_htmls/Dooren et al. (2016) Multispecies Studies Cultivating Arts of Attentiveness.html">Dooren et al. (2016) Multispecies Studies Cultivating Arts of Attentiveness</a></li>
+        <li><a href="summary_htmls/Driessen et al. (2015) Cows desiring to be milked_ Milking robots and the co-evolution of ethics and technology on Dutch dairy farms.html">Driessen et al. (2015) Cows desiring to be milked_ Milking robots and the co-evolution of ethics and technology on Dutch dairy farms</a></li>
+        <li><a href="summary_htmls/Fielke et al. (2020) Digitalisation of agricultural knowledge and advice networks_ A state-of-the-art review.html">Fielke et al. (2020) Digitalisation of agricultural knowledge and advice networks_ A state-of-the-art review</a></li>
+        <li><a href="summary_htmls/Forney (2021) Farmers’ empowerment and learning processes in accountability practices_ An assemblage perspective.html">Forney (2021) Farmers’ empowerment and learning processes in accountability practices_ An assemblage perspective</a></li>
+        <li><a href="summary_htmls/Forney et al. (2018) Introduction_ Agri-Environmental Governance as Assemblage.html">Forney et al. (2018) Introduction_ Agri-Environmental Governance as Assemblage</a></li>
+        <li><a href="summary_htmls/Garrard et al. (2020) Blockchain for trustworthy provenances_ A case study in the Australian aquaculture industry.html">Garrard et al. (2020) Blockchain for trustworthy provenances_ A case study in the Australian aquaculture industry</a></li>
+        <li><a href="summary_htmls/Gladkova (2025) More-than-human urban food growing imaginaries_ engaging with the senses.html">Gladkova (2025) More-than-human urban food growing imaginaries_ engaging with the senses</a></li>
+        <li><a href="summary_htmls/Goble (2017) Beyond Human Subjectivity and Back to the Things Themselves_ Jane Bennett’s Vibrant Matter.html">Goble (2017) Beyond Human Subjectivity and Back to the Things Themselves_ Jane Bennett’s Vibrant Matter</a></li>
+        <li><a href="summary_htmls/Goodman (2001) Ontology Matters_ The Relational Materiality of Nature and Agro-Food Studies.html">Goodman (2001) Ontology Matters_ The Relational Materiality of Nature and Agro-Food Studies</a></li>
+        <li><a href="summary_htmls/Hertz et al. (2025) Knowledge that affects_ an assemblage approach.html">Hertz et al. (2025) Knowledge that affects_ an assemblage approach</a></li>
+        <li><a href="summary_htmls/Hidalgo et al. (2024) How do coffee farmers engage with digital technologies_ A capabilities perspective.html">Hidalgo et al. (2024) How do coffee farmers engage with digital technologies_ A capabilities perspective</a></li>
+        <li><a href="summary_htmls/Higgins et al. (2017) Ordering adoption_ Materiality, knowledge and farmer engagement with precision agriculture technologies.html">Higgins et al. (2017) Ordering adoption_ Materiality, knowledge and farmer engagement with precision agriculture technologies</a></li>
+        <li><a href="summary_htmls/Higgins et al. (2020) Framing Agri-Digital Governance_ Industry Stakeholders, Technological Frames and Smart Farming Implementation.html">Higgins et al. (2020) Framing Agri-Digital Governance_ Industry Stakeholders, Technological Frames and Smart Farming Implementation</a></li>
+        <li><a href="summary_htmls/Higgins et al. (2023) Deliberative assembling_ Tinkering and farmer agency in precision agriculture implementation.html">Higgins et al. (2023) Deliberative assembling_ Tinkering and farmer agency in precision agriculture implementation</a></li>
+        <li><a href="summary_htmls/I et al. (2015) Intensive agriculture reduces soil biodiversity across Europe.html">I et al. (2015) Intensive agriculture reduces soil biodiversity across Europe</a></li>
+        <li><a href="summary_htmls/Ingram et al. (2020) How do we enact co-innovation with stakeholders in agricultural research projects_ Managing the complex interplay between contextual and facilitation processes.html">Ingram et al. (2020) How do we enact co-innovation with stakeholders in agricultural research projects_ Managing the complex interplay between contextual and facilitation processes</a></li>
+        <li><a href="summary_htmls/Jones et al. (2019) Unravelling the Global Wool Assemblage_ Researching Place and Production Networks in the Global Countryside.html">Jones et al. (2019) Unravelling the Global Wool Assemblage_ Researching Place and Production Networks in the Global Countryside</a></li>
+        <li><a href="summary_htmls/Landecker (2016) Antibiotic Resistance and the Biology of History.html">Landecker (2016) Antibiotic Resistance and the Biology of History</a></li>
+        <li><a href="summary_htmls/Legun (2015) Tiny trees for trendy produce_ Dwarﬁng technologies as assemblage actors in orchard economies.html">Legun (2015) Tiny trees for trendy produce_ Dwarﬁng technologies as assemblage actors in orchard economies</a></li>
+        <li><a href="summary_htmls/Legun et al. (2021) Robot-ready_ How apple producers are assembling in anticipation of new AI robotics.html">Legun et al. (2021) Robot-ready_ How apple producers are assembling in anticipation of new AI robotics</a></li>
+        <li><a href="summary_htmls/Liao (2025) Agricultural technologies and the emergence of cyborg assemblage_ rethinking the relationships between young women farmers and agricultural machines in Taiwan.html">Liao (2025) Agricultural technologies and the emergence of cyborg assemblage_ rethinking the relationships between young women farmers and agricultural machines in Taiwan</a></li>
+        <li><a href="summary_htmls/Lowe et al. (2019) Expertise in rural development_ A conceptual and empirical analysis.html">Lowe et al. (2019) Expertise in rural development_ A conceptual and empirical analysis</a></li>
+        <li><a href="summary_htmls/Luttrell (2017) Knowing the Honey bee_ A Multispecies Ethnography.html">Luttrell (2017) Knowing the Honey bee_ A Multispecies Ethnography</a></li>
+        <li><a href="summary_htmls/McGreevy et al. (2022) Sustainable agrifood systems for a post-growth world.html">McGreevy et al. (2022) Sustainable agrifood systems for a post-growth world</a></li>
+        <li><a href="summary_htmls/Moreira et al. (2026) Designing with non-humans for agricultural systems transformation_ An interdisciplinary review and framework for reflection.html">Moreira et al. (2026) Designing with non-humans for agricultural systems transformation_ An interdisciplinary review and framework for reflection</a></li>
+        <li><a href="summary_htmls/Muhlhauser et al. (2021) Grilling Meataphors_ Impossible™ Foods and Posthumanism in the Meat Aisle.html">Muhlhauser et al. (2021) Grilling Meataphors_ Impossible™ Foods and Posthumanism in the Meat Aisle</a></li>
+        <li><a href="summary_htmls/Paxson (2008) POST-PASTEURIAN CULTURES_ The Microbiopolitics of Raw-Milk Cheese in the United States.html">Paxson (2008) POST-PASTEURIAN CULTURES_ The Microbiopolitics of Raw-Milk Cheese in the United States</a></li>
+        <li><a href="summary_htmls/Phillips (2016) Alternative food distribution and plastic devices_ Performances, valuations, and experimentations.html">Phillips (2016) Alternative food distribution and plastic devices_ Performances, valuations, and experimentations</a></li>
+        <li><a href="summary_htmls/Pigford et al. (2018) Beyond agricultural innovation systems_ Exploring an agricultural innovation ecosystems approach for niche design and development in sustainability transitions.html">Pigford et al. (2018) Beyond agricultural innovation systems_ Exploring an agricultural innovation ecosystems approach for niche design and development in sustainability transitions</a></li>
+        <li><a href="summary_htmls/Pithadiya (2025) Beyond the Human- Posthumanism, Embodiment, and Ecological Consciousness in Han Kang's The Vegetarian.html">Pithadiya (2025) Beyond the Human- Posthumanism, Embodiment, and Ecological Consciousness in Han Kang's The Vegetarian</a></li>
+        <li><a href="summary_htmls/Richards et al. (2025) Digital technology and on-farm responses to climate shocks_ exploring the relations between producer agency and the security of food production.html">Richards et al. (2025) Digital technology and on-farm responses to climate shocks_ exploring the relations between producer agency and the security of food production</a></li>
+        <li><a href="summary_htmls/Roodhof (2024) Understanding the emerging phenomenon of food forestry in the Netherlands_ An assemblage theory approach.html">Roodhof (2024) Understanding the emerging phenomenon of food forestry in the Netherlands_ An assemblage theory approach</a></li>
+        <li><a href="summary_htmls/Rose (2012) Multispecies Knots of Ethical Time.html">Rose (2012) Multispecies Knots of Ethical Time</a></li>
+        <li><a href="summary_htmls/Rosin et al. (2017) Metrology and sustainability_ Using sustainability audits in New Zealand to elaborate the complex politics of measuring.html">Rosin et al. (2017) Metrology and sustainability_ Using sustainability audits in New Zealand to elaborate the complex politics of measuring</a></li>
+        <li><a href="summary_htmls/Schrader (2010) Responding to Pfiesteria piscicida (the Fish Killer)_ Phantomatic Ontologies, Indeterminacy, and Responsibility in Toxic Microbiology.html">Schrader (2010) Responding to Pfiesteria piscicida (the Fish Killer)_ Phantomatic Ontologies, Indeterminacy, and Responsibility in Toxic Microbiology</a></li>
+        <li><a href="summary_htmls/Semplici et al. (2024) Relational resiliences_ reflections from pastoralism across the world.html">Semplici et al. (2024) Relational resiliences_ reflections from pastoralism across the world</a></li>
+        <li><a href="summary_htmls/Sutherland et al. (2020) Assemblage and the ‘good farmer’_ New entrants to crofting in scotland.html">Sutherland et al. (2020) Assemblage and the ‘good farmer’_ New entrants to crofting in scotland</a></li>
+        <li><a href="summary_htmls/Sutherland et al. (2023) Advancing AKIS with assemblage thinking.html">Sutherland et al. (2023) Advancing AKIS with assemblage thinking</a></li>
+        <li><a href="summary_htmls/Tomich et al. (2011) Agroecology_ A Review from a Global-Change Perspective.html">Tomich et al. (2011) Agroecology_ A Review from a Global-Change Perspective</a></li>
+        <li><a href="summary_htmls/Tsagdis (2025) Digital Agroecology and the Inhuman_ Paradigm Crossroads.html">Tsagdis (2025) Digital Agroecology and the Inhuman_ Paradigm Crossroads</a></li>
+        <li><a href="summary_htmls/Tsiafouli et al. (2015) Intensive agriculture reduces soil biodiversity across Europe.html">Tsiafouli et al. (2015) Intensive agriculture reduces soil biodiversity across Europe</a></li>
+        <li><a href="summary_htmls/Velden et al. (2023) Cyborg farmers_ Embodied understandings of precision agriculture.html">Velden et al. (2023) Cyborg farmers_ Embodied understandings of precision agriculture</a></li>
+        <li><a href="summary_htmls/Velden et al. (2024) Participation and co-theorising_ How stakeholder interests and scientific outputs clash in the Horizon 2020 multi-actor approach.html">Velden et al. (2024) Participation and co-theorising_ How stakeholder interests and scientific outputs clash in the Horizon 2020 multi-actor approach</a></li>
+        <li><a href="summary_htmls/Wang et al. (2025) Variegated forms of planetary ruralisation_ A multiscalar contextual analysis of evolving ruralities of China’s Dike-Pond System.html">Wang et al. (2025) Variegated forms of planetary ruralisation_ A multiscalar contextual analysis of evolving ruralities of China’s Dike-Pond System</a></li>
+        <li><a href="summary_htmls/Werner et al. (2022) The Glyphosate Assemblage_ Herbicides, Uneven Development, and Chemical Geographies of Ubiquity.html">Werner et al. (2022) The Glyphosate Assemblage_ Herbicides, Uneven Development, and Chemical Geographies of Ubiquity</a></li>
+        <li><a href="summary_htmls/West et al. (2024) Relational approaches to sustainability transformations_ walking together in a world of many worlds.html">West et al. (2024) Relational approaches to sustainability transformations_ walking together in a world of many worlds</a></li>
+        <li><a href="summary_htmls/Whatmore (2006) Materialist returns_ practising cultural geography in and for a more-than-human world.html">Whatmore (2006) Materialist returns_ practising cultural geography in and for a more-than-human world</a></li>
+        <li><a href="summary_htmls/__ (2000) ECOLOGICAL CHALLENGES FOR SOIL SCIENCE.html">__ (2000) ECOLOGICAL CHALLENGES FOR SOIL SCIENCE</a></li>
+    </ul>
 
-        fetch(apiUrl)
-            .then(response => response.json())
-            .then(data => {
-                // 清空“正在加载”提示
-                reportList.innerHTML = ''; 
-
-                // 筛选出所有 .html 文件，并排除 index.html 自身
-                const htmlFiles = data.filter(file => file.name.endsWith('.html') && file.name !== 'index.html');
-
-                // 按文件名排序，可以根据需要调整
-                htmlFiles.sort((a, b) => a.name.localeCompare(b.name));
-
-                if (htmlFiles.length === 0) {
-                     reportList.innerHTML = '<li class="error">仓库中没有找到其他报告文件。</li>';
-                     return;
-                }
-
-                htmlFiles.forEach(file => {
-                    const li = document.createElement('li');
-                    const a = document.createElement('a');
-                    
-                    // 设置链接地址
-                    a.href = file.name;
-                    a.target = '_blank'; // 在新标签页打开
-                    
-                    // 将文件名（去掉.html后缀）作为链接标题
-                    a.textContent = file.name.replace('.html', '');
-                    
-                    li.appendChild(a);
-                    reportList.appendChild(li);
-                });
-            })
-            .catch(error => {
-                console.error('Error fetching repository files:', error);
-                reportList.innerHTML = '<li class="error">加载列表失败。请检查浏览器控制台获取错误信息。</li>';
-            });
-    </script>
 </body>
 </html>
