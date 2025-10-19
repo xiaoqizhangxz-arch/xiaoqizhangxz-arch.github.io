@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>学术文章深度分析报告</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", "SimSun", sans-serif; line-height: 1.8; margin: 2em; color: #333; background-color: #fdfdfd; }
+        .container { max-width: 1200px; margin: auto; }
+        h1 { font-size: 2.2em; text-align: center; color: #333; margin-bottom: 0.2em; }
+        .author { text-align: center; font-size: 1.2em; color: #666; margin-top: 0; margin-bottom: 2em; border-bottom: 3px solid #005A9C; padding-bottom: 1em; }
+        h2 { font-size: 2em; margin-top: 2.5em; color: #005A9C; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; }
+        h3 { font-size: 1.5em; margin-top: 1.5em; color: #005A9C; border-bottom: 1px solid #e0e0e0; }
+        h4.argument-theme { font-size: 1.1em; color: #333; margin-top: 1.2em; margin-bottom: 0.5em; border-left: 4px solid #005A9C; padding-left: 8px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); table-layout: fixed; }
+        th, td { padding: 12px 15px; text-align: left; border: 1px solid #ddd; vertical-align: top; word-wrap: break-word; }
+        thead { background-color: #005A9C; color: white; }
+        tbody tr:nth-child(even) { background-color: #f7f9fc; }
+        tbody tr:hover { background-color: #eef4ff; }
+        a { text-decoration: none; color: #007BFF; font-weight: 500; }
+        a:hover { text-decoration: underline; color: #0056b3; }
+        ul { padding-left: 20px; margin: 0; }
+        li { margin-bottom: 10px; }
+        td ul { padding-left: 0; list-style-type: none; }
+        td ul li:last-child { margin-bottom: 0; }
+        blockquote { font-size: 0.9em; color: #555; border-left: 3px solid #ccc; padding-left: 10px; margin: 8px 0 0 0; font-style: italic; }
+        .summary-section p { text-indent: 2em; }
+        .reference-column { font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Digitalisation of agricultural knowledge and advice networks: A state-of-the-art review</h1>
+<p class="author">Simon Fielke, Bruce Taylor, Emma Jakku</p>
+
+<div class="summary-section">
+<h2>全文概要总结</h2>
+
+<p>作为一名长期致力于农业创新系统与社会技术转型研究的学者，我认为Fielke、Taylor与Jakku的这篇综述文章，精准地捕捉到了当前农业领域一个至关重要的转型议题。作者们超越了将数字化仅仅视为提升生产效率的技术工具集的狭隘视角，而是将其定位为一场深刻的、将重塑整个农业创新系统（Agricultural Innovation System, AIS）的社会技术革命。文章的贡献在于，它系统性地梳理了数字化如何冲击并重构传统上由各类顾问（advisors）构成的知识与咨询网络（knowledge and advice networks），并前瞻性地指出了由此引发的在连通性（connectivity）、透明度（transparency）和治理（governance）三大维度上的核心挑战与机遇。</p>
+
+<h3>1. 论点 (Argument)</h3>
+<p>本文的核心论点是：农业的数字化转型并非简单的技术采纳过程，而是一个深刻的系统性变革，它正在瓦解并重构传统的农业知识与咨询网络。这一转型过程集中表现为三个相互关联的核心趋势：第一，人、技术与价值链之间的“连通性”将空前增强；第二，这种增强的连通性将驱动并同时被农业实践与信息交互的“透明度”所塑造；第三，在数字化进程中，平衡不同利益相关者（农民、企业、政府、消费者）的优先事项，将对现有的“治理”模式构成严峻挑战。因此，我们必须超越技术乐观主义，从社会技术的视角去理解并主动引导这一转型，以应对潜在的权力失衡与系统风险。</p>
+
+<h3>2. 论据 (Evidence)</h3>
+<p>作者的论据建立在一种双重文献回顾方法之上。首先，通过对Scopus数据库的结构化检索，他们识别出国际上关于数字农业与治理/制度交叉研究的文献（初步筛选出276篇），量化了该领域研究的增长趋势，并揭示了现有研究的碎片化特征。其次，通过更具深度的传统“滚雪球式”文献回顾，他们聚焦于农业推广与咨询服务的核心文献，系统梳理出五大趋势：信息行为多样化、决策专业化、咨询私有化、数据商品化以及新型服务缺口的出现。这些趋势共同构成了数字化转型的社会经济背景，为三大核心主题（连通性、透明度、治理）的提出提供了坚实的实证与理论基础。</p>
+
+<h3>3. 论证过程 (Reasoning Process)</h3>
+<p>文章的论证逻辑层次分明，从宏观到微观，再回归宏观综合。首先，文章界定了“数字化”作为一种系统性变革的本质，并将其置于“农业创新系统”理论框架下，强调了技术、社会、经济与制度的共同演化。接着，通过澳大利亚这一高度私有化的农业咨询体系作为案例，具象化地展示了国际性的宏观趋势（如私有化、专业化）如何在具体国情下演变，并与数字化浪潮交汇。最后，基于前述的理论框架和案例分析，作者提炼并升华出“连通性”、“透明度”和“治理”这三个具有普遍意义的分析维度。其论证的核心在于揭示三者间的因果链：增强的“连通性”是技术基础，它不可避免地带来了更高的“透明度”，而这种前所未有的透明度则对既有的权力结构和规则体系构成了冲击，从而催生了新的“治理”需求与困境。这一逻辑链条清晰地阐明了为何对数字化的讨论必须从技术层面上升到治理与制度层面。</p>
+
+<h3>4. 方法 (Method)</h3>
+<p>本文采用了一种严谨且互补的双轨文献分析方法（a two-fold state-of-the-art review）。第一阶段是“结构化文献综述”，通过在Scopus数据库中运用精确的关键词组合（‘digital* OR smart OR precision’ AND ‘agricultur* OR farm*’ AND ‘institution* OR governance’）进行系统检索，旨在宏观地、客观地描绘出相关研究领域的版图、增长趋势及核心主题的交叉情况。第二阶段是“传统滚雪球式文献综述”，该方法更具灵活性和深度，允许研究者沿着关键文献的引用链进行追溯，以深入挖掘农业推广、咨询服务和创新网络领域的经典理论和最新进展。这种结合使得研究既有广度（结构化综述）又有深度（传统综述），有效地应对了数字化这一新兴且跨学科领域文献分散、术语多样的挑战。</p>
+
+<h3>5. 案例 (Case/Example)</h3>
+<p>文章以澳大利亚的农业部门作为核心案例研究，这一选择极具代表性。澳大利亚的农业知识与咨询网络具有两个显著特征：一是新自由主义政策影响下高度的私有化和市场化，导致公共推广体系式微，咨询服务日益碎片化；二是在此背景下，政府、产业界和民间社会正积极推动数字化农业，以期实现生产力与可持续性的双重目标。这一案例生动地展示了在一个“去管制化”和“市场驱动”的环境中，数字化转型所带来的复杂互动和紧张关系。例如，私有顾问如何在追求商业利益的同时参与研发推广（RD&E），农民如何看待付费服务，以及数据所有权和隐私问题如何在新兴的数字平台中发酵。通过澳大利亚的例子，文章将抽象的全球趋势具体化，使其分析更具说服力和现实感。</p>
+</div>
+
+<h2>分章节表格化细部分析</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>大意、细节与原文引用 (Main Idea, Details & Original Quotes)</th>
+      <th>引用的文献 (按论点主题分类) (Cited Literature (Categorized by Argument Theme))</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><h2>Introduction</h2></td>
+    </tr>
+    <tr>
+      <td>
+        <p>本章节将“数字化”定义为一种能够改变系统运作方式的重大全球趋势，并将其应用于农业领域。作者指出，虽然数字化在农业中的讨论多集中于提高效率，但其对整个行业的知识网络、制度规范和治理将产生更深远、甚至颠覆性的影响。现有学术研究对此问题的探讨尚显碎片化，未能整体性地把握数字化带来的挑战与机遇，特别是对作为农业创新系统中介关键角色的农业顾问（advisors）所产生的影响。因此，本文旨在通过综述文献，阐明数字化对农业知识与咨询网络的潜在影响。</p>
+        <ul>
+          <li>
+            作者引用Leviäkangas (2016)来说明数字化是当前全球最显著的趋势之一。
+            <blockquote>Digitalisation involves the introduction of digital technological innovations into existing (organisational, industrial, societal) systems in such a way that changes how those systems operate. It is said to be one of the most significant trends globally at present (Leviäkangas, 2016).</blockquote>
+          </li>
+          <li>
+            引用Paschen et al. (2017)以强调本文关注技术发展与现有制度环境之间的互动，以理解数字化对农业系统的影响。
+            <blockquote>This paper aims to improve clarity regarding the potential effects on agricultural knowledge and advice networks, institutional norms and governance, as agricultural systems digitalise, by considering interactions between technological developments and existing institutional settings (Paschen et al., 2017).</blockquote>
+          </li>
+          <li>
+            通过引用Carolan (2018), Eastwood et al. (2017b), 和 Pant and Odame (2017)的例子，指出已有研究探讨了特定数字创新对农村和农业治理的影响，但缺乏对聚合技术发展的高层次影响的审视。
+            <blockquote>Various individual digital agricultural innovations have been examined in respect to implications for rural and agricultural governance (for examples see: Carolan (2018); Eastwood et al. (2017b); Pant and Odame (2017)). Examination of the higher-level implications of converging technological developments for the agricultural sector are rarer.</blockquote>
+          </li>
+          <li>
+            引用Eastwood et al. (2017a)和Nettle et al. (2018)的研究，说明虽然对农业顾问的动机及公私部门关系已有探讨，但对数字化带来的整体挑战与机遇仍缺乏全面研究。
+            <blockquote>Similarly, while the underlying motivations of agricultural advisors, and relationships between public and private actors in the agricultural innovation system have been examined (Eastwood et al., 2017a; Nettle et al., 2018), scholarship is yet to holistically tackle the challenges and opportunities presented by digitalisation (Ayre et al., 2019).</blockquote>
+          </li>
+          <li>
+            引用Klerkx and Leeuwis (2009)和Knierim et al. (2017)的观点，强调农业顾问作为中介在农业知识与咨询网络中的关键作用。
+            <blockquote>Agricultural advisors as intermediaries in agricultural knowledge and advice networks are a critical component of any agricultural innovation system (Klerkx and Leeuwis, 2009; Knierim et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用Eastwood et al. (2019a)，指出顾问的知识经纪和促进角色在农业系统数字化背景下依然重要。
+            <blockquote>Advisors' knowledge-brokering and facilitation roles are also relevant in the context of the digitalisation of agricultural systems (Eastwood et al., 2019a).</blockquote>
+          </li>
+          <li>
+            通过引用Lioutas et al. (2019)和Rose and Chilvers (2018)的研究，阐述了顾问需要适应网络-物理系统交叉点的工作环境，因为数据驱动的力量正日益集中于数字世界。
+            <blockquote>These service providers will need to adapt to operate at the intersection of cyber-physical systems as increasing data-driven power is held within the digital world due to autonomous information sharing, analytics and decision-making (Lioutas et al., 2019; Rose and Chilvers, 2018).</blockquote>
+          </li>
+        </ul>
+      </td>
+      <td class="reference-column">
+        <h4 class="argument-theme">数字化的定义与全球影响力</h4>
+        <ul>
+          <li><strong>Leviäkangas (2016)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Digitalisation%20of%20Finland%E2%80%99s%20transport%20sector%20Levi%C3%A4kangas" target="_blank"><em>Digitalisation of Finland’s transport sector</em>, p. 1-15</a></li>
+        </ul>
+        <h4 class="argument-theme">现有研究的局限性与本文目标</h4>
+        <ul>
+          <li><strong>Paschen et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Enrolling%20advisers%20in%20governing%20privatised%20agricultural%20extension%20in%20Australia%3A%20challenges%20and%20opportunities%20for%20the%20research%2C%20development%20and%20extension%20system%20Paschen" target="_blank"><em>Enrolling advisers in governing privatised agricultural extension in Australia: challenges and opportunities for the research, development and extension system</em>, p. 265-282</a></li>
+          <li><strong>Carolan (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=%E2%80%9CSmart%E2%80%9D%20farming%20techniques%20as%20political%20ontology%3A%20access%2C%20sovereignty%20and%20the%20performance%20of%20neoliberal%20and%20not-so-neoliberal%20worlds%20Carolan" target="_blank"><em>“Smart” farming techniques as political ontology: access, sovereignty and the performance of neoliberal and not-so-neoliberal worlds</em></a></li>
+          <li><strong>Eastwood et al. (2017b)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Using%20a%20%E2%80%98network%20of%20practice%E2%80%99%20approach%20to%20match%20grazing%20decision-support%20system%20design%20with%20farmer%20practice%20Eastwood" target="_blank"><em>Using a ‘network of practice’ approach to match grazing decision-support system design with farmer practice</em>, p. 1536-1542</a></li>
+          <li><strong>Pant and Odame (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Broadband%20for%20a%20sustainable%20digital%20future%20of%20rural%20communities%3A%20a%20re%EF%AC%82exive%20interactive%20assessment%20Pant" target="_blank"><em>Broadband for a sustainable digital future of rural communities: a reﬂexive interactive assessment</em>, p. 435-450</a></li>
+          <li><strong>Eastwood et al. (2017a)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Dynamics%20and%20distribution%20of%20public%20and%20private%20research%20and%20extension%20roles%20for%20technological%20innovation%20and%20di%EF%AC%80usion%3A%20case%20studies%20of%20the%20implementation%20and%20adaptation%20of%20precision%20farming%20technologies%20Eastwood" target="_blank"><em>Dynamics and distribution of public and private research and extension roles for technological innovation and diﬀusion: case studies of the implementation and adaptation of precision farming technologies</em>, p. 1-12</a></li>
+          <li><strong>Nettle et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20private-sector%20farm%20advisors%20change%20their%20practices%3A%20an%20Australian%20case%20study%20Nettle" target="_blank"><em>How private-sector farm advisors change their practices: an Australian case study</em>, p. 20-27</a></li>
+           <li><strong>Ayre et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Supporting%20and%20practising%20digital%20innovation%20with%20advisers%20in%20smart%20farming%20Ayre" target="_blank"><em>Supporting and practising digital innovation with advisers in smart farming</em>, p. 100302</a></li>
+        </ul>
+        <h4 class="argument-theme">农业顾问在创新系统中的中介角色</h4>
+        <ul>
+          <li><strong>Klerkx and Leeuwis (2009)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Establishment%20and%20embedding%20of%20innovation%20brokers%20at%20di%EF%AC%80erent%20innovation%20system%20levels%3A%20insights%20from%20the%20Dutch%20agricultural%20sector%20Klerkx" target="_blank"><em>Establishment and embedding of innovation brokers at diﬀerent innovation system levels: insights from the Dutch agricultural sector</em>, p. 849-860</a></li>
+          <li><strong>Knierim et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Pluralism%20of%20agricultural%20advisory%20service%20providers%20%E2%80%93%20facts%20and%20insights%20from%20Europe%20Knierim" target="_blank"><em>Pluralism of agricultural advisory service providers – facts and insights from Europe</em>, p. 45-58</a></li>
+          <li><strong>Eastwood et al. (2019a)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=making%20sense%20in%20the%20cloud%3A%20farm%20advisory%20services%20in%20a%20smart%20farming%20future%20Eastwood" target="_blank"><em>making sense in the cloud: farm advisory services in a smart farming future</em>, p. 100298</a></li>
+          <li><strong>Lioutas et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Key%20questions%20on%20the%20use%20of%20big%20data%20in%20farming%3A%20an%20activity%20theory%20approach%20Lioutas" target="_blank"><em>Key questions on the use of big data in farming: an activity theory approach</em>, p. 100297</a></li>
+          <li><strong>Rose and Chilvers (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Agriculture%204.0%3A%20broadening%20responsible%20innovation%20in%20an%20era%20of%20smart%20farming%20Rose" target="_blank"><em>Agriculture 4.0: broadening responsible innovation in an era of smart farming</em>, p. 87</a></li>
+        </ul>
+      </td>
+    </tr>
+     <tr>
+      <td colspan="2"><h2>Method</h2></td>
+    </tr>
+    <tr>
+      <td>
+        <p>本章节阐述了研究所采用的双重（two-fold）文献综述方法。第一部分是结构化文献综述，旨在系统性地识别国际上关于数字化对农业制度与产业监督影响的文献。第二部分是更传统的“滚雪球式”文献综札和概念框架构建，重点关注对澳大利亚具有特定相关性的农业咨询服务的主要趋势。这种混合方法旨在结合广度（结构化综述）和深度（传统综述），以全面回答研究问题。</p>
+        <ul>
+          <li>
+            作者引用 Grant and Booth (2009) 来说明他们为何采用一种多方法的“state-of-the-art”综述流程，以应对研究问题的前瞻性以及跨越广泛和特定文献进行比较的需求。
+            <blockquote>We followed a multi-method stateof-the-art review process due to the future orientated nature of our research question and the need for comparison across broad (structured or systematised) and more specific (traditional) literatures (Grant and Booth, 2009).</blockquote>
+          </li>
+          <li>
+            作者采纳 Klerkx et al. (2019) 的建议，对国际文献进行结构化综述，以识别塑造农村推广与创新的关键趋势。
+            <blockquote>Specifically, we follow Klerkx et al. (2019) suggestion to undertake a structured review of the international literature in this space, to identify the more influential trends that have shaped, and continue to shape, rural extension and innovation.</blockquote>
+          </li>
+          <li>
+            引用 Dufva and Dufva (2019) 的观点，说明通过关注有影响力的趋势，可以思考数字化对农业部门不同行动者的未来影响。
+            <blockquote>By focusing our review on influential trends, it is possible to consider future implications of digitalisation for different actors or stakeholders in the agricultural sector (Dufva and Dufva, 2019).</blockquote>
+          </li>
+          <li>
+            引用 Wilson (2014) 的观点，指出理解这些趋势及其影响有助于利益相关者和决策者预见并引导转型路径。
+            <blockquote>Developing an understanding of these trends and their implications can help agricultural stakeholders and policy-makers anticipate, and therefore steer toward or away from, transition pathways that are more or less desirable (Wilson, 2014).</blockquote>
+          </li>
+          <li>
+            引用 Rijswijk et al. (2019)，说明这种理解还将帮助个人和组织为身份可能受到数字化转型挑战的未来做好准备。
+            <blockquote>Similarly, this understanding will help individuals and organisations plan for a future in which their identites will be challenged by digital transformation (Rijswijk et al., 2019).</blockquote>
+          </li>
+          <li>
+            在阐述澳大利亚案例的背景时，引用 Leonard et al. (2017) 的报告，指出澳大利亚正呼吁加大公共投资以实现生产力和可持续性目标。
+            <blockquote>The first of these conditions is that whilst the influence of digitalisation on agriculture in Australia is relatively immature, there are calls for the prioritisation and rapid increase of public investment to meet productivity and sustainability targets moving forward (Leonard et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Baker (2018), Lawrence et al. (2013), 和 Wang et al. (2017) 的研究，说明新自由主义农业政策导致澳大利亚更加依赖公民社会和私营市场行为者。
+            <blockquote>In contrast to this call for greater public investment, the influence of neoliberal Australian agricultural policy has seen greater reliance on civil society and private market actors to address negative social and environmental outcomes and risks as well as an increasing demand for technical proficiency at farm-level (Baker, 2018; Lawrence et al., 2013; Wang et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Nettle et al. (2018) 和 Paschen et al. (2017) 的观点，指出私有化已导致农业知识与咨询网络的日益碎片化。
+            <blockquote>Regarding agricultural advisory services specifically, it has been argued that privatisation has led to increasing fragmentation within the agricultural knowledge and advice network (Nettle et al., 2018; Paschen et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Pant and Odame (2017) 和 Schut et al. (2015)，说明在其他高度私有化的发达国家，利益相关者网络也通过创业和创新来驱动行为改变。
+            <blockquote>Networks of interested stakeholders are responsible for driving changes in behaviour in a manner like other heavily privatised developed nations through entrepreneurship and innovation (Pant and Odame, 2017; Schut et al., 2015).</blockquote>
+          </li>
+          <li>
+            作者引用 Zscheischler and Rogga (2015) 描述其结构化文献综述方法，该方法初步产生了276篇论文。
+            <blockquote>The first line of enquiry utilised a structured review of the literature (Zscheischler and Rogga, 2015), which yielded 276 papers.</blockquote>
+          </li>
+          <li>
+            引用 Wolfert et al. (2017) 的研究，说明在进行初步综述后，发现缺少了某些相关文献，因此采用了传统的“滚雪球”分析法来补充农业创新中推广和咨询服务的主要文献。
+            <blockquote>On developing Supplementary data, we came to the realisation that certain relevant literature was missing resulting in the subsequent review method utilising a more traditional, reflexive, snowball analysis of major literatures on extension and advisory services in agricultural and rural innovation (Pant and Odame, 2017; Wolfert et al., 2017).</blockquote>
+          </li>
+          <li>
+            作者提到其研究方法借鉴了创新管理领域的文献综述方法学，引用了 Adams et al. (2006), Bowen et al. (2010), 和 Medema et al. (2014) 的工作。
+            <blockquote>Inspiration was drawn from various innovation management literature review methodologies (Adams et al., 2006; Bowen et al., 2010; Medema et al., 2014).</blockquote>
+          </li>
+        </ul>
+      </td>
+      <td class="reference-column">
+        <h4 class="argument-theme">综述方法论与理论基础</h4>
+        <ul>
+          <li><strong>Grant and Booth (2009)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=A%20typology%20of%20reviews%3A%20an%20analysis%20of%2014%20review%20types%20and%20associated%20methodologies%20Grant" target="_blank"><em>A typology of reviews: an analysis of 14 review types and associated methodologies</em>, p. 91-108</a></li>
+          <li><strong>Klerkx et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=A%20review%20of%20social%20science%20on%20digital%20agriculture%2C%20smart%20farming%20and%20agriculture%204.0%3A%20New%20contributions%20and%20a%20future%20research%20agenda%20Klerkx" target="_blank"><em>A review of social science on digital agriculture, smart farming and agriculture 4.0: New contributions and a future research agenda</em>, p. 100315</a></li>
+          <li><strong>Zscheischler and Rogga (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Transdisciplinarity%20in%20land%20use%20science%20%E2%80%93%20a%20review%20of%20concepts%2C%20empirical%20%EF%AC%81ndings%20and%20current%20practices%20Zscheischler" target="_blank"><em>Transdisciplinarity in land use science – a review of concepts, empirical ﬁndings and current practices</em>, p. 28-44</a></li>
+          <li><strong>Wolfert et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Big%20data%20in%20smart%20farming%20-%20a%20review%20Wolfert" target="_blank"><em>Big data in smart farming - a review</em>, p. 69-80</a></li>
+          <li><strong>Adams et al. (2006)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Innovation%20management%20measurement%3A%20a%20review%20Adams" target="_blank"><em>Innovation management measurement: a review</em>, p. 21-47</a></li>
+          <li><strong>Bowen et al. (2010)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=When%20suits%20meet%20roots%3A%20the%20antecedents%20and%20consequences%20of%20community%20engagement%20strategy%20Bowen" target="_blank"><em>When suits meet roots: the antecedents and consequences of community engagement strategy</em>, p. 297-318</a></li>
+          <li><strong>Medema et al. (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Multi-loop%20social%20learning%20for%20sustainable%20land%20and%20water%20governance%3A%20towards%20a%20research%20agenda%20on%20the%20potential%20of%20virtual%20learning%20platforms%20Medema" target="_blank"><em>Multi-loop social learning for sustainable land and water governance: towards a research agenda on the potential of virtual learning platforms</em>, p. 23-38</a></li>
+        </ul>
+        <h4 class="argument-theme">研究的动机与背景</h4>
+        <ul>
+          <li><strong>Dufva and Dufva (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Grasping%20the%20future%20of%20the%20digital%20society%20Dufva" target="_blank"><em>Grasping the future of the digital society</em>, p. 17-28</a></li>
+          <li><strong>Wilson (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Community%20resilience%3A%20path%20dependency%2C%20lock-in%20e%EF%AC%80ects%20and%20transitional%20ruptures%20Wilson" target="_blank"><em>Community resilience: path dependency, lock-in eﬀects and transitional ruptures</em>, p. 1-26</a></li>
+          <li><strong>Rijswijk et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Digitalisation%20in%20the%20New%20Zealand%20Agricultural%20Knowledge%20and%20Innovation%20System%3A%20Initial%20understandings%20and%20emerging%20organisational%20responses%20to%20digital%20agriculture%20Rijswijk" target="_blank"><em>Digitalisation in the New Zealand Agricultural Knowledge and Innovation System: Initial understandings and emerging organisational responses to digital agriculture</em>, p. 100313</a></li>
+        </ul>
+        <h4 class="argument-theme">澳大利亚案例的背景</h4>
+        <ul>
+          <li><strong>Leonard et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Accelerating%20Precision%20Agriculture%20to%20Decision%20Agriculture%3A%20Enabling%20Digital%20Agriculture%20in%20Australia%20Leonard" target="_blank"><em>Accelerating Precision Agriculture to Decision Agriculture: Enabling Digital Agriculture in Australia</em></a></li>
+          <li><strong>Baker (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20nation-building%20state%20retreats%3A%20an%20Australian%20case%20study%20in%20the%20changing%20role%20of%20the%20state%20Baker" target="_blank"><em>The nation-building state retreats: an Australian case study in the changing role of the state</em>, p. 146-155</a></li>
+          <li><strong>Lawrence et al. (2013)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Food%20security%20in%20Australia%20in%20an%20era%20of%20neoliberalism%2C%20productivism%20and%20climate%20change%20Lawrence" target="_blank"><em>Food security in Australia in an era of neoliberalism, productivism and climate change</em>, p. 30-39</a></li>
+          <li><strong>Wang et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Governing%20through%20representatives%20of%20the%20community%3A%20a%20case%20study%20on%20farmer%20organizations%20in%20rural%20Australia%20Wang" target="_blank"><em>Governing through representatives of the community: a case study on farmer organizations in rural Australia</em>, p. 68-77</a></li>
+          <li><strong>Nettle et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20private-sector%20farm%20advisors%20change%20their%20practices%3A%20an%20Australian%20case%20study%20Nettle" target="_blank"><em>How private-sector farm advisors change their practices: an Australian case study</em>, p. 20-27</a></li>
+          <li><strong>Paschen et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Enrolling%20advisers%20in%20governing%20privatised%20agricultural%20extension%20in%20Australia%3A%20challenges%20and%20opportunities%20for%20the%20research%2C%20development%20and%20extension%20system%20Paschen" target="_blank"><em>Enrolling advisers in governing privatised agricultural extension in Australia: challenges and opportunities for the research, development and extension system</em>, p. 265-282</a></li>
+          <li><strong>Pant and Odame (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Broadband%20for%20a%20sustainable%20digital%20future%20of%20rural%20communities%3A%20a%20re%EF%AC%82exive%20interactive%20assessment%20Pant" target="_blank"><em>Broadband for a sustainable digital future of rural communities: a reﬂexive interactive assessment</em>, p. 435-450</a></li>
+          <li><strong>Schut et al. (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=RAAIS%3A%20Rapid%20Appraisal%20of%20Agricultural%20Innovation%20Systems%20(Part%20I)%3A%20A%20diagnostic%20tool%20for%20integrated%20analysis%20of%20complex%20problems%20and%20innovation%20capacity%20Schut" target="_blank"><em>RAAIS: Rapid Appraisal of Agricultural Innovation Systems (Part I): A diagnostic tool for integrated analysis of complex problems and innovation capacity</em>, p. 1-11</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><h2>The digitalisation of agricultural innovation systems</h2></td>
+    </tr>
+    <tr>
+      <td>
+        <p>本章界定了核心概念。首先区分了“数字化”（Digitalisation）和“数字化转换”（Digitisation），强调前者是更广泛的系统性变革。接着，文章将“数字农业”或“智能农业”置于“农业创新系统”（AIS）的理论框架下进行理解，指出创新不仅仅是技术采纳，而是技术、社会、经济和制度的共同演化。知识与咨询网络被视为AIS中传播和情境化知识的关键组成部分，其作用是从原始数据和信息中生成隐性知识和建议。文章最后展望，数字技术可能颠覆性地取代传统知识网络中的人力节点，预示着一种向“数字启蒙”的社会转型。</p>
+        <ul>
+          <li>
+            引用 Billon et al. (2010)，界定数字化为人类与信息通信技术（ICT）互动的增长。
+            <blockquote>Digitalisation refers to the growth in human-computer or humaninformation and communication technologies (ICT) interaction (Billon et al., 2010).</blockquote>
+          </li>
+          <li>
+            引用 Preston and Allmand (2001)，区分“数字化”（Digitalisation）与“数字化转换”（Digitisation），后者更具体地指将模拟信号转为数字信号。
+            <blockquote>Digitalisation diﬀers from digitisation, which more specifically means to change a component part from analogue to digital (Preston and Allmand, 2001).</blockquote>
+          </li>
+          <li>
+            引用 Robertson et al. (2016), Shepherd et al. (2018), 和 Wolfert et al. (2017)，说明“数字农业”和“智能农业”在不同地区（澳新/欧盟）被用来指代农业部门数字技术的开发、采纳和迭代。
+            <blockquote>The digitalisation of agriculture involves the development, adoption and iteration of digital technologies in the agricultural sector; what has been referred to as both digital agriculture (preferred in Australia and New Zealand) or smart farming (preferred in the European Union) in diﬀerent spatial contexts (Robertson et al., 2016; Shepherd et al., 2018; Wolfert et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Aiello et al. (2019), Eastwood et al. (2019b), 和 Lindblom et al. (2017)，指出数字化在农业中最常被引用的影响是精准农业技术带来的成本降低、产量增加或可持续性价值提升。
+            <blockquote>The most often-cited impacts of digitalisation in agriculture tend to refer to precision agricultural technologies that broadly reduce input costs and/or increase yield or sustainability values (Aiello et al., 2019; Eastwood et al., 2019b; Lindblom et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Bramley and Ouzman (2018) 和 Wolfert et al. (2017)，说明新数字技术的融合（如传感器、大数据、物联网等）预计将给农业系统带来重大变化。
+            <blockquote>Significant changes in agricultural systems are anticipated because of the convergence of new digital technologies, including, for example, real-time monitoring through sensors, big data, the Internet of Things, machine learning and cloud computing (Bramley and Ouzman, 2018; Wolfert et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Hueske et al. (2015) 和 Leonard et al. (2017)，指出数字颠覆可能导致主导个体、组织、实践和技术的兴衰更替。
+            <blockquote>In some cases, this may lead to digital disruption, which is a term used to denote significant change in a system, with dominant individuals, organisations, practices, and technologies both emerging and ceasing to exist, being by-passed or re-designed (Hueske et al., 2015; Leonard et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Rose and Chilvers (2018)，将这种数字化的农业未来称为“农业4.0”。
+            <blockquote>This digital agricultural future has previously been referred to as agriculture 4.0 (Rose and Chilvers, 2018).</blockquote>
+          </li>
+          <li>
+            引用 Klerkx et al. (2012)，阐述农业创新系统理论的核心，即创新是技术、社会、经济和制度的共同演化。
+            <blockquote>Agricultural innovation system theorisation recognises that innovation is more than simply the adoption of new technologies; it involves the co-evolution of technologies, societies, economies and institutions (Klerkx et al., 2012).</blockquote>
+          </li>
+          <li>
+            引用 Schut et al. (2015)，强调农业创新系统研究的基础是对农业系统背景与创新成败之间关系的理解。
+            <blockquote>Underpinning the study of agricultural innovation systems is an understanding that there is a relationship between the context of agricultural systems and the likely success, failure or otherwise of any given innovation (Schut et al., 2015).</blockquote>
+          </li>
+          <li>
+            引用 Turner et al. (2017)，将创新定义为任何新事物，无论是产品、过程、实践还是关系。
+            <blockquote>In this instance, innovation refers to something new, whether that be a product, process, practice or relationship (Turner et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Knierim et al. (2015) 和 Rijswijk et al. (2019)，提及农业知识与信息（或创新）系统是农业创新系统方法的替代性体现。
+            <blockquote>Alternative incarnations of an agricultural innovation systemic approach involve agricultural knowledge and information (or innovation) systems (Knierim et al., 2015; Rijswijk et al., 2019).</blockquote>
+          </li>
+          <li>
+            引用 Amitrano et al. (2017), Eastwood et al. (2017a), 和 Nyasimi et al. (2017)，说明知识和咨询网络在传播特定创新中的关键作用，它们将数据和信息转化为隐性知识和建议。
+            <blockquote>These networks circulate and situate knowledge, turning raw data and information into tacit knowledge and advice, to both reshape individual thinking and subsequently relationships with environments (Amitrano et al., 2017; Eastwood et al., 2017a; Nyasimi et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Nettle et al. (2018)，指出公共和私人顾问都可以在通过咨询服务向农民传递知识方面发挥中介作用。
+            <blockquote>Both private and public advisors can play an intermediary role in transferring knowledge to farmers through advisory services (Nettle et al., 2018).</blockquote>
+          </li>
+          <li>
+            引用 Knierim et al. (2017)，说明在欧洲背景下，多样的知识传播过程被称为“农业咨询服务”。
+            <blockquote>In the European context, the diverse range of knowledge transmission processes, for example an advisor facilitating management or practice change on-farm, have been referred to as agricultural advisory services (Knierim et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Hall et al. (2006)，指出国际上正普遍转向在农业研究项目中考虑创新过程的重要性。
+            <blockquote>A widespread shift is underway internationally with recognition of the importance of considering the process of innovation in agricultural research projects (Hall et al., 2006).</blockquote>
+          </li>
+          <li>
+            引用 Janssen et al. (2017)，描述了从传统的单向技术转移知识供应链模型（数据->信息->知识->应用）向合作创新网络方法的转变。
+            <blockquote>From the one-dimensional technology transfer knowledge supply chain model whereby data is turned to information which is used to create knowledge that can be applied (Janssen et al., 2017) toward a co-innovative and networked approach...</blockquote>
+          </li>
+          <li>
+            引用 Ernst & Young (2019)，指出澳大利亚已明确呼吁在未来3-5年内转向合作创新和网络化的方法。
+            <blockquote>...that has been explicitly called for in the next 3–5 years in Australia (Ernst & Young, 2019).</blockquote>
+          </li>
+          <li>
+            引用 Penzenstadler et al. (2014)，认为农业领域的设计思维可以为预见人机交互以增加可持续性价值提供新动力。
+            <blockquote>Similarly, design thinking in the agricultural space could provide new impetus to foresight human computer interactions to increase sustainability values (Penzenstadler et al., 2014).</blockquote>
+          </li>
+          <li>
+            引用 Paschen et al. (2017)，说明这些发展建立在现有研究之上，将澳大利亚农业知识与咨询网络的变化概念化。
+            <blockquote>These developments build on existing research to conceptualise change in Australian agricultural knowledge and advice networks (Paschen et al., 2017)...</blockquote>
+          </li>
+          <li>
+            引用 Helbing et al. (2019)，将此变化视为社会向“数字启蒙”转型的一部分。
+            <blockquote>...as being an industry-based component of a societal transition toward digital enlightenment (Helbing et al., 2019).</blockquote>
+          </li>
+          <li>
+            引用 OECD (2018) 和 Oluboyede (2017)，以及 Xie et al. (2017)，举例说明全自主农场和农业区块链技术等颠覆性技术已经在试验中，以替代传统农民和金融中介。
+            <blockquote>For example, fully autonomous farms being managed robotically (OECD, 2018; Oluboyede, 2017) and agricultural block chain technologies (Xie et al., 2017) are already being trialled to replace traditional farmers and financial intermediaries.</blockquote>
+          </li>
+          <li>
+            引用 Prager et al. (2016)，指出各种数字技术将持续提升现有（和新兴）农业咨询服务为客户提供价值的能力。
+            <blockquote>Various digital technologies will continue to improve the ability of existing (and new) agricultural advisory services to provide value to clients in ever more accurate and efficient ways (Prager et al., 2016).</blockquote>
+          </li>
+          <li>
+            引用 Fielke et al. (2019)，将这一社会技术转型标记为“农业创新系统的数字化”。
+            <blockquote>This socio-technical transition has been labelled the digitalisation of agricultural innovation systems (Fielke et al., 2019).</blockquote>
+          </li>
+        </ul>
+      </td>
+      <td class="reference-column">
+        <h4 class="argument-theme">数字化的定义与影响</h4>
+        <ul>
+          <li><strong>Billon et al. (2010)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Di%EF%AC%80erences%20in%20digitalization%20levels%3A%20a%20multi-%20variate%20analysis%20studying%20the%20global%20digital%20divide%20Billon" target="_blank"><em>Diﬀerences in digitalization levels: a multi- variate analysis studying the global digital divide</em>, p. 39-73</a></li>
+          <li><strong>Preston and Allmand (2001)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Discovering%20the%20information%20professional%3A%20organisational%20culture%20in%20a%20digital%20world%20Preston" target="_blank"><em>Discovering the information professional: organisational culture in a digital world</em>, p. 388-395</a></li>
+          <li><strong>Robertson et al. (2016)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Five%20ways%20to%20improve%20the%20agricultural%20innovation%20system%20in%20Australia%20Robertson" target="_blank"><em>Five ways to improve the agricultural innovation system in Australia</em>, p. 1-13</a></li>
+          <li><strong>Shepherd et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Priorities%20for%20science%20to%20over-%20come%20hurdles%20thwarting%20the%20full%20promise%20of%20the%20%E2%80%98digital%20agriculture%20%E2%80%98revolution%20Shepherd" target="_blank"><em>Priorities for science to over- come hurdles thwarting the full promise of the ‘digital agriculture ‘revolution</em></a></li>
+          <li><strong>Wolfert et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Big%20data%20in%20smart%20farming%20-%20a%20review%20Wolfert" target="_blank"><em>Big data in smart farming - a review</em>, p. 69-80</a></li>
+          <li><strong>Aiello et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=A%20decision%20support%20system%20based%20on%20multisensor%20data%20fusion%20for%20sustainable%20greenhouse%20man-%20agement%20Aiello" target="_blank"><em>A decision support system based on multisensor data fusion for sustainable greenhouse management</em>, p. 4057-4065</a></li>
+          <li><strong>Eastwood et al. (2019b)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=managing%20socio-%20ethical%20challenges%20in%20the%20development%20of%20smart%20farming%3A%20from%20a%20fragmented%20to%20a%20comprehensive%20approach%20for%20responsible%20research%20and%20innovation%20Eastwood" target="_blank"><em>managing socio- ethical challenges in the development of smart farming: from a fragmented to a comprehensive approach for responsible research and innovation</em>, p. 741-768</a></li>
+          <li><strong>Lindblom et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Promoting%20sustainable%20intensi%EF%AC%81cation%20in%20precision%20agriculture%3A%20review%20of%20decision%20support%20systems%20develop-%20ment%20and%20strategies%20Lindblom" target="_blank"><em>Promoting sustainable intensiﬁcation in precision agriculture: review of decision support systems development and strategies</em>, p. 309-331</a></li>
+          <li><strong>Bramley and Ouzman (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Farmer%20attitudes%20to%20the%20use%20of%20sensors%20and%20automation%20in%20fertilizer%20decision%20-%20making%3A%20nitrogen%20fertilization%20in%20the%20Australian%20grains%20sector%20Bramley" target="_blank"><em>Farmer attitudes to the use of sensors and automation in fertilizer decision - making: nitrogen fertilization in the Australian grains sector</em></a></li>
+          <li><strong>Hueske et al. (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=External%20environment%2C%20the%20innovating%20organization%2C%20and%20its%20individuals%3A%20a%20multilevel%20model%20for%20identifying%20innovation%20bar-%20riers%20accounting%20for%20social%20uncertainties%20Hueske" target="_blank"><em>External environment, the innovating organization, and its individuals: a multilevel model for identifying innovation barriers accounting for social uncertainties</em>, p. 45-70</a></li>
+          <li><strong>Leonard et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Accelerating%20Precision%20Agriculture%20to%20Decision%20Agriculture%3A%20Enabling%20Digital%20Agriculture%20in%20Australia%20Leonard" target="_blank"><em>Accelerating Precision Agriculture to Decision Agriculture: Enabling Digital Agriculture in Australia</em></a></li>
+          <li><strong>Rose and Chilvers (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Agriculture%204.0%3A%20broadening%20responsible%20innovation%20in%20an%20era%20of%20smart%20farming%20Rose" target="_blank"><em>Agriculture 4.0: broadening responsible innovation in an era of smart farming</em>, p. 87</a></li>
+          <li><strong>OECD (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Global%20Forum%20on%20Agriculture%3A%20Digital%20Technologies%20in%20Food%20and%20Agriculture%20Reaping%20the%20Bene%EF%AC%81ts%20OECD" target="_blank"><em>Global Forum on Agriculture: Digital Technologies in Food and Agriculture Reaping the Beneﬁts</em></a></li>
+          <li><strong>Oluboyede (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Dookie%20Dairy%20Oluboyede" target="_blank"><em>Dookie Dairy</em></a></li>
+          <li><strong>Xie et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Secured%20data%20storage%20scheme%20based%20on%20block%20chain%20for%20agricultural%20products%20tracking%20Xie" target="_blank"><em>Secured data storage scheme based on block chain for agricultural products tracking</em>, p. 45-50</a></li>
+          <li><strong>Prager et al. (2016)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20does%20commer-%20cialisation%20impact%20on%20the%20provision%20of%20farm%20advisory%20services%3F%20Evidence%20from%20Belgium%2C%20Italy%2C%20Ireland%20and%20the%20UK%20Prager" target="_blank"><em>How does commercialisation impact on the provision of farm advisory services? Evidence from Belgium, Italy, Ireland and the UK</em>, p. 329-344</a></li>
+          <li><strong>Fielke et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Conceptualising%20the%20DAIS%3A%20implications%20of%20the%20%E2%80%98digitalisation%20of%20agricultural%20innova-%20tion%20systems%E2%80%99%20on%20technology%20and%20policy%20at%20multiple%20levels%20Fielke" target="_blank"><em>Conceptualising the DAIS: implications of the ‘digitalisation of agricultural innovation systems’ on technology and policy at multiple levels</em>, p. 741-768</a></li>
+        </ul>
+        <h4 class="argument-theme">农业创新系统(AIS)理论</h4>
+        <ul>
+          <li><strong>Klerkx et al. (2012)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Evolution%20of%20systems%20approaches%20to%20agri-%20cultural%20innovation%3A%20Concepts%2C%20analysis%20and%20interventions%20Klerkx" target="_blank"><em>Evolution of systems approaches to agricultural innovation: Concepts, analysis and interventions</em>, p. 457-483</a></li>
+          <li><strong>Schut et al. (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=RAAIS%3A%20Rapid%20Appraisal%20of%20Agricultural%20Innovation%20Systems%20(Part%20I)%3A%20A%20diagnostic%20tool%20for%20integrated%20analysis%20of%20complex%20problems%20and%20innovation%20capacity%20Schut" target="_blank"><em>RAAIS: Rapid Appraisal of Agricultural Innovation Systems (Part I): A diagnostic tool for integrated analysis of complex problems and innovation capacity</em>, p. 1-11</a></li>
+          <li><strong>Turner et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Unpacking%20systemic%20innovation%20capacity%20as%20strategic%20ambidexterity%3A%20how%20pro-%20jects%20dynamically%20con%EF%AC%81gure%20capabilities%20for%20agricultural%20innovation%20Turner" target="_blank"><em>Unpacking systemic innovation capacity as strategic ambidexterity: how projects dynamically conﬁgure capabilities for agricultural innovation</em>, p. 503-523</a></li>
+          <li><strong>Knierim et al. (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20AKIS%20concept%20and%20its%20relevance%20in%20selected%20EU%20member%20states%20Knierim" target="_blank"><em>The AKIS concept and its relevance in selected EU member states</em>, p. 29-36</a></li>
+          <li><strong>Rijswijk et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Digitalisation%20in%20the%20New%20Zealand%20Agricultural%20Knowledge%20and%20Innovation%20System%3A%20Initial%20understandings%20and%20emerging%20organisational%20responses%20to%20digital%20agriculture%20Rijswijk" target="_blank"><em>Digitalisation in the New Zealand Agricultural Knowledge and Innovation System: Initial understandings and emerging organisational responses to digital agriculture</em>, p. 100313</a></li>
+          <li><strong>Hall et al. (2006)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Enhancing%20Agricultural%20Innovation%3A%20How%20to%20Go%20beyond%20the%20Strengthening%20of%20Research%20Systems%20Hall" target="_blank"><em>Enhancing Agricultural Innovation: How to Go beyond the Strengthening of Research Systems</em></a></li>
+          <li><strong>Janssen et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Towards%20a%20new%20generation%20of%20agricultural%20system%20data%2C%20models%20and%20knowledge%20products%3A%20information%20and%20communication%20technology%20Janssen" target="_blank"><em>Towards a new generation of agricultural system data, models and knowledge products: information and communication technology</em>, p. 200-212</a></li>
+          <li><strong>Ernst & Young (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Agricultural%20innovation%20-%20A%20national%20approach%20to%20grow%20Australia%27s%20future%20Ernst%20%26%20Young" target="_blank"><em>Agricultural innovation - A national approach to grow Australia's future</em></a></li>
+          <li><strong>Penzenstadler et al. (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=ICT4S%202029%3A%20what%20will%20be%20the%20systems%20supporting%20sustainability%20in%2015%20years%20Penzenstadler" target="_blank"><em>ICT4S 2029: what will be the systems supporting sustainability in 15 years</em>, p. 30-39</a></li>
+          <li><strong>Helbing et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Will%20democracy%20survive%20big%20data%20and%20arti-%20%EF%AC%81cial%20intelligence%3F%20Helbing" target="_blank"><em>Will democracy survive big data and arti- ﬁcial intelligence?</em>, p. 73-98</a></li>
+        </ul>
+        <h4 class="argument-theme">知识与咨询网络的作用</h4>
+        <ul>
+          <li><strong>Amitrano et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Knowledge%20Sharing%20in%20Innovation%20Ecosystems%3A%20A%20Focus%20on%20Functional%20Food%20Industry%20Amitrano" target="_blank"><em>Knowledge Sharing in Innovation Ecosystems: A Focus on Functional Food Industry</em>, p. 1750030</a></li>
+          <li><strong>Eastwood et al. (2017a)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Dynamics%20and%20distribution%20of%20public%20and%20private%20research%20and%20extension%20roles%20for%20technological%20innovation%20and%20di%EF%AC%80usion%3A%20case%20studies%20of%20the%20implementation%20and%20adaptation%20of%20precision%20farming%20technologies%20Eastwood" target="_blank"><em>Dynamics and distribution of public and private research and extension roles for technological innovation and diﬀusion: case studies of the implementation and adaptation of precision farming technologies</em>, p. 1-12</a></li>
+          <li><strong>Nyasimi et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Adoption%20and%20dissemination%20pathways%20for%20climate-smart%20agriculture%20technologies%20and%20practices%20for%20climate-resilient%20livelihoods%20in%20Lushoto%2C%20Northeast%20Tanzania%20Nyasimi" target="_blank"><em>Adoption and dissemination pathways for climate-smart agriculture technologies and practices for climate-resilient livelihoods in Lushoto, Northeast Tanzania</em></a></li>
+          <li><strong>Nettle et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20private-sector%20farm%20advisors%20change%20their%20practices%3A%20an%20Australian%20case%20study%20Nettle" target="_blank"><em>How private-sector farm advisors change their practices: an Australian case study</em>, p. 20-27</a></li>
+          <li><strong>Knierim et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Pluralism%20of%20agricultural%20advisory%20service%20providers%20%E2%80%93%20facts%20and%20insights%20from%20Europe%20Knierim" target="_blank"><em>Pluralism of agricultural advisory service providers – facts and insights from Europe</em>, p. 45-58</a></li>
+          <li><strong>Paschen et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Enrolling%20advisers%20in%20governing%20privatised%20agricultural%20extension%20in%20Australia%3A%20challenges%20and%20opportunities%20for%20the%20research%2C%20development%20and%20extension%20system%20Paschen" target="_blank"><em>Enrolling advisers in governing privatised agricultural extension in Australia: challenges and opportunities for the research, development and extension system</em>, p. 265-282</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><h2>Major trends in agricultural advisory services in Australia</h2></td>
+    </tr>
+    <tr>
+      <td>
+        <p>本章聚焦于澳大利亚的具体情境，详细阐述了农业咨询服务领域的五大主要趋势：信息寻求行为和知识生产过程的多样化；复杂咨询网络中决策专长的日益专业化；咨询服务的私有化；农业数据的商品化；以及新的供应和服务缺口的出现。接着，作者将这些趋势与澳大利亚不同类型的咨询服务提供者（私营、非政府组织、农民组织、公共研究与教育、公共权力机构）相结合，分析了它们各自的角色、功能和面临的挑战。文章强调，将用户和咨询服务利益相关者纳入技术设计过程，对于提升决策支持系统等工具的采纳率和价值至关重要。</p>
+        <ul>
+          <li>
+            引用 Rose et al. (2018) 的研究，指出在农业技术发展中纳入更多社会伦理“设计”考量，有可能缓解决策支持系统等科学有效工具的采纳失败问题。
+            <blockquote>Overarching inclusion of more socio-ethical ‘design’ considerations regarding technological development in agriculture has the potential to alleviate the adoption failures of experiments such as a variety of scientifically-valid decision support systems (Rose et al., 2018).</blockquote>
+          </li>
+          <li>
+            引用 Ditzler et al. (2018) 和 Eastwood et al. (2019b) 的观点，强调将用户和农业咨询服务利益相关者纳入设计过程有助于最大化工具投资所催化的价值。
+            <blockquote>Including users and agricultural advisory service stakeholders in the process of design can help to maximise the value catalysed by such tool investment (Ditzler et al., 2018; Eastwood et al., 2019b).</blockquote>
+          </li>
+          <li>
+            关于私营咨询服务，引用 Nettle et al. (2013)，指出许多私营顾问最初在州政府推广部门接受培训和工作，后来因政府机构重组而转向私营部门。
+            <blockquote>Importantly, many private advisors were trained and employed as State Government extension officers before the restructuring of Australian government institutions led to these individuals finding employment elsewhere or starting their own consulting businesses (Nettle et al., 2013).</blockquote>
+          </li>
+          <li>
+            引用 Nettle (2017) 和 Paschen et al. (2017)，表达了对新一代私营农业咨询服务人员来源的担忧，即所谓的“服务缺口”。
+            <blockquote>As this generation of publicly-trained extension officers retire, there has been increasing concerns regarding where the next generation of private agricultural advisory service employees might come from – so-called ‘service gaps’ (Nettle, 2017; Paschen et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Nettle et al. (2018)，指出农民对付费咨询服务的价值感知因过去公共资助推广的文化遗产和期望而存在差异。
+            <blockquote>Farmers' perceptions of the value of fee-for-service advice is also variable due to the cultural legacy and expectations surrounding previous public-funded extension inﬂuencing expectations and advisor identities (Nettle et al., 2018).</blockquote>
+          </li>
+          <li>
+            关于NGO咨询服务，引用 Aussie Farms (2019) 和 National Farmers Federation (2019) 的例子，说明NGO正日益挑战农业规范，如通过网络空间界面公布农场位置信息，引发农民组织的强烈反应。
+            <blockquote>The subsequent response from one farmer-based agricultural advisory service has also indicated that NGO agricultural advisory services are likely to increasingly challenge agricultural norms as we move into the digital age (National Farmers Federation, 2019).</blockquote>
+          </li>
+          <li>
+            关于农民组织咨询服务，引用 Australian Government (2017) 的信息，说明澳大利亚的农村研发公司（RDCs）主要由农民征税资助。
+            <blockquote>At the industry level, ten of the Rural Research and Development Corporations (RDCs) are levy-funded, with a further ﬁve existing as publicly-funded entities, although in reality the line between industry and public funding usually involves signiﬁcant co-investment (Australian Government, 2017).</blockquote>
+          </li>
+          <li>
+            引用 Wang et al. (2017) 的观点，说明“通过社区进行治理”被视为土地关怀组织（Landcare groups）的责任之一，旨在通过项目资助最大化组织自主权，同时减轻公共产品事务对正式治理机构的负担。
+            <blockquote>For example ‘governing through the community’ is argued to be one responsibility of Landcare groups that can be granted project funding to maximise their organisations ownership while simultaneously reducing the burden of public good works on formal governance institutions (Wang et al., 2017).</blockquote>
+          </li>
+          <li>
+            关于公共研究与教育服务，引用 Fielke and Bardsley (2014) 和 Nettle (2017) 的研究，指出公共资助推广的减少和适当正规教育培训的缺乏，已引起对澳大利亚教育和推广服务现状的担忧。
+            <blockquote>Momentum from a reduction in publicly-funded extension, the shift to more privatised agricultural advisory services since the 1980s, and a lack of appropriate formal education and training options for agricultural stakeholders...is noted to be of concern in recent research on the state of Australian education and extension services (Fielke and Bardsley, 2014; Nettle, 2017).</blockquote>
+          </li>
+          <li>
+            引用 Gaunand et al. (2015) 和 Thorburn et al. (2011)，说明公共研究倾向于以任务为导向的项目，旨在最大化生产力或最小化农业实践的负外部性，以提供适当的研究投资回报。
+            <blockquote>Public research is geared toward mission-based programmes that aim to maximise productivity and/or minimise the negative externalities of agricultural practice to provide appropriate return on research investment (Gaunand et al., 2015; Thorburn et al., 2011).</blockquote>
+          </li>
+          <li>
+            引用 Barry et al. (2017), CSIRO (2017), 和 Ernst & Young (2019)，指出数字化在促进澳大利亚农业生产力增长和保持国际竞争力方面的作用日益成为研发工作的焦点。
+            <blockquote>Therefore, the role of digitalisation to facilitate further (or the next round of) Australian agricultural productivity gains, and in doing so remaining internationally competitive, is increasingly the focus of research and development eﬀorts in this space (Barry et al., 2017; CSIRO, 2017; Ernst & Young, 2019).</blockquote>
+          </li>
+          <li>
+            关于公共权力机构咨询服务，引用 Australian Government (2011)，指出尽管影响力下降，公共服务仍保留生物安全管理、资金和援助计划分配等职能。
+            <blockquote>...although public agricultural advisory services still retain responsibility for functions such as biosecurity management, the distribution of funding and assistance programmes (e.g. drought assistance), and related natural resource management (Australian Government, 2011).</blockquote>
+          </li>
+          <li>
+            引用 Fielke and Wilson (2017)，举例说明生物安全等公共产品功能也受到质疑，有观点认为应由农业部门自身承担管理成本。
+            <blockquote>For example, it has been reported that biosecurity (the prevention of incursions) is of beneﬁt primarily to the agricultural sector and therefore agricultural industry stakeholders should be responsible for management costs (Fielke and Wilson, 2017).</blockquote>
+          </li>
+          <li>
+            引用 Robertson et al. (2016)，认为公共权力机构提供农业咨询的性质可能正与欧洲的“合作创新”理念趋同，通过产业、政府和知识机构的“金三角”模式实现。
+            <blockquote>The nature of public authorities providing agricultural advice could be conceptualised as beginning to align with the European notion of co-innovation, through the ‘golden triangle’ of industry (farmer-based, private and NGO agricultural advisory services), government (public authorities), and knowledge institutes (public research and education) (Robertson et al., 2016).</blockquote>
+          </li>
+        </ul>
+      </td>
+      <td class="reference-column">
+        <h4 class="argument-theme">设计与采纳中的社会因素</h4>
+        <ul>
+          <li><strong>Rose et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Exploring%20the%20spatialities%20of%20technological%20and%20user%20re-scripting%3A%20the%20case%20of%20decision%20support%20tools%20in%20UK%20agriculture%20Rose" target="_blank"><em>Exploring the spatialities of technological and user re-scripting: the case of decision support tools in UK agriculture</em>, p. 11-18</a></li>
+          <li><strong>Ditzler et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=A%EF%AC%80ordances%20of%20agricultural%20systems%20analysis%20tools%3A%20a%20review%20and%20framework%20to%20enhance%20tool%20design%20and%20implementation%20Ditzler" target="_blank"><em>Aﬀordances of agricultural systems analysis tools: a review and framework to enhance tool design and implementation</em>, p. 20-30</a></li>
+          <li><strong>Eastwood et al. (2019b)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=managing%20socio-%20ethical%20challenges%20in%20the%20development%20of%20smart%20farming%3A%20from%20a%20fragmented%20to%20a%20comprehensive%20approach%20for%20responsible%20research%20and%20innovation%20Eastwood" target="_blank"><em>managing socio- ethical challenges in the development of smart farming: from a fragmented to a comprehensive approach for responsible research and innovation</em>, p. 741-768</a></li>
+        </ul>
+        <h4 class="argument-theme">澳大利亚私营咨询服务的演变与挑战</h4>
+        <ul>
+          <li><strong>Nettle et al. (2013)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20programme%20teams%20progress%20agricultural%20innovation%20in%20the%20Australian%20dairy%20industry%20Nettle" target="_blank"><em>How programme teams progress agricultural innovation in the Australian dairy industry</em>, p. 271-290</a></li>
+          <li><strong>Nettle (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Workshop%20Paper%3A%20Farmers%20Adopting%20and%20Farmers%20Bene%EF%AC%81tting%20from%20R%26D%20where%20Are%20we%20Now%3F%20Nettle" target="_blank"><em>Workshop Paper: Farmers Adopting and Farmers Beneﬁtting from R&D where Are we Now?</em></a></li>
+          <li><strong>Paschen et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Enrolling%20advisers%20in%20governing%20privatised%20agricultural%20extension%20in%20Australia%3A%20challenges%20and%20opportunities%20for%20the%20research%2C%20development%20and%20extension%20system%20Paschen" target="_blank"><em>Enrolling advisers in governing privatised agricultural extension in Australia: challenges and opportunities for the research, development and extension system</em>, p. 265-282</a></li>
+          <li><strong>Nettle et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20private-sector%20farm%20advisors%20change%20their%20practices%3A%20an%20Australian%20case%20study%20Nettle" target="_blank"><em>How private-sector farm advisors change their practices: an Australian case study</em>, p. 20-27</a></li>
+        </ul>
+        <h4 class="argument-theme">非政府组织与农民组织的角色</h4>
+        <ul>
+          <li><strong>Aussie Farms (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20Aussie%20Farms%20Map%20Aussie%20Farms" target="_blank"><em>The Aussie Farms Map</em></a></li>
+          <li><strong>National Farmers Federation (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Farmers%20Fight%20Back%20In%20Face%20Of%20Radical%20Anti-Farm%20Group%20Intimidation%20National%20Farmers%20Federation" target="_blank"><em>Farmers Fight Back In Face Of Radical Anti-Farm Group Intimidation</em></a></li>
+          <li><strong>Australian Government (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Rural%20Research%20and%20Development%20Corporations%20Australian%20Government" target="_blank"><em>Rural Research and Development Corporations</em></a></li>
+          <li><strong>Wang et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Governing%20through%20representatives%20of%20the%20community%3A%20a%20case%20study%20on%20farmer%20organizations%20in%20rural%20Australia%20Wang" target="_blank"><em>Governing through representatives of the community: a case study on farmer organizations in rural Australia</em>, p. 68-77</a></li>
+        </ul>
+        <h4 class="argument-theme">公共部门（研究、教育、权力机构）的转型</h4>
+        <ul>
+          <li><strong>Fielke and Bardsley (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20importance%20of%20farmer%20education%20in%20South%20Australia%20Fielke" target="_blank"><em>The importance of farmer education in South Australia</em>, p. 301-312</a></li>
+          <li><strong>Gaunand et al. (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20does%20public%20agricultural%20research%20impact%20society%3F%20A%20characterization%20of%20various%20patterns%20Gaunand" target="_blank"><em>How does public agricultural research impact society? A characterization of various patterns</em>, p. 849-861</a></li>
+          <li><strong>Thorburn et al. (2011)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Agricultural%20decision%20support%20systems%20facilitating%20co%20-%20learning%3A%20a%20case%20study%20on%20environmental%20impacts%20of%20sugarcane%20production%20Thorburn" target="_blank"><em>Agricultural decision support systems facilitating co - learning: a case study on environmental impacts of sugarcane production</em>, p. 322-333</a></li>
+          <li><strong>Barry et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Precision%20to%20Decision%20%E2%80%93%20Current%20and%20Future%20State%20of%20Agricultural%20Data%20for%20Digital%20Agriculture%20in%20Australia%20Barry" target="_blank"><em>Precision to Decision – Current and Future State of Agricultural Data for Digital Agriculture in Australia</em></a></li>
+          <li><strong>CSIRO (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20Digiscape%20Future%20Science%20Platform%20CSIRO" target="_blank"><em>The Digiscape Future Science Platform</em></a></li>
+          <li><strong>Ernst & Young (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Agricultural%20innovation%20-%20A%20national%20approach%20to%20grow%20Australia%27s%20future%20Ernst%20%26%20Young" target="_blank"><em>Agricultural innovation - A national approach to grow Australia's future</em></a></li>
+          <li><strong>Australian Government (2011)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20Agricultural%20Resource%20Management%20Survey%20Australian%20Government" target="_blank"><em>The Agricultural Resource Management Survey</em></a></li>
+          <li><strong>Fielke and Wilson (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Multifunctional%20intervention%20and%20market%20rationality%20in%20agricultural%20governance%3A%20a%20comparative%20study%20of%20England%20and%20South%20Australia%20Fielke" target="_blank"><em>Multifunctional intervention and market rationality in agricultural governance: a comparative study of England and South Australia</em>, p. 1067-1083</a></li>
+          <li><strong>Robertson et al. (2016)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Five%20ways%20to%20improve%20the%20agricultural%20innovation%20system%20in%20Australia%20Robertson" target="_blank"><em>Five ways to improve the agricultural innovation system in Australia</em>, p. 1-13</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><h2>Synthesis of implications: connectivity, transparency and governance</h2></td>
+    </tr>
+    <tr>
+      <td>
+        <p>本章是全文的核心，综合了前述分析，提出了数字化对农业知识与咨询网络影响的三个核心主题：连通性、透明度和治理。作者论证，这三者是理解未来农业创新系统演变的关键。<b>连通性（Connectivity）</b>：人类与技术在知识网络和价值交换中的连接将以新颖的方式持续增加，从传统的价值链转向价值交换过程，引发数据主权等新问题。<b>透明度（Transparency）</b>：日益增长的连通性将驱动并被农业实践和信息互动的透明度所塑造，信任关系和中介角色将随之改变。<b>治理（Governance）</b>：随着系统数字化，平衡各利益相关方的优先事项将面临挑战，需要新的治理模式来应对数据所有权、隐私和价值分配等问题。</p>
+        <ul>
+          <li>
+            引用 Arts et al. (2011) 和 Darnell et al. (2018)，说明通过分析，可以思考数字化对澳大利亚及更广泛国际农业知识网络和创新系统的影响。
+            <blockquote>...it is possible to consider the implications of digitalisation on Australian – and more generally international – agricultural knowledge and advice networks and agricultural innovation systems (Arts et al., 2011; Darnell et al., 2018).</blockquote>
+          </li>
+          <li>
+            引用 Fielke et al. (2019)，指出由于数字发展的速度，结构化综述无法完全捕捉国际农业创新系统数字化的细微差别。
+            <blockquote>The structured review overview... was unable to fully capture the nuances of the international digitalisation of agricultural innovation systems due to the speed at which digital developments are taking place (Fielke et al., 2019).</blockquote>
+          </li>
+          <li>
+            <b>连通性：</b>引用 Jakku et al. (2019), Lioutas et al. (2019), Regan (2019), Rotz et al. (2019), 和 Wiseman et al. (2019) 的研究，指出关于数据访问和主权的担忧预示了从价值链到价值交换的转变。
+            <blockquote>This is pre-empted by increasingly recognised farmer and advisor concerns and questions surrounding data access and sovereignty as we move into the digital age (Jakku et al., 2019; Lioutas et al., 2019; Regan, 2019; Rotz et al., 2019; Wiseman et al., 2019).</blockquote>
+          </li>
+          <li>
+            <b>连通性：</b>引用 Lubell et al. (2014)，说明技术中介的社交互动（如农户对客户）可以支持新的在线服务商业模式。
+            <blockquote>The result will be increasing technologically mediated (on-line) social interaction - farmer-to-customer, farmer-to-farmer and farmer-to-advisor - that can support new online service provision business models (Lubell et al., 2014).</blockquote>
+          </li>
+          <li>
+            <b>连通性：</b>引用 EU SCAR (2015), Ministry of Defence (2014), 和 Penzenstadler et al. (2014)，指出机器学习将使技术能更有效地与人类及其他技术设备沟通，从而增强连通性。
+            <blockquote>This increasing connectivity – of digital devices and individuals as users – is likely to increase as machine learning allows technologies to more effectively communicate with both humans and other technological devices and actors (EU SCAR, 2015; Ministry of Defence, 2014; Penzenstadler et al., 2014).</blockquote>
+          </li>
+          <li>
+            <b>连通性：</b>引用 Berthet et al. (2018)，说明顾问的角色可能扩展到技术中介设计，需要不断发展的数字技术技能。
+            <blockquote>For example, advisor roles may begin to include technological intermediary design as applications (‘apps’) provide information in more palatable and timely formats – requiring evolving digital technical skills and associated adaption of tasks (Berthet et al., 2018).</blockquote>
+          </li>
+          <li>
+            <b>连通性：</b>引用 Eastwood et al. (2019a)，指出技术驱动的决策可能成为某些咨询形式的基础，顾问需要适应这一空间。
+            <blockquote>Increased technologically-driven decision-making (through real-time sensing, auto-bots and intuitive front ends) may become the basis for certain forms of advice and advisors willing to adapt into such a space (Eastwood et al., 2019a).</blockquote>
+          </li>
+          <li>
+            <b>连通性：</b>引用 Fleming et al. (2019)，说明社会关系对合作创新和共同设计方法的成功至关重要。
+            <blockquote>Importantly, agricultural knowledge and advice networks will still be grounded by social relationships that are critical to the success of co-innovation and co- design approaches to agricultural technology development and therefore usefulness and adoption by the farming community, as explained in the context of carbon farming tools by Fleming et al. (2019).</blockquote>
+          </li>
+          <li>
+            <b>连通性：</b>引用 King et al. (2019)，强调面对面的关系互动在建立社会资本、创造未来愿景和协商数据共享安排方面具有关键的内在价值。
+            <blockquote>The critical intrinsic value of relational social (face-to-face) interactions between and within governance, researcher, advisor, and farmer networks will increase as these relationships embody the different forms of social capital required to create future visions and negotiate data sharing arrangements and privacy outcomes (King et al., 2019).</blockquote>
+          </li>
+          <li>
+            <b>连通性：</b>引用 Lubell et al. (2014)，认为增加的技术能力和社交资本网络将为农业利益相关者提供新的可利用平台。
+            <blockquote>...increasing technological capacity and networks of social capital should naturally provide new platforms for agricultural stakeholders to exploit (Lubell et al., 2014).</blockquote>
+          </li>
+          <li>
+            <b>连通性：</b>引用 Darnell et al. (2018)，认为即使是网络连接不佳的“数字剥夺”问题，随着数字农业技术的发展也可能被克服。
+            <blockquote>Even digital deprivation, in terms of poor internet connectivity, reliability and speed, has been argued to be surmountable as digital agricultural technologies develop (Darnell et al., 2018).</blockquote>
+          </li>
+          <li>
+            <b>连通性：</b>引用 Sutherland et al. (2013) 和 Walter et al. (2017)，指出合作数据共享安排正日益挑战农业产业中现有的制度遗产。
+            <blockquote>Co-operative data sharing arrangements are also increasingly questioning existing institutional legacies in agricultural industries in Australia and globally (Sutherland et al., 2013; Walter et al., 2017).</blockquote>
+          </li>
+          <li>
+            <b>连通性：</b>引用 Wolfert et al. (2017)，指出与技术发展相关的制度变迁将如何被引导，将决定不同地区、社区和企业的农业食品优先事项。
+            <blockquote>How institutional change associated with technological development is guided in different places will determine the agri-food priorities of perhaps increasingly diverse but virtually connected regions, communities, agri-businesses and value exchange stakeholders (Wolfert et al., 2017).</blockquote>
+          </li>
+          <li>
+            <b>透明度：</b>引用 Lush (2018)，说明透明度不仅是系统内的交换，还需要考虑更广泛的公众舆论。
+            <blockquote>...but also need to consider broader public opinion (Lush, 2018).</blockquote>
+          </li>
+          <li>
+            <b>透明度：</b>引用 Sligo and Massey (2007) 和 Kelton et al. (2008)，指出农民之间以及与技术互动的信任价值观将随着数字信息流的普及而改变，从而增加透明度。
+            <blockquote>Trust values embedded in relationships between farmers themselves (Sligo and Massey, 2007) and interactions with technologies are likely to change over time as digital information ﬂows become ubiquitous – increasing transparency (Kelton et al., 2008).</blockquote>
+          </li>
+          <li>
+            <b>透明度：</b>引用 Bessant and Rush (1995) 和 Howells (2006)，强调理解信任在数字化知识网络中的影响，对于确定农业中介（人力或技术）未来在影响创新中的地位至关重要。
+            <blockquote>Improved understanding of the implications of trust as agricultural knowledge and advice networks digitalise will be critical in determining the place of agricultural intermediaries (either human or technological) to inﬂuence agricultural innovation into the future (Bessant and Rush, 1995; Howells, 2006).</blockquote>
+          </li>
+          <li>
+            <b>透明度：</b>引用 Wolfert et al. (2017)，说明随着数字技术的普及，数据、信息和分析的流动，以及在这些知识交换组成部分中的信任或价值水平将发生变化。
+            <blockquote>Flows of data, information and analytics, along with the levels of trust or value placed in these components of knowledge exchange (Fig. 3), will shift as the pervasiveness of digital technologies increases (Wolfert et al., 2017).</blockquote>
+          </li>
+          <li>
+            <b>透明度：</b>引用 Aussie Farms (2019), National Farmers Federation (2019), Busch (2011), 和 Duffy (2018)，列举了社会透明度增加的近期例子，如动物福利问题、品牌抵制和数据隐私担忧。
+            <blockquote>Recent examples of increasing societal transparency include animal welfare concerns... (Aussie Farms, 2019; National Farmers Federation, 2019), the boycotting of the consumption of certain brands or products on ethical grounds, the alignment of private interests with ethical initiatives (Busch, 2011), and the exposure of privacy concerns surrounding the third party use of data through Facebook (Duffy, 2018).</blockquote>
+          </li>
+          <li>
+            <b>透明度：</b>引用 Eastwood et al. (2019a)，预测私有化趋势可能导致顾问身份转变为包括私人治理和认证监督，甚至维护传感器设备。
+            <blockquote>The trend toward privatisation of agricultural advice will likely see a shift in advisor identity to include private governance and certiﬁcation surveillance – advisors may also be required to maintain sensor equipment to satisfy quality and practice standards of agri-food value exchange (Eastwood et al., 2019a).</blockquote>
+          </li>
+          <li>
+            <b>透明度：</b>引用 Wiseman et al. (2018)，强调需要将叙事从“所有权”转向澄清良好数据管理的目标，以实现对澳大利亚农业数据更好的控制、访问和利益共享。
+            <blockquote>As Wiseman et al. (2018, p. 76) explain... "There is a need to shift the narrative away from ownership… to clarify the goals of good data management in order to achieve a more open culture of better control, access and beneﬁt-sharing [transparency] of Australian agricultural data."</blockquote>
+          </li>
+          <li>
+            <b>透明度：</b>引用 Stilgoe (2018) 和 Volwes and Story Carter (2018)，说明机器学习和分析效率的提高将增强公共和私人的监控能力，例如数字设备已在美国法律程序中用作证据。
+            <blockquote>The increasing quantity of data collected, along with gains in analytical eﬃciency through machine learning will increase surveillance power in both public and private senses – digital devices in homes and autonomous vehicles have already been used to provide evidence in legal proceedings in the United States of America (Stilgoe, 2018; Volwes and Story Carter, 2018).</blockquote>
+          </li>
+          <li>
+            <b>透明度：</b>引用 Regan (2019)，预测经济增值将越来越依赖于社会环境管理，对独特生产方式和农产品来源的数字监控将带来溢价。
+            <blockquote>Economic value adding will become increasingly dependent on socio-environmental stewardship with premiums on oﬀer for unique production and increased digital surveillance of agricultural practices and produce provenance (Regan, 2019).</blockquote>
+          </li>
+          <li>
+            <b>透明度：</b>引用 Fleming et al. (2018)，指出大数据分析和改进的设计界面有潜力使技术决策更简单、及时，并与农业隐性知识更好地结合。
+            <blockquote>Similarly, big data analytics and improved design interfaces have the potential to make technical decision-making simpler, more timely and better aligned with tacit agricultural knowledge (Fleming et al., 2018).</blockquote>
+          </li>
+          <li>
+            <b>透明度：</b>引用 Fisher (2013) 和 Lush (2018)，提出农民、顾问和行业利益相关者应思考未来如何将“可信”信息转化为隐性知识/智慧，以及社会通过NGO和社交媒体影响农场生产实践的权利日益增强。
+            <blockquote>Farmers, agricultural advisory services and agricultural industry stakeholders should consider the implications for their practices in terms of how they might turn ‘trusted’ information into tacit knowledge/ wisdom in the future (Fisher, 2013) and the increasing right of society – through NGO agricultural advisory services and social media – to inﬂuence on-farm production practices (Lush, 2018).</blockquote>
+          </li>
+          <li>
+            <b>治理：</b>引用 Carolan (2018) 和 Regan (2019)，指出在数字化农业创新系统中，平衡不同利益相关者的优先事项将需要在公共和私人组织之间进行权衡。
+            <blockquote>These digital agricultural system challenges will require tradeoﬀs to be made between public and private organisations and their individual representatives (Carolan, 2018; Regan, 2019).</blockquote>
+          </li>
+          <li>
+            <b>治理：</b>引用 Wolf and Buttel (1996) 和 Wolf et al. (2001)，说明在开发数字技术以满足农业部门公共和私人目标时，对社会伦理的考量已有数十年的历史。
+            <blockquote>Socio-ethical considerations when developing digital technologies to meet public and private goals in the agricultural sector have been explicitly considered for decades (Wolf and Buttel, 1996; Wolf et al., 2001).</blockquote>
+          </li>
+          <li>
+            <b>治理：</b>引用 Botha et al. (2017), Fielke et al. (2018), Klerkx et al. (2017), 和 Vereijssen et al. (2017)，指出农业决策支持系统开发的过往教训表明，不考虑农业社会系统，仅以电子方式模拟决策是远远不够的。
+            <blockquote>Past lessons in agricultural decision support system development indicate it will not be enough to electronically simulate decisions without consideration of the agri-social systems that land managers and agricultural advisory services are a part of (Botha et al., 2017; Fielke et al., 2018; Klerkx et al., 2017; Vereijssen et al., 2017).</blockquote>
+          </li>
+          <li>
+            <b>治理：</b>引用 Fleming et al. (2018)，强调驱动数字工具发展的技术乐观主义必须被通过适当治理来管理创新效益的社会现实所调和。
+            <blockquote>Therefore, it is important that technological optimism driving digital tool development is tempered by the social realities of managing innovation beneﬁts through appropriate governance (Fleming et al., 2018).</blockquote>
+          </li>
+          <li>
+            <b>治理：</b>引用 Knierim et al. (2017), Nettle et al. (2018), Paschen et al. (2017), 和 Prager et al. (2016)，指出已有研究指向农业咨询服务的日益私有化以及农业研发和推广从公共资助者转移的趋势。
+            <blockquote>As mentioned earlier, existing research points to the increasing privatisation of agricultural advisory services and the restructuring of agricultural research and extension away from public good funders (Knierim et al., 2017; Nettle et al., 2018; Paschen et al., 2017; Prager et al., 2016).</blockquote>
+          </li>
+          <li>
+            <b>治理：</b>引用 Jakku et al. (2019) 和 Newell and Taylor (2017)，说明向数字化农业未来的过渡在数据治理方面有重大影响，经济和政治上强大的一方可能决定数字技术的发展方式。
+            <blockquote>The transition to a digital agricultural future has signiﬁcant implications regarding the governance of data ownership, curation, analysis, and the negotiation of values, with the economically and politically powerful likely able to determine the manner in which digital technologies are developed (Jakku et al., 2019; Newell and Taylor, 2017).</blockquote>
+          </li>
+          <li>
+            <b>治理：</b>引用 Wiseman et al. (2018)，支持监管人类与数字技术的互动，而不是技术本身，这样更有效和相关。
+            <blockquote>In support of research examining the role of law in keeping up with technological development, it seems more efficient and relevant to regulate the human interactions with digital technologies, as opposed to the technologies themselves (Wiseman et al., 2018).</blockquote>
+          </li>
+          <li>
+            <b>治理：</b>引用 Oreszczyn et al. (2010) 和 Taylor and Van Grieken (2015)，举例说明存在由共享社会原则支撑的社区主导多方治理模式。
+            <blockquote>There are examples, however, of community-led multi-party governance underpinned by shared social principles (Oreszczyn et al., 2010; Taylor and Van Grieken, 2015).</blockquote>
+          </li>
+          <li>
+            <b>治理：</b>引用 Rattenbury and Nafus (2018) 和 Eastwood et al. (2019b)，指出数据科学有越来越大的动力以负责任的方式使信息有意义，即预见结果、包容多样利益相关者、对变化做出反应并进行反思性实践。
+            <blockquote>There is also increased impetus for data science to make information meaningful in a manner that is responsible (Rattenbury and Nafus, 2018) – anticipating outcomes, including diverse stakeholders, being responsive to change and reﬂexive in practice (Eastwood et al., 2019b).</blockquote>
+          </li>
+          <li>
+            <b>治理：</b>引用 Leonard et al. (2017) 和 Wiseman (2016)，指出围绕数字农业技术“使用条款”的正式和非正式谈判，为确定游戏规则提供了一些空间。
+            <blockquote>For example, negotiation around the ‘terms of use’ of digital agricultural technologies, both formally and informally, provides some space to determine the rules of the game (Leonard et al., 2017; Wiseman, 2016).</blockquote>
+          </li>
+        </ul>
+      </td>
+      <td class="reference-column">
+        <h4 class="argument-theme">连通性 (Connectivity)</h4>
+        <ul>
+          <li><strong>Arts et al. (2011)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Generalizations%20on%20consumer%20in-%20novation%20adoption%3A%20a%20meta-analysis%20on%20drivers%20of%20intention%20and%20behavior%20Arts" target="_blank"><em>Generalizations on consumer in- novation adoption: a meta-analysis on drivers of intention and behavior</em>, p. 134-144</a></li>
+          <li><strong>Darnell et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20current%20and%20future%20state%20of%20Australian%20agricultural%20data%20Darnell" target="_blank"><em>The current and future state of Australian agricultural data</em>, p. 41-49</a></li>
+          <li><strong>Fielke et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Conceptualising%20the%20DAIS%3A%20implications%20of%20the%20%E2%80%98digitalisation%20of%20agricultural%20innova-%20tion%20systems%E2%80%99%20on%20technology%20and%20policy%20at%20multiple%20levels%20Fielke" target="_blank"><em>Conceptualising the DAIS: implications of the ‘digitalisation of agricultural innovation systems’ on technology and policy at multiple levels</em>, p. 741-768</a></li>
+          <li><strong>Jakku et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=%E2%80%9CIf%20they%20don%27t%20tell%20us%20what%20they%20do%20with%20it%2C%20why%20would%20we%20trust%20them%3F%E2%80%9D%20trust%2C%20transparency%20and%20bene%EF%AC%81t-sharing%20in%20smart%20farming%20Jakku" target="_blank"><em>“If they don't tell us what they do with it, why would we trust them?” trust, transparency and beneﬁt-sharing in smart farming</em>, p. 100285</a></li>
+          <li><strong>Lioutas et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Key%20questions%20on%20the%20use%20of%20big%20data%20in%20farming%3A%20an%20activity%20theory%20approach%20Lioutas" target="_blank"><em>Key questions on the use of big data in farming: an activity theory approach</em>, p. 100297</a></li>
+          <li><strong>Regan (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=%E2%80%98Smart%20farming%E2%80%99%20in%20Ireland%3A%20a%20risk%20perception%20study%20with%20key%20governance%20actors%20Regan" target="_blank"><em>‘Smart farming’ in Ireland: a risk perception study with key governance actors</em>, p. 100292</a></li>
+          <li><strong>Rotz et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Automated%20pastures%20and%20the%20digital%20divide%3A%20how%20agricultural%20technologies%20are%20shaping%20labour%20and%20rural%20communities%20Rotz" target="_blank"><em>Automated pastures and the digital divide: how agricultural technologies are shaping labour and rural communities</em>, p. 112-122</a></li>
+          <li><strong>Wiseman et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Farmers%20and%20their%20data%3A%20an%20examination%20of%20farmers%E2%80%99%20reluctance%20to%20share%20their%20data%20through%20the%20lens%20of%20the%20laws%20impacting%20smart%20farming%20Wiseman" target="_blank"><em>Farmers and their data: an examination of farmers’ reluctance to share their data through the lens of the laws impacting smart farming</em>, p. 100301</a></li>
+          <li><strong>Lubell et al. (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Extension%203.0%3A%20managing%20agricultural%20knowledge%20systems%20in%20the%20network%20age%20Lubell" target="_blank"><em>Extension 3.0: managing agricultural knowledge systems in the network age</em>, p. 1089-1103</a></li>
+          <li><strong>EU SCAR (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Agricultural%20Knowledge%20and%20Innovation%20Systems%20Towards%20the%20Future%20%E2%80%93%20a%20Foresight%20Paper%20EU%20SCAR" target="_blank"><em>Agricultural Knowledge and Innovation Systems Towards the Future – a Foresight Paper</em></a></li>
+          <li><strong>Ministry of Defence (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Global%20Strategic%20Trends%20-%20out%20to%202045%20Ministry%20of%20Defence" target="_blank"><em>Global Strategic Trends - out to 2045</em></a></li>
+          <li><strong>Penzenstadler et al. (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=ICT4S%202029%3A%20what%20will%20be%20the%20systems%20supporting%20sustainability%20in%2015%20years%20Penzenstadler" target="_blank"><em>ICT4S 2029: what will be the systems supporting sustainability in 15 years</em>, p. 30-39</a></li>
+          <li><strong>Berthet et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Opening%20design%20and%20innovation%20processes%20in%20agriculture%3A%20insights%20from%20design%20and%20management%20sciences%20and%20future%20directions%20Berthet" target="_blank"><em>Opening design and innovation processes in agriculture: insights from design and management sciences and future directions</em>, p. 111-115</a></li>
+          <li><strong>Eastwood et al. (2019a)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=making%20sense%20in%20the%20cloud%3A%20farm%20advisory%20services%20in%20a%20smart%20farming%20future%20Eastwood" target="_blank"><em>making sense in the cloud: farm advisory services in a smart farming future</em>, p. 100298</a></li>
+          <li><strong>Fleming et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Missed%20opportunity%3F%20Framing%20actions%20around%20co-bene%EF%AC%81ts%20for%20carbon%20mitigation%20in%20Australian%20agriculture%20Fleming" target="_blank"><em>Missed opportunity? Framing actions around co-beneﬁts for carbon mitigation in Australian agriculture</em>, p. 230-238</a></li>
+          <li><strong>King et al. (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Navigating%20shades%20of%20social%20capital%20and%20trust%20to%20leverage%20opportunities%20for%20rural%20innovation%20King" target="_blank"><em>Navigating shades of social capital and trust to leverage opportunities for rural innovation</em>, p. 123-134</a></li>
+          <li><strong>Sutherland et al. (2013)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Considering%20the%20source%3A%20commercialisation%20and%20trust%20in%20Agri-environmental%20in-%20formation%20and%20advisory%20services%20in%20England%20Sutherland" target="_blank"><em>Considering the source: commercialisation and trust in Agri-environmental in- formation and advisory services in England</em>, p. 96-105</a></li>
+          <li><strong>Walter et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Opinion%3A%20smart%20farming%20is%20key%20to%20developing%20sustainable%20agriculture%20Walter" target="_blank"><em>Opinion: smart farming is key to developing sustainable agriculture</em>, p. 6148-6150</a></li>
+          <li><strong>Wolfert et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Big%20data%20in%20smart%20farming%20-%20a%20review%20Wolfert" target="_blank"><em>Big data in smart farming - a review</em>, p. 69-80</a></li>
+        </ul>
+        <h4 class="argument-theme">透明度 (Transparency)</h4>
+        <ul>
+          <li><strong>Lush (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20right%20to%20farm%20versus%20the%20right%20to%20choose%3A%20society%20is%20having%20the%20%EF%AC%81nal%20say%20Lush" target="_blank"><em>The right to farm versus the right to choose: society is having the ﬁnal say</em>, p. 4-11</a></li>
+          <li><strong>Sligo and Massey (2007)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Risk%2C%20trust%20and%20knowledge%20networks%20in%20farmers%E2%80%99%20learning%20Sligo" target="_blank"><em>Risk, trust and knowledge networks in farmers’ learning</em>, p. 170-182</a></li>
+          <li><strong>Kelton et al. (2008)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Trust%20in%20digital%20information%20Kelton" target="_blank"><em>Trust in digital information</em>, p. 363-374</a></li>
+          <li><strong>Bessant and Rush (1995)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Building%20bridges%20for%20innovation%3A%20the%20role%20of%20consultants%20in%20technology%20transfer%20Bessant" target="_blank"><em>Building bridges for innovation: the role of consultants in technology transfer</em>, p. 97-114</a></li>
+          <li><strong>Howells (2006)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Intermediation%20and%20the%20role%20of%20intermediaries%20in%20innovation%20Howells" target="_blank"><em>Intermediation and the role of intermediaries in innovation</em>, p. 715-728</a></li>
+          <li><strong>Aussie Farms (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20Aussie%20Farms%20Map%20Aussie%20Farms" target="_blank"><em>The Aussie Farms Map</em></a></li>
+          <li><strong>National Farmers Federation (2019)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Farmers%20Fight%20Back%20In%20Face%20Of%20Radical%20Anti-Farm%20Group%20Intimidation%20National%20Farmers%20Federation" target="_blank"><em>Farmers Fight Back In Face Of Radical Anti-Farm Group Intimidation</em></a></li>
+          <li><strong>Busch (2011)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20private%20governance%20of%20food%3A%20equitable%20exchange%20or%20bizarre%20bazaar%3F%20Busch" target="_blank"><em>The private governance of food: equitable exchange or bizarre bazaar?</em>, p. 345-352</a></li>
+          <li><strong>Duffy (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Facebook%20Is%20The%20Real%20Over-Sharer%20And%20Mark%20Zuckerberg%20Will%20Have%20A%20Tough%20Time%20Telling%20Congress%20Why%20Duffy" target="_blank"><em>Facebook Is The Real Over-Sharer And Mark Zuckerberg Will Have A Tough Time Telling Congress Why</em></a></li>
+          <li><strong>Wiseman et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Rethinking%20ag%20data%20ownership%20Wiseman" target="_blank"><em>Rethinking ag data ownership</em>, p. 71-77</a></li>
+          <li><strong>Stilgoe (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Machine%20learning%2C%20social%20learning%20and%20the%20governance%20of%20self-driving%20cars%20Stilgoe" target="_blank"><em>Machine learning, social learning and the governance of self-driving cars</em>, p. 25-56</a></li>
+          <li><strong>Volwes and Story Carter (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Your%20Google%20Home%20Or%20Fitbit%20Could%20Be%20Used%20Against%20You%20In%20Court%20Volwes" target="_blank"><em>Your Google Home Or Fitbit Could Be Used Against You In Court</em></a></li>
+          <li><strong>Fleming et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Is%20big%20data%20for%20big%20farming%20or%20for%20everyone%3F%20Perceptions%20in%20the%20Australian%20grains%20industry%20Fleming" target="_blank"><em>Is big data for big farming or for everyone? Perceptions in the Australian grains industry</em>, p. 24</a></li>
+          <li><strong>Fisher (2013)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=%E2%80%98A%20gentleman%E2%80%99s%20handshake%E2%80%99%3A%20the%20role%20of%20social%20capital%20and%20trust%20in%20transforming%20information%20into%20usable%20knowledge%20Fisher" target="_blank"><em>‘A gentleman’s handshake’: the role of social capital and trust in transforming information into usable knowledge</em>, p. 13-22</a></li>
+        </ul>
+        <h4 class="argument-theme">治理 (Governance)</h4>
+        <ul>
+          <li><strong>Carolan (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=%E2%80%9CSmart%E2%80%9D%20farming%20techniques%20as%20political%20ontology%3A%20access%2C%20sovereignty%20and%20the%20performance%20of%20neoliberal%20and%20not-so-neoliberal%20worlds%20Carolan" target="_blank"><em>“Smart” farming techniques as political ontology: access, sovereignty and the performance of neoliberal and not-so-neoliberal worlds</em></a></li>
+          <li><strong>Wolf and Buttel (1996)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20political%20economy%20of%20precision%20farming%20Wolf" target="_blank"><em>The political economy of precision farming</em>, p. 1269-1274</a></li>
+          <li><strong>Wolf et al. (2001)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Between%20data%20and%20decisions%3A%20the%20organization%20of%20agricultural%20economic%20information%20systems%20Wolf" target="_blank"><em>Between data and decisions: the organization of agricultural economic information systems</em>, p. 121-141</a></li>
+          <li><strong>Botha et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Using%20a%20co-innovation%20approach%20to%20support%20innovation%20and%20learning%3A%20cross-cutting%20observations%20from%20di%EF%AC%80erent%20settings%20and%20emergent%20issues%20Botha" target="_blank"><em>Using a co-innovation approach to support innovation and learning: cross-cutting observations from diﬀerent settings and emergent issues</em>, p. 87-91</a></li>
+          <li><strong>Fielke et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Lessons%20for%20co-innovation%20in%20agricultural%20innovation%20systems%3A%20a%20multiple%20case%20study%20analysis%20and%20a%20conceptual%20model%20Fielke" target="_blank"><em>Lessons for co-innovation in agricultural innovation systems: a multiple case study analysis and a conceptual model</em>, p. 9-27</a></li>
+          <li><strong>Klerkx et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Replication%20and%20translation%20of%20co-innovation%3A%20the%20in%EF%AC%82uence%20of%20institutional%20context%20in%20large%20international%20participa-%20tory%20research%20projects%20Klerkx" target="_blank"><em>Replication and translation of co-innovation: the inﬂuence of institutional context in large international participatory research projects</em>, p. 276-292</a></li>
+          <li><strong>Vereijssen et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Addressing%20complex%20challenges%20using%20a%20co-innovation%20approach%3A%20lessons%20from%20%EF%AC%81ve%20case%20studies%20in%20the%20New%20Zealand%20primary%20sector%20Vereijssen" target="_blank"><em>Addressing complex challenges using a co-innovation approach: lessons from ﬁve case studies in the New Zealand primary sector</em>, p. 108-116</a></li>
+          <li><strong>Knierim et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Pluralism%20of%20agricultural%20advisory%20service%20providers%20%E2%80%93%20facts%20and%20insights%20from%20Europe%20Knierim" target="_blank"><em>Pluralism of agricultural advisory service providers – facts and insights from Europe</em>, p. 45-58</a></li>
+          <li><strong>Nettle et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20private-sector%20farm%20advisors%20change%20their%20practices%3A%20an%20Australian%20case%20study%20Nettle" target="_blank"><em>How private-sector farm advisors change their practices: an Australian case study</em>, p. 20-27</a></li>
+          <li><strong>Paschen et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Enrolling%20advisers%20in%20governing%20privatised%20agricultural%20extension%20in%20Australia%3A%20challenges%20and%20opportunities%20for%20the%20research%2C%20development%20and%20extension%20system%20Paschen" target="_blank"><em>Enrolling advisers in governing privatised agricultural extension in Australia: challenges and opportunities for the research, development and extension system</em>, p. 265-282</a></li>
+          <li><strong>Prager et al. (2016)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20does%20commer-%20cialisation%20impact%20on%20the%20provision%20of%20farm%20advisory%20services%3F%20Evidence%20from%20Belgium%2C%20Italy%2C%20Ireland%20and%20the%20UK%20Prager" target="_blank"><em>How does commercialisation impact on the provision of farm advisory services? Evidence from Belgium, Italy, Ireland and the UK</em>, p. 329-344</a></li>
+          <li><strong>Newell and Taylor (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Contested%20landscapes%3A%20the%20global%20political%20economy%20of%20cli-%20mate-smart%20agriculture%20Newell" target="_blank"><em>Contested landscapes: the global political economy of cli- mate-smart agriculture</em>, p. 1-22</a></li>
+          <li><strong>Oreszczyn et al. (2010)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20role%20of%20networks%20of%20practice%20and%20webs%20of%20in%EF%AC%82uencers%20on%20farmers%E2%80%99%20engagement%20with%20and%20learning%20about%20agricultural%20innovations%20Oreszczyn" target="_blank"><em>The role of networks of practice and webs of inﬂuencers on farmers’ engagement with and learning about agricultural innovations</em>, p. 404-417</a></li>
+          <li><strong>Taylor and Van Grieken (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Local%20institutions%20and%20farmer%20participation%20in%20Agri-%20environmental%20schemes%20Taylor" target="_blank"><em>Local institutions and farmer participation in Agri- environmental schemes</em>, p. 10-19</a></li>
+          <li><strong>Rattenbury and Nafus (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Data%20Science%20and%20Ethnography%3A%20What%27s%20Our%20Common%20Ground%2C%20and%20Why%20Does%20It%20Matter%3F%20Rattenbury" target="_blank"><em>Data Science and Ethnography: What's Our Common Ground, and Why Does It Matter?</em></a></li>
+          <li><strong>Wiseman (2016)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Changes%20To%20Contract%20Laws%20Could%20Give%20Small%20Farming%20Businesses%20More%20Control%20Of%20Data%20And%20Innovation%20Wiseman" target="_blank"><em>Changes To Contract Laws Could Give Small Farming Businesses More Control Of Data And Innovation</em></a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><h2>Conclusions and limitations</h2></td>
+    </tr>
+    <tr>
+      <td>
+        <p>本章总结了研究发现，重申了将农业知识与咨询网络置于更广泛的农业创新系统框架内进行分析的有效性。作者再次强调，数字化的结果将涉及连通性和透明度的增加，以及农业治理的多元化和持续重组。研究的主要局限性在于其作为二手分析，结果受到作者判断和解释的影响，尽管通过结构化和协作的综述过程已尽量减少偏见。此外，社会研究无法完全价值中立。最后，文章提出了未来研究的建议，主张采用“远见”（foresight, 5-10年）和“远瞻”（far sight, 10-30年）的时间尺度，以更明确地关注更广泛的社会转型过程，而不仅仅是当前暂居主导地位的技术发展。</p>
+        <ul>
+          <li>
+            引用 Knierim et al. (2017)，说明通过采用农业创新系统框架，文章得以报告数字化转型背景下农业咨询服务的现状。
+            <blockquote>By framing agricultural knowledge and advice networks within the broader agricultural innovation system, we were able to report on the current state-of-the-art in relation to the coming digital transformation of these systems... [and] to better understand the implications of digitalisation on agricultural advisory services moving forward (Knierim et al., 2017).</blockquote>
+          </li>
+          <li>
+            引用 Darnell et al. (2018), Nettle et al. (2018), 和 Wiseman et al. (2018)，总结研究发现，即数字化可能导致连通性和透明度的增加，以及农业治理的多元化和持续重组。
+            <blockquote>It was found the outcomes of digitalisation would likely involve increasing connectivity and transparency (Fig. 3), along with the diversification and ongoing re-structuring of agricultural governance (Darnell et al., 2018; Nettle et al., 2018; Wiseman et al., 2018).</blockquote>
+          </li>
+          <li>
+            引用 EU SCAR (2015) 的 foresight 研究作为例子，建议未来的分析方法可以采用5-10年的“远见”视角。
+            <blockquote>The review process does raise recommendations for future analytical methods, however, with foresight (looking 5–10 years into the future such as that conducted in relation European agricultural innovation systems (EU SCAR, 2015))...</blockquote>
+          </li>
+          <li>
+            引用 Rifkin (2013) 的观点，暗示了超越具体技术，关注更广泛的社会转型过程（如通过社会学习、治理和文化变革）的重要性，这与能源、交通和通信等行业的融合转型有关。
+            <blockquote>This forward-thinking approach would also provide space to imagine convergent transformation across industries, for example in energy... transport... and communication... (Rifkin, 2013).</blockquote>
+          </li>
+        </ul>
+      </td>
+      <td class="reference-column">
+        <h4 class="argument-theme">研究结论与综合发现</h4>
+        <ul>
+          <li><strong>Knierim et al. (2017)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Pluralism%20of%20agricultural%20advisory%20service%20providers%20%E2%80%93%20facts%20and%20insights%20from%20Europe%20Knierim" target="_blank"><em>Pluralism of agricultural advisory service providers – facts and insights from Europe</em>, p. 45-58</a></li>
+          <li><strong>Darnell et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20current%20and%20future%20state%20of%20Australian%20agricultural%20data%20Darnell" target="_blank"><em>The current and future state of Australian agricultural data</em>, p. 41-49</a></li>
+          <li><strong>Nettle et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20private-sector%20farm%20advisors%20change%20their%20practices%3A%20an%20Australian%20case%20study%20Nettle" target="_blank"><em>How private-sector farm advisors change their practices: an Australian case study</em>, p. 20-27</a></li>
+          <li><strong>Wiseman et al. (2018)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Rethinking%20ag%20data%20ownership%20Wiseman" target="_blank"><em>Rethinking ag data ownership</em>, p. 71-77</a></li>
+        </ul>
+        <h4 class="argument-theme">未来研究方向与展望</h4>
+        <ul>
+          <li><strong>EU SCAR (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Agricultural%20Knowledge%20and%20Innovation%20Systems%20Towards%20the%20Future%20%E2%80%93%20a%20Foresight%20Paper%20EU%20SCAR" target="_blank"><em>Agricultural Knowledge and Innovation Systems Towards the Future – a Foresight Paper</em></a></li>
+          <li><strong>Rifkin (2013)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20Third%20Industrial%20Revolution%20%3A%20How%20Lateral%20Power%20Is%20Transforming%20Energy%2C%20the%20Economy%2C%20and%20the%20World%20Rifkin" target="_blank"><em>The Third Industrial Revolution : How Lateral Power Is Transforming Energy, the Economy, and the World</em></a></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+</body>
+</html>

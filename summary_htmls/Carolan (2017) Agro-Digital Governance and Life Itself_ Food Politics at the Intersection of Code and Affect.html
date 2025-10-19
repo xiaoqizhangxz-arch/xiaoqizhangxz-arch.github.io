@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>学术文章深度分析报告</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", "SimSun", sans-serif; line-height: 1.8; margin: 2em; color: #333; background-color: #fdfdfd; }
+        .container { max-width: 1200px; margin: auto; }
+        h1 { font-size: 2.2em; text-align: center; color: #333; margin-bottom: 0.2em; }
+        .author { text-align: center; font-size: 1.2em; color: #666; margin-top: 0; margin-bottom: 2em; border-bottom: 3px solid #005A9C; padding-bottom: 1em; }
+        h2 { font-size: 2em; margin-top: 2.5em; color: #005A9C; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; }
+        h3 { font-size: 1.5em; margin-top: 1.5em; color: #005A9C; border-bottom: 1px solid #e0e0e0; }
+        h4.argument-theme { font-size: 1.1em; color: #333; margin-top: 1.2em; margin-bottom: 0.5em; border-left: 4px solid #005A9C; padding-left: 8px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); table-layout: fixed; }
+        th, td { padding: 12px 15px; text-align: left; border: 1px solid #ddd; vertical-align: top; word-wrap: break-word; }
+        thead { background-color: #005A9C; color: white; }
+        tbody tr:nth-child(even) { background-color: #f7f9fc; }
+        tbody tr:hover { background-color: #eef4ff; }
+        a { text-decoration: none; color: #007BFF; font-weight: 500; }
+        a:hover { text-decoration: underline; color: #0056b3; }
+        ul { padding-left: 20px; margin: 0; }
+        li { margin-bottom: 10px; }
+        td ul { padding-left: 0; list-style-type: none; }
+        td ul li:last-child { margin-bottom: 0; }
+        blockquote { font-size: 0.9em; color: #555; border-left: 3px solid #ccc; padding-left: 10px; margin: 8px 0 0 0; font-style: italic; }
+        .summary-section p { text-indent: 2em; }
+        .reference-column { font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Agro-Digital Governance and Life Itself: Food Politics at the Intersection of Code and Affect</h1>
+        <p class="author">Michael Carolan</p>
+
+        <h2>全文概要总结</h2>
+        <div class="summary-section">
+            <h3>1. 论点 (Argument)</h3>
+            <p>作为一位长期关注农业食品体系中技术与权力关系的学者，我认为卡罗兰（Carolan）此文的核心论点是：数字平台并非中立的技术工具，而是深刻塑造农业食品治理（agro-food governance）和生命政治（biopolitics）的复杂“农业-数字集合体”（agro-digital assemblages）。作者通过对比分析，精妙地揭示了这些集合体如何通过其代码（专有vs.开源）、实践（个体消费vs.集体创造）和所激发的“情感”（affect），来决定“哪些生命被扶持，哪些被放弃”（make live and let die）。他进一步论证，不同的数字平台会塑造出迥异的政治主体性：一类是强化新自由主义依赖、将政治行动简化为市场选择的“积极公民”（active citizen），其行动逻辑是“你可以！”（You may!）；另一类则是培育真正自主性与互助性、致力于开创全新可能性的“超越积极的公民”（more-than-active citizen），其行动号召是“我们能！”（We can!）。</p>
+            <h3>2. 论据 (Evidence)</h3>
+            <p>本文的论证建立在两个对比鲜明的经验案例之上：</p>
+            <p><b>案例一：FarmDrop（英国伦敦）</b>。这是一个基于专有软件的线上食品分销平台。通过对生产者和消费者的访谈，作者发现，尽管FarmDrop为农民提供了更高的收入分成，但其平台化的运作模式（如平台决定价格）实质上再生产了传统食物体系中的结构性依赖和权力不对称。对于消费者而言，该平台激发的情感和政治想象也存在分化：对于那些主要依赖传统超市的消费者，FarmDrop强化了一种“消费者主权”的神话，将政治参与简化为“用鼠标投票”；而对于那些本已深度参与另类食物网络（alternative foodscapes）的消费者，FarmDrop则被视为众多工具之一，其局限性被清晰地认识到。</p>
+            <p><b>案例二：Farm Hack（美国）</b>。这是一个松散的、致力于开源工具设计与改造的农民网络。对参与者的访谈揭示了一场针对“数字锁”和“法律锁”（如《数字千年版权法》DMCA）的抵抗政治。农民们通过集体协作、知识共享来对抗大型农机公司（如约翰迪尔）利用专有软件所造成的维修依赖，从而争取“实际自主权”（actual autonomy）。这一案例生动地展示了一种旨在保存和创造“默会知识”（tacit knowledge）——无论是传统的机械维修知识还是新兴的编程知识——并 fostering 互助（interdependence）而非孤立（individualism）的集体行动模式。</p>
+            <h3>3. 论证过程 (Reasoning Process)</h3>
+            <p>卡罗兰的论证过程展现了典型的“弱理论”（weak theory）或“厚描”（thick description）进路，即从经验细节出发，逐步建构起理论洞见。他首先借用福柯（Foucault）的生命权力理论和内格里（Negri）的“情感劳动”（affective labour）概念，为分析数字治理提供了理论框架。随后，他将两个案例进行“对读”（reading against each other），揭示了专有平台（FarmDrop）与开源社区（Farm Hack）在权力结构、知识流转和情感动员上的根本差异。文章的高潮在于对安德鲁·巴里（Andrew Barry）“互动性”（interactivity）概念的批判性拓展。卡罗兰认为，巴里所描述的、以“你可以！”为特征的互动治理模式，恰好对应了FarmDrop所提供的有限选择框架。然而，Farm Hack所代表的集体创造和预示性政治（prefigurative politics）则超越了这一框架，开启了一种“我们能！”的、更具生成性的政治可能性。整个论证过程层层递进，从描述具体实践，到分析情感体验，最终提炼出关于公民行动与政治想象的深刻理论区分。</p>
+            <h3>4. 方法 (Method)</h3>
+            <p>本文采用的是定性的、多点民族志（multi-sited ethnography）研究方法。研究者在2013年至2016年间，分别在英国和美国两个不同情境下，对总计53名研究对象（FarmDrop案例35人，Farm Hack案例18人）进行了深入的半结构化访谈。抽样方法采用了滚雪球抽样（snowball sampling）与目的性抽样（purposive sampling）相结合，旨在达到理论饱和（theoretical saturation）。特别是在FarmDrop案例中，作者有意区分了主要依赖传统渠道和深度参与另类食物网络的两类受访者，这种精巧的研究设计为其后续关于“挤出效应”（crowding out）的讨论提供了坚实的经验基础。分析策略上，作者拒绝用“强理论”预设结论，而是让数据说话，从经验材料中生发出理论议题，这充分体现了其“弱理论”的认识论立场。</p>
+            <h3>5. 案例 (Case/Example)</h3>
+            <p>本文的核心在于两个主案例的精妙运用：<b>FarmDrop</b> 和 <b>Farm Hack</b>。FarmDrop代表了一种市场化的、看似“另类”但仍内嵌于新自由主义逻辑的数字治理模式。而Farm Hack则象征着一种基于“公地”（commons）理念、通过集体行动对抗资本逻辑的数字抵抗模式。除了这两个主案例，作者还巧妙地引入了其他微观案例和对比项，例如：</p>
+            <ul>
+                <li>在FarmDrop案例中，奶农<b>Mick</b>认为市场定价是天经地义的（matter of fact），而同时参与多种直销渠道的<b>Julie</b>则敏锐地指出了平台的“买方垄断”（monopsony）权力。</li>
+                <li>消费者<b>Jessica</b>认为通过FarmDrop购物是“投票”，而<b>Colin</b>则清醒地指出“购物只能改变这么多”。</li>
+                <li>在Farm Hack案例中，农民<b>Berry</b>和<b>Bob</b>因无法修理自己被“锁定”的拖拉机而倍感挫败和依赖，而农民兼程序员<b>Barb</b>则通过教授编程语言来赋权其他农民，将依赖转变为互助。</li>
+                <li>作者还提及了<b>“开放食物网络”（Open Food Network）</b>作为FarmDrop的开源对立面，进一步强化了专有与开源两种技术路径在治理哲学上的差异。</li>
+            </ul>
+        </div>
+        
+        <h2>分章节表格化细部分析</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>大意、细节与原文引用 (Main Idea, Details & Original Quotes)</th>
+                    <th class="reference-column">引用的文献 (按论点主题分类) (Cited Literature (Categorized by Argument Theme))</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td colspan="2" style="background-color: #eef4ff; text-align: center; font-weight: bold;">导论 (Introduction)</td></tr>
+                <tr>
+                    <td>
+                        <p>本章旨在界定“农业食品治理”的核心议题，并引入福柯的生命政治和内格里的情感理论作为核心分析框架。作者明确其研究采用一种“关系性方法”（relational approach），遵循吉布森-格雷厄姆的“弱理论”路径，即从具体的经验细节出发，抵制宏大叙事，从而捕捉在传统政治经济学分析中被忽略的、于“裂缝”中运作的政治生活维度。最后，本章预告了将通过两个案例研究来探讨数字平台如何塑造食物图景，并引出安德鲁·巴里的“互动性”概念作为后续讨论的关键。</p>
+                        <ul>
+                            <li>
+                                总结了农业食品治理研究的多样性，指出其涵盖从宏观制度安排到微观食物网络建构的广泛议题，并引用McMichael的“政体”（regimes）概念来描述这种治理。
+                                <blockquote>This has made it difficult to summarise the subject as it has come to mean different things in different quarters. When used broadly, the concept speaks to formal governmental and institutional arrangements in addition to the associated networks, practices, rules, and norms that help hold ways of life – regimes (McMichael 2009), paradigms (Marsden and Farioli 2015), etc. – together.</blockquote>
+                            </li>
+                            <li>
+                                引用Marsden和Farioli的“范式”（paradigms）概念，进一步说明农业食品治理所维系的“生活方式”。
+                                <blockquote>...regimes (McMichael 2009), paradigms (Marsden and Farioli 2015), etc. – together.</blockquote>
+                            </li>
+                             <li>
+                                引用Roep等人关于食物网络建构的定义，作为农业食品治理的另一个微观维度。
+                                <blockquote>Elsewhere, agrofood governance speaks to structural and process-related aspects of creating, maintaining, and changing particular food networks (Roep et al. 2012).</blockquote>
+                            </li>
+                            <li>
+                                引入福柯的生命权力概念——“促生”与“任死”，作为分析农业食品治理中价值排序的核心理论工具。
+                                <blockquote>This article brings these two poles into conversation, to understand lives made to live and left to die, to paraphrase Foucault (2003, p. 241)...</blockquote>
+                            </li>
+                            <li>
+                                以主流的粮食需求预测为例，说明“生产主义农业”是如何被设定为一种被重视的“生命”，这种预测基于特定的饮食结构假设。
+                                <blockquote>An example of a valued life in an agrofood context would be productivist agriculture and bodies, present and future, which are assumed to eat a certain way – conventional food ‘need’ projections (see e.g., Alexandratos and Bruinsma 2012) are premised on diets composed heavily of a handful of grains and meat...</blockquote>
+                            </li>
+                            <li>
+                                引入安东尼奥·内格里的“情感劳动”概念，指出情感在支持某些生活方式、遗忘另一些生活方式中的关键作用。
+                                <blockquote>Antonio Negri (1999) refers to this process in the context of affective labour: those practices that result in particular knowledge, understandings, and images, as well as feelings, from wellbeing and excitement to anxiety.</blockquote>
+                            </li>
+                            <li>
+                                阐明本文的理论根基是一种“关系性方法”，并引用作者之前的作品进行界定。
+                                <blockquote>Conceptually, this paper is animated by what has been described previously in this journal as a relational approach (Carolan 2013) – assemblage thinking (e.g., Lewis et al. 2016), vibrant materialism (e.g., Roe 2006), geographies of care (e.g., Abbots et al. 2015), enactive politics (e.g., Lowe 2010), and other styles of scholarship...</blockquote>
+                            </li>
+                            <li>
+                                列举了一系列属于“关系性方法”的学术思潮，如“集合体思维”（assemblage thinking）。
+                                <blockquote>...assemblage thinking (e.g., Lewis et al. 2016), vibrant materialism (e.g., Roe 2006), geographies of care (e.g., Abbots et al. 2015), enactive politics (e.g., Lowe 2010)...</blockquote>
+                            </li>
+                             <li>
+                                列举了“关系性方法”的思潮之一，“能动唯物主义”（vibrant materialism）。
+                                <blockquote>...vibrant materialism (e.g., Roe 2006), geographies of care (e.g., Abbots et al. 2015), enactive politics (e.g., Lowe 2010)...</blockquote>
+                            </li>
+                             <li>
+                                列举了“关系性方法”的思潮之一，“关怀地理学”（geographies of care）。
+                                <blockquote>...geographies of care (e.g., Abbots et al. 2015), enactive politics (e.g., Lowe 2010)...</blockquote>
+                            </li>
+                             <li>
+                                列举了“关系性方法”的思潮之一，“生成性政治”（enactive politics）。
+                                <blockquote>...enactive politics (e.g., Lowe 2010), and other styles of scholarship that look to describe how materialities, practices, and discourses matter in terms of their effects and affectivities.</blockquote>
+                            </li>
+                            <li>
+                                引用吉布森-格雷厄姆的观点，将本文采用的、受格尔茨启发的理论风格称为“弱理论”，以区别于宏大理论。
+                                <blockquote>As argued in a recent piece by Gibson-Graham (2014), who point to Clifford Geertz’s style of theorising to give their argument flesh, such scholarship reaches back in the social science cannon – what they call ‘weak theory’, though it has gone by other labels (e.g., empiricist [Barry 2001, p. 22]).</blockquote>
+                            </li>
+                            <li>
+                                指出“弱理论”有多种标签，如安德鲁·巴里所说的“经验主义者”（empiricist）。
+                                <blockquote>...what they call ‘weak theory’, though it has gone by other labels (e.g., empiricist [Barry 2001, p. 22]).</blockquote>
+                            </li>
+                            <li>
+                                引用格尔茨的名言，阐释“弱理论”如何通过“小事实”洞察“大问题”。
+                                <blockquote>Clifford Geertz (1973, p. 23) famously wrote about how ‘small facts speak to large issues, winks to epistemology, or sheep raids to revolution, because they are made to’.</blockquote>
+                            </li>
+                             <li>
+                                再次引用福柯，警惕“强理论”可能成为“我们头脑中的法西斯主义”，阻碍我们看到细节。
+                                <blockquote>Geertz was critiquing strong theory – one of those ‘fascisms in our heads’ that Foucault (2003, p. 30) warned us of.</blockquote>
+                            </li>
+                            <li>
+                                引用怀特海的哲学警告，强调避免“将抽象误认为具体”的重要性，这是“弱理论”的核心关切。
+                                <blockquote>Geertz’s worry was that once we start letting theory overtly guide our investigations and name events we risk missing grainy details that can help us grasp what is really going on, which is necessary if we are to avoid, in Whitehead’s (1978) words, mistaking the abstract for the concrete.</blockquote>
+                            </li>
+                            <li>
+                                引用吉布森-格雷厄姆对“强理论”特征的描述，即其“包罗万象的范围”和“简化清晰的意义场”。
+                                <blockquote>As opposed to employing strong theory, with its ‘embracing reach’ and ‘reduced, clarified field of meaning’ (Gibson-Graham 2006, p. 4), this paper engages in a style of scholarship that ‘does not elaborate and confirm what we already know’ but instead ‘observes, interprets, and yields to emerging knowledge’ (Gibson-Graham 2014, S149).</blockquote>
+                            </li>
+                             <li>
+                                引用施密特和科恩的作品为例，说明本文抵制将我们时代简单概括为“数字时代”的宏大论断。
+                                <blockquote>My aim in this analysis, therefore, is to be attentive to both specificity and difference, which means resisting any urge to cleanly sum up epochs, such as by declaring ours a digital age (see e.g., Schmidt and Cohen 2013).</blockquote>
+                            </li>
+                             <li>
+                                引用布莱恩·马苏米的观点，来说明本文关注的是在传统“裂缝”中运作的政治生活。
+                                <blockquote>Instead, this paper offers a series of concrete examples that, when combined with and overlaid alongside other observations, reveal dimensions of political life that operate in the ‘cracks’ (Massumi 2002, p. 133) of convention.</blockquote>
+                            </li>
+                             <li>
+                                引入安德鲁·巴里的“互动政治权力”概念，作为分析数字平台如何以不那么明显的方式赋能或限能的核心工具。
+                                <blockquote>After answering these questions, I then turn briefly to some of Andrew Berry’s (2001) work, namely, where he discusses interactive political power.</blockquote>
+                            </li>
+                             <li>
+                                指出农业食品文献中对数字技术的批判性研究尚处起步阶段，以此凸显本文的贡献。
+                                <blockquote>The agrofood literature has only begun to critically engage with the subject of digital technology (e.g., Bronson and Knezevic 2016).</blockquote>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="reference-column">
+                        <h4 class="argument-theme">界定“农业食品治理”</h4>
+                        <ul>
+                            <li><strong>McMichael (2009)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=A%20food%20regime%20genealogy%20McMichael" target="_blank"><em>A food regime genealogy</em>, p. 139-169</a></li>
+                            <li><strong>Marsden and Farioli (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Natural%20powers%3A%20from%20the%20bio-economy%20to%20the%20eco-economy%20and%20sustainable%20place-making%20Marsden" target="_blank"><em>Natural powers: from the bio-economy to the eco-economy and sustainable place-making</em></a></li>
+                            <li><strong>Roep et al. (2012)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=On%20governance%2C%20embedding%2C%20and%20marketing%3A%20reflections%20on%20the%20construction%20of%20alternative%20sustainable%20food%20networks%20Roep" target="_blank"><em>On governance, embedding, and marketing: reflections on the construction of alternative sustainable food networks</em></a></li>
+                        </ul>
+                        <h4 class="argument-theme">引入生命政治与情感理论框架</h4>
+                        <ul>
+                            <li><strong>Foucault (2003)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Society%20must%20be%20defended%3A%20lecture%20at%20the%20College%20De%20France%2C%201975-1976%20Foucault" target="_blank"><em>Society must be defended: lecture at the College De France, 1975-1976</em>, p. 241</a></li>
+                            <li><strong>Alexandratos and Bruinsma (2012)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=World%20agriculture%20towards%202030%2F2050%3A%20the%202012%20revision%20Alexandratos" target="_blank"><em>World agriculture towards 2030/2050: the 2012 revision</em></a></li>
+                             <li><strong>Negri (1999)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Value%20and%20affect%20Negri" target="_blank"><em>Value and affect</em></a></li>
+                        </ul>
+                         <h4 class="argument-theme">确立关系性与“弱理论”的研究立场</h4>
+                        <ul>
+                            <li><strong>Carolan (2013)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20wild%20side%20of%20agro-food%20studies%3A%20on%20co-experimentation%2C%20politics%2C%20change%2C%20and%20hope%20Carolan" target="_blank"><em>The wild side of agro-food studies: on co-experimentation, politics, change, and hope</em></a></li>
+                            <li><strong>Lewis et al. (2016)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Assembling%20generative%20approaches%20in%20agrifood%20research%20Lewis" target="_blank"><em>Assembling generative approaches in agrifood research</em></a></li>
+                            <li><strong>Roe (2006)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Things%20becoming%20food%20and%20the%20embodied%2C%20material%20practices%20of%20an%20organic%20food%20consumer%20Roe" target="_blank"><em>Things becoming food and the embodied, material practices of an organic food consumer</em></a></li>
+                            <li><strong>Abbots et al. (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Careful%20eating%3A%20bodies%2C%20food%20and%20care%20Abbots" target="_blank"><em>Careful eating: bodies, food and care</em></a></li>
+                            <li><strong>Lowe (2010)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Enacting%20rural%20sociology%3A%20or%20what%20are%20the%20creativity%20claims%20of%20the%20engaged%20sciences%3F%20Lowe" target="_blank"><em>Enacting rural sociology: or what are the creativity claims of the engaged sciences?</em></a></li>
+                            <li><strong>Gibson-Graham (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Rethinking%20the%20economy%20with%20thick%20description%20and%20weak%20theory%20Gibson-Graham" target="_blank"><em>Rethinking the economy with thick description and weak theory</em>, p. S149</a></li>
+                            <li><strong>Barry (2001)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Political%20machines%3A%20governing%20a%20technological%20society%20Barry" target="_blank"><em>Political machines: governing a technological society</em>, p. 22</a></li>
+                             <li><strong>Geertz (1973)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Thick%20description%3A%20toward%20an%20interpretative%20theory%20of%20culture%20Geertz" target="_blank"><em>Thick description: toward an interpretative theory of culture</em>, p. 23</a></li>
+                            <li><strong>Foucault (2003)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Society%20must%20be%20defended%3A%20lecture%20at%20the%20College%20De%20France%2C%201975-1976%20Foucault" target="_blank"><em>Society must be defended: lecture at the College De France, 1975-1976</em>, p. 30</a></li>
+                            <li><strong>Whitehead (1978)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Process%20and%20reality%20Whitehead" target="_blank"><em>Process and reality</em></a></li>
+                            <li><strong>Gibson-Graham (2006)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=A%20postcapitalist%20politics%20Gibson-Graham" target="_blank"><em>A postcapitalist politics</em>, p. 4</a></li>
+                            <li><strong>Schmidt and Cohen (2013)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20new%20digital%20age%3A%20reshaping%20the%20future%20of%20people%2C%20nations%20and%20business%20Schmidt" target="_blank"><em>The new digital age: reshaping the future of people, nations and business</em></a></li>
+                            <li><strong>Massumi (2002)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Parables%20for%20the%20virtual%3A%20movement%2C%20affect%2C%20sensation%20Massumi" target="_blank"><em>Parables for the virtual: movement, affect, sensation</em>, p. 133</a></li>
+                        </ul>
+                         <h4 class="argument-theme">引入“互动性”并定位研究</h4>
+                        <ul>
+                            <li><strong>Barry (2001)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Political%20machines%3A%20governing%20a%20technological%20society%20Barry" target="_blank"><em>Political machines: governing a technological society</em></a></li>
+                            <li><strong>Bronson and Knezevic (2016)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Big%20data%20in%20food%20and%20agriculture%20Bronson" target="_blank"><em>Big data in food and agriculture</em></a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr><td colspan="2" style="background-color: #eef4ff; text-align: center; font-weight: bold;">案例研究 #1: FarmDrop</td></tr>
+                <tr>
+                    <td>
+                        <p>本章详细介绍了第一个案例——伦敦的线上分销平台FarmDrop。作者通过对生产者和消费者的访谈，探讨了这个专有平台（proprietary platform）在农民自主性、市场权力结构和消费者政治参与等方面的复杂影响。研究发现，参与者的经验和看法很大程度上取决于他们是否已经嵌入在其他另类食物网络中，这导致了对FarmDrop模式的不同理解：一些人视之为 empowering，而另一些人则看到了其中潜在的结构性不平等和对政治行动的简化。</p>
+                        <ul>
+                            <li>
+                                引入“农民自主性”概念，指出尽管FarmDrop在财务上对农民有利，但其专有和中心化的平台结构使得农民在定价等方面仍然受制于平台，权力不对称依然存在。
+                                <blockquote>The concept of farmer autonomy (e.g., Stock et al. 2014) came up repeatedly during interviews. Yet it cannot be ignored that farmers are still beholden to key market actors in this arrangement: namely, FarmDrop. FarmDrop dictates prices, for instance.</blockquote>
+                            </li>
+                             <li>
+                                引用科恩的文章佐证FarmDrop团队致力于公平分配的真诚性，但这并不能改变平台固有的结构性权力优势。
+                                <blockquote>Those associated with this platform seem genuine in their concerns for returning as large a share as possible to producers (Cohen 2014). My point is simply that the platform itself does not really empower producers.</blockquote>
+                            </li>
+                             <li>
+                                引用拉图尔的“事实问题”（matter of fact）概念，描述了奶农Mick如何将市场定价视为一个不可改变的既定事实，反映出他对价格形成机制的非反思性接受。
+                                <blockquote>Near the end of the interview the subject of farmer price setting was broached. His response clearly communicates that the subject remained for him what Latour (2004a) calls a ‘matter of fact’: ‘Setting my own price? Not sure how that would even work. Markets set prices, not farmers’.</blockquote>
+                            </li>
+                            <li>
+                                引用Szasz的“挤出效应”论点，来说明一种观点，即政治性消费可能会排挤掉其他形式的社会和政治行动，将责任个体化。
+                                <blockquote>One argument asserts that political consumption individualises responsibility for environmental degradation and therefore ‘crowds out’ forms of social and political activism (Szasz 2007).</blockquote>
+                            </li>
+                            <li>
+                                引用Willis和Schor的研究作为反方观点，他们发现有意识的消费与政治行动之间存在正相关关系，挑战了“挤出效应”的论点。
+                                <blockquote>For example, Willis and Schor (2012), investigating two datasets... ‘find that measures of conscious consumption are significantly and positively related to political action, even when controlling for political involvement in the past’ (p. 160).</blockquote>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="reference-column">
+                        <h4 class="argument-theme">农民自主性与市场权力</h4>
+                        <ul>
+                            <li><strong>Stock et al. (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Neoliberal%20natures%20on%20the%20farm%3A%20farmer%20autonomy%20and%20cooperation%20in%20comparative%20perspective%20Stock" target="_blank"><em>Neoliberal natures on the farm: farmer autonomy and cooperation in comparative perspective</em></a></li>
+                            <li><strong>Cohen (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Word%20of%20mouth%3A%20FarmDrop%2C%20bringing%20local%20food%20to%20the%20masses%20Cohen" target="_blank"><em>Word of mouth: FarmDrop, bringing local food to the masses</em></a></li>
+                            <li><strong>Latour (2004a)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Why%20has%20critique%20run%20out%20of%20steam%3F%20From%20matters%20of%20fact%20to%20matters%20of%20concern%20Latour" target="_blank"><em>Why has critique run out of steam? From matters of fact to matters of concern</em></a></li>
+                        </ul>
+                        <h4 class="argument-theme">消费者主权与政治行动的“挤出效应”</h4>
+                        <ul>
+                            <li><strong>Szasz (2007)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Shopping%20our%20way%20to%20safety%3A%20how%20we%20changed%20from%20protecting%20the%20environment%20to%20protecting%20ourselves%20Szasz" target="_blank"><em>Shopping our way to safety: how we changed from protecting the environment to protecting ourselves</em></a></li>
+                            <li><strong>Willis and Schor (2012)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Does%20changing%20a%20light%20bulb%20lead%20to%20changing%20the%20world%3F%20Political%20action%20and%20the%20conscious%20consumer%20Willis" target="_blank"><em>Does changing a light bulb lead to changing the world? Political action and the conscious consumer</em>, p. 160</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr><td colspan="2" style="background-color: #eef4ff; text-align: center; font-weight: bold;">案例研究 #2: Farm Hack</td></tr>
+                 <tr>
+                    <td>
+                        <p>本章转向第二个案例——美国的Farm Hack社区，一个致力于工具共享和开源改造的农民网络。作者的核心关切是数字和法律“锁”如何影响农民的治理、依赖关系以及身份认同。通过访谈，本章揭示了农民对大型农机公司通过专有软件剥夺其维修权的日益增长的依赖和不满，并探讨了Farm Hack作为一种旨在重建“实际自主权”和保存“默会知识”的抵抗形式。本章还区分了基于个人主义的自主（individualism）和基于互助的自主（independence through interdependence），并讨论了“默会知识”在数字时代的流失与重构。</p>
+                        <ul>
+                            <li>
+                                引用作者先前的研究，为本案例研究提供背景信息。
+                                <blockquote>Starting with respondents known to myself, who were discovered through previous research (Carolan Online First a), I proceeded to grow the sample by utilising a snowball sampling technique.</blockquote>
+                            </li>
+                            <li>
+                                引用Kloppenburg关于农民对种子公司的依赖的研究，作为农民依赖性问题的一个经典例子。
+                                <blockquote>The literature is rife with examples of farmers’ growing dependence, on seed firms (Kloppenburg 2005), petrochemical firms (Mancus 2007), and buyers through contracts and market concentration (Howard 2016).</blockquote>
+                            </li>
+                            <li>
+                                引用Mancus关于农民对石化公司依赖的研究，以拓宽依赖性问题的讨论范围。
+                                <blockquote>...on seed firms (Kloppenburg 2005), petrochemical firms (Mancus 2007), and buyers through contracts and market concentration (Howard 2016).</blockquote>
+                            </li>
+                            <li>
+                                引用Howard关于市场集中导致农民对买方依赖的研究，说明依赖性是农业食品系统中的普遍问题。
+                                <blockquote>...and buyers through contracts and market concentration (Howard 2016). But dependence on software technicians and implement dealerships?</blockquote>
+                            </li>
+                            <li>
+                                引用Wiens的文章，该文章披露了约翰迪尔公司向美国版权局提交的信函，信中声称农民只获得了操作车辆的“默示许可”，这暗示了公司对已售设备的所有权主张。
+                                <blockquote>According to John Deere, in a letter to the US Copyright Office, farmers receive ‘an implied license for the life of the vehicle to operate the vehicle’ (as quoted in Wiens 2015).</blockquote>
+                            </li>
+                            <li>
+                                引用Aoki关于专利种子所有权争议的研究，将约翰迪尔的论点与生物技术公司对种子所有权的主张进行类比。
+                                <blockquote>...an argument with eerie parallels to those made by biotechnology firms on questions of ownership over patented seeds (Aoki 2008).</blockquote>
+                            </li>
+                            <li>
+                                引用《福布斯》的一篇文章，该文章对DMCA豁免 ruling 做了乐观报道，但作者认为这种“胜利”对农民而言是空洞的。
+                                <blockquote>Even the magazine Forbes declared immediately following the ruling, ‘DMCA Ruling Ensures You Can’t Be Sued for Hacking Your Car, Your Games, or Your iPhone’ (Fox-Brewster 2015). While the magazine is technically correct, the victory for farmers rings hollow.</blockquote>
+                            </li>
+                            <li>
+                                引用Emery的观点，区分了“实际独立性”（actual independence）和被误解的“个人主义”（individualism），前者通过互助实现，后者则导致依赖。
+                                <blockquote>These quotes resonate with a distinction made by Emery (2015, p. 48), where he writes about actual independence: ‘What I mean by actual independence, in contrast, is a concept that is not opposed by interdependence but by dependence’ (emphasis in original).</blockquote>
+                            </li>
+                             <li>
+                                再次引用Stock等人的“实际自主性”（actual autonomy）概念，将其与Emery的“实际独立性”联系起来，并与Kitchin和Dodge的“代码/空间”概念结合讨论。
+                                <blockquote>The phenomena of autonomy-as-independence, or what Stock and colleagues (2014) call actual autonomy, in this context links up with something noted by Kitchin and Dodge (2011) in their discussion of ‘code/spaces’...</blockquote>
+                            </li>
+                            <li>
+                                引用Kitchin和Dodge关于“代码/空间”的论述，指出软件与日常生活的融合可能导致旧模拟系统的“默会知识”流失和新的依赖关系产生。
+                                <blockquote>...in their discussion of ‘code/spaces’ – how the blending of software and everyday life risks creating spaces where the tacit knowledge of old analogue systems is being lost and the dependencies that occur as a result.</blockquote>
+                            </li>
+                             <li>
+                                引用MacKenzie和Spinardi关于核武器被“反发明”（uninvented）的经典研究，用以类比由于缺乏实践传承而导致的“默会知识”集体遗忘。
+                                <blockquote>Sociologists Donald MacKenzie and Graham Spinardi (1995) argued some twenty years ago that nuclear weapons were becoming uninvented due to nuclear disarmament trends and test ban treaties.</blockquote>
+                            </li>
+                            <li>
+                                引用作者自己的另一项研究，指出农民正在以多种方式利用技术，其中一些方式可能增加依赖，而另一些则能促进创新和互助。
+                                <blockquote>Some of these techniques arguably increase dependency while others enable novel innovations and interdependencies (Carolan Online First b).</blockquote>
+                            </li>
+                            <li>
+                                引用Orr对施乐维修人员的民族志研究，强调现代技术维修高度依赖于“默会知识”的分享和交流。
+                                <blockquote>Farm Hack attempts to do this by nurturing autonomy-as-independence through the circulation of digital tacit knowledge – Orr’s (1996) path-breaking ethnography of Xerox repair persons highlights the degree to which the repairing of modern business technologies are reliant on tacit knowledge.</blockquote>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="reference-column">
+                        <h4 class="argument-theme">背景设定与研究方法</h4>
+                        <ul>
+                           <li><strong>Carolan (Online First a)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Publicising%20food%3A%20big%20data%2C%20precision%20agriculture%2C%20and%20co-%20experimental%20techniques%20of%20addition%20Carolan" target="_blank"><em>Publicising food: big data, precision agriculture, and co- experimental techniques of addition</em></a></li>
+                        </ul>
+                         <h4 class="argument-theme">农民依赖性的扩展：从投入品到软件</h4>
+                        <ul>
+                           <li><strong>Kloppenburg (2005)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=First%20the%20seed%3A%20the%20political%20economy%20of%20plant%20biotechnology%20Kloppenburg" target="_blank"><em>First the seed: the political economy of plant biotechnology</em></a></li>
+                            <li><strong>Mancus (2007)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Nitrogen%20fertilizer%20dependency%20and%20its%20contradictions%3A%20a%20theoretical%20exploration%20of%20social-ecological%20metabolism%20Mancus" target="_blank"><em>Nitrogen fertilizer dependency and its contradictions: a theoretical exploration of social-ecological metabolism</em></a></li>
+                            <li><strong>Howard (2016)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Concentration%20and%20power%20in%20the%20food%20system%3A%20who%20controls%20what%20we%20eat%3F%20Howard" target="_blank"><em>Concentration and power in the food system: who controls what we eat?</em></a></li>
+                        </ul>
+                         <h4 class="argument-theme">法律锁、所有权与DMCA豁免的局限性</h4>
+                        <ul>
+                           <li><strong>Wiens (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=We%20can%E2%80%99t%20let%20John%20Deere%20destroy%20the%20very%20idea%20of%20ownership%20Wiens" target="_blank"><em>We can’t let John Deere destroy the very idea of ownership</em></a></li>
+                           <li><strong>Aoki (2008)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Seed%20wars%3A%20controversies%20and%20cases%20on%20plant%20genetic%20resources%20and%20intellectual%20property%20Aoki" target="_blank"><em>Seed wars: controversies and cases on plant genetic resources and intellectual property</em></a></li>
+                           <li><strong>Fox-Brewster (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=DMCA%20ruling%20ensures%20you%20can%E2%80%99t%20be%20sued%20for%20hacking%20your%20car%2C%20your%20games%2C%20or%20your%20iphone%20Fox-Brewster" target="_blank"><em>DMCA ruling ensures you can’t be sued for hacking your car, your games, or your iphone</em></a></li>
+                        </ul>
+                         <h4 class="argument-theme">自主性、互助性与默会知识</h4>
+                        <ul>
+                           <li><strong>Emery (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=actual%20independence%20Emery" target="_blank"><em>[文献标题未知]</em>, p. 48</a></li>
+                           <li><strong>Stock et al. (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Neoliberal%20natures%20on%20the%20farm%3A%20farmer%20autonomy%20and%20cooperation%20in%20comparative%20perspective%20Stock" target="_blank"><em>Neoliberal natures on the farm: farmer autonomy and cooperation in comparative perspective</em></a></li>
+                            <li><strong>Kitchin and Dodge (2011)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Code%2Fspace%3A%20software%20and%20everyday%20life%20Kitchin" target="_blank"><em>Code/space: software and everyday life</em></a></li>
+                           <li><strong>MacKenzie and Spinardi (1995)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Tacit%20knowledge%2C%20weapons%20design%2C%20and%20the%20uninvention%20of%20nuclear%20weapons%20MacKenzie" target="_blank"><em>Tacit knowledge, weapons design, and the uninvention of nuclear weapons</em>, p. 44</a></li>
+                           <li><strong>Carolan (Online First b)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=More-than-active%20food%20citizens%3A%20a%20longitudinal%20and%20comparative%20study%20of%20alternative%20and%20conventional%20eaters%20Carolan" target="_blank"><em>More-than-active food citizens: a longitudinal and comparative study of alternative and conventional eaters</em></a></li>
+                            <li><strong>Orr (1996)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Talking%20about%20machines%3A%20an%20ethnography%20of%20a%20modern%20job%20Orr" target="_blank"><em>Talking about machines: an ethnography of a modern job</em></a></li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr><td colspan="2" style="background-color: #eef4ff; text-align: center; font-weight: bold;">治理、情感劳动与生命 (Governance, affective labour and life)</td></tr>
+                 <tr>
+                    <td>
+                        <p>本章是对两个案例进行交叉分析和理论升华的核心部分。作者回应了文章开头提出的三个问题。首先，他论证了数字集合体的“感受”方式取决于用户所嵌入的关系网络，并再次使用“情感劳动”概念来解释这些体验。其次，他探讨了农业-数字集合体如何重塑我们对治理的理解，提出了一种基于“加法政治”（politics of addition）的批判性启发式框架，用以评估不同技术实践的社会价值。最后，他总结道，被“促生”和“任死”的生命形式，最终是由这些集合体的构成和它们所激发的情感劳动决定的。</p>
+                        <ul>
+                            <li>
+                                重申并运用内格里的“情感劳动”概念，以解释数字平台如何激发特定的知识、理解和感受，从而塑造用户体验。
+                                <blockquote>To unpack this finding, I return to the concept of affective labour, mentioned in the article’s introduction – those practices that enliven particular knowledge, understandings, and images, as well as feelings, from well-being and excitement to anxiety (Negri 1999).</blockquote>
+                            </li>
+                             <li>
+                                引用Elder-Vas对行动者网络理论的批判，指出一些集合体思维的变体可能因为过于理性而忽略了“感受”的维度。
+                                <blockquote>The concept is good to think with here because it enlivens certain flavours of assemblage thinking, especially those that, in an attempt to reject essentialism, depict a world full of either ‘actors’ or ‘networks’ but which is otherwise unfeeling – that is, in a word, dead (Elder-Vas 2015).</blockquote>
+                            </li>
+                             <li>
+                                引用哈贝马斯的“公共领域”理论，作为一种高度理性和非具身化公共性的反例，以凸显情感劳动的重要性。
+                                <blockquote>The point to be made with the concept of affective labour is that a highly rational, and thus disembodied, public (e.g., Habermas 1991) misses how our very vitality is being made...</blockquote>
+                            </li>
+                            <li>
+                                引用Clough和Halley的观点，指出情感本身如何被资本主义和新自由主义治理所利用，变得具有生产性。
+                                <blockquote>...in some instances at least, to be directly productive to capitalism and neoliberal forms of governance (Clough and Halley 2007).</blockquote>
+                            </li>
+                             <li>
+                                引用Lyson的“公民农业”概念，指出传统分销渠道因其造成的各种“分离”而受到批评，这些分离塑造了支持现状的情感和实践。
+                                <blockquote>Conventional distribution channels have routinely been criticised for creating separations, between eaters, farmers, animals, labourers, and places/spaces (Lyson 2004).</blockquote>
+                            </li>
+                             <li>
+                                引用作者自己的前期著作《具身食物政治》，来说明这些被拉远的食物图景如何通过情感和焦虑来维持现状。
+                                <blockquote>One of the common critiques is that these distanced (Clapp 2014) foodscapes elicit practices that engender within eaters certain feelings, understandings, and anxieties that support the status quo (Carolan 2011).</blockquote>
+                            </li>
+                            <li>
+                                引用Clapp关于“距离化”食物图景的论述，补充对传统分销渠道的批判。
+                                <blockquote>One of the common critiques is that these distanced (Clapp 2014) foodscapes elicit practices that engender within eaters certain feelings...</blockquote>
+                            </li>
+                             <li>
+                                再次引用Stock等人的“实际自主性”概念，来说明像“开放食物网络”这样的开源平台如何能赋予社区和农民更大的自主权来共同创造食物图景。
+                                <blockquote>Unlike FarmDrop, then, which is a proprietary, price setting platform controlled by its founders, Open Food Network is freeing, as it gives communities and farmers greater autonomy – actual autonomy (Stock et al. 2014) – to co-create foodscapes.</blockquote>
+                            </li>
+                            <li>
+                                引用拉图尔的观点，指出个体是通过被卷入集合体来“学会被影响”的，这解释了为何代码本身没有固有的情感属性。
+                                <blockquote>Respondents learned to be affected (Latour 2004b) by code differently, depending upon the assemblages they were enrolled within.</blockquote>
+                            </li>
+                            <li>
+                                引用默多克的观点（遵循行动者并描述），质疑学术研究是否应仅限于描述和解释，而不做价值判断。
+                                <blockquote>Should governance scholarship be only about reporting, explaining how regimes, paradigms, imaginaries, or foodscapes are held together by, in actor network theory language, following the actor and describing what one uncovers (Murdoch 1998, p. 360)?</blockquote>
+                            </li>
+                            <li>
+                                引用Guthman的“批判性营养学”为例，说明农业食品研究领域本质上是批判性的，因此必然包含价值判断。
+                                <blockquote>Yet when we are critical, agrofood scholarship is nothing if not critical – as evidenced by the descriptor inserting itself into titles of subfields, such as ‘critical nutrition’ and ‘critical food studies’ (see e.g., Guthman 2014) – we are judging (Stock et al. 2015).</blockquote>
+                            </li>
+                            <li>
+                                引用Stock等人的观点，重申批判性学术研究必然涉及价值判断。
+                                <blockquote>...we are judging (Stock et al. 2015).</blockquote>
+                            </li>
+                             <li>
+                                引用作者之前关于“加法政治”的多篇著作，构建一个评估项目价值的启发式框架，即看其是增加还是减少了世界上的可能性。
+                                <blockquote>By investigating the effects and affects of agrofood governance, the article’s findings have affinities with some of my previous work (e.g., Carolan Online First a, 2016, 2015), where architectures are sketched for what I call a politics of addition.</blockquote>
+                            </li>
+                             <li>
+                                以Engdahl对生物技术的批判为例，说明在主流批判食物圈中存在对技术进行好/坏二元划分的倾向。
+                                <blockquote>For example, the black box of ‘technology’ is often criticised, especially in more mainstream (‘popular’) critical food circles: e.g., biotechnology 5 bad/heritage seed 5 good (e.g., Engdahl 2007; Robin 2012).</blockquote>
+                            </li>
+                            <li>
+                                引用Robin对孟山都的批判，作为对生物技术主流批判的另一个例子。
+                                <blockquote>...e.g., biotechnology 5 bad/heritage seed 5 good (e.g., Engdahl 2007; Robin 2012).</blockquote>
+                            </li>
+                            <li>
+                                引用Bowman对赞比亚转基因争议的研究，说明对生物技术需要谨慎的原因之一是其对农民/小农主权的威胁。
+                                <blockquote>There are good reasons for expressing caution toward these artefacts, from their impact on farmer/peasant sovereignty (e.g., Bowman 2015) to their deleterious impacts on biodiversity...</blockquote>
+                            </li>
+                            <li>
+                                引用Kelbessa对“终止子”基因技术（GURT）的讨论，说明生物技术对生物多样性的潜在危害。
+                                <blockquote>...to their deleterious impacts on biodiversity, especially those holding genetic use restriction technology (GURT), colloquially known as ‘terminator’ genes (e.g., Kelbessa 2013).</blockquote>
+                            </li>
+                            <li>
+                                引用一系列文献，列举了农业食品体系中常见的“减法”实践，如侵蚀生物文化多样性、思想的单一化、垄断定价等。
+                                <blockquote>Critiques of agrofood are wide-ranging, touching on the erosion of bio-cultural diversity (Cocks 2006), monocultures of the mind (Shiva 1993), monopoly-pricing structures (Howard 2016), narrowing of food imaginaries (Gayt an 2004), flattening of tastes (Popkin and Gordon-Larsen 2004), and structural dependences (Otero et al. 2013).</blockquote>
+                            </li>
+                            <li>
+                                引用Kloppenburg关于开源种子倡议的观点，警示我们不能简单地认为“开源”就天然是“好”或“正义”的。
+                                <blockquote>Conversely, as Jack Kloppenburg (2014) notes, we must be careful not to fall into the trap of believing open source is somehow inherently ‘good’ or ‘just’.</blockquote>
+                            </li>
+                             <li>
+                                引用哈拉维的“伴侣物种”社会概念，将治理问题最终归结为如何管理一个“公地”。
+                                <blockquote>Questions about governance, for those us approaching the subject from a relational perspective, ultimately concern issues relating to the governing of a ‘commons’ – a society of companions, to evoke Haraway (2006).</blockquote>
+                            </li>
+                            <li>
+                                引用斯唐热的观点，将治理的目标定义为一种当下的诊断、创造和抵抗工具，而非未来的蓝图。
+                                <blockquote>The aim of this style of governance, therefore, to quote Isabelle Stengers (2000), ‘does not belong to the future’ (p. 155) but rather ‘belongs to the present as a vector of becoming or an “experiment of thought”, that is, as a tool of diagnosis, creation, and resistance’ (p. 155).</blockquote>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="reference-column">
+                        <h4 class="argument-theme">情感劳动与具身体验</h4>
+                        <ul>
+                           <li><strong>Negri (1999)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Value%20and%20affect%20Negri" target="_blank"><em>Value and affect</em></a></li>
+                           <li><strong>Elder-Vas (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Disassembling%20actor-network%20theory%20Elder-Vas" target="_blank"><em>Disassembling actor-network theory</em></a></li>
+                            <li><strong>Habermas (1991)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20structural%20transformation%20of%20the%20public%20sphere%3A%20an%20inquiry%20into%20a%20category%20of%20bourgeois%20society%20Habermas" target="_blank"><em>The structural transformation of the public sphere: an inquiry into a category of bourgeois society</em></a></li>
+                           <li><strong>Clough and Halley (2007)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20Affective%20Turn%3A%20Theorizing%20the%20Social%20Clough" target="_blank"><em>The Affective Turn: Theorizing the Social</em></a></li>
+                           <li><strong>Lyson (2004)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Civic%20agriculture%3A%20reconnecting%20farm%2C%20food%2C%20and%20community%20Lyson" target="_blank"><em>Civic agriculture: reconnecting farm, food, and community</em></a></li>
+                           <li><strong>Carolan (2011)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Embodied%20food%20politics%20Carolan" target="_blank"><em>Embodied food politics</em></a></li>
+                           <li><strong>Clapp (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Financialization%2C%20distance%20and%20global%20food%20politics%20Clapp" target="_blank"><em>Financialization, distance and global food politics</em></a></li>
+                           <li><strong>Stock et al. (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Neoliberal%20natures%20on%20the%20farm%3A%20farmer%20autonomy%20and%20cooperation%20in%20comparative%20perspective%20Stock" target="_blank"><em>Neoliberal natures on the farm: farmer autonomy and cooperation in comparative perspective</em></a></li>
+                            <li><strong>Latour (2004b)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=How%20to%20talk%20about%20the%20body%3F%20The%20normative%20dimension%20of%20science%20studies%20Latour" target="_blank"><em>How to talk about the body? The normative dimension of science studies</em></a></li>
+                        </ul>
+                         <h4 class="argument-theme">治理的批判性评估：“加法政治”</h4>
+                        <ul>
+                           <li><strong>Murdoch (1998)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20spaces%20of%20actor-network%20theory%20Murdoch" target="_blank"><em>The spaces of actor-network theory</em>, p. 360</a></li>
+                           <li><strong>Guthman (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Introducing%20critical%20nutrition%3A%20a%20special%20issue%20on%20dietary%20advice%20and%20its%20discontents%20Guthman" target="_blank"><em>Introducing critical nutrition: a special issue on dietary advice and its discontents</em></a></li>
+                           <li><strong>Stock et al. (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Food%20utopias%3A%20reimagining%20citizenship%2C%20ethics%20and%20community%20Stock" target="_blank"><em>Food utopias: reimagining citizenship, ethics and community</em></a></li>
+                           <li><strong>Carolan (Online First a, 2016, 2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Publicising%20food%3A%20big%20data%2C%20precision%20agriculture%2C%20and%20co-%20experimental%20techniques%20of%20addition%20Carolan" target="_blank"><em>[Multiple Works on Politics of Addition]</em></a></li>
+                            <li><strong>Engdahl (2007)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Seeds%20of%20destruction%3A%20the%20hidden%20agenda%20of%20genetic%20manipulation%20Engdahl" target="_blank"><em>Seeds of destruction: the hidden agenda of genetic manipulation</em></a></li>
+                           <li><strong>Robin (2012)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20world%20according%20to%20Monsanto%20Robin" target="_blank"><em>The world according to Monsanto</em></a></li>
+                           <li><strong>Bowman (2015)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Sovereignty%2C%20risk%20and%20biotechnology%3A%20Zambia%E2%80%99s%202002%20GM%20controversy%20in%20retrospect%20Bowman" target="_blank"><em>Sovereignty, risk and biotechnology: Zambia’s 2002 GM controversy in retrospect</em></a></li>
+                           <li><strong>Kelbessa (2013)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Indigenous%20knowledge%20and%20its%20contribution%20to%20biodiversity%20conservation%20Kelbessa" target="_blank"><em>Indigenous knowledge and its contribution to biodiversity conservation</em></a></li>
+                           <li><strong>Cocks (2006); Shiva (1993); Howard (2016); Gaytán (2004); Popkin and Gordon-Larsen (2004); Otero et al. (2013)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=" target="_blank"><em>[Multiple works on critiques of agrofood systems]</em></a></li>
+                           <li><strong>Kloppenburg (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Re-purposing%20the%20master%E2%80%99s%20tools%3A%20the%20open%20source%20seed%20initiative%20and%20the%20struggle%20for%20seed%20sovereignty%20Kloppenburg" target="_blank"><em>Re-purposing the master’s tools: the open source seed initiative and the struggle for seed sovereignty</em></a></li>
+                           <li><strong>Haraway (2006)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Encounters%20with%20companion%20species%3A%20entangling%20dogs%2C%20baboons%2C%20philosophers%2C%20and%20biologists%20Haraway" target="_blank"><em>Encounters with companion species: entangling dogs, baboons, philosophers, and biologists</em></a></li>
+                           <li><strong>Stengers (2000)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20invention%20of%20modern%20science%20Stengers" target="_blank"><em>The invention of modern science</em>, p. 155</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr><td colspan="2" style="background-color: #eef4ff; text-align: center; font-weight: bold;">互动政治：你必须！你可以！我们能！(Interactive politics: you must! you may! we can!)</td></tr>
+                 <tr>
+                    <td>
+                        <p>本章是文章的结论，作者在此将经验发现与核心理论概念“互动性”进行最终整合。他首先介绍了安德鲁·巴里的工作，该工作区分了福柯式的规训权力（“你必须！”）和一种更动态的、通过互动设备引导公民自我管理的权力（“你可以！”）。然而，作者认为巴里的框架不足以捕捉Farm Hack案例中出现的集体创造和颠覆性政治。因此，他提出了“超越积极的公民”（more-than-active citizen）这一概念，他们的行动逻辑不是在既定选项中选择，而是集体创造新的可能性，其口号是“我们能！”。这种政治是预示性的（prefigurative），旨在让“不可思议的变得可思议，不可行的成为常规”。</p>
+                        <ul>
+                            <li>
+                                引用巴里的著作，并追溯其思想渊源至福柯和德勒兹，他们都区分了君主单方面行使的权力与通过设备在人群中弥散的权力。
+                                <blockquote>Barry’s (2001) work builds on Foucault (2003) and Deleuze (1988), where they articulate a contrast between those situations where political power is exercised unilaterally...and those where it is exercised through devices throughout a population.</blockquote>
+                            </li>
+                             <li>
+                                引用Isin的观点来界定“积极公民”，即那些从事常规化政治行为（如投票、请愿）的公民，这些行为通常支持既有规范。
+                                <blockquote>To speak of an active citizen...is to recognise that subjects who are not citizens in the socio-legal sense can still act as citizens. Yet, the practices performed by active citizens tend to be limited to such activities as voting (for those who can), volunteering...even reporting ‘suspicious’ activity to the authorities (Isin 2009).</blockquote>
+                            </li>
+                            <li>
+                                再次引用作者自己的研究，以支持“超越积极的公民”这一概念，他们旨在颠覆常规，实践一种真正的政治项目而非“政治照旧”。
+                                <blockquote>Meanwhile, activist – or more-than-active – citizens look to disrupt routine, practice, and thus understandings of what is and ought to be, which makes theirs a political project versus politics as usual (Carolan Online First b).</blockquote>
+                            </li>
+                            <li>
+                                引用FarmDrop的使命宣言，说明该平台如何致力于创造“消费公民”，这是一种市场化治理的典型例子。
+                                <blockquote>FarmDrop, for example, promises to create consumer citizens, where ‘by shopping with FarmDrop you’re supporting the local ecosystem and the people and businesses that make it possible’, to quote directly from their mission statement (FarmDrop nd).</blockquote>
+                            </li>
+                             <li>
+                                引用Epstein关于“预示性政治”的论述，指出Farm Hack这类行动虽然不直接以夺取国家政权为目标，但它们是重要的预示性时刻。
+                                <blockquote>And yet, as others note (e.g., Epstein 1988; Haraway 1988), they represent important prefigurative moments, offering resources – such as by leaving ‘traces’ (Arditi 2014) – that can be reinvested by future mobilisations.</blockquote>
+                            </li>
+                            <li>
+                                引用哈拉维的观点，补充说明这些行动作为重要的“预示性时刻”的意义。
+                                <blockquote>And yet, as others note (e.g., Epstein 1988; Haraway 1988), they represent important prefigurative moments...</blockquote>
+                            </li>
+                             <li>
+                                引用Arditi的“痕迹”概念，来说明这些预示性政治如何为未来的动员留下资源。
+                                <blockquote>...offering resources – such as by leaving ‘traces’ (Arditi 2014) – that can be reinvested by future mobilisations.</blockquote>
+                            </li>
+                             <li>
+                                引用齐泽克的文章标题《你可以！》，来丰富对“你可以！”这一命令的理解，指出它代表了一种后政治的、允许性的社会，充满了新的内疚和焦虑。
+                                <blockquote>The injection ‘You may!’ is also the title of a Slavoj Žižek (1999) essay. It summarises ‘our post-political liberal-permissive society’ (p. 4) with new guilt and anxieties...</blockquote>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="reference-column">
+                        <h4 class="argument-theme">互动性、规训与权力</h4>
+                        <ul>
+                           <li><strong>Barry (2001)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Political%20machines%3A%20governing%20a%20technological%20society%20Barry" target="_blank"><em>Political machines: governing a technological society</em>, p. 19, 31, 135, 149</a></li>
+                           <li><strong>Foucault (2003)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Society%20must%20be%20defended%3A%20lecture%20at%20the%20College%20De%20France%2C%201975-1976%20Foucault" target="_blank"><em>Society must be defended: lecture at the College De France, 1975-1976</em></a></li>
+                           <li><strong>Deleuze (1988)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Foucault%20Deleuze" target="_blank"><em>Foucault</em></a></li>
+                           <li><strong>Žižek (1999)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=You%20May!%20%C5%BDi%C5%BEek" target="_blank"><em>You May!</em>, p. 3-6</a></li>
+                        </ul>
+                         <h4 class="argument-theme">积极公民 vs. 超越积极公民</h4>
+                        <ul>
+                           <li><strong>Isin (2009)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Citizenship%20in%20flux%3A%20the%20figure%20of%20the%20activist%20citizen%20Isin" target="_blank"><em>Citizenship in flux: the figure of the activist citizen</em></a></li>
+                            <li><strong>Carolan (Online First b)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=More-than-active%20food%20citizens%3A%20a%20longitudinal%20and%20comparative%20study%20of%20alternative%20and%20conventional%20eaters%20Carolan" target="_blank"><em>More-than-active food citizens: a longitudinal and comparative study of alternative and conventional eaters</em></a></li>
+                           <li><strong>FarmDrop (nd)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Our%20Mission%20FarmDrop" target="_blank"><em>Our Mission</em></a></li>
+                        </ul>
+                         <h4 class="argument-theme">预示性政治与集体创造</h4>
+                        <ul>
+                           <li><strong>Epstein (1988)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=The%20politics%20of%20prefigurative%20community%3A%20the%20non-violent%20direct%20action%20movement%20Epstein" target="_blank"><em>The politics of prefigurative community: the non-violent direct action movement</em></a></li>
+                           <li><strong>Haraway (1988)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Situated%20knowledges%3A%20the%20science%20question%20in%20feminism%20as%20a%20site%20of%20discourse%20on%20the%20privilege%20of%20partial%20perspective%20Haraway" target="_blank"><em>Situated knowledges: the science question in feminism as a site of discourse on the privilege of partial perspective</em></a></li>
+                           <li><strong>Arditi (2014)</strong>, <a href="https://pku.summon.serialssolutions.com/#!/search?ho=t&l=zh-cn&q=Insurgencies%20don%E2%80%99t%20have%20a%20plan%E2%80%94they%20are%20the%20plan%3A%20political%20performatives%20and%20vanishing%20mediators%20in%202011%20Arditi" target="_blank"><em>Insurgencies don’t have a plan—they are the plan: political performatives and vanishing mediators in 2011</em></a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

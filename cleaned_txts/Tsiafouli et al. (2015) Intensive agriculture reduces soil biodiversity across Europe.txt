@@ -1,0 +1,723 @@
+Royal Netherlands Academy of Arts and Sciences (KNAW)
+Intensive agriculture reduces soil biodiversity across Europe Tsiafouli, Maria A.; Thébault, Elisa; Sgardelis, Stefanos P.; De Ruiter, Peter C.; Van Der Putten, Wim H.; Birkhofer, Klaus; Hemerik, Lia; De Vries, Franciska T.; Bardgett, Richard D.; Brady, Mark Vincent; Bjornlund, Lisa; Jørgensen, Helene Bracht; Christensen, Sören; D'Hertefeldt, Tina; Hotes, Stefan; Hol, W.H. Gera; Frouz, Jan; Liiri, Mira; Mortimer, Simon R.; Setälä, Heikki; Tzanopoulos, Joseph; Uteseny, Karoline; Pižl, Václav; Stary, Josef; Wolters, Volkmar; Hedlund, Katarina published in Global Change Biology 2015
+DOI (link to publisher) 10.1111/gcb.12752
+document version Peer reviewed version
+Link to publication in KNAW Research Portal
+citation for published version (APA) Tsiafouli, M. A., Thébault, E., Sgardelis, S. P., De Ruiter, P. C., Van Der Putten, W. H., Birkhofer, K., Hemerik, L., De Vries, F. T., Bardgett, R. D., Brady, M. V., Bjornlund, L., Jørgensen, H. B., Christensen, S., D'Hertefeldt, T., Hotes, S., Hol, W. H. G., Frouz, J., Liiri, M., Mortimer, S. R., ... Hedlund, K. (2015). Intensive agriculture reduces soil biodiversity across Europe. Global Change Biology, 21(2), 973-985. https://doi.org/10.1111/gcb.12752
+General rights Copyright and moral rights for the publications made accessible in the public portal are retained by the authors and/or other copyright owners and it is a condition of accessing publications that users recognise and abide by the legal requirements associated with these rights.
+       • Users may download and print one copy of any publication from the KNAW public portal for the purpose of private study or research.        • You may not further distribute the material or use it for any profit-making activity or commercial gain.        • You may freely distribute the URL identifying the publication in the KNAW public portal.
+Take down policy If you believe that this document breaches copyright please contact us providing details, and we will remove access to the work immediately and investigate your claim.
+E-mail address: pure@knaw.nl
+Download date: 13. Oct. 2025  1   Intensive agriculture reduces soil biodiversity across Europe
+ 2   Running head: Intensive agriculture and soil biodiversity
+ 3   MARIA A. TSIAFOULI*1, ELISA THÉBAULT2, STEFANOS P. SGARDELIS1,
+ 4   PETER C. DE RUITER3, WIM H. VAN DER PUTTEN4,5, KLAUS BIRKHOFER6, LIA
+ 5   HEMERIK3, FRANCISKA T. DE VRIES7, RICHARD D. BARDGETT7, MARK
+ 6   VINCENT BRADY8, LISA BJORNLUND9, HELENE BRACHT JØRGENSEN6,
+ 7   SÖREN CHRISTENSEN9, TINA D’ HERTEFELDT6, STEFAN HOTES10,11, W.H.
+ 8   GERA HOL4, JAN FROUZ12, MIRA LIIRI13, SIMON R. MORTIMER14, HEIKKI
+ 9   SETÄLÄ13, JOSEPH TZANOPOULOS15, KAROLINE UTESENY16, VÁCLAV PIŽL17,
+10   JOSEF STARY17, VOLKMAR WOLTERS11 and KATARINA HEDLUND6
+     1 11       Department of Ecology, School of Biology, Aristotle University, 54124 Thessaloniki, Greece.      2 12       Institute of Ecology and Environmental Sciences of Paris, iEES-Paris UMR 7618 (CNRS,
+13   UMPC, IRD, INRA, UPEC), University Pierre et Marie Curie, 75005 Paris, France.      3 14       Biometris, Mathematical and Statistical Methods, Wageningen University, 6700 AC
+15   Wageningen, The Netherlands.      4 16       Department of Terrestrial Ecology, Netherlands Institute of Ecology (NIOO-KNAW), 6700
+17   AB, Wageningen, The Netherlands.      5 18       Laboratory of Nematology, Wageningen University, 6700 ES Wageningen, The Netherlands.      6 19       Department of Biology, Lund University, SE 22362 Lund, Sweden.      7 20       Faculty of Life Sciences, The University of Manchester, M13 9PT Manchester, United
+21   Kingdom.      8 22       Department of Economics, Swedish University of Agricultural Sciences (SLU), S-220 07
+23   Lund, Sweden.
+                                                                                                   1      9 24       Department of Biology, Terrestrial Ecology, University of Copenhagen, 1353 Copenhagen
+25   K, Denmark.      10 26        Department of Ecology, Philipps-University, 35043 Marburg, Germany.      11 27        Department of Animal Ecology, Justus Liebig University, 35392 Giessen, Germany.      12 28        Institute of Soil Biology, Biology Centre Academy of Sciences of the Czech Republic, 370 05
+29   Ceske Budejovice, Czech Republic.      13 30        Department of Environmental Sciences, University of Helsinki, FI 15140 Lahti, Finland.      14 31       Centre for Agri-Environmental Research, School of Agriculture, Policy & Development,
+32   University of Reading, RG6 6AR Reading, United Kingdom.      15 33        School of Anthropology and Conservation, The University of Kent, Canterbury, CT2 7NR
+34   Kent, United Kingdom.      16 35        Department of Conservation Biology, Vegetation and Landscape Ecology, University of
+36   Vienna, 1030 Vienna, Austria.      17 37        Institute of Soil Biology, Biology Centre Academy of Sciences of the Czech Republic, CZ
+38   37005 Ceske Budejovice, Czech Republic.
+39   * Correspondence: Maria A. Tsiafouli, tel: +30 2310 998997, fax: +30 2310 998379, e-mail:
+40   tsiafoul@bio.auth.gr
+42   Keywords
+43   agricultural intensification, body mass, ecosystem services, functional groups, soil food web,
+44   taxonomic breadth, taxonomic distinctness, terrestrial ecosystems
+45   Paper type: Primary Research Article
+                                                                                                      2 46   Abstract
+47          Soil biodiversity plays a key role in regulating the processes that underpin the delivery
+48   of ecosystem goods and services in terrestrial ecosystems. Agricultural intensification is
+49   known to change the diversity of individual groups of soil biota, but less is known about how
+50   intensification affects biodiversity of the soil food web as a whole, and whether or not these
+51   effects may be generalized across regions. We examined biodiversity in soil food webs from
+52   grasslands, extensive and intensive rotations in four agricultural regions across Europe: in
+53   Sweden, the UK, the Czech Republic and Greece. Effects of land use intensity were
+54   quantified based on structure and diversity among functional groups in the soil food web, as
+55   well as on community-weighted mean body mass of soil fauna. We also elucidate land use
+56   intensity effects on diversity of taxonomic units within taxonomic groups of soil fauna. We
+57   found that between regions soil food web diversity measures were variable, but that
+58   increasing land use intensity caused highly consistent responses. In particular, land use
+59   intensification reduced the complexity in the soil food webs, as well as the community60   weighted mean body mass of soil fauna. In all regions across Europe, species richness of
+61   earthworms, Collembolans and oribatid mites was negatively affected by increased land use
+62   intensity. The taxonomic distinctness, which is a measure of taxonomic relatedness of species
+63   in a community that is independent of species richness, was also reduced by land use
+64   intensification. We conclude that intensive agriculture reduces soil biodiversity, making soil
+65   food webs less diverse and composed of smaller bodied organisms. Land use intensification
+66   results in fewer functional groups of soil biota with fewer and taxonomically more closely
+67   related species. We discuss how these changes in soil biodiversity due to land use
+68   intensification may threaten the functioning of soil in agricultural production systems.
+                                                                                                      3 69   Introduction
+70          Soil biodiversity plays a key role in regulating processes that underpin the delivery of
+71   ecosystem goods and services in terrestrial ecosystems (Barrios, 2007; Eisenhauer et al.,
+72   2012; Wall et al., 2012; de Vries et al., 2013, Wagg et. al., 2014). Among the threats to soil
+73   biodiversity, land use change due to agricultural intensification and subsequent loss of soil
+74   organic matter are considered major drivers (Gardi et al., 2013). Negative effects of intensive
+75   agricultural land use on soil biodiversity have been often observed. However, the majority of
+76   studies has focused on abundance, species richness, and community structure of single (e.g.
+77   Yeates et al., 1999; Sousa et al., 2006; Feijoo et al., 2011) or limited amounts of taxonomic
+78   groups of soil biota, or single sites (e.g. Wardle et al., 1999; Postma-Blaauw et al., 2010;
+79   Wickings & Grandy, 2013). Alternative approaches have considered soil food webs that
+80   aggregate species or taxa to functional groups based on their trophic positions and taxonomy
+81   (Moore et al., 1989). Food web approaches can be useful for predicting transfer rates of
+82   nutrients, carbon and energy between the trophic positions and through the community (Hunt
+83   et al., 1987; de Ruiter et al., 1993), but the metrices that they provide are more indicative of
+84   ecosystem processes and functioning, rather than providing information on soil biodiversity.
+85   As most studies are either incidental (too few groups) or too general (food web approaches),
+86   or focusing on only one or few sites a good perspective on consequences of global land use
+87   intensification across a variety of regions is still lacking.
+88           The possible consequences of loss of species from food webs due to agricultural
+89   intensification have mainly focused on terrestrial above-ground host-parasitoid systems (e.g.
+90   Albrecht et al., 2007; Tylianakis et al., 2007; Macfadyen et al., 2009; Lohaus et al., 2013),
+91   whereas such knowledge on soil food webs is mainly lacking. Understanding the
+92   consequences of agricultural land use on soil biodiversity requires taking into account that
+93   biodiversity is a multidimensional concept (Purvis & Hector, 2000). Changes in diversity
+                                                                                                        4  94   within one group in the food web can affect diversity of another group through bottom-up or
+ 95   top down effects (Gessner et al., 2010), thereby affecting food web properties, including food
+ 96   web structure, diversity or stability (Neutel et al., 2002). Therefore, when analyzing soil
+ 97   biodiversity responses to land use intensification, various aspects of diversity and ecologically
+ 98   relevant properties, such as body mass, have to be addressed; both for the entire soil food web
+ 99   and its components.
+100          The aim of the present study was to test how agricultural intensification can impact on
+101   soil biodiversity across agricultural regions that vary in a number of aspects, including soil
+102   types and climatic conditions. We analyzed effects of agricultural intensification on structure
+103   and diversity of almost all components of the soil food webs, on diversity of their components
+104   (soil faunal taxonomic groups) and on community-weighted mean body mass of soil fauna in
+105   four European regions, represented by southern Sweden, southern UK, western Czech
+106   Republic and northern Greece. We have recently shown that land use intensification in these
+107   four regions profoundly changes ecosystem processes (de Vries et al., 2013). In the present
+108   study, we also examine how general diversity measures, measures that incorporate
+109   information about the taxonomic relatedness of species within soil faunal taxonomic groups,
+110   and community-weighted mean body mass of soil fauna as an important trait value of the soil
+111   biota are influenced by increased land use intensity. The latter diversity measures have not yet
+112   been explored in soil communities, but can offer a way to measure complementary aspects of
+113   species diversity (Gascón et al., 2009), which could indicate functionally important aspects of
+114   community composition (Srivastava et al., 2012).
+115          We considered 19 different functional groups of the soil food web, namely bacteria,
+116   saprophytic fungi, arbuscular mycorrhizal fungi, amoebae, flagellates, enchytraeids,
+117   earthworms, Collembolans (bacterivorous, fungivorous, phytophagous, omnivorous and
+118   predaceous), mites (fungivorous and predaceous), as well as nematodes (bacterivorous,
+                                                                                                        5 119   fungivorous, plant associated, plant parasitic and omnivorous/predaceous). Specifically, we
+120   quantified effects of agricultural land use intensity on the average trophic level and the
+121   diversity among functional groups in the soil food web, as well as on the diversity within four
+122   soil faunal taxonomic groups (earthworms, oribatid mites, Collembolans and nematodes). In
+123   addition, we determined whether changes in diversity among functional groups may be related
+124   to changes in diversity within soil faunal taxonomic groups. Finally, we established land use
+125   intensification effects on community-weighted mean body mass of soil fauna, as this is an
+126   important trait value of the soil biota.
+                                                                                                      6 127   Material and methods
+128   Field sites, soil sampling and analysis
+129      We collected soil samples from farms in southern Sweden (region Scania: SE), southern
+130   UK (region Chilterns: UK), western Czech Republic (region České Budějovice: CZ) and
+131   northern Greece (region Kria Brisi: GR). The regions and farms were chosen to represent
+132   replicating agricultural management types across Europe, irrespective of soil types and
+133   climate. The annual mean/min/max temperature at the different sites are: 7.8/6.6/9.6 °C (SE),
+134   9.5/5.5/13.5 °C (UK), 7.9/3/13 °C (CZ) and 14/4/31 °C (GR). The annual precipitation is 666
+135   mm, 625 mm, 700 mm and 435 mm respectively. The dominant soil types are Calcaric
+136   Cambisol (SE), Chromic Luvisol, Leptosol (UK), Stagnic Luvisol, Dystric Cambisol (CZ),
+137   and Fluvisol (GR).
+138      Soil samples were collected at two occasions: autumn-winter 2008 and spring-summer
+139   2009. The precise date of sampling differed between countries to ensure similar phenological
+140   status of the growing crop, i.e: SE and UK: November 2008, June 2009, GR: December 2008,
+141   April 2009, CZ: November 2008, May 2009. At each sampling occasion, in each region
+142   sampling was done at five farms, each including three management types. The management
+143   types were: low intensity (grasslands (G)); medium intensity (extensive rotations (E), where a
+144   legume or grass is present in a 5 year rotation and kept for at least a year - tilled at most every
+145   two years); and high intensity (intensive rotation (I) with annual crops and winter wheat at the
+146   time of sampling - annually tilled). This nested design resulted in 60 sampling sites (4 regions
+147   × 5 farms × 3 management types). In each site (i.e. field), two plots of 1 m2 each were
+148   randomly selected for sampling but were at least 15 m away from the edge of the field and
+149   separated from each other by at least 50 m. Duplicate samples (i.e from the same sampling
+150   site) were analyzed separately but data were averaged prior to statistical analyses. Additional
+                                                                                                        7 151   details on climate, soil properties and management of sites are given in de Vries et al. (2013)
+152   (see SI, Tables S4-S7).
+153      For earthworms soil monoliths of 25 x 25 cm length x width and 10 cm depth were taken
+154   from each plot. Earthworms were hand sorted, preserved in 5% formalin in the field and
+155   transferred after 24h to 70 % ethanol. Earthworms were counted, weighed and determined to
+156   species level using keys of Sims & Gerard (1985), Mršic (1991) and Pižl (2002). For
+157   microorganisms, mesofauna, nematodes, protozoa and enchytraeids 1-3 replicate cores were
+158   taken of 3-5cm diameter and 10cm depth. Replicate cores were but together to form one
+159   composite sample per plot for each group. Samples were kept cool at 4oC until analysis or
+160   extraction. Specific PLFAs were used as markers of bacterial and saprophytic fungal biomass
+161   (Frostegård & Bååth, 1996), and NLFAs for arbuscular mycorrhizal fungal (AM) biomass
+162   (Olsson et al., 1995). Fatty acids were converted to biomass carbon (C) using the following
+163   factors: bacterial biomass 363.6 nmol PLFA = 1 mg carbon (Frostegård & Bååth, 1996),
+164   fungal biomass: 11.8 nmol PLFA = 1 mg carbon (Klamer & Bååth, 2004), and AMF biomass:
+165   1.047 nmol NLFA = 1 μg carbon (Olsson et al., 1995).
+166      Soil mesofauna were extracted from undisturbed samples using Tullgren funnels.
+167   Collembolans were determined to species level using keys of Gisin (1960), Babenko et al.
+168   (1994), and Zimbars & Dunger (1994). Mites were sorted to suborders using Krantz & Walter
+169   (2009), and oribatid mites were determined to species level using keys of Balogh & Mahunka
+170   (1983) and Weigman (2006). Biomass of mesofauna was estimated from body dimensions
+171   after Lebrun (1971). Nematodes were extracted using the modified Cobb sieving and
+172   decanting method (s’Jacob & Van Bezooijen, 1984), counted and fixed in 4% formaldehyde.
+173   150 randomly chosen individuals were identified to genus level according to Bongers (1994)
+174   and allocated to trophic groups following Yeates et al. (1993). Nematode biomass was
+175   estimated individually by analyzing digital microscope images with a specially developed
+                                                                                                        8 176   software tool by Sgardelis et al. (2009). Protozoa numbers were estimated using a modified
+177   most probable number method (Rønn et al., 1995).
+178      Biomass was estimated based on assumptions about average body size (biovolumes of
+179   flagellates and amoeba: 50 µm3, and 400 µm3 respectively) and dry weight (for both 0.2 pg
+180   µm-3), following Ekelund et al. (2001). Enchytraeids were extracted from intact soil core
+181   samples using wet funnels according to O’Connor (1962), and their biomass was estimated
+182   according to Makulec (1983). Biomass of soil animals was converted to C (carbon content
+183   estimated to 50% of dry mass). Community- weighted mean of body mass was calculated as
+184   CBM = Bfa Afa -1, where Bfa is the total biomass and Afa is the total abundance of all soil faunal
+185   groups in the sample (bacteria, fungi and AM fungi are not included in the calculation).
+186   Measures of structure and diversity of soil food webs
+187      Soil biota were allocated to 19 different functional groups, namely bacteria, saprophytic
+188   fungi, arbuscular mycorrhizal fungi, amoebae, flagellates, enchytraeids, earthworms,
+189   bacterivorous Collembolans, fungivorous Collembolans, phytophagous Collembolans,
+190   omnivorous Collembolans, predaceous Collembolans, fungivorous (oribatid) mites,
+191   predaceous mites, bacterivorous nematodes, fungivorous nematodes, plant associated (root
+192   hair feeding) nematodes, plant parasitic nematodes, and omnivorous/predaceous nematodes.
+193   Biomass of all functional groups was expressed as kg C per m2 using the appropriate bulk
+194   density values. Carbon flows between functional groups in the food web were estimated in
+195   order to build quantitative food webs based on trophic position following Hunt et al. (1987)
+196   and de Ruiter et al. (1995). The trophic position of functional groups in the food web is
+197   defined by the average of the trophic position of the functional group it consumes weighted by
+                                                                         𝑁                                                                          𝑓𝑤 198   the diet fraction this functional group represents as: 𝑇𝐿𝑖 = 1 + ∑𝑗=1 𝑔𝑖𝑗 𝑇𝐿𝑗 where TLi is the
+199   trophic level of functional group i and gij the fraction of the consumer group i’s diet derived
+200   from the prey group j and Nfw is the number of groups in the food web. These “flow-based”                                                                                                         9 201   trophic levels are computed following the method of Levine (1980) and Williams & Martinez
+202   (2004). The column vector TL defined as 𝑇𝐿 = ((𝐼 − 𝐺)−1 )𝑇 𝟣 gives the trophic level of each
+203   consumer with I the identity matrix (with dimension 𝑁𝑓𝑤 × 𝑁𝑓𝑤 ) and G = (gij) with
+204   dimension 𝑁𝑓𝑤 × 𝑁𝑓𝑤 and 𝟣 a vector filled with ones (with dimension 𝑁𝑓𝑤 × 1). Values for
+205   the coefficients of feeding preferences used are given in de Vries et al. (2013).
+206      In the analyses, the following measures describing structure and diversity of the entire food
+207                                                  ̅̅̅̅) calculated as average of all values of group       web were calculated: i) average trophic level (𝑇𝐿
+                                                  1 208                                    ̅̅̅̅ =       trophic level in the food web as 𝑇𝐿              (𝑇𝐿)𝑇 𝟣; ii) richness, expressed as the number of                                               𝑁   𝑓𝑤
+209   functional groups in the food web (Nfw); and iii) Shannon index (FH) calculated as 𝐹𝐻 =                      𝐵𝑖        𝑁𝑓𝑤 𝐵𝑖 − 𝐵𝑡𝑜𝑡 210   ∏𝑖=1 (𝐵 )      with Bi the biomass of the functional group i and Btot the total food web              𝑡𝑜𝑡
+211   biomass.
+212   Measures of diversity within soil faunal taxonomic groups
+213         For the four key soil faunal taxonomic groups (earthworms, Collembolans, oribatid
+214   mites and nematodes) that comprise in total 12 functional groups in the food web we
+215   considered both commonly used diversity measures, such as richness and Shannon index, as
+216   well as measures that incorporate information about the taxonomic relatedness of species,
+217   such as average taxonomic distinctness and breadth (for definition see below). These
+218   measures were based on abundance data of species or genera in the taxonomic groups and
+219   were independent from the measures concerning the entire soil food web that were based on
+220   functional group biomass data.
+221         The following diversity measures were estimated: i) Richness (N) as number (ln
+222   transformed) of species of earthworms (NE), Collembolans (NC), oribatid mites (NO) and
+223   genera of nematodes (NN); ii) Shannon index (H) for earthworms (HE), Collembolans (HC),
+224   oribatid mites (HO) and nematodes (HN), iii) average taxonomic distinctness (Δ*) for                                                                                                        10 225   earthworms (Δ*Ε), Collembolans (Δ*C), oribatid mites (Δ*O) and nematodes (Δ*N), and iv)
+226   average taxonomic breadth (Δ+) for earthworms (Δ+Ε), Collembolans (Δ+C), oribatid mites
+227   (Δ+O) and nematodes (Δ+N). For the nematode taxonomic group, which includes five
+228   abundantly represented functional groups, the four diversity measures were estimated also for
+229   each group separately.
+230          Average taxonomic distinctness (Δ*) was calculated according to Warwick & Clarke
+                                                                            [∑∑𝑖<𝑗 𝜔𝑖𝑗 𝑥𝑖 𝑥𝑗 ] 231   (1995) between all species/genera in a community at each sample as:                        where ωij                                                                               [∑∑𝑖<𝑗 𝑥𝑖 𝑥𝑗 ]
+232   is the path length between the two species i and j that show the greatest taxonomic
+233   (phylogenetic) distance between them in a Linnaean classification tree including all species of
+234   a community and a maximum distance set to 100, and xi and xj are the number of individuals
+235   of species i and j, respectively. This index provides an estimate of the expected taxonomic
+236   distance between two randomly chosen individuals from a sample and is independent of
+237   sample size (Clarke & Warwick, 2001). Average taxonomic breadth (Δ+) was computed
+238   analogously to the average taxonomic distinctness, but is based on presence/absence, instead
+239   of abundance data for species and therefore provides the average taxonomic distance between
+240   all pairs of species in a community. Communities with several closely related species can be
+241   considered less diverse than communities with the same number, but with more distantly
+242   related species (Clarke & Warwick, 1998) as diversity is measured in terms of features
+243   accumulated over evolutionary history (Schweiger et al., 2008). Taxonomic trees were built
+244   according to information about suborder, family, genus and species level for Collembolans;
+245   superfamily, family, genus and species level for Oribatida; class, order, superfamily, family
+246   and genus level for Nematoda; and family, genus and species level for earthworms. All
+247   taxonomic information was derived from the Fauna Europaea Database (de Jong, 2013).
+248   Statistical analysis
+                                                                                                       11 249          We used permutational analyses of variance to evaluate the effects of land use
+250   intensity in the different regions while accounting for sampling season during these analyses
+251   (PERMANOVA; Anderson, 2005) with log(x+1) transformed data for the analysis. Data were
+252   transformed to weight down the effect of numerically dominant taxa in analyses. All
+253   PERMANOVA analyses were performed with region (SE, UK, CZ, GR) as fixed factor, land
+254   use intensity levels (G, E, I,) nested within region and sampling season (autumn-winter 2008,
+255   spring-summer 2009) nested within the factors region and land use intensity. The distance
+256   measure to generate dissimilarity matrices for data was the deviance of dissimilarities, and
+257   4999 permutations were used in all cases. Pair-wise a posteriori tests were performed among
+258   levels of factor: a) “region”, b) “land use intensity” within factor “region” and c) “sampling
+259   season” within factor “land use intensity” within factor “region”. We used the Fortran
+260   software PERMANOVA (Anderson, 2005) for these analyses.
+261          The following sets of variables were analyzed with PERMANOVA: i) Measures
+262   describing the entire food web: Nfw, FH, and ̅𝑇𝐿                                                     ̅̅̅; ii) Richness within the four soil faunal
+263   taxonomic groups: NE, NC, NO and NN; iii) Shannon index within the four soil faunal taxonomic
+264   groups: HE, HC, HO and HN; iv) average taxonomic distinctness within the four soil faunal
+265   taxonomic groups: Δ*Ε, Δ*C, Δ*O and Δ*N; and v) average taxonomic breadth within the four
+266   soil faunal taxonomic groups: Δ+Ε, Δ+C, Δ+O and Δ+N. In addition, permutational univariate
+267   analyses of variance were used for each of the individual response variables mentioned and
+268   furthermore, for the community- weighted mean body mass of soil fauna (CBM) and for the
+269   four measures concerning diversity within the five nematode functional groups separately.
+270          Pearson correlation tests were used for simple bivariate testing of relationships
+271   between measures regarding diversity within the four soil faunal taxonomic groups and
+272   measures regarding diversity among functional groups in the soil food web. For this analysis
+273   we used the SPSS v19 software package.
+                                                                                                       12 274   Results
+275   Land use intensity influence on structure and diversity among functional groups
+276   in the soil food web
+277      The overall diversity and structure of soil food webs differed significantly with land use
+278   intensity and region after statistically accounting for seasonal effects (Table 1). This overall
+279   effect (multivariate) was primarily a result of the significant differences between intensive
+280   rotations (I) and grasslands (G). These differences were unanimous for all regions. The
+281   extensive rotations (E) were more variable and were not different from intensive rotations and
+282   grasslands in SE, UK and GR, and from grasslands in CZ (for pair-wise a posteriori
+283   comparisons see Table 1).
+284      Land use intensity significantly affected all the individual measures of food web diversity
+285   and structure, i.e. the number of functional groups (Nfw), Shannon index (FH), and the average
+286                  ̅̅̅̅) (permutational univariate analysis of variance, Fig. 1). In each region, at       trophic level (𝑇𝐿
+287   least one of these variables had a significantly higher value in grassland compared to intensive
+288   rotation. This indicates that soil food webs are less complex in soils from intensive rotations
+289   than in soil from grasslands. The number of functional groups, the Shannon index and the
+290   average trophic level in the soil food web varied significantly among regions (Fig. 1). The
+291   average trophic level was higher in soil food webs from CZ compared to the other regions,
+292   while the Shannon index was higher in food webs from SE. This can be explained by the total
+293   biomass of almost all functional groups in the food webs that varied accordingly among the
+294   regions.
+295   Land use intensity influence on community-weighted mean body mass of soil
+296   fauna
+                                                                                                         13 297      Land use intensity significantly affected the community-weighted mean body mass of soil
+298   fauna (CBM) (permutational univariate analysis of variance, Fig. 2). In all regions except UK
+299   the CBM was significantly lower in the intensive rotation compared to the grassland. This
+300   indicates that soil animals under intensive rotation are generally smaller; larger animals
+301   appear more prone to be reduced by land use intensification.
+302   Land use intensity and diversity within soil faunal taxonomic groups
+303      Across all sites, we identified a total of 20 earthworm, 72 Collembolan and 48 oribatid
+304   mite species, as well as 75 nematode genera. All four sets of diversity measures of faunal
+305   taxonomic groups differed significantly among land use intensities and regions when
+306   accounting for seasonal effects (Table 2). These overall effects (multivariate) resulted mainly
+307   from the significant differences between intensive rotations and grasslands of all diversity
+308   measures in all regions, except for average taxonomic distinctness and breadth in CZ and UK.
+309   The diversity within faunal taxonomic groups in extensive rotations did not differ from the
+310   intensive rotations or the grasslands, depending on region (for pair-wise a posteriori
+311   comparisons see Table 2).
+312      In most faunal groups the measures Richness (Ν), Shannon index (H), average taxonomic
+313   distinctness (Δ*) and breadth (Δ+) showed lower levels of diversity with increasing agricultural
+314   intensity (permutational univariate analysis of variance, Fig. 3,4). Earthworm communities in
+315   SE and GR, and Collembolan and oribatid mite communities in all regions except in CZ had
+316   fewer numbers of species in the intensively managed fields compared to grasslands and those
+317   species were also taxonomically more closely related to each other. In contrast, the diversity
+318   of the nematode community was not negatively affected by land use intensity, and in some
+319   regions the Shannon index was higher in fields with intensive rotation than those with
+320   extensive rotation. The diversity of the nematode functional groups (bacterivorous,
+321   fungivorous, plant associated and omnivorous/predaceous) was not significantly affected by
+                                                                                                     14 322   increasing agricultural intensity (P>0.05 in all cases). Occasionally, the diversity of plant
+323   parasitic nematodes was negatively affected by increasing management intensity, as was
+324   observed for richness in CZ and SE (P<0.0008), Shannon index in CZ and UK (P<0.001),
+325   average taxonomic distinctness in CZ (P<0.0266) and average taxonomic breadth in CZ and
+326   UK (P<0.0234).
+327      Several measures of diversity within the taxonomic groups differed significantly between
+328   regions (Table 2). Earthworm diversity was lower in GR than in SE. Collembolan diversity
+329   was generally higher in CZ than in the other regions and oribatid mite diversity was higher in
+330   GR and CZ then in SE and UK (Fig. 3,4).
+331   Relationships between diversity among functional groups in the soil food web
+332   and diversity within soil faunal taxonomic groups
+333      The diversity measures within soil faunal groups were significantly correlated to those
+334   among functional groups (Table 3), suggesting that agricultural intensification consistently
+335   affects most soil food web components and reduces soil biodiversity. More specifically, the
+336   diversity measures for earthworms, Collembolans and oribatid mites, as well as average
+337   taxonomic breadth of nematodes, were significantly and positively correlated to the number of
+338   functional groups in the food web (Nfw). Earthworm diversity measures also showed a
+339   significant positive correlation to the Shannon index (FH) of the functional groups in the food
+340   web (Table 3).
+                                                                                                      15 341   Discussion
+342          In this study, we show that agricultural intensification affects various aspects of
+343   diversity in a consistent negative way in four agricultural regions across Europe with
+344   contrasting soil and climatic conditions. Specifically, increasing land use intensity decreases
+345   diversity within soil faunal taxonomic groups, diversity among functional groups, as well as
+346   the average trophic level in the soil food web. The reductions of diversity at the soil food web
+347   level were due to a decrease in biomass of functional groups with larger body sizes, especially
+348   earthworms, enchytraeids, Collembolans, and oribatid mites, or a decrease in biomass of
+349   groups at higher trophic levels, especially predaceous mites, as reported in de Vries et al.
+350   (2013). As a result, the community- weighted mean body mass of soil fauna was significantly
+351   decreased by land use intensification. Hence at high land use intensity food webs contain
+352   fewer trophic levels and fewer species with large body mass.
+353          The effect of land use was so intense that in some cases, one or more functional
+354   groups were entirely missing. In Greece, for example, earthworms and predaceous
+355   Collembolans were absent from intensive rotations, whereas in Sweden, fungivorous mites
+356   and predaceous Collembolans were missing. These groups of organisms are characterized by
+357   relatively low growth rates and are known to be sensitive to disturbance, with populations
+358   often needing decades to recover after tillage (Siepel, 1996; Adl. et al., 2006; Maraun &
+359   Scheu, 2000). The presence of a functional group can be related to certain functions, as e.g.
+360   earthworms are related to processes of C and N cycling (de Vries et al., 2013), and its
+361   biomass is indicative of the magnitude of those functions (sensu Hughes & Roughgarden,
+362   2000; Thébault & Loreau, 2006; Berg & Bengtsson, 2007). Hence, the loss or decrease in
+363   biomass of these functional groups from the soil food webs will likely result in a long-term
+364   reduction of soil functioning in intensive agricultural production systems.
+                                                                                                      16 365          Our study shows that changes in the biomass of functional or taxonomic groups are
+366   accompanied by changes in their diversity and that they occur across latitudinal positions and
+367   soil types as sampled within Europe. The biomass of e.g. earthworms, Collembolans, and
+368   oribatid mites were significantly reduced by agricultural intensification (de Vries et al. 2013)
+369   as also the diversity, which confirms other case-specific studies (e.g. Pižl, 1999; Caruso et al.,
+370   2007; Smith et al., 2008; Dahms et al., 2010). Our data also point out that a decrease in
+371   diversity within faunal taxonomic groups was related to a decrease in diversity among
+372   functional groups. This indicates that agricultural intensification has a consistent negative
+373   effect across most soil food web components and is not limited to specific groups of soil
+374   biota, such as arbuscular mycorrhizal fungi (Helgason et al., 1998). Agricultural
+375   intensification not only reduced richness and Shannon index of faunal groups, but also the
+376   average taxonomic distinctness and average taxonomic breadth, which means that the loss of
+377   species was consistently related to the loss of taxonomically more distantly related species.
+378   Thus, agricultural intensification also caused a loss of taxonomic diversity, which is known to
+379   relate positively to functioning (Heemsbergen et al., 2004).
+380          It has been argued that functional redundancy in soil communities can be high, due to
+381   generalized feeding habits among most soil biota (Setälä et al., 2005). An explanation for the
+382   perceived low degree of specificity can be that our tools to detect specialized interactions
+383   between cryptic species have been too coarse. With tools to resolve genetic patterns in
+384   organisms, specialized trophic interactions are more common than previously thought
+385   (Jørgensen et al., 2005, Jørgensen & Hedlund, 2013). Here, we have focused on the trophic
+386   role of species, e.g. fungivorous Collembolans, ignoring that two species may both feed on
+387   fungi but that their preference for fungal species can differ. Functional differentiation may
+388   play an important role in determining how a functional group actually performs, and in the
+389   absence of functionally similar species in the community, one species may have a crucial role
+                                                                                                      17 390   in affecting a particular ecosystem process (Wardle, 1999) especially in soil ecosystems with
+391   low diversity (Barrett et al., 2008). Specific functions such as burrowing by anecic and
+392   endogeic earthworms can have substantial effects on soil structure, as these species are
+393   sensitive to intensified land management (Gormsen et al., 2004). In Sweden and Greece,
+394   intensive rotations had on average only two earthworm species less than grasslands. However
+395   the average taxonomic distinctness was significantly reduced in these regions, which may be
+396   expected to have important implications for functioning. Given that average taxonomic
+397   distinctness serves as a valid proxy for functional differentiation in the community (Gascón et
+398   al., 2009; Birkhofer et al., 2014), and that earthworms play an important role in C and N
+399   cycling (Lubbers et al., 2013), this decrease in taxonomic differentiation can significantly
+400   affect the outcome or the rates of these processes. The declined diversity may reduce
+401   ecosystem processes, but previous modeling work using the same dataset has shown that
+402   different ecosystem processes relate to loss of specific (or combinations of) species groups
+403   (De Vries et al., 2013), which shows that care should be taken with generalizations as that soil
+404   biodiversity loss would mean general loss of ecosystem functions.
+405           Our results confirm other studies showing that soil animals with larger body sizes,
+406   such as earthworms and predaceous Collembolans and mites, are sensitive to intensive
+407   agriculture (Mulder et al., 2005; Smith et al., 2008; Postma-Blaauw et al., 2010). Oribatid
+408   mites that mainly feed on fungi (e.g. Maraun et al., 1998) and have relatively small size, may
+409   suffer from disturbance associated with increasing intensity of agricultural management as
+410   well (Sgardelis & Usher, 1994). A decline of diversity within soil faunal groups due to
+411   intensive land use is most probably related to frequent tillage, which affects soil physical
+412   properties (Roger-Estrade et al., 2010) to the disadvantage of many soil organisms (van
+413   Capelle et al., 2012). Tillage alters soil microhabitats and interrupts life cycles, and it is
+414   expected that organisms with relatively long life spans are particularly sensitive, such as
+                                                                                                       18 415   Collembolans (e.g. Brennan et al., 2006), oribatid mites (e.g. Franchini & Rockett, 1996) and
+416   earthworms (e.g. Eriksen-Hamel et al., 2009). In the sites under extensive rotations, less
+417   frequent tillage promoted diversity of soil faunal groups such as oribatid mites in Sweden,
+418   earthworms in Czech Republic and Greece, and Collembolans in Sweden and Greece.
+419          While most soil diversity measures were consistently and negatively affected by
+420   intensive agriculture for three faunal groups, diversity of the nematode taxonomic group and
+421   the nematode functional groups was hardly affected. This also applies to the biomass of the
+422   various nematode functional groups (de Vries et al., 2013). Microbivorous nematodes, are
+423   reported to be affected by intensively managed systems (Tsiafouli et al., 2006, Birkhofer et
+424   al., 2012), while other studies find no evidence for this (Sánchez-Moreno et al., 2011). This
+425   suggests that these nematodes might be affected by specific agricultural practices such as
+426   tillage, fertilization, pesticide application, or the application of organic amendments (Tsiafouli
+427   et al., 2007, Zhao & Neher 2013), rather than by land use intensity in general. Omnivorous
+428   and predaceous nematodes are generally considered sensitive to disturbance (Bongers &
+429   Ferris, 1999). Their persistence under increasing land use intensity could be explained by
+430   either the higher availability of prey, since other predaceous groups are declining, or by an
+431   increase of suitable food resources for omnivorous species (Postma-Blaauw et al., 2010; Mills
+432   & Adl, 2011). In any case our data show that when the diversity of other taxonomic groups
+433   are depleted under intensive agriculture the functional role of nematodes becomes more
+434   important.
+435          We conclude that the negative effect of intensive agriculture on soil biodiversity was
+436   consistent across regions with widely contrasting climate and soil conditions. Overall,
+437   agricultural intensification from grassland to extensive and intensive rotation appears to
+438   systematically simplify soil food web diversity, with potential consequences for functioning.
+439   The community-weighted mean body mass of soil fauna, the average trophic level and
+                                                                                                      19 440   diversity among functional groups in the food web decreased, while some functional groups
+441   were lost entirely under intensive land use. Furthermore, soil faunal communities had fewer
+442   and taxonomically more closely related species, which suggests that agricultural
+443   intensification can threaten the divergent functions that may be provided by taxonomically
+444   distant species. Given that the loss of soil biodiversity is ultimately linked to a loss of soil
+445   functions that underpin ecosystem services (de Vries et al., 2013; Wagg et al., 2014), we
+446   propose that future agricultural policies need to consider how to halt and/or reverse this loss
+447   of soil biodiversity. Our finding that the relationship between management regimes and soil
+448   biota is fairly stable across regions supports the notion that land use intensification may lead
+449   to the same responses of soil biodiversity at continental scales. Future studies need to be
+450   targeted at promoting and evaluating innovative management practices for conserving and/or
+451   increasing soil biodiversity and the functioning of soil while maintaining sufficient levels of
+452   agricultural production.
+                                                                                                         20 453   Acknowledgements
+454      This work was part of the EU 7th Framework funded SOILSERVICE project. We thank all
+455   land owners for kindly letting us use their fields, and George Boutsis, Maria Karmezi, Sofia
+456   Nikolaou, Evangelia Boulaki, Charisis Argiropoulos, Annette Spangenberg, Steph Harris,
+457   Dan Carpenter and Helen Quirk for help in the field and in the laboratory.
+                                                                                                     21 458   References
+459   Adl SM, Coleman DC, Read F (2006) Slow recovery of soil biodiversity in sandy loam soils
+460     of Georgia after 25 years of no-tillage management. Agriculture Ecosystems and
+461     Environment, 114, 323-334.
+462   Albrecht M, Duelli P, Schmid B, Müller CB (2007) Interaction diversity within quantified
+463     insect food webs in restored and adjacent intensively managed meadows. Journal of
+464     Animal Ecology, 76, 1015-1025.
+465   Anderson MJ (2005) PERMANOVA: a FORTRAN computer program for permutational
+466     multivariate analysis of variance. Department of Statistics, University of Auckland, New
+467     Zealand.
+468   Babenko AB, Chernova MB, Potapov MB, Stebaeva SK (1994) Collembola of Russia and
+469     adjacent countries: Family Hypogastruridae. Nauka, Moscow.
+470   Balogh J, Mahunka S (1983) Primitive oribatids of the Palaearctic Region. Akadémia Kiadó,
+471     Budapest.
+472   Barrett JE, Virginia RA, Wall DH, Adams BJ (2008). Decline in a dominant invertebrate
+473     species contributes to altered carbon cycling in a low-diversity soil ecosystem. Global
+474     Change Biology, 14, 1734-1744.
+475   Barrios E (2007) Soil biota, ecosystem services and land productivity. Ecological Economics,
+476     64, 269-285.
+477   Berg MP, Bengtsson J (2007) Temporal and spatial variability in soil food web structure.
+478     Oikos, 116, 1789-1804.
+479   Birkhofer K, Bezemer M, Hedlund K, Setälä H (2012) Community composition of soil
+480     organisms under different wheat farming systems. In: Microbial Ecology in Sustainable
+481     Agroecosystems (eds Cheeke T, Coleman DC, Wall DH), pp. 89-112, CRC Press Taylor
+482     and Francis group, Boca Raton.
+                                                                                                  22 483   Birkhofer K, Wolters V, Diekötter T (2014) Grassy margins along organically managed cereal
+484     fields foster trait diversity and taxonomic distinctness of arthropod communities. Insect
+485     Conservation and Diversity. DOI 10.1111/icad.12051
+486   Bongers T (1994) De nematoden van Nederland (The nematodes of the Netherlands).
+487     Koninklijke Nederlandse Natuurhistorische Vereniging, Pirola, Schoorl, Utrecht.
+488   Bongers T, Ferris H (1999) Nematode community structure as a bioindicator in environmental
+489     monitoring. Trends in Ecology and Evolution, 14, 224-228.
+490   Brennan A, Fortune T, Bolger T (2006) Collembola abundances and assemblage structures in
+491     conventionally tilled and conservation tillage arable systems. Pedobiologia, 50, 135-145.
+492   Caruso T, Pigino G, Bernini F, Bargagli R, Migliorini M (2007) The Berger-Parker index as
+493     an effective tool for monitoring the biodiversity of disturbed soils: a case study on
+494     Mediterranean oribatid (Acari : Oribatida) assemblages. Biodiversity and Conservation, 16,
+495     3277-3285.
+496   Clarke KR, Warwick RM (1998) A taxonomic distinctness index and its statistical properties.
+497     Journal of Applied Ecology, 35, 523-531.
+498   Clarke KR, Warwick RM (2001) A further biodiversity index applicable to species lists:
+499     variation in taxonomic distinctness. Marine Ecology Progress Series, 216, 265-278.
+500   Dahms H, Mayr S, Birkhofer K, Chauvat M, Melnichnova E, Wolters V, Dauber J (2010)
+501     Contrasting diversity patterns of epigeic arthropods between grasslands of high and low
+502     agronomic potential. Basic and Applied Ecology, 11, 6-14.
+503   de Jong YSDM (2013) Fauna Europaea version 2.6. Web Service available online at
+504     http://www.faunaeur.org.
+505   de Ruiter PC, Vanveen JA, Moore JC, Brussaard L, Hunt HW (1993) Calculation of Nitrogen
+506     Mineralization in Soil Food Webs. Plant and Soil, 157, 263-273.
+                                                                                                    23 507   de Ruiter PC, Neutel AM, Moore JC (1995) Energetics, Patterns of Interaction Strengths, and
+508      Stability in Real Ecosystems. Science, 269, 1257-1260.
+509   de Vries FT, Thébault E, Liiri M et al. (2013) Soil food web properties explain ecosystem
+510      services across European land use systems. Proceedings of the National Academy of
+511      Sciences of the United States of America, 110, 14296-14301.
+512   Eisenhauer N, Cesarz S, Koller R, Worm K, Reich PB (2012) Global change belowground:
+513      Impacts of elevated CO2, nitrogen, and summer drought on soil food webs and
+514      biodiversity. Global Change Biology, 18, 435-447.
+515   Ekelund F, Rønn R, Christensen S (2001) Distribution with depth of protozoa, bacteria and
+516      fungi in soil profiles from three Danish forest sites. Soil Biology and Biochemistry, 33,
+517      475-481.
+518   Eriksen-Hamel NS, Speratti AB, Whalen JK, Legere A, Madramootoo CA (2009) Earthworm
+519      populations and growth rates related to long-term crop residue and tillage management.
+520      Soil and Tillage Research, 104, 311-316.
+521   Feijoo A, Carvajal AF, Zúñiga MC, Quintero H, Fragoso C (2011) Diversity and abundance
+522      of earthworms in land use systems in central-western Colombia. Pedobiologia, 54S, 69-75.
+523   Franchini P, Rockett CL (1996) Oribatid mites as ''indicator'' species for estimating the
+524      environmental impact of conventional and conservation tillage practices. Pedobiologia, 40,
+525      217-225.
+526   Frostegård Å, Bååth E (1996) The use of phospholipid fatty acid analysis to estimate bacterial
+527      and fungal biomass in soil. Biology and Fertility of Soils, 22, 59-65.
+528   Gardi C, Jeffery S, Saltelli A (2013) An estimate of potential threats levels to soil biodiversity
+529      in EU. Global Change Biology, 19, 1538-1548.
+                                                                                                     24 530   Gascón S, Boix D, Sala J (2009) Are different biodiversity metrics related to the same
+531     factors? A case study from Mediterranean wetlands. Biological Conservation, 142, 2602532     2612.
+533   Gessner MO, Swan CM, Dang CK, Mckie BG, Bardgett RD, Wall DH, Hattenschwiler S
+534     (2010) Diversity meets decomposition. Trends in Ecology and Evolution, 25, 372-380.
+535   Gisin H (1960) Collembolefauna Europes. Museum d'Histoire Naturelle, Geneve.
+536   Gormsen D, Hedlund K, Korthals GW, Mortimer SR, Pižl V, Smilauerova M, Sugg E (2004)
+537     Management of plant communities on set-aside land and its effects on earthworm
+538     communities. European Journal of Soil Biology, 40, 123-128.
+539   Heemsbergen DA, Berg MP, Loreau M, van Haj JR, Faber JH, Verhoef HA (2004)
+540     Biodiversity effects on soil processes explained by interspecific functional dissimilarity.
+541     Science, 306, 1019-1020.
+542   Helgason T, Daniell TJ, Husband R, Fitter AH, Young JPW (1998) Ploughing up the wood543     wide web? Nature, 394, 431.
+544   Hughes JB, Roughgarden J (2000) Species diversity and biomass stability. American
+545     Naturalist, 155, 618-627.
+546   Hunt HW, Coleman DC, Ingham ER et al. (1987) The Detrital Food Web in a Shortgrass
+547     Prairie. Biology and Fertility of Soils, 3, 57-68.
+548   Jørgensen HB, Johansson T, Canback B, Hedlund K, Tunlid A (2005) Selective foraging of
+549     fungi by collembolans in soil. Biology Letters, 1, 243-246.
+550   Jørgensen HB, Hedlund K (2013) Organic amendment and fungal species in combination can
+551     alter collembolan fitness. Soil Biology and Biochemistry, 65, 316-321.
+                                                                                                      25 552   Klamer M, Bååth E (2004) Estimation of conversion factors for fungal biomass determination
+553     in compost using ergosterol and PLFA 18 : 2 omega 6,9. Soil Biology and Biochemistry,
+554     36, 57-65.
+555   Krantz GW, Walter DE (2009) A Manual of Acarology. Third edition. Texas Tech University
+556     Press, Lubbock.
+557   Lebrun, P (1971) Ecologie et Biocoenotigue de Quelques Peuplements d’Arthropodes
+558     Edaphiques (Ecology and biocenetic of some species of edaphic arthropods). Bulletin de
+559     l'Institut Royal des Sciences Naturelles de Belgique, 165, 1-203.
+560   Levine S (1980) Several Measures of Trophic Structure Applicable to Complex Food Webs.
+561     Journal of Theoretical Biology, 83, 195-207.
+562   Lohaus K, Vidal S, Thies C (2013) Farming practices change food web structures in cereal
+563     aphid-parasitoid-hyperparasitoid communities. Oecologia, 171, 249-259.
+564   Lubbers IM, van Groenigen KJ, Fonte SJ, Six J, Brussaard L, van Groenigen JW (2013)
+565     Greenhouse-gas emissions from soils increased by earthworms. Nature Climate Change, 3,
+566     187-194.
+567   Macfadyen S, Gibson R, Polaszek A, Morris RJ, Craze PG, Planque R, Symondson WOC,
+568     Memmott J (2009) Do differences in food web structure between organic and conventional
+569     farms affect the ecosystem service of pest control? Ecology Letters, 12, 229-238.
+570   Makulec G (1983) Enchytraeidae (Oligochaeta) of forest ecosystems. I. Density, biomass and
+571     production. Ekologia Polska, 31, 9–56.
+572   Maraun M, Migge S, Schaefer M, Scheu S (1998) Selection of microfungal food by six
+573     oribatid mite species (Oribatida, Acari) from two different beech forests. Pedobiologia, 42,
+574     232-240.
+575   Maraun M, Scheu S (2000) The structure of oribatid mite communities (Acari, Oribatida):
+576     patterns, mechanisms and implications for future research. Ecography, 23, 374-383.
+                                                                                                  26 577   Mills AAS, Adl MS (2011) Changes in nematode abundances and body length in response to
+578     management intensive grazing in a low-input temperate pasture. Soil Biology and
+579     Biochemistry, 43, 150-158.
+580   Moore JC, Walter DE, Hunt HW, Briand F, Cohen JE (1989) Habitat compartmentation and
+581     environmental correlates of food-chain length. Science, 243, 238-240.
+582   Mršic N (1991) Monograph on earthworms Lumbricidae of the Balkans. Academia
+583     Scientarum et Artium Slovenica, Ljubljana.
+584   Mulder C, Cohen JE, Setala H, Bloem J, Breure AM (2005) Bacterial traits, organism mass,
+585     and numerical abundance in the detrital soil food web of Dutch agricultural grasslands.
+586     Ecology Letters, 8, 80-90.
+587   Neutel AM, Heesterbeek JAP, de Ruiter PC (2002) Stability in real food webs: Weak links in
+588     long loops. Science, 296, 1120-1123.
+589   O’Connor FB (1962) The extraction of Enchytraeidae from soil. In: Progress in soil zoology
+590     (ed. Murphy PW), pp. 279-285, Butterworth, London.
+591   Olsson PA, Bååth E, Jakobsen I, Soderstrom B (1995) The use of phospholipid and neutral
+592     lipid fatty-acids to estimate biomass of arbuscular mycorrhizal fungi in soil. Mycological
+593     Research, 99, 623-629.
+594   Pižl V (1999) Earthworm succession in abandoned fields - A comparison of deductive and
+595     sequential approaches to study. Pedobiologia, 43, 705-712.
+596   Pižl V (2002) Žížaly České republiky (Earthworms of the Czech Republic). Sborník
+597     přírodovědeckého klubuv Uherském Hradišti, Supplementum, 9, 1-154.
+598   Postma-Blaauw MB, de Goede RGM, Bloem J, Faber JH, Brussaard L (2010) Soil biota
+599     community structure and abundance under agricultural intensification and extensification.
+600     Ecology, 91, 460-473.
+601   Purvis A, Hector A (2000) Getting the measure of biodiversity. Nature, 405, 212-219.
+                                                                                                  27 602   Roger-Estrade J, Anger C, Bertrand M, Richard G (2010) Tillage and soil ecology: Partners
+603     for sustainable agriculture. Soil and Tillage Research, 111, 33-40.
+604   Rønn R, Ekelund F, Christensen S (1995) Optimizing soil extract and broth media for MPN605     enumeration of naked amoebae and heterotrophic flagellates in soil. Pedobiologia, 39: 10606     19.
+607   Sánchez-Moreno S, Ferris H, Young-Mathews A, Culman SW, Jackson LE (2011)
+608     Abundance, diversity and connectance of soil food web channels along environmental
+609     gradients in an agricultural landscape. Soil Biology and Biochemistry, 43, 2374-2383.
+610   Schweiger O, Klotz S, Durka W, Kühn I (2008) A comparative test of phylogenetic diversity
+611     indices. Oecologia, 157, 485-495.
+612   Setälä H, Berg MP, Jones TH (2005) Trophic structure and functional redundancy in soil
+613     communities. In: Biological Diversity and Function in Soils (eds Bardgett R, Usher M,
+614     Hopkins DW), pp. 236-249. Cambridge University Press, UK.
+615   Sgardelis SP, Usher MB (1994) Responses of Soil Cryptostigmata across the Boundary
+616     between a Farm Woodland and an Arable Field. Pedobiologia, 38, 36-49.
+617   Sgardelis SP, Nikolaou S, Tsiafouli MA, Boutsis G, Karmezi M (2009). A computer-aided
+618     estimation of nematode body size and biomass. International Congress on the
+619     Zoogeography, Ecology and Evolution of Eastern Mediterranean. Heraklion, Greece.
+620   Siepel H (1996) Biodiversity of soil microarthropods: The filtering of species. Biodiversity
+621     and Conservation, 5, 251-260.
+622   Sims RW, Gerard BM (1985). Earthworms - Keys and notes for the identification and study
+623     of the species. Linnean Society, London.
+624   s’Jacob JJ, Van Bezooijen J (1984). A manual for practical work in nematology. Wageningen
+625     University, Wageningen, The Netherlands.
+                                                                                                     28 626   Smith RG, McSwiney CP, Grandy AS, Suwanwaree P, Snider RM, Robertson GP (2008)
+627     Diversity and abundance of earthworms across an agricultural land-use intensity gradient.
+628     Soil and Tillage Research, 100, 83-88.
+629   Sousa JP, Bolger T, da Gama MM, et al. (2006) Changes in Collembola richness and
+630     diversity along a gradient of land-use intensity: A pan European study. Pedobiologia, 50,
+631     147-156.
+632   Srivastava DS, Cadotte MW, MacDonald AAM, Marushia RG, Mirotchnick N (2012)
+633     Phylogenetic diversity and the functioning of ecosystems. Ecology Letters, 15, 637-648.
+634   Thébault E, Loreau M (2006) The relationship between biodiversity and ecosystem
+635     functioning in food webs. Ecological Research, 21, 17-25.
+636   Tsiafouli MA, Argyropoulou MD, Stamou GP, Sgardelis SP (2006) Soil nematode
+637     biodiversity in organic and conventional agroecosystems of Northern Greece. Russian
+638     Journal of Nematology, 14, 159-169.
+639   Tsiafouli MA, Argyropoulou MA, Stamou GP, Sgardelis SP (2007) Is duration of organic
+640     management reflected on nematode communities of cultivated soils? Belgian Journal of
+641     Zoology, 137, 165-175.
+642   Tylianakis JM, Tscharntke T, Lewis OT (2007) Habitat modification alters the structure of
+643     tropical host-parasitoid food webs. Nature, 445, 202-205.
+644   van Capelle C, Schrader S, Brunotte J (2012) Tillage-induced changes in the functional
+645     diversity of soil biota - A review with a focus on German data. European Journal of Soil
+646     Biology, 50, 165-181.
+647   Wagg C, Bender SF, Widmer F, van der Heijden MGA (2014) Soil biodiversity and soil
+648     community composition determine ecosystem multifunctionality. Proceedings of the
+649     National Academy of Sciences of the United States of America, 111, 5266-5270.
+                                                                                                    29 650   Wall DH, Bardgett RD, Behan-Pelletier V, Herrick JE, Jones H, Ritz K, Six J, Strong DR, van
+651     der Putten WH (2012) Soil Ecology and Ecosystem Services. Oxford University Press,
+652     Oxford.
+653   Wardle DA (1999) Is 'sampling effect' a problem for experiments investigating biodiversity654     ecosystem function relationships? Oikos, 87, 403-407.
+655   Wardle DA, Nicholson KS, Bonner KI, Yeates GW (1999) Effects of agricultural
+656     intensification on soil-associated arthropod population dynamics, community structure,
+657     diversity and temporal variability over a seven-year period. Soil Biology and
+658     Biochemistry, 31, 1691-1706.
+659   Warwick RM, Clarke KR (1995) New 'biodiversity' measures reveal a decrease in taxonomic
+660     distinctness with increasing stress. Marine Ecology Progress Series, 129, 301-305.
+661   Weigman G (2006) - Die Tierwelt Deutschlands (The animal world of Germany). Hornmilben
+662     (Oribatida) vol 76. Goecke and Eversm, Keltern.
+663   Wickings K, Grandy AS (2013) Management intensity interacts with litter chemistry and
+664     climate to drive temporal patterns in arthropod communities during decomposition.
+665     Pedobiologia, 56, 105-112.
+666   Williams RJ, Martinez ND (2004) Limits to trophic levels and omnivory in complex food
+667     webs: Theory and data. American Naturalist, 163, 458-468.
+668   Yeates GW, Bongers T, Degoede RGM, Freckman DW, Georgieva SS (1993) Feeding-Habits
+669     in Soil Nematode Families and Genera - an Outline for Soil Ecologists. Journal of
+670     Nematology, 25, 315-331.
+671   Yeates GW, Wardle DA, Watson RN (1999) Responses of soil nematode populations,
+672     community structure, diversity and temporal variability to agricultural intensification over
+673     a seven-year period. Soil Biology and Biochemistry, 31, 1721-1733.
+                                                                                                  30 674   Zhao J, Neher DA (2013) Soil nematode genera that predict specific types of disturbance.
+675     Applied Soil Ecology, 64, 135-141.
+676   Zimbars U, Dunger W (1994) Synopsis on Palaearctic Collembola: Tullberginae.
+677     Abhandlungen und Berichte des Naturkundemuseums Görlitz, 68, 1-70.
+                                                                                                 31 678     Table 1. Results of a PERMANOVA for the overall effect of region, land use intensity
+679     (nested in region) and sampling season (nested in region and land use intensity) on all
+680     measures of the soil food web. Pair-wise a posteriori comparisons: regions, land use intensity
+681     levels, and sampling seasons not sharing the same letter are significantly different. Codes for
+682     regions: Sweden (SE), United Kingdom (UK), Czech Republic (CZ), and Greece (GR). Codes
+683     for land use intensity levels: grassland (G), extensive rotation (E), and intensive rotation (I).
+684     Codes for sampling seasons: autumn-winter 2008 (wi), spring-summer 2009 (su).
+                                                                          a posteriori comparisons        Source       df     SS       MS      F        P                                                                 SE             UK           CZ          GR       Region        3     45.23    15.08 11.31    0.0002         a              b            c              cb
+      Intensity     8     57.59    7.20    5.40   0.0002      Ga Eab Ib     Ga Eab Ib     Ga Ea Ib    Ga Eab Ib       Sampling                                              G, E: wia sub G, I: wia sub   G, E, I:     G, E, I:                    12     44.78    3.73    2.80   0.0002       season                                                    I: NS        E: NS         NS           NS       Residual     96    128.01    1.33
+      Total       119    275.60 685
+                                                                                                            32 686     Table 2. Results of PERMANOVAS for the effect of region, land use intensity (nested in
+687     region) and sampling season (nested in region and land use intensity) on the diversity of
+688     earthworms, Collembolans, oribatid mites and nematodes for the following sets of diversity
+689     measures: (a) richness, (b) Shannon index, (c) average taxonomic distinctness, and (d)
+690     average taxonomic breadth. Pair-wise a posteriori comparisons: regions, land use intensity
+691     levels, and sampling seasons not sharing the same letter are significantly different. Codes are
+692     depicted in Table 1.
+                                                                            a posteriori comparisons                  Source      df     SS       MS       F      P                                                                        SE         UK           CZ         GR                  Region       3   9049.10 3016.37    24.15 0.0002       a           b           c          d                  Intensity    8   9580.97 1197.62    9.59 0.0002 Ga Eb Ic       Ga Eb Ib     Ga Eb Ic   Ga Ea Ib          (a)                Sampling                                             E: wia sub I: wia sub I: wia sub G, E, I:       Richness          12 3393.57 282.80            2.26 0.0010                season                                               G, I: NS G, E: NS G, E: NS        NS         (Ν)                Residual 96 11990.45 124.90                  Total       119 34014.09                  Region       3   8667.71 2889.24    16.16 0.0002       a           b           c          d               Intensity 8 11851.62 1481.45           8.29 0.0002 Ga Ea Ib       Ga Eb Ib     Ga Eb Ia   Ga Eb Ic          (b)       Shannon Sampling                                              E: wia sub I: wia sub I: wia sub G, E, I:                         12 4947.67 412.31            2.31 0.0004        index season                                                 G, I: NS G, E: NS G, E: NS        NS         (H)   Residual 96 17159.82 178.79                  Total       119 42626.82                  Region       3   6726.94 2242.32    11.82 0.0002       a           b           c          c          (c)     Intensity    8   7236.89   904.61   4.77 0.0002 Ga Ea Ib          NS          NS       Ga Ea Ib         Av.       taxon.     Sampling                                            G, E, I:   I: wia sub   G, E, I:   G, E, I:                           12 4667.83 388.99          2.05 0.0160       distinc.   season                                               NS        G, E: NS      NS         NS         (Δ*)     Residual 96 18210.19 189.69                  Total       119 36841.85                  Region       3   6552.58 2184.19    11.70 0.0002       a           b           c          c
+        (d)      Intensity    8   7157.29   894.66   4.79 0.0002 Ga Ea Ib          NS          NS       Ga Ea Ib          Av.        taxon. Sampling 12 4547.10 378.10                             G, E, I:   I: wia sub   G, E, I:   G, E, I:                                                      2.03 0.0170       breadth season                                                  NS        G, E: NS      NS         NS         (Δ+)  Residual 96 17921.75 186.66                  Total       119 36179.63
+                                                                                                            33 693   Table 3. Pearson correlation coefficients (n=120) of diversity measures within soil faunal
+694   taxonomic groups towards diversity measures among functional groups in the food web,
+695   indicated with number of groups (Nfw) and the Shannon index (FH) (*P<0.05, **P<0.001).
+      Diversity of taxonomic groups            No of functional    Shannon index                                                 groups (Nfw)           (FH)       Earthworms                              Richness (NE)          0.41**              0.47**                        Shannon index (HE)           0.42**              0.43**                Aver. taxon. distinctn. (Δ*E)        0.35**              0.26*                    Aver. tax. breadth (Δ+E)         0.37**              0.30**       Collembolans                              Richness (NC)          0.60**               0.09                        Shannon index (HC)           0.57**               0.17                Aver. taxon. distinctn. (Δ*C)        0.46**               0.01                    Aver. tax. breadth (Δ+C)         0.47**               0.02       Oribatid mites                              Richness (NO)          0.34**               0.08                        Shannon index (HO)           0.33**               0.08               Aver. taxon. distinctn. (Δ*O)         0.20*                0.09                 Aver. taxon. breadth (Δ+O)          0.21*                0.09       Nematodes                              Richness (NN)          0.17                 0.01                        Shannon index (HN)           0.07                -0.05                Aver. taxon. distinctn. (Δ*N)        0.03                -0.03                 Aver. taxon. breadth (Δ+N)          0.27*                0.10 696
+                                                                                                   34 697   Figures legends
+698   Figure 1. Average values (± s.e.) of: (a) number of functional groups (Nfw), (b) Shannon
+699                                             ̅̅̅̅) in the soil food web at the three land use       index (FH) and (c) average trophic level (𝑇𝐿
+700   intensity levels in the four regions across Europe. Data from both sampling seasons are
+701   pooled. Significance effects (P-values) of region (Reg.), land use intensity level (Int.) and
+702   sampling season (Sam.) as determined by permutational univariate analysis of variance are
+703   given for each measure. Regions (indicated below horizontal axis) and land use intensity
+704   levels for each region not sharing the same letter are significantly different according to pair705   wise a posteriori comparisons. Underlined land use intensity levels denote significantly
+706   different values between sampling seasons. Codes are depicted in Table 1.
+707   Figure 2. Average values (± s.e.) of the community-weighted mean body mass of soil fauna
+708   (CBM) at the three land use intensity levels in the four regions across Europe. Data from both
+709   sampling seasons are pooled. Significance effects (P-values) of region (Reg.), land use
+710   intensity level (Int.) and sampling season (Sam.) as determined by permutational univariate
+711   analysis of variance are given for each measure. Regions (indicated below horizontal axis)
+712   and land use intensity levels for each region not sharing the same letter are significantly
+713   different according to pair-wise a posteriori comparisons. Underlined land use intensity levels
+714   denote significantly different values between sampling seasons. Codes are depicted in Table
+715   1.
+716   Figure 3. Average values (± s.e.) of: (a) richness (N), (b) Shannon index (H’), (c) average
+717   taxonomic distinctness (Δ*) and (d) average taxonomic breadth (Δ+) for earthworms and
+718   oribatid mites at the three land use intensity levels in the four regions across Europe. Data
+719   from both sampling seasons are pooled. Significance effects (P-values) of region (Reg.), land
+                                                                                                      35 720   use intensity level (Int.) and sampling season (Sam.) as determined by permutational
+721   univariate analysis of variance are given for each combination of soil faunal group and
+722   diversity measure. Regions (indicated below horizontal axis) and land use intensity levels for
+723   each region not sharing the same letter are significantly different according to pair-wise a
+724   posteriori comparisons. Underlined land use intensity levels denote significantly different
+725   values between sampling seasons. Codes are depicted in Table 1.
+726   Figure 4. Average values (± s.e.) of: (a) richness (N), (b) Shannon index (H’), (c) average
+727   taxonomic distinctness (Δ*) and (d) average taxonomic breadth (Δ+) for Collembolans and
+728   nematodes at the three land use intensity levels in the four regions across Europe. Data from
+729   both sampling seasons are pooled. Significance effects (P-values) of region (Reg.), land use
+730   intensity level (Int.) and sampling season (Sam.) as determined by permutational univariate
+731   analysis of variance are given for each combination of soil faunal group and diversity
+732   measure. Regions (indicated below horizontal axis) and land use intensity levels for each
+733   region not sharing the same letter are significantly different according to pair-wise a posteriori
+734   comparisons. Underlined land use intensity levels denote significantly different values
+735   between sampling seasons. Codes are depicted in Table 1.

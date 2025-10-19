@@ -1,0 +1,570 @@
+Published in J. Forney, C. Rosin & H. Campbell (Eds),                                                1 Agri-environmental Governance as an Assemblage: Multiplicity, power, and transformation, 1-32, 2018, which should be used for any reference to this work
+Introduction: Agri-Environmental Governance as Assemblage Jérémie Forney, Christopher Rosin and Hugh Campbell
+Originally published in:
+Forney Jérémie, Rosin Chris & Campbell Hugh (editors) (2018), Agri-environmental Governance as an
+Assemblage: Multiplicity, Power, and Transformation, Earthscan/Routledge: London/New York, Chapter
+11, pp. 177-192
+Re-framing Agri-Environmental Governance
+The environmental impacts of agricultural production have, since the late 1960s, elicited
+growing social concerns and increasing scholarly attention especially in regards to the ability to
+regulate practices in efforts to mitigate degradation. Explanations of the social dynamics
+associated with regulation – from compliance to open contestation – continue to grapple with
+the complexities of social response, often following emerging theoretical trends in the fields of
+rural sociology and geography. Early work looked to explain the adoption of more
+environmentally friendly technologies and methods, examining the processes through which
+information was communicated and successful practices were transferred between farmers.
+These perspectives provided insight to the importance of appropriate technologies (in terms of
+their accessibility to farmers of diverse financial, temporal and cultural characteristics) and wellfunctioning modes of demonstrating and communicating the benefits of practices, using the                                                                                                       2
+individual decision to adopt as the dominant focus of analysis. The subsequent rise of critical
+political economic analyses highlighted the structural factors that impacted on the capacity to
+consider, let alone adopt, environmental practice that limited the productive achievements of
+conventional capitalist agriculture (for an influential critique of adoption invoking structural
+factors see Vanclay and Lawrence 1994). This focus on the power differentials among the
+participants of agricultural production and environmental regulation drew necessary attention
+to the broader social context within which management decisions were made; it did not,
+however, account for the persistent diversity of environmental practice nor the situations in
+which outcomes were not determined by expected power dynamics. Increasing attention is
+now being paid to theoretical approaches that better address the complexities inherent to the
+navigation of the often divergent pursuits of profitable production and environmental
+sustainability, both of which involve myriad participants within networks of production and
+consumption. In this context, the concept of assemblage has recently attracted the attention of
+social scientists who want to focus on the emergent and overdetermined nature of agrienvironmental practices in agriculture.
+In this collection, we want to follow the new and explorative vistas that an assemblage
+approach exposes for the understanding and analysis of the governance of environmental
+issues in agriculture and agri-food systems. To provide greater coherence to the diverse
+perspectives enabled by assemblage, we use “governance” as a conceptual shortcut to
+encompass a great diversity of practices led by a wide diversity of actors. Governance has
+gained much currency in a variety of contexts; but, as a result of this broad applicability, it has                                                                                                       3
+become polysemic and a highly contested concept necessitating a concrete definition of its
+usage. Under the umbrella of governance, we include, for instance, a regulatory scheme
+resulting from a national policy, a certification process led by a big retailer and a participatory
+initiative developed by an NGO. We further employ agri-environmental governance (AEG) as a
+broad framing that encompasses the multiple actions, which aim to implement change in the
+food system and address environmental issues related to agricultural production. Beyond the
+original intention of any governance action, localised uses, specific networks and practical
+norms emerge in a process of interaction, translation and reinterpretation that we can call AEG
+practices (Forney 2016a). Consequently, AEG emerges through repeated interaction between
+diverse actors constituting an AEG assemblage. The key actors in such assemblages include
+humans – from policy makers to private certifiers, from supermarket boards to farmers’
+associations – and, equally relevant and active, non-humans – legal documents, metrological
+tools, soils, animals amongst others. These non-human actors are central to the agency of the
+assemblage, and not merely passive recipients of human action (e.g., Lewis et al. 2013; Rosin et
+al. 2017). Our framing of AEG thus implies an engagement with modes of social theorisation
+that advocate the integration of non-human actors (or actants) in the understanding of the
+social, as evident in assemblage thinking (e.g., Bennett 2009), as well as wider elaborations of
+Actor-Network Theory (e.g. Callon 1986; Latour 2005; Law and Hassard 1999; Whatmore 2013).
+While scholarly interest in AEG has been consistent, the theoretical frameworks through which
+it has been approached have undergone significant change. Governance has been a point of
+interest for both post-structural scholars and those coming from Marxist and neo-Marxist                                                                                                  4
+inflected political economy approaches (see Higgins and Lawrence 2005). An early focus was on
+the persistence of peasant and other smaller scale producers with more environmentally
+appropriate practices in agricultural sectors dominated by highly capitalised and more intensive
+production associated with environmental degradation. This perspective was augmented
+through the deployment of ideas of governance which provided an analysis of the power
+relations (from local to global scales) that structured responses to environmental conditions.
+One particularly influential framework in this tradition has been the association of AEG with the
+elaboration of neoliberal forms of governance under late-capitalism (e.g. Lockie and Higgins
+2007; Guthman 2008; Higgins et al. 2014; Wolf and Bonnano 2014). Governance of agricultural
+environments, in these analyses, needs to be understood as an extension of wider marketbased modes of economic and political management and a departure from government.
+Understanding AEG in terms of this latter alignment with neoliberal models of policy and
+market-based solutions to environmental challenges has provided the most dominant recent
+framework for work in this area.
+The association between neoliberalism and market-led environmental governance has begun to
+fracture and re-assemble along a number of different levels and ontological framings. In some
+of this new work, focus has shifted to the nuances of neoliberal subjectivities and the structural
+and/or ontological challenge of alternative agriculture systems (e.g. Harris 2009; Rosin and
+Campbell 2009), or drawing on Foucauldian understandings of governmentality as a necessary
+companion to the operation of governance (see Agrawal 2005; Haggerty 2007). These
+approaches emphasise the potential of forms of agency within governance frameworks that                                                                                                     5
+had previously been argued to be closed or fixed. Another compelling challenge came from
+Actor Network Theory and its recent variants: particularly the opening of critical analysis to
+broader and flatter sets of relations that recognise the active role of non-human participants.
+This has compelled, we argue, the need for equally open and more flexible ontologies in the
+analysis and politics of AEG (e.g. Le Heron et al. 2016). These ontologies share a focus on
+addressing the complexities of governing agriculture practices in the context of environmental
+sustainability.
+This book arrives in the midst of this interesting transitional moment in the theoretical framing
+of AEG. Recognising the value of analyses grounded in the major tropes of neoliberalism and
+capitalism, it seeks to explain the ways in which new approaches are either augmenting and
+elaborating older frameworks in new and interesting ways, or creating entirely new ontological
+framings of AEG that require a distinct break with the past. We suggest that the theoretical
+devices of assemblage and territorialisation form the key terrain around which this exploration
+of new openings and closures can take place. Consider a global agri-food network within which
+convenience nutrition is a principle objective. What does it mean to acknowledge the relations
+between bacteria digesting nitrates in the soil, someone breakfasting with a high protein cereal
+bar on the way to work, and a government deciding to support new plantations for palm oil
+production? Do we readily detect those links that underlie a story of the development of a
+global industrial agri-food system that is familiar to existing critical ontologies? Are we
+convinced that such a framework addresses the whole of the story? Are not these three
+actors—bacteria, protein bar eater and government—situated within broader and more diverse                                                                                                   6
+connections? In recognising a broader scope of explanation, we must also beware of the danger
+of aimlessly following the threads, lacking a defined endpoint and further losing ourselves in
+the deep entanglements of the relational processes that create our world. What is an
+appropriate and viable ontological approach to the assembly of elements, actors and
+unanswered questions that intertwine in the practice of AEG?
+The concept of assemblage, and its partner concept territorialisation, provide a coherent
+framing for the ontological work of the book. Their roots lie in the work of Deleuze and
+Guattari, notably their theorisation of the individual and the multiple (Deleuze and Guattari
+1988), and their emphasis on the relational and heterogeneous nature of the social is central to
+the modes of explanation used in the book.
+Assemblage as a conceptual and theoretical framing has become more important in recent
+years, notably in the geographical and anthropological literature with some notable collections
+like Ong and Collier (2005) and the special issue of the journal Area in 2011 anchoring a new
+interest in Deleuze and Guattari in those disciplines. While it has been applied as an approach
+for better understanding the uneven and emergent nature of neoliberalism (Higgins and Larner
+2017), it remains underexplored in the literature on sustainability (Palmer and Owens, 2015)
+and, by association, AEG. Some significant exceptions can be noted, however, starting with the
+work of Tania Li (2007) on forest management in Indonesia, which offers a well-structured
+analytic of assemblage. Interestingly, many applications of an assemblage framing happen in                                                                                                   7
+the analysis and critique of governing actions. For example, Sullivan’s (2010) work grapples with
+alliances, alignments and assemblages of discourses, actors and organisations in the emergence
+and consolidation of payments for ecosystem services. In a later working paper published by
+The Leverhulme Centre for the Study of Value, Sullivan (2014) develops this assemblageoriented approach to policy consolidation that draws on Li’s work and connects with other
+analyses of practices of assemblage and policy orchestrations in contemporary policy
+consolidation around market-based mechanisms. In the same series of Working Papers,
+Fredriksen develops a theoretical treatment of assemblage thinking in processes of value
+creation in environmental policy, through an exploration of the idea of distributed agency in
+assemblages involving human and non-human actors (Fredriksen, 2014). Taking another
+notable direction, the work done by New Zealand scholars under the banner of biological
+economies (see special issue of New Zealand Geographer 2013, no 69) uses assemblage to
+explore the role of research in doing assemblages (see Le Heron et al. 2016; Carolan 2016). This
+draws together a wider set of international perspectives – particularly around the way in which
+new research ontologies and objects emerge within an assemblage-inflected methodology
+(Lewis et al. 2013, 2017; Carolan 2016; Dwiartama et al. 2016; Linke 2016). In the specific
+context of AEG, work in New Zealand (Rosin et al. 2017; Rosin, Campbell and Reid 2016)
+elaborates the emergent nature of best practice audits under the influence of the metrics being
+audited. In addition to these contributions that engage explicitly with assemblage, work by
+other scholars develops very similar approaches, without naming them as such. As an example,
+Benabou (2014) traces in considerable detail the alignments and alliances of individuals and                                                                                                      8
+organisations around the development of international voluntary biodiversity offsets in which
+payments are made for biodiversity ‘services’.
+In this book collection, our objective is to document an emergent assemblage approach that
+engages with entities as comprised of multiple autonomous and heterogeneous elements
+assembling in an always moving set of relations. We argue that this concept provides a deeply
+insightful framing through which to examine AEG as an emergent social dynamic. This approach
+allows our contributors to both incorporate existing critical analysis, as well as open broader
+sets of relations, in the conceptualisation of social action. This said, our use of an assemblage
+framing is far from “territorialised” and still includes a large diversity of positionings that is
+reflected in the chapters of this collection, notably around the prioritization of actors, agents or
+processes.
+Assembling this Collection
+This book brings together a group of social scientists who are engaged in the emergent
+ontologies that intersect with and contribute explanation to the complexities of AEG as a social
+process. Their contributions elaborate case studies situated in diverse geographical, cultural
+and social contexts, and draw inspiration from a variety of theoretical backgrounds. Beyond this
+diversity, there is a shared intention to propose alternative ways of understanding agricultural
+policies, certification schemes or participative projects, by looking more specifically at their role
+in the emergent collection of elements, actors and processes—in other words, assemblages—                                                                                                     9
+around food production and the environment. Assemblage acts as our key locus of theoretical
+investigation and elaboration; although, as the following discussion makes clear, the idea of
+assemblage comprises a variety of intriguing approaches ranging from the reinterpretation of
+more conventional ideas of community and decision-making to more radical forms of
+performativity. Despite the variation in approach, all of the contributions capture something of
+a similar and wider theoretical moment: a general recognition of a ‘turn to ontology’ in fields of
+theoretical endeavour that previously relied on discourse, ideology and subjectivity to provide
+phenomenological purchase on social processes.
+As a whole, therefore, the contributors to this collection challenge established framings
+(ontologies) that use tightly defined categories as a means to simplify real world complexity in
+order to improve understanding of social process. Whereas categories such as class, power,
+conventional/alternative, or neoliberal produce clearer images of ‘reality’ and impose some
+order to the chaos of everyday life, our intention in organising this book is to expose important
+absences and biases inherent to this simplification, reduction and exclusion with specific
+reference to AEG. Categories have constructed too many walls and oppositions that fail to
+adequately represent and explain both the complexity of the social processes involved and the
+enactive political projects that might animate them. Our response, in this collection, is to use
+the theoretical idea of assemblage to illuminate diverse pathways forward in the academic
+study of AEG. Assemblage has emerged as a common theoretical theme in multiple strands of
+recent work: some of which is seeking ways to render more elaborate the interaction between
+neoliberalism and AEG, other strands which see assemblage as comprising an alternative to                                                                                                    10
+neoliberalism as a theoretical framing through the introduction of more ANT-inflected
+ontologies. Finally, there are those that see assemblage as a pathway from a more
+passive/analytical to an enactive/engaged style of scholarship.
+It is this combination of theoretical and methodological/political experimentation that makes
+assemblage such a useful gateway to new discussions about AEG. This understanding that the
+current moment is a period of high innovation and change in the scholarship around AEG is
+born out in the origins of the book collection. In 2014, Jérémie Forney put together a successful
+proposal to the Swiss National Science Foundation and invited Chris Rosin and Hugh Campbell
+to join a conversation on new approaches to the theorisation of AEG. All three of us were
+grappling with the transition from ‘neoliberal’ to new theoretical framings of practice and
+action in agriculture and food worlds – particularly as influenced by theoretical ideas like
+assemblage and multiple ontologies being generated in agrifood studies. This small
+collaboration was clearly taking place alongside other similar clusterings and collaborations of
+like-minded scholars – particularly in Wales, elsewhere in New Zealand and Australia, and in the
+United States. As a group, we first gained a glimpse of the wider impetus for theoretical
+innovation in this space when we proposed a session on new theoretical approaches to AEG at
+the International Rural Sociology Association (IRSA) conference in Toronto in August, 2016.
+Most of the contributors to this volume responded to the (what we feared might be seen as
+eccentric and narrow) theoretical language in the call for papers and came to Toronto with a
+range of new insights and elaborations, derived from diverse study sites including Japan, Africa
+and South America. By the end of that conference, it was clear that we were experiencing                                                                                                 11
+something of a break-out moment in the theorisation of AEG and this book collection was
+proposed.
+The following chapters are indicative of the distinctive pathways that the various authors have
+taken to arrive at a consideration of assemblage as both ontologically disrupting and reconstituting the framing of AEG. Some have come from traditional consideration of rural
+economy and rural development and have been long attempting to reconcile economic and
+environmental pressures in specific spaces. For these chapters, the grounded challenges of
+environmental governance in particular rural spaces and regions are the foundation for a
+consideration of the reframing and ontologically disruptive power of assemblage thinking.
+Others come from the agri-food space and bring a consideration of the dynamics of food
+production, the practices and subjectivities of farmers and farming, the configuration and
+disruption of supply chains and consumption dynamics and the governance arrangements that
+extend through these economic networks. Others come directly from the world of
+environmental governance initiatives like carbon emissions trading and follow where these
+initiatives alight in specific rural spaces and are territorialised into rurally-embedded
+assemblages. A final group is more directly interested in the politics of assembling and the turn
+towards more enactive and performative approaches to environmental governance.
+In these ways, our contributors have arrived at assemblage as a transformative re-working and
+re-framing of the challenges, dynamics and potentials of AEG. As a collection, they point to the                                                                                                     12
+emergence of new ontological perspectives oriented around three central contributions. The
+first exposes the potential within an assemblage framing to articulate the complexity of things,
+by acknowledging and incorporating the multiplicity and emergence of assemblages. The
+second contribution highlights the political encounters that are central to this multiplicity.
+Assemblages are infused with relations of power, which are under persistent pressures of
+redefinition as their constituent elements engage in the work of de- and re-territorialisation.
+Finally, the third group extends beyond the analysis and critique of social processes, using
+assemblage as the foundation for novel ways of doing governance.
+Assembling Ontologies: Multiplicities and Agencies
+As an initial step in moving beyond the usual categories applied to the analysis of AEG, the first
+set of contributions focuses on the diversity of elements that assemble around the initial focus
+of the research. In these chapters, assemblage follows the flows of relations and overflows –
+categories that seemed natural and obvious. Moreover, they represent assemblages as
+emergent, subject to de-territorialisation and re-territorialisation, thus participating in an
+ontology of multiplicities and future possibilities. Applied to the analysis of governance, these
+considerations resonate with the question of the actors’ agency, both from the side of the
+“governing” and the “governed”. The capacity of human and non-human actants (individuals or
+groups) to influence the territorialisation of assemblages becomes central.                                                                                                  13
+The first chapter of this collection by Wynne-Jones and Vetter offers an enlightening application
+of assemblage that demonstrates the value of going beyond the binary categorisations and
+reduction of complex processes inherent in a unidimensional explanatory theory of
+neoliberalism. Rejecting readings of hybrid neoliberalism, the authors look at the multiple
+motivations and logics behind the application of payments for ecosystem services in Wales, and
+document the diverse reactions to PES and the multidimensional processes of transformation.
+These processes are influenced by local actors who, not being passive targets of these
+governance instruments, actively use them to impact wider circulations of PES discourse and
+the AEG assemblage. Here the question of the agency of individuals in relation to structural
+constraints is open and reframed within an assemblage perspective.
+Addressing the same discussion of “hybrid” governance instruments, O’Connell and Osmond
+explore a Water Quality Trading program in the American context of North Carolina, involving
+the State, private traders, and agricultural stakeholders. The authors apply an assemblage
+perspective to farmer decision-making in which multiplicity is revealed at the level of individual
+motivations and constraints. Stepping away from reductionist explanations of farmers’ decision
+making and agency, this chapter makes an important contribution by reframing their actions as
+part of a complex human-natural system. Their analysis of the creation of Water Quality
+Trading Schemes does the important ontological work of disrupting the highly prescriptive and
+linear logics of traditional models of adoption. Instead, understood as assemblages, these
+schemes reveal multiple motivations and diverse logics in similar ways to those seen in the
+Welsh case study.                                                                                                   14
+The multiplicities characterizing assemblage, the fact that an assemblage is made of a multitude
+of moving relations, reframe the question of the outcomes of AEG instruments and actions. In
+other words, an assemblage approach more or less directly questions the ability of “governing”
+to control the processes that develop in association with its actions of governance. Iba and
+Sakamoto’s chapter illustrates the wide variability of outcomes of a national multifunctional
+policy. They compare two local communities and the varying “successes” of the policy
+applications, relating indirectly the question of AEG to the more general question of rural
+changes.
+The unexpected outcomes of governance action are sometimes related to internal tensions and
+contradictions within the governance assemblage. Welz’s account of the transformations to
+halloumi cheese production occurring in Cyprus as a result of Protected Denomination of Origin
+policies emphasises both the interrelations of policy instruments that are artificially segregated
+into siloes through formal governance processes, as well as the under-recognised negotiations
+between actors that participate in the definition, or territorialisation of, what “is” Halloumi
+cheese.
+While the previous chapters detail the capacity for assemblage to take seriously the multiplicity
+and processual character of the social in the present – in a given time and place – Dwiartama’s
+contribution applies a historical gaze to the governance of agriculture in Indonesia. The chapter                                                                                                     15
+first helps to reconsider established and orthodox historical categorisations by focusing on
+dominant modes of governance, then creates a radical reframing by drawing inspiration from
+discussions of the concepts of discipline and control in Foucault and Deleuze. At the same time,
+the chapter goes beyond simplifications reducing the social reality to one single logic and
+emphasises the accumulation of modes of governance in Indonesian history, resulting in a
+contemporary assemblage of agricultural governance, characterised by its multiplicity and the
+co-existence of logics.
+The politics of territorialisation
+Despite being comprised of multiplicities and irreducible possibilities, assemblages are
+continually in the process of territorialisation, congealing in specific configurations and
+identities which are immediately contested and destabilised. In this never-ending process of
+(de-)(re-)territorialisation, elements of the assemblage—human and non-human—play active
+roles and express agency, as articulated in the first section. Consciously or not, they engage in
+struggles and attempts to coordinate the assemblage to fit complex objectives. Consequently,
+an assemblage can be seen as inherently political. Seen as occurring within an assemblage,
+however, not all such struggles are about hierarchies and direct relations of power. Many, in
+fact, act very subtly at the level of the territorialisation of the assemblage.
+The challenges inherent to coordination of multiple political interests across global to local
+scales are address in Nel’s chapter on the emergence of a carbon forestry centred in Uganda,                                                                                                  16
+but extending to interests in Europe and beyond. The efforts to territorialise carbon forestry
+originate in international climate change negotiations, Ugandan government ministries, the
+offices of environmental NGOs, carbon investors and donor states as well as the communities
+inhabiting the newly designated forests. While the financial power of investors and the political
+power of industrialised countries introduces foreign claims on use and access rights, the
+activities of communities de-territorialise the resulting coordination. Thus, the assemblage
+approach is a powerful tool for uncovering these kinds of political tensions and power relations.
+The chapter by Burch, Legun and Campbell interrogates the role of metrics in the battlefield to
+territorialise environmental issues and governance solutions. The authors describe the surge of
+radionuclides in the Japanese food system that unsettled the usual definition of secure food in
+the aftermath of the Fukushima nuclear accident. Attempts by governmental agencies to settle
+and frame these overflowing elements were challenged by groups of consumers offering
+alternative knowledge and metrics. Again, numbers and metrics reveal their powerful capacity
+in territorialising complex assemblages in order to render them governable. The authors
+conclude by highlighting the need for more deliberative processes in the constitution of
+governance instruments.
+Further evidence of the multiple sites and political drivers of resource governance is provided in
+Thompson’s chapter. Located in the context of the re-territorialisation initiated by the decentralisation of state water policies, he analyses media representations of water degradation                                                                                                     17
+attributed to agricultural run-off. Media accounts are shown to reaffirm existing
+territorialisations defined by the distinct interests of agents in areas of high tourist interest
+compared to those focused on agricultural production.
+This section of the book then considers processes of redefinition and requalification – reterritorialisation – of environmental issues. Tall and Campbell document how the “dirty
+dairying” campaign in New Zealand created a new ontology of the developing dairy farming
+industry by associating it with issues of water quality. The lack of attention given to this
+connection before the campaign reflected the relative ‘invisibility’ of water quality degradation
+and its causes. Once this association between the two elements – dairy farming and water –
+became a visible “fact”, the related assemblage re-territorialised in an unanticipated and
+irremediable way.
+Soybean production offers a similar reconsideration in its association to the future of the food
+system. Once seen as a solution to several problems of sustainability, it has become, for some,
+a problem in itself when associated with: unsustainable farming practices, GMOs, monoculture
+and deforestation. Bentia and Forney explore in their chapter a European project that aims to
+transform soy assemblages, by re-localising the production within the EU boundaries and
+changing the agricultural practices and uses around soy. They document an explicit attempt to
+re-territorialise the soy assemblage around new objectives of sustainability and changing
+agricultural and food systems.                                                                                                    18
+Assemblage for building new AEG practices
+The last section of the book gathers two chapters that make an additional step in the
+application of assemblage thinking. They use this theoretical framing to move beyond critical
+research by applying an assemblage approach not only to the study but also to the creation of
+AEG practices. By doing so, they offer a valuable intervention to debates surrounding the
+constitution of enactive research.
+In his chapter, Carolan unpacks the use of big data in contemporary US farming. Applying a
+“weak theory” of assemblage – that is, resisting the urge to sum up categorisations that lock
+our understanding of the social in monolithic explanations – he confronts radically different
+narratives on big data related to specific positionalities (conventional farmers, engineers from
+the big data industry, and farmer “hackers”). As a result, he emphasizes the multiplicity of the
+assemblage around big data and the related production of multiple possibilities. Moreover, he
+encourages scholars to move away from overly critical representations of technologies and to
+look more “hopefully” for the platforms where data are assembled in ways that produce
+“cracks of difference” and open hopeful possibilities.
+In the last chapter of this collection, Beilin interrogates the diverse assemblages that
+characterise water governance in South-Eastern Australia with the intent of providing
+ontological framings that enable more equitable and environmentally sustainable policy. She                                                                                                    19
+identifies three existing assemblages – the environmental flow, the consumptive flow and the
+indigenous flow – each of which is limited through its relationships with the same settlercolonial ontology. Developing a dialogue between a theorisation of assemblage and the
+epistemology of practice, Beilin constructs an “imaginary counter narrative” in the form of an
+assemblage of small-holder agro-ecological settling. In doing so, she generates a vibrant
+argument for an assemblage approach that provides the “possibility of transformative reimagining” to answer the urgent need for perspectives with greater capacity to incorporate the
+complexity of policy formation and the dispersed nature of power and agency within such
+practices.
+Assembling governance and social sciences: theoretical challenges for breaking new
+ground in research on AEG
+The varying depth and breadth with which our contributors engage with the concept of
+assemblage is best described as an array of experimentations. In every case, the authors
+construct what is an emergent theorisation of assemblage – never fully defined and bounded,
+but always seeking to destabilise existing categories and constraints on the multiplicity of
+actors, power and process. While at one level, these are ‘playful’ interventions (see Mol 2010),
+they are also very serious and intentional efforts. Their intention is to introduce new forms of
+understanding and coordinating the realities of AEG in hopes of enlightening our
+understandings of the shortcomings of existing governance practices as well as enacting new
+and more hopeful ones. The chapters offer the opportunity to progress in the theorisation of                                                                                                     20
+assemblage, in the context of AEG and beyond, notably on the more specific discussion around
+agency, processes of territorialisation and the possibility of developing enactive research
+practices. In concluding, we identify the ontological by-ways along which our authors have
+developed assemblage as an approach as well as offering our own hopeful expectations of the
+emergent theorisations of AEG.
+The application of assemblage by our contributors further reflects its resonance with other
+social theorisations, including the centrality of relations and the active role of non-humans (at
+the core of Actor Network Theory) and the distributed nature of power and agency (central to
+Foucault). The intervention of the collected chapters contributes to the reworking and
+mobilisation of the concept in different contexts, opening new possibilities for analysis and
+interpretation of the social. As an ontological project, the book inserts assemblage within the
+theorization of AEG with the intention of focusing on the emergent social dynamics inherent to
+governance. Moreover, assemblage is offered as a means to address the lacunae inherent to
+oppositional conceptualisations of: multiple and one, fixed and changing, existence and ideas.
+As noted above, we trace our application of assemblage to Deleuze and Guattari and their
+emphasis on the irrepressible desire to assemble, while acknowledging the always changing and
+contingent coordination of the resulting assemblage. Their proposition provides two insights of
+direct relevance to our engagement with AEG. First, it offers an alternative conceptualisation of
+agency as produced by the assemblage; it is collective, distributed and not the proprietary
+realm of specific agents (human or non-human). This understanding of agency has strong                                                                                                  21
+familiarities with that developed in ANT. However, the insertion of desire as a fundamental
+force in the territorialisation of assemblages emphasises an individual level of agency, which is
+not fully acknowledged in ANT (Müller 2015). Our position follows that of McFarlane and
+Anderson (2011: 63), arguing that an assemblage perspective “attends to the agency of wholes
+and parts, not one or the other.” Actors have projects; they try to influence the assemblage;
+they engage with the assemblage, even if, at the end, the outcomes never fully match these
+individual plans. This framing informs Li’s (2007:265) operationalisation of assemblage as
+having a “potential to finesse questions of agency by recognizing the situated subjects who do
+the work of pulling together disparate elements without attributing to them a master-mind or a
+totalizing plan.” Our contributors also demonstrate the potential, as suggested by McFarlane,
+(2011) for an assemblage perspective develop better understanding of the unexpected effects
+of governance tools, and enable the rethinking and reconceptualization of critique and issues of
+power in renewed ways. A diminished emphasis on structural drivers is also the product of the
+second insight, namely that assemblages are emergent and never fully completed or
+territorialised. This characteristic of assemblages weakens the constraints imposed by structure
+on social dynamics and facilitates an emphasis on the opportunities for intervention,
+experimentation and change. At the same time, it also eliminates the possibility of stasis or
+optimal outcomes as any territorialisation of an assemblage is subject to de- and reterritorialisation as its elements interact and re-arrange.
+This tension initiated by the continuous movements of territorialisation and de-territorialisation
+produces a perpetuum mobile where assemblages are always oriented toward potentialities                                                                                                      22
+and possible and desirable futures. Any given assemblage is open to other assemblages because
+the forces of de-territorialisation constantly expose it to redefinition. The emergent nature of
+the assemblage is an important aspect in the concept’s diverse applications within this volume.
+For example, Beilin draws on DeLanda’s (2006) theorisation of assemblage as the result of a
+multiplicity of relations that are always renegotiated to position water governance outside
+totalities and essentialism. Burch, et al. uses assemblage in a manner more closely aligned to
+Actor Network Theory to demonstrate the active potential (or agency) of non-humans through
+their capacity to divert territorialisation efforts.
+If assemblages are defined by their ephemeral nature—always caught in the tension between
+territorialisation and re-territorialisation and oriented toward becoming and potentialities—are
+they real? In other words, do assemblages really exist or are they social constructs? The
+question might, at first glance, seem rhetorical; however, the answer has significant
+consequences for what an assemblage approach fundamentally allows us to do. On one hand,
+thinking of assemblage as real, as defended notably by DeLanda (2006), potentially recognises
+the materiality of assemblages that exist beyond the capacity of human ‘assembling’ or
+‘assemblying’. Such an approach arguably gives more agency to non-humans, answering, for
+instance, Bennett’s (2009) call for the ontological redistribution of causalities inherent to
+political ecologies in which non-humans exhibit political capacities and initiate or drive actions
+with social consequence that are fully outside the ‘agency’ of human actors. In Bennett’s
+argument, this opens space to reassess the issue of ‘responsibility’ – and to shift attention away                                                                                                     23
+from assigning ultimate blame to the exclusion of recognising the overdetermined nature of
+events.
+On the other hand, other interpretations of assemblage focus on the assembling that is
+initiated by – or the assemblage that is recognised by – human actors. This approach (most
+notably found in Li 2007) allows for a demonstration of an admirable awareness of the multiple,
+emergent complex actors in assemblages, while still affording ‘special’ recognition of human
+efforts to coordinate and structure – i.e territorialise – assemblages (a practice that generally
+involves imposing boundaries on what is included within an assemblage). One benefit of this
+emphasis on the human construction of assemblages is to open up particular styles and
+strategies of human political action and intention.
+This openness and orientation toward the potentialities characterizing assemblages has also
+encouraged scholars to explore the implications for the research itself. For McFarlane and
+Anderson, assemblage thinking relates to an “ethos of engagement attuned to the possibilities
+of socio-spatial formations to be otherwise within various constraints and historical
+trajectories.” (201: 162). These epistemological and methodological implications of the
+assemblage perspective are apparent in the contributions by Carolan and Beilin. Their chapters
+reinforce similar reflections on the possibility of developing enactive research practices (Forney
+2016b; Lewis et al. 2013). What interests us here is that thinking with assemblage provides a
+mechanism through which the role of research and academics in territorialization processes can
+be addressed. This goes beyond a typical reflexive stance. By asserting the participation of                                                                                                    24
+research in the construction of social life, an assemblage approach opens spaces to think about
+the potential and desirability of our engagements with the possibilities as well as our
+responsibilities as elements of the assemblage.
+These discussions emphasise the emergent nature of assemblage as an approach to explanation
+in the social sciences. They point to alternative understandings of and engagement with AEG in
+which the assemblage is co-constituted by humans and non-humans and where conceptual and
+material aspects are considered to make different but equal contributions to the construction
+of assemblages as both “real” and “constructed”. In pursuing this argument, we are aligning
+with Deleuze and Guatarri when they say that assemblages are both content and expression
+(1987, 504).
+The chapters we have collected in this book leave as many open questions as they provide
+answers. This is indicative of an emergent theorisation of AEG. Rather than providing a fully
+structured theory of assemblage, we offer instead the encouragement to engage with
+assemblage as a tool for expanding not only our understandings of AEG, but also the
+potentialities through which successful governance and improved environmental practice might
+be achieved. As indicated by our contributors, such an achievement begins with the deterritorialisation of predominant forms of explanation. Initial steps involve the undermining of
+categories related to markets, decision-making, multifunctionality and quality designations
+whereby the agency of less recognised or unacknowledged actors is introduced. Further steps
+are taken in efforts to articulate the multiplicity of power relations in environmental                                                                                                 25
+governance in the form of multi-scalar interests, the role of non-humans, the
+overdetermination of context, the emergence of environmental awareness and the rearticulation of sustainability. At the same time, assemblage approaches also provide the
+opportunity to re-territorialise AEG with alternative and enactive modes of research (in the
+manner of weak assemblying or an epistemology of practice). Thus, this book orients us toward
+new paths of thinking about and reflecting on the governance of agri-food-systems, while also
+emancipating our own practice as we promote the experimentation with new practices and
+policies of governance.
+References
+Agrawal, Arun. 2005. Environmentality: Technologies of Government and the Making of
+Subjects. Duke University Press: North Carolina.
+Benabou, Sarah. 2014. "Making Up for Lost Nature?: A Critical Review of the International
+Development of Voluntary Biodiversity Offsets." Environment and Society, 8: 103-123.                                                                                                 26
+Bennett, Jane. 2009. Vibrant Matter: A Political Ecology of Things. Chapel Hill, NC: Duke
+University Press.
+Callon, Michel. 1986. “Some elements of a sociology of translation: domestication of the
+scallops and the fishermen of St Brieuc Bay. Power, action and belief”. A new sociology of
+knowledge, 32: 196–233.
+Carolan, Michael. 2013. Doing and enacting economies of value: Thinking through the
+assemblage. New Zealand Geographer, 69(3): 176-179.
+Carolan, Michael. 2016. Decentering biotechnology: assemblages built and assemblages
+masked. Routledge.
+DeLanda, Manuel. 2006. A New Philosophy of Society: Assemblage Theory and Social
+Complexity, London: Continuum.
+Deleuze, Gilles and Félix Guattari. 1987. A Thousand Plateaus. Minneapolis, MN: University of
+Minnesota Press.                                                                                                 27
+Dwiartama, Angga, Christopher Rosin and Hugh Campbell. 2016. ‘Understanding Agri-Food
+Systems as Assemblages: Worlds of Rice in Indonesia.’ In Biological Economies: Experimentation
+and the politics of agrifood frontiers, edited by Richard Le Heron, Hugh Campbell, Nick Lewis
+and Michael S. Carolan. London / New York: Routledge.
+Forney, Jérémie. 2016a. "Blind spots in agri-environmental governance: some reflections and
+suggestions from Switzerland." Review of Agricultural, Food and Environmental Studies:1-13.
+doi: 10.1007/s41130-016-0017-2.
+Forney, Jérémie. 2016b. "Enacting Swiss Cheese: About the Multiple Ontologies of Local Food."
+In Biological Economies: Experimentation and the politics of agrifood frontiers, edited by
+Richard Le Heron, Hugh Campbell, Nick Lewis and Michael S. Carolan. London / New York:
+Routledge.
+Fredriksen, Aurora. 2014. Assembling value(s) What a focus on the distributed agency of
+assemblages can contribute to the study of value. LCSV Working Paper Series NO. 7. Available:
+http://thestudyofvalue.org/wp-content/uploads/2014/07/WP7-Fredriksen-Assemblingvalues.pdf                                                                                                  28
+Guthman, Julie. 2008. "Neoliberalism and the making of food politics in California." Geoforum
+39 (3):1171-83. doi: http://dx.doi.org/10.1016/j.geoforum.2006.09.002.
+Haggerty, Julia Hobson. 2007. “I’m not a greenie but…”: Environmentality, eco-populism and
+governance in New Zealand Experiences from the Southland whitebait fishery. Journal of Rural
+Studies, 23(2): 222-237.
+Harris, Edmund. 2009. "Neoliberal subjectivities or a politics of the possible? Reading for
+difference in alternative food networks." Area 41 (1):55-63. doi: 10.1111/j.14754762.2008.00848.x.
+Higgins, Vaughan, Clive Potter, Jacqui Dibden, and Chris Cocklin. 2014. "Neoliberalising rural
+environments." Journal of Rural Studies 36 (Supplement C):386-90. doi:
+Higgins, Vaughan, and Geoffrey Lawrence, (ed.). 2005. Agricultural governance: globalization
+and the new politics of regulation. Routledge: London and New York.
+Higgins, Vaughan, and Wendy Larner (ed.). 2017. Assembling Neoliberalism: Expertise,
+Practices, Subjects. Palgrave Macmillan USA.                                                                                                29
+Latour, Bruno. 2005. Reassembling the social. An Introduction to Actor-Network-Theory. New
+York: Oxford University Press.
+Law, John, and John Hassard. 1999. Actor network theory and after. Oxford: Blackwell.
+Le Heron, Richard, Hugh Campbell, Nick Lewis, and Michael S. Carolan (ed.). 2016. Biological
+Economies: Experimentation and the politics of agrifood frontiers. London / New York:
+Routledge.
+Lewis, Nick, Richard Le Heron, Hugh Campbell, Matthew Henry, Erena Le Heron, Eric Pawson,
+Harvey Perkins, Michael Roche, and Christopher Rosin. 2013. "Assembling biological economies:
+Region-shaping initiatives in making and retaining value." New Zealand Geographer 69 (3):18096. doi: 10.1111/nzg.12031.
+Lewis, Nick, Richard Le Heron and Hugh Campbell. 2017. ‘The Mouse that Died: Stabilizing
+Economic Practices in Free Trade Space. In Assembling Neoliberalism: Expertise, Practices,
+Subjects. Palgrave Macmillan USA.                                                                                                   30
+Li, Tanya, M. 2007. “Practices of assemblage and community forest management.” Economy
+and Society, 36(2): 263–293.
+Linke, Janke. 2016. Re-shaping ‘soft gold’: fungal agency and the bioeconomy in the caterpillar
+fungus market assemblage.’ In Biological Economies: Experimentation and the politics of
+agrifood frontiers, edited by Richard Le Heron, Hugh Campbell, Nick Lewis and Michael S.
+Carolan. London / New York: Routledge.
+Lockie, Stewart. and Higgins, Vaughan. 2007. Roll-out neoliberalism and hybrid practices of
+regulation in Australian agri-environmental governance. Journal of Rural Studies, 23(1): 1-11.
+McFarlane, Colin. 2011. "Assemblage and critical urbanism." City 15 (2):204-24. doi:
+10.1080/13604813.2011.568715.
+McFarlane, Colin, and Ben Anderson. 2011. "Thinking with assemblage." Area 43 (2):162-4. doi:
+10.1111/j.1475-4762.2011.01012.x.
+Mol, Annemarie. 2010. “Actor-Network Theory: sensitive terms and enduring tensions.” Kölner
+Zeitschrift für Soziologie und Sozialpsychologie. Sonderheft, 50: 253-269.                                                                                                 31
+Müller, Martin. 2015. "Assemblages and Actor-networks: Rethinking Socio-material Power,
+Politics and Space." Geography Compass 9 (1):27-41. doi: 10.1111/gec3.12192.
+Ong, Aihwa and Stephen. J. Collier (eds.) 2005. Global Assemblages. Technology, Politics, and
+Ethics as Anthropological Problems. Malden MA/Oxford UK: Blackwell.
+Palmer, James, and Susan Owens. 2015. "Indirect land-use change and biofuels: the
+contribution of assemblage theory to place-specific environmental governance." Environmental
+Science & Policy, 53: 18-26.
+Rosin, Christopher and Hugh Campbell. 2009. "Beyond bifurcation. Examining the conventions
+of organic agriculture in New Zealand." Journal of Rural Studies 25 (2009):35-47.
+Rosin, Christopher, Hugh Campbell and John Reid. 2017. “Metrology and sustainability: Using
+sustainability audits in New Zealand to elaborate the complex politics of measuring.” Journal of
+Rural Studies, 52: 90-99.
+Rosin, Christopher, Katharine Legun, Hugh Campbell, and Marion Sautier. 2017. “From
+compliance to co-production: emergent forms of agency in sustainable wine production in New
+Zealand.” Environment and Planning A. https://doiorg.ezproxy.lincoln.ac.nz/10.1177/0308518X17733747 |                                                                                                   32
+Sullivan, Sian, 2010. ‘Ecosystem service commodities’ – a new imperial ecology? Implications
+for animist immanent ecologies, with Deleuze and Guattari. New Formations: A Journal of
+Culture/Theory/Politics 69, 111-128.
+Sullivan, Sian. 2014. “The natural capital myth; or will accounting save the world? Preliminary
+thoughts on nature, finance and values”. Leverhulme Centre for the Study of Value (LCSV)
+Working Paper Series NO. 3 Available: http://thestudyofvalue.org/wpcontent/uploads/2013/11/WP3-Sullivan-2014-Natural-Capital-Myth.pdf
+Vanclay, Frank and Geoff Lawrence. 1994. Farmer rationality and the adoption of
+environmentally sound practices; a critique of the assumptions of traditional agricultural
+extension. European Journal of Agricultural Education and Extension, 1(1): 59-90.
+Whatmore, Sarah J. 2013. Earthly powers and affective environments: an ontological politics of
+flood risk.” Theory, Culture & Society, 30(7/8): 33-50.
+Wolf, Eric R., and Alessandro Bonnano (eds). 2014. The Neoliberal Regime in the Agri-food
+Sector: Crisis, Resilience and Restructuring. Abingdon/New York: Routledge.
