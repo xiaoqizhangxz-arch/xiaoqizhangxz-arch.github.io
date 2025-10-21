@@ -20,8 +20,6 @@
             border-bottom: 2px solid #eaecef;
             padding-bottom: 0.5em;
         }
-        
-        /* 搜索框样式 */
         #searchInput {
             width: 100%;
             font-size: 1.1em;
@@ -29,46 +27,28 @@
             margin-bottom: 2em;
             border: 2px solid #ddd;
             border-radius: 8px;
-            box-sizing: border-box; /* 确保 padding 不会撑开宽度 */
+            box-sizing: border-box; 
             transition: border-color 0.2s;
         }
         #searchInput:focus {
             border-color: #3498db;
             outline: none;
         }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
+        ul { list-style-type: none; padding: 0; }
         li {
             margin-bottom: 0.9em;
             border-left: 3px solid #3498db;
             padding-left: 1.2em;
             transition: background-color 0.2s ease-in-out, border-left-color 0.2s ease-in-out;
         }
-        li:hover {
-             background-color: #f4f6f7;
-             border-left-color: #e74c3c;
-        }
-        a {
-            text-decoration: none;
-            color: #2980b9;
-            font-size: 1.1em;
-            font-weight: 500;
-        }
-        a:hover {
-            text-decoration: underline;
-            color: #c0392b;
-        }
+        li:hover { background-color: #f4f6f7; border-left-color: #e74c3c; }
+        a { text-decoration: none; color: #2980b9; font-size: 1.1em; font-weight: 500; }
+        a:hover { text-decoration: underline; color: #c0392b; }
     </style>
 </head>
 <body>
-
     <h1>文档索引</h1>
-
     <input type="search" id="searchInput" placeholder="搜索标题或全文内容..." aria-label="搜索文档">
-
     <ul id="resultsList">
         <li><a href="summary_htmls/Aguiari (2024) A processual approach to community agriculture_ Between structuralist and individualist explanations.html">Aguiari (2024) A processual approach to community agriculture_ Between structuralist and individualist explanations</a></li>
         <li><a href="summary_htmls/Ali (2024) A Guide for Positivist Research Paradigm_ From Philosophy to Methodology.html">Ali (2024) A Guide for Positivist Research Paradigm_ From Philosophy to Methodology</a></li>
@@ -146,22 +126,15 @@
         <li><a href="summary_htmls/Whatmore (2006) Materialist returns_ practising cultural geography in and for a more-than-human world.html">Whatmore (2006) Materialist returns_ practising cultural geography in and for a more-than-human world</a></li>
         <li><a href="summary_htmls/__ (2000) ECOLOGICAL CHALLENGES FOR SOIL SCIENCE.html">__ (2000) ECOLOGICAL CHALLENGES FOR SOIL SCIENCE</a></li>
     </ul>
-
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const searchInput = document.getElementById('searchInput');
             const resultsList = document.getElementById('resultsList');
-            const originalListHTML = resultsList.innerHTML; // 保存原始列表
-            let searchData = []; // 存储从JSON加载的数据
+            const originalListHTML = resultsList.innerHTML; 
+            let searchData = []; 
 
-            // 1. 异步加载搜索索引文件
             fetch('search_data.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('网络响应错误');
-                    }
-                    return response.json();
-                })
+                .then(response => response.ok ? response.json() : Promise.reject('网络响应错误'))
                 .then(data => {
                     searchData = data;
                     console.log('搜索索引加载成功。');
@@ -169,42 +142,28 @@
                 .catch(error => {
                     console.error('无法加载搜索索引: search_data.json', error);
                     searchInput.placeholder = '搜索索引加载失败，只能搜索标题';
-                    // 降级处理
                     searchData = Array.from(resultsList.querySelectorAll('li a')).map(a => ({
-                        display: a.textContent,
-                        href: a.href,
-                        content: '' 
+                        display: a.textContent, href: a.href, content: '' 
                     }));
                 });
 
-            // 2. 监听搜索框的 input 事件
             searchInput.addEventListener('input', (e) => {
                 const query = e.target.value.toLowerCase().trim();
-
                 if (query === '') {
                     resultsList.innerHTML = originalListHTML;
                     return;
                 }
-
-                // 3. 过滤数据
                 const results = searchData.filter(item => {
-                    // 同时搜索标题 (display) 和 全文内容 (content)
                     return item.display.toLowerCase().includes(query) || 
-                           item.content.includes(query); // content 已是小写
+                           item.content.includes(query); 
                 });
-
-                // 4. 重新渲染列表
                 if (results.length > 0) {
-                    const newHtml = results.map(item => {
-                        return `<li><a href="${item.href}">${item.display}</a></li>`;
-                    }).join('');
-                    resultsList.innerHTML = newHtml;
+                    resultsList.innerHTML = results.map(item => `<li><a href="${item.href}">${item.display}</a></li>`).join('');
                 } else {
                     resultsList.innerHTML = '<li>未找到匹配项。</li>';
                 }
             });
         });
     </script>
-
 </body>
 </html>
