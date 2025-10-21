@@ -169,11 +169,11 @@
                 .catch(error => {
                     console.error('无法加载搜索索引: search_data.json', error);
                     searchInput.placeholder = '搜索索引加载失败，只能搜索标题';
-                    // 降级处理：如果JSON加载失败，仍然可以搜索原始列表中的标题
+                    // 降级处理
                     searchData = Array.from(resultsList.querySelectorAll('li a')).map(a => ({
                         display: a.textContent,
                         href: a.href,
-                        content: '' // 内容为空，只能匹配标题
+                        content: '' 
                     }));
                 });
 
@@ -181,7 +181,6 @@
             searchInput.addEventListener('input', (e) => {
                 const query = e.target.value.toLowerCase().trim();
 
-                // 如果搜索框为空，恢复原始列表
                 if (query === '') {
                     resultsList.innerHTML = originalListHTML;
                     return;
@@ -189,9 +188,9 @@
 
                 // 3. 过滤数据
                 const results = searchData.filter(item => {
-                    // 同时搜索标题 (display) 和全文内容 (content)
+                    // 同时搜索标题 (display) 和 全文内容 (content)
                     return item.display.toLowerCase().includes(query) || 
-                           item.content.includes(query); // content 已经存为小写
+                           item.content.includes(query); // content 已是小写
                 });
 
                 // 4. 重新渲染列表
