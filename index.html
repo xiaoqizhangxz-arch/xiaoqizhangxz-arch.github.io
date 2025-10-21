@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xiaoqi's Archive</title>
+    <title>文档索引 | Xiaoqi's Archive</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -20,6 +20,23 @@
             border-bottom: 2px solid #eaecef;
             padding-bottom: 0.5em;
         }
+        
+        /* 搜索框样式 */
+        #searchInput {
+            width: 100%;
+            font-size: 1.1em;
+            padding: 10px 15px;
+            margin-bottom: 2em;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-sizing: border-box; /* 确保 padding 不会撑开宽度 */
+            transition: border-color 0.2s;
+        }
+        #searchInput:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
         ul {
             list-style-type: none;
             padding: 0;
@@ -48,9 +65,11 @@
 </head>
 <body>
 
-    <h1>Xiaoqi's Archive</h1>
+    <h1>文档索引</h1>
 
-    <ul>
+    <input type="search" id="searchInput" placeholder="搜索标题或全文内容..." aria-label="搜索文档">
+
+    <ul id="resultsList">
         <li><a href="summary_htmls/Aguiari (2024) A processual approach to community agriculture_ Between structuralist and individualist explanations.html">Aguiari (2024) A processual approach to community agriculture_ Between structuralist and individualist explanations</a></li>
         <li><a href="summary_htmls/Ali (2024) A Guide for Positivist Research Paradigm_ From Philosophy to Methodology.html">Ali (2024) A Guide for Positivist Research Paradigm_ From Philosophy to Methodology</a></li>
         <li><a href="summary_htmls/Alrøe et al. (2017) Performance versus Values in Sustainability Transformation of Food Systems.html">Alrøe et al. (2017) Performance versus Values in Sustainability Transformation of Food Systems</a></li>
@@ -63,6 +82,7 @@
         <li><a href="summary_htmls/Carolan (2006) Social change and the adoption and adaptation of knowledge claims_ Whose truth do you trust in regard to sustainable agriculture_.html">Carolan (2006) Social change and the adoption and adaptation of knowledge claims_ Whose truth do you trust in regard to sustainable agriculture_</a></li>
         <li><a href="summary_htmls/Carolan (2008) More-than-Representational Knowledge_s of the Countryside_ How We Think as Bodies.html">Carolan (2008) More-than-Representational Knowledge_s of the Countryside_ How We Think as Bodies</a></li>
         <li><a href="summary_htmls/Carolan (2008) The Bright- and Blind-Spots of Science_ Why Objective Knowledge is not Enough to Resolve Environmental Controversies.html">Carolan (2008) The Bright- and Blind-Spots of Science_ Why Objective Knowledge is not Enough to Resolve Environmental Controversies</a></li>
+        <li><a href="summary_htmls/Carolan (2013) Putting the 'Alter' in Alternative Food Futures.html">Carolan (2013) Putting the 'Alter' in Alternative Food Futures</a></li>
         <li><a href="summary_htmls/Carolan (2013) The Wild Side of Agro-food Studies_ On Co-experimentation, Politics, Change, and Hope.html">Carolan (2013) The Wild Side of Agro-food Studies_ On Co-experimentation, Politics, Change, and Hope</a></li>
         <li><a href="summary_htmls/Carolan (2015) Affective sustainable landscapes and care ecologies_ getting a real feel for alternative food communities.html">Carolan (2015) Affective sustainable landscapes and care ecologies_ getting a real feel for alternative food communities</a></li>
         <li><a href="summary_htmls/Carolan (2017) Agro-Digital Governance and Life Itself_ Food Politics at the Intersection of Code and Affect.html">Carolan (2017) Agro-Digital Governance and Life Itself_ Food Politics at the Intersection of Code and Affect</a></li>
@@ -85,6 +105,7 @@
         <li><a href="summary_htmls/Gladkova (2025) More-than-human urban food growing imaginaries_ engaging with the senses.html">Gladkova (2025) More-than-human urban food growing imaginaries_ engaging with the senses</a></li>
         <li><a href="summary_htmls/Goble (2017) Beyond Human Subjectivity and Back to the Things Themselves_ Jane Bennett’s Vibrant Matter.html">Goble (2017) Beyond Human Subjectivity and Back to the Things Themselves_ Jane Bennett’s Vibrant Matter</a></li>
         <li><a href="summary_htmls/Goodman (2001) Ontology Matters_ The Relational Materiality of Nature and Agro-Food Studies.html">Goodman (2001) Ontology Matters_ The Relational Materiality of Nature and Agro-Food Studies</a></li>
+        <li><a href="summary_htmls/Goodman et al. (2002) Knowing Food and Growing Food_ Beyond the Production-Consumption Debate in the Sociology of Agriculture.html">Goodman et al. (2002) Knowing Food and Growing Food_ Beyond the Production-Consumption Debate in the Sociology of Agriculture</a></li>
         <li><a href="summary_htmls/Hertz et al. (2025) Knowledge that affects_ an assemblage approach.html">Hertz et al. (2025) Knowledge that affects_ an assemblage approach</a></li>
         <li><a href="summary_htmls/Hidalgo et al. (2024) How do coffee farmers engage with digital technologies_ A capabilities perspective.html">Hidalgo et al. (2024) How do coffee farmers engage with digital technologies_ A capabilities perspective</a></li>
         <li><a href="summary_htmls/Higgins et al. (2017) Ordering adoption_ Materiality, knowledge and farmer engagement with precision agriculture technologies.html">Higgins et al. (2017) Ordering adoption_ Materiality, knowledge and farmer engagement with precision agriculture technologies</a></li>
@@ -125,6 +146,66 @@
         <li><a href="summary_htmls/Whatmore (2006) Materialist returns_ practising cultural geography in and for a more-than-human world.html">Whatmore (2006) Materialist returns_ practising cultural geography in and for a more-than-human world</a></li>
         <li><a href="summary_htmls/__ (2000) ECOLOGICAL CHALLENGES FOR SOIL SCIENCE.html">__ (2000) ECOLOGICAL CHALLENGES FOR SOIL SCIENCE</a></li>
     </ul>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchInput = document.getElementById('searchInput');
+            const resultsList = document.getElementById('resultsList');
+            const originalListHTML = resultsList.innerHTML; // 保存原始列表
+            let searchData = []; // 存储从JSON加载的数据
+
+            // 1. 异步加载搜索索引文件
+            fetch('search_data.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('网络响应错误');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    searchData = data;
+                    console.log('搜索索引加载成功。');
+                })
+                .catch(error => {
+                    console.error('无法加载搜索索引: search_data.json', error);
+                    searchInput.placeholder = '搜索索引加载失败，只能搜索标题';
+                    // 降级处理：如果JSON加载失败，仍然可以搜索原始列表中的标题
+                    searchData = Array.from(resultsList.querySelectorAll('li a')).map(a => ({
+                        display: a.textContent,
+                        href: a.href,
+                        content: '' // 内容为空，只能匹配标题
+                    }));
+                });
+
+            // 2. 监听搜索框的 input 事件
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+
+                // 如果搜索框为空，恢复原始列表
+                if (query === '') {
+                    resultsList.innerHTML = originalListHTML;
+                    return;
+                }
+
+                // 3. 过滤数据
+                const results = searchData.filter(item => {
+                    // 同时搜索标题 (display) 和全文内容 (content)
+                    return item.display.toLowerCase().includes(query) || 
+                           item.content.includes(query); // content 已经存为小写
+                });
+
+                // 4. 重新渲染列表
+                if (results.length > 0) {
+                    const newHtml = results.map(item => {
+                        return `<li><a href="${item.href}">${item.display}</a></li>`;
+                    }).join('');
+                    resultsList.innerHTML = newHtml;
+                } else {
+                    resultsList.innerHTML = '<li>未找到匹配项。</li>';
+                }
+            });
+        });
+    </script>
 
 </body>
 </html>
