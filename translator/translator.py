@@ -1,221 +1,381 @@
-import subprocess
-import re
 import os
-import sys
+import pypdf  # 改为导入 pypdf
+import re
+from openai import OpenAI
+import time
+import json
 from pathlib import Path
-import google.generativeai as genai
-from collections import Counter
 
-# 尝试导入docx库，如果失败则给出安装提示
-try:
-    from docx import Document
-    from docx.shared import Pt, Inches
-    from docx.enum.text import WD_ALIGN_PARAGRAPH
-    from docx.oxml.ns import qn
-except ImportError:
-    print("\n[错误] 未找到 'python-docx' 库。")
-    print("请先运行 'pip install python-docx' 来安装它。")
-    sys.exit(1)
+# 配置路径
+SOURCE_DIR = "/workspaces/xiaoqizhangxz-arch.github.io/translator/source_pdfs"
+TARGET_DIR = "/workspaces/xiaoqizhangxz-arch.github.io/translator/cleaned_txts"
+TRANSLATION_DIR = "/workspaces/xiaoqizhangxz-arch.github.io/translator/translations"
+LOG_DIR = "/workspaces/xiaoqizhangxz-arch.github.io/translator/logs"
 
-# =================== 路径配置 ===================
-BASE_DIR = Path('/workspaces/xiaoqizhangxz-arch.github.io/translator')
-INPUT_PDF_FOLDER = BASE_DIR / 'source_pdfs'
-OUTPUT_TXT_FOLDER = BASE_DIR / 'cleaned_txts'
-OUTPUT_TRANSLATION_FOLDER = BASE_DIR / 'translated_zh_docx' # 输出文件夹改为docx
+# 创建必要的目录
+for directory in [SOURCE_DIR, TARGET_DIR, TRANSLATION_DIR, LOG_DIR]:
+    Path(directory).mkdir(parents=True, exist_ok=True)
 
-# =================== Gemini 配置 ===================
-MODEL_NAME = "models/gemini-2.5-pro"
-
-TRANSLATION_PROMPT_TEMPLATE = """
-你是一位顶级的学术翻译专家，专攻将英文的人文社科类学术著作翻译成流畅、精准、且符合学术规范的简体中文。
-
-你的任务是翻译以下完整的英文书籍文本。
-
-请严格遵循以下准则：
-1.  **忠实原文**: 精确传达原文的复杂概念、论点和细微语气。不得添加任何原文没有的解释或评论。
-2.  **术语一致**: 确保关键的理论术语和专有名词在全文中保持翻译的一致性。
-3.  **行文流畅**: 译文必须通顺、自然，符合中文学术写作的语言习惯。
-4.  **格式保留**: 保持原文的段落结构。原文中的换行和分段应在译文中得到保留。
-5.  **纯净输出**: 你的回答必须是且仅是翻译后的简体中文文本。不要包含任何“好的，这是翻译：”或任何其他前言或结语。
-
---- English Text to Translate ---
-{full_text}
----
-"""
-
-# =================== 功能函数 ===================
-
-def extract_text_with_pdftotext(pdf_path):
-    """使用pdftotext从PDF中提取高质量的、保持布局的文本。"""
-    print(f"   -> 正在使用 pdftotext 提取文本...")
-    try:
-        result = subprocess.run(
-            ['pdftotext', '-layout', '-enc', 'UTF-8', str(pdf_path), '-'],
-            capture_output=True, text=True, check=True, encoding='utf-8'
-        )
-        return result.stdout
-    except FileNotFoundError:
-        print("\n[错误] 未找到 'pdftotext' 命令。请运行 'sudo apt-get update && sudo apt-get install -y poppler-utils'。")
-        sys.exit(1)
-    except subprocess.CalledProcessError as e:
-        print(f"\n[警告] 使用pdftotext处理文件 '{pdf_path.name}' 时出错: {e.stderr}")
-        return None
-
-def clean_book_text(raw_text):
-    """增强版清理函数，能更有效地移除页眉、页脚和页码。"""
-    print("   -> 正在智能清理文本...")
-    if not raw_text: return ""
-    
-    # 初步清理：修复断词、移除分页符
-    text = re.sub(r'-\s*\n\s*', '', raw_text)
-    text = text.replace('\f', '')
-    
-    lines = text.split('\n')
-    
-    # 统计所有行的出现频率，以识别重复的页眉/页脚
-    line_counts = Counter(line.strip() for line in lines if len(line.strip()) > 5)
-    # 找出出现超过5次且长度小于100的行，作为页眉/页脚嫌疑对象
-    common_headers_footers = {line for line, count in line_counts.items() if count > 5 and len(line) < 100}
-
-    cleaned_lines = []
-    for line in lines:
-        stripped_line = line.strip()
+class PDFTranslator:
+    def __init__(self, api_key):
+        self.client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
+        self.terminology_dict = {}
+        self.translation_log = []
         
-        # 规则1: 跳过空行
-        if not stripped_line:
-            cleaned_lines.append("") # 保留空行以维持段落结构
-            continue
+    def extract_pdf_text(self, pdf_path):
+        """提取PDF文本内容"""
+        print(f"正在提取PDF文本: {pdf_path}")
+        full_text = ""
         
-        # 规则2: 跳过已识别的重复页眉/页脚
-        if stripped_line in common_headers_footers:
-            continue
+        try:
+            with open(pdf_path, 'rb') as file:
+                reader = pypdf.PdfReader(file)  # 改为使用 pypdf.PdfReader
+                total_pages = len(reader.pages)
+                
+                for page_num, page in enumerate(reader.pages):
+                    text = page.extract_text()
+                    # 添加页码标记
+                    full_text += f"--- Page {page_num + 1} ---\n{text}\n\n"
+                    print(f"已提取第 {page_num + 1}/{total_pages} 页")
+                    
+        except Exception as e:
+            print(f"PDF提取错误: {e}")
+            raise
+        
+        return full_text
+    
+    def clean_and_chunk_text(self, text, chunk_size=1500):
+        """清理文本并分块"""
+        print("正在进行文本清理和分块...")
+        
+        # 基础清理
+        text = re.sub(r'\s+', ' ', text)  # 合并多余空白字符
+        text = re.sub(r'\n\s*\n', '\n\n', text)  # 规范化段落间隔
+        
+        # 按语义分块（句子、段落）
+        sentences = re.split(r'(?<=[.!?])\s+', text)
+        
+        chunks = []
+        current_chunk = ""
+        
+        for sentence in sentences:
+            # 如果当前块加上新句子不超过限制，则添加
+            if len(current_chunk) + len(sentence) <= chunk_size:
+                if current_chunk:
+                    current_chunk += " " + sentence
+                else:
+                    current_chunk = sentence
+            else:
+                # 如果当前块已经有内容，保存它
+                if current_chunk:
+                    chunks.append(current_chunk.strip())
+                    current_chunk = sentence
+                else:
+                    # 如果单个句子就超过chunk_size，强制分割
+                    chunks.append(sentence[:chunk_size])
+                    current_chunk = sentence[chunk_size:]
+        
+        # 添加最后一个块
+        if current_chunk:
+            chunks.append(current_chunk.strip())
+        
+        print(f"文本已分成 {len(chunks)} 个块")
+        return chunks
+    
+    def save_cleaned_text(self, text, original_filename):
+        """保存清理后的文本"""
+        output_path = os.path.join(TARGET_DIR, f"{original_filename}_cleaned.txt")
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(text)
+        print(f"清理后的文本已保存: {output_path}")
+        return output_path
+    
+    def build_system_prompt(self):
+        """构建系统提示词"""
+        return """你是一位专业的翻译专家，专门从事心理学和神秘学文献的翻译。请遵循以下要求：
+
+专业术语一致性：
+- 荣格心理学：集体无意识、原型、阴影、人格面具、自性化、阿尼玛、阿尼姆斯等
+- 塔罗牌：大阿卡纳、小阿卡纳、愚者、魔术师、女祭司、皇后、皇帝等
+- 保持学术严谨性，专业术语前后统一
+
+翻译风格：
+- 学术性但不过于晦涩
+- 保持原文的哲学深度和象征意义
+- 文化概念要准确传达，必要时添加简要说明
+- 语言流畅自然，符合中文表达习惯
+
+注意事项：
+- 保留重要的专业术语英文原文（首次出现时用括号标注）
+- 保持段落结构和逻辑连贯性
+- 特别注意象征性语言和隐喻的准确传达"""
+    
+    def translate_text_chunks(self, chunks, book_title):
+        """翻译文本块"""
+        print(f"开始翻译《{book_title}》，共 {len(chunks)} 个文本块...")
+        
+        translations = []
+        messages = [{"role": "system", "content": self.build_system_prompt()}]
+        
+        for i, chunk in enumerate(chunks):
+            print(f"翻译进度: {i+1}/{len(chunks)}")
             
-        # 规则3: 跳过看起来像页码的行（纯数字或 "Page X" 等）
-        if stripped_line.isdigit() or re.match(r'^[Pp]age\s*\d+$', stripped_line):
-            continue
-            
-        cleaned_lines.append(line)
+            try:
+                # 构建用户提示
+                user_prompt = self.build_translation_prompt(chunk, i, len(chunks), book_title)
+                messages.append({"role": "user", "content": user_prompt})
+                
+                response = self.client.chat.completions.create(
+                    model="deepseek-chat",
+                    messages=messages,
+                    temperature=0.2,
+                    max_tokens=4000
+                )
+                
+                translation = response.choices[0].message.content
+                translations.append(translation)
+                
+                # 记录日志
+                self.translation_log.append({
+                    "chunk_index": i,
+                    "original_length": len(chunk),
+                    "translation_length": len(translation),
+                    "timestamp": time.time()
+                })
+                
+                # 管理对话历史
+                messages = self.manage_conversation_history(messages, translation)
+                
+                # 提取术语
+                self.extract_terminology(translation)
+                
+                # 避免速率限制
+                if (i + 1) % 10 == 0:
+                    print("等待5秒避免速率限制...")
+                    time.sleep(5)
+                else:
+                    time.sleep(1)
+                    
+            except Exception as e:
+                print(f"第 {i+1} 块翻译失败: {e}")
+                # 错误恢复
+                translations.append(f"[翻译错误: {str(e)}]")
+                messages = self.recover_from_error(messages)
+                time.sleep(10)  # 错误后等待更长时间
+                continue
         
-    text = '\n'.join(cleaned_lines)
-    # 压缩多个连续的空行到一个，保持段落结构
-    text = re.sub(r'\n{3,}', '\n\n', text)
-    return text.strip()
-
-def save_as_docx(text, file_path):
-    """将文本保存为带格式的DOCX文件。"""
-    print(f"   -> 正在生成格式化的 DOCX 文件...")
-    doc = Document()
+        return translations
     
-    # 设置中文字体
-    doc.styles['Normal'].font.name = '宋体'
-    doc.styles['Normal']._element.rPr.rFonts.set(qn('w:eastAsia'), '宋体')
-    doc.styles['Heading 1'].font.name = '宋体'
-    doc.styles['Heading 1']._element.rPr.rFonts.set(qn('w:eastAsia'), '宋体')
+    def build_translation_prompt(self, chunk, current_index, total_chunks, book_title):
+        """构建翻译提示"""
+        context_info = []
+        
+        if current_index > 0:
+            context_info.append("请基于前文内容，保持术语和风格的一致性")
+        
+        if current_index < total_chunks - 1:
+            context_info.append("请确保本部分结尾自然衔接后续内容")
+        
+        context_info.append("特别注意荣格心理学和塔罗牌专业术语的准确翻译")
+        
+        context_str = "。".join(context_info)
+        
+        return f"""《{book_title}》翻译任务
 
-    # 设置正文样式：小四，首行缩进2字符
-    style = doc.styles['Normal']
-    style.font.size = Pt(12) # 小四对应12号字
-    p_format = style.paragraph_format
-    p_format.first_line_indent = Inches(0.33) # 约等于2个字符
-    p_format.line_spacing = 1.5
+{context_str}
 
-    # 设置一级标题样式：四号，不缩进
-    style_h1 = doc.styles['Heading 1']
-    style_h1.font.size = Pt(14) # 四号对应14号字
-    style_h1.font.bold = True
-    p_format_h1 = style_h1.paragraph_format
-    p_format_h1.first_line_indent = Inches(0)
-    p_format_h1.space_before = Pt(12)
-    p_format_h1.space_after = Pt(12)
+当前翻译片段（第{current_index + 1}/{total_chunks}部分）：
+{chunk}
+
+请提供专业准确的中文翻译，保持学术严谨性和语言流畅性："""
     
-    paragraphs = text.split('\n')
-    for para_text in paragraphs:
-        stripped_para = para_text.strip()
-        if not stripped_para:
-            continue
+    def manage_conversation_history(self, messages, new_translation, max_history=3):
+        """管理对话历史以控制token数量"""
+        # 总是保留系统消息
+        managed_messages = [messages[0]]
         
-        # 启发式规则判断章节标题：行长较短（小于50字符），且不以句号、问号等结尾
-        is_heading = len(stripped_para) < 50 and not stripped_para.endswith(('.', '?', '!', '”'))
-        
-        if is_heading:
-            doc.add_heading(stripped_para, level=1)
+        # 如果历史太长，只保留最近的几轮
+        if len(messages) > max_history * 2 + 1:
+            # 保留系统消息和最近的对话
+            recent_messages = messages[-(max_history * 2):]
+            managed_messages.extend(recent_messages)
         else:
-            doc.add_paragraph(para_text)
-            
-    doc.save(file_path)
-
-def translate_text_with_gemini(cleaned_text):
-    """使用Gemini API翻译完整的文本。"""
-    api_key = os.environ.get('GEMINI_API_KEY')
-    if not api_key:
-        print("\n[错误] Gemini API 密钥未在环境变量 GEMINI_API_KEY 中设置。")
-        return None
-    
-    genai.configure(api_key=api_key)
-    model = genai.GenerativeModel(MODEL_NAME)
-    
-    full_prompt = TRANSLATION_PROMPT_TEMPLATE.format(full_text=cleaned_text)
-    
-    try:
-        print("   -> 已发送完整文本至 Gemini API，等待翻译... (这对于一本书来说可能需要很长时间)")
-        response = model.generate_content(full_prompt, request_options={'timeout': 3600}) # 1小时超时
+            managed_messages.extend(messages[1:])
         
-        if hasattr(response, 'text'):
-            return response.text
-        if hasattr(response, 'candidates') and response.candidates:
-            if hasattr(response.candidates[0], 'content') and response.candidates[0].content.parts:
-                return response.candidates[0].content.parts[0].text
-        return str(response)
+        # 添加新的助手回复
+        managed_messages.append({"role": "assistant", "content": new_translation})
+        
+        return managed_messages
+    
+    def recover_from_error(self, messages):
+        """从错误中恢复"""
+        # 保留系统消息和最近一轮用户消息
+        if len(messages) >= 3:
+            return [messages[0], messages[-2], messages[-1]]
+        else:
+            return messages
+    
+    def extract_terminology(self, translation):
+        """从翻译中提取可能的专业术语"""
+        # 简单的术语识别模式
+        terminology_patterns = [
+            r'[「《]([^」》]+)[」》]\s*（([^）]+)）',  # 中文术语（英文原文）
+            r'([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\s*（([^）]+)）',  # 英文术语（中文解释）
+        ]
+        
+        for pattern in terminology_patterns:
+            matches = re.findall(pattern, translation)
+            for match in matches:
+                if len(match) == 2:
+                    term, explanation = match
+                    if term not in self.terminology_dict:
+                        self.terminology_dict[term] = explanation
+                        print(f"发现新术语: {term} -> {explanation}")
+    
+    def save_translation(self, translations, original_filename, book_title):
+        """保存翻译结果"""
+        # 保存完整翻译
+        output_path = os.path.join(TRANSLATION_DIR, f"{original_filename}_translated.txt")
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(f"《{book_title}》中文翻译\n")
+            f.write("=" * 50 + "\n\n")
+            
+            for i, translation in enumerate(translations):
+                f.write(f"【第{i+1}部分】\n")
+                f.write(translation)
+                f.write("\n\n" + "-" * 40 + "\n\n")
+        
+        print(f"完整翻译已保存: {output_path}")
+        
+        # 保存术语表
+        if self.terminology_dict:
+            terminology_path = os.path.join(TRANSLATION_DIR, f"{original_filename}_terminology.json")
+            with open(terminology_path, 'w', encoding='utf-8') as f:
+                json.dump(self.terminology_dict, f, ensure_ascii=False, indent=2)
+            print(f"术语表已保存: {terminology_path}")
+        
+        # 保存日志
+        log_path = os.path.join(LOG_DIR, f"{original_filename}_translation_log.json")
+        with open(log_path, 'w', encoding='utf-8') as f:
+            json.dump(self.translation_log, f, ensure_ascii=False, indent=2)
+        print(f"翻译日志已保存: {log_path}")
+        
+        return output_path
+    
+    def process_pdf_file(self, pdf_filename, book_title=None):
+        """处理单个PDF文件"""
+        pdf_path = os.path.join(SOURCE_DIR, pdf_filename)
+        
+        if not os.path.exists(pdf_path):
+            print(f"文件不存在: {pdf_path}")
+            return
+        
+        # 提取原始文件名（不含扩展名）
+        original_name = os.path.splitext(pdf_filename)[0]
+        
+        if book_title is None:
+            book_title = original_name
+        
+        print(f"开始处理: {book_title}")
+        
+        try:
+            # 步骤1: 提取PDF文本
+            raw_text = self.extract_pdf_text(pdf_path)
+            
+            # 步骤2: 保存清理后的文本
+            cleaned_path = self.save_cleaned_text(raw_text, original_name)
+            
+            # 步骤3: 分块
+            chunks = self.clean_and_chunk_text(raw_text)
+            
+            # 步骤4: 翻译
+            translations = self.translate_text_chunks(chunks, book_title)
+            
+            # 步骤5: 保存结果
+            final_path = self.save_translation(translations, original_name, book_title)
+            
+            print(f"处理完成: {book_title}")
+            print(f"清理文本: {cleaned_path}")
+            print(f"翻译结果: {final_path}")
+            
+            return final_path
+            
+        except Exception as e:
+            print(f"处理失败 {pdf_filename}: {e}")
+            return None
+    
+    def batch_process_pdfs(self):
+        """批量处理SOURCE_DIR中的所有PDF文件"""
+        pdf_files = [f for f in os.listdir(SOURCE_DIR) if f.lower().endswith('.pdf')]
+        
+        if not pdf_files:
+            print(f"在 {SOURCE_DIR} 中没有找到PDF文件")
+            return
+        
+        print(f"找到 {len(pdf_files)} 个PDF文件:")
+        for i, pdf_file in enumerate(pdf_files):
+            print(f"{i+1}. {pdf_file}")
+        
+        for pdf_file in pdf_files:
+            print(f"\n{'='*50}")
+            print(f"处理文件: {pdf_file}")
+            print('='*50)
+            
+            self.process_pdf_file(pdf_file)
+            
+            print(f"完成: {pdf_file}")
+            print("等待10秒后处理下一个文件...")
+            time.sleep(10)
 
-    except Exception as e:
-        print(f"\n[错误] Gemini API 请求阶段出错: {e}")
-        return None
-
-# =================== 主流程 ===================
 def main():
-    INPUT_PDF_FOLDER.mkdir(exist_ok=True)
-    OUTPUT_TXT_FOLDER.mkdir(exist_ok=True)
-    OUTPUT_TRANSLATION_FOLDER.mkdir(exist_ok=True)
-
-    pdf_files = [f for f in INPUT_PDF_FOLDER.iterdir() if f.suffix.lower() == '.pdf' and not f.name.startswith('._')]
-    if not pdf_files:
-        print(f"[信息] 在 '{INPUT_PDF_FOLDER}' 文件夹中没有找到PDF文件。")
+    # 从环境变量获取API密钥
+    api_key = os.getenv("DEEPSEEK_API_KEY")
+    
+    if not api_key:
+        print("请设置 DEEPSEEK_API_KEY 环境变量")
         return
     
-    total_files = len(pdf_files)
-    print(f"找到 {total_files} 本书 (PDF)，开始翻译流程...")
-
-    for i, pdf_path in enumerate(pdf_files):
-        print(f"\n--- [{i+1}/{total_files}] 正在处理: {pdf_path.name} ---")
-        base_name = pdf_path.stem
+    # 创建翻译器实例
+    translator = PDFTranslator(api_key)
+    
+    # 选择处理模式
+    print("选择处理模式:")
+    print("1. 处理单个PDF文件")
+    print("2. 批量处理所有PDF文件")
+    
+    choice = input("请输入选择 (1 或 2): ").strip()
+    
+    if choice == "1":
+        # 单个文件处理
+        pdf_files = [f for f in os.listdir(SOURCE_DIR) if f.lower().endswith('.pdf')]
         
-        txt_path = OUTPUT_TXT_FOLDER / f"{base_name}_cleaned.txt"
-        translation_path = OUTPUT_TRANSLATION_FOLDER / f"{base_name}_translated_zh.docx" # 输出文件后缀改为.docx
+        if not pdf_files:
+            print(f"在 {SOURCE_DIR} 中没有找到PDF文件")
+            return
         
-        print("1. 清理PDF为TXT...")
-        raw_text = extract_text_with_pdftotext(pdf_path)
-        if not raw_text:
-            print(f"   跳过，文本提取失败。")
-            continue
+        print("可用的PDF文件:")
+        for i, pdf_file in enumerate(pdf_files):
+            print(f"{i+1}. {pdf_file}")
         
-        cleaned_text = clean_book_text(raw_text)
-        txt_path.write_text(cleaned_text, encoding='utf-8')
-        print(f"   清理后的TXT已保存至: {txt_path.name}")
+        try:
+            file_choice = int(input("请选择文件编号: ")) - 1
+            if 0 <= file_choice < len(pdf_files):
+                selected_file = pdf_files[file_choice]
+                book_title = input("请输入书籍标题 (直接回车使用文件名): ").strip()
+                if not book_title:
+                    book_title = None
+                translator.process_pdf_file(selected_file, book_title)
+            else:
+                print("无效的选择")
+        except ValueError:
+            print("请输入有效的数字")
+    
+    elif choice == "2":
+        # 批量处理
+        translator.batch_process_pdfs()
+    
+    else:
+        print("无效的选择")
 
-        print("2. 翻译完整的TXT文件...")
-        translated_text = translate_text_with_gemini(cleaned_text)
-        
-        if translated_text and len(translated_text) > 100:
-            # 使用新函数保存为带格式的DOCX
-            save_as_docx(translated_text, translation_path)
-            print(f"   ✅ 翻译完成！已生成格式化DOCX文件: {translation_path.name}")
-        else:
-            print(f"   ❌ 未能为 {pdf_path.name} 生成有效的翻译。")
-
-    print(f"\n--- 所有任务完成 ---")
-    print(f"请在以下文件夹中查看结果:")
-    print(f"- 清理后的TXT文件: {OUTPUT_TXT_FOLDER}")
-    print(f"- 中文译文 (DOCX): {OUTPUT_TRANSLATION_FOLDER}")
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

@@ -1,0 +1,3938 @@
+[
+  {
+    "chunk_index": 0,
+    "original_length": 1488,
+    "translation_length": 683,
+    "timestamp": 1761401200.966087
+  },
+  {
+    "chunk_index": 1,
+    "original_length": 1475,
+    "translation_length": 638,
+    "timestamp": 1761401219.00428
+  },
+  {
+    "chunk_index": 2,
+    "original_length": 1480,
+    "translation_length": 690,
+    "timestamp": 1761401239.5439324
+  },
+  {
+    "chunk_index": 3,
+    "original_length": 1483,
+    "translation_length": 643,
+    "timestamp": 1761401256.7469044
+  },
+  {
+    "chunk_index": 4,
+    "original_length": 1463,
+    "translation_length": 486,
+    "timestamp": 1761401270.4788506
+  },
+  {
+    "chunk_index": 5,
+    "original_length": 1315,
+    "translation_length": 428,
+    "timestamp": 1761401283.2979195
+  },
+  {
+    "chunk_index": 6,
+    "original_length": 1338,
+    "translation_length": 449,
+    "timestamp": 1761401296.2443764
+  },
+  {
+    "chunk_index": 7,
+    "original_length": 1455,
+    "translation_length": 443,
+    "timestamp": 1761401309.827138
+  },
+  {
+    "chunk_index": 8,
+    "original_length": 1434,
+    "translation_length": 538,
+    "timestamp": 1761401324.8925354
+  },
+  {
+    "chunk_index": 9,
+    "original_length": 1423,
+    "translation_length": 506,
+    "timestamp": 1761401337.1724577
+  },
+  {
+    "chunk_index": 10,
+    "original_length": 1492,
+    "translation_length": 495,
+    "timestamp": 1761401355.5152707
+  },
+  {
+    "chunk_index": 11,
+    "original_length": 1378,
+    "translation_length": 463,
+    "timestamp": 1761401369.235698
+  },
+  {
+    "chunk_index": 12,
+    "original_length": 1475,
+    "translation_length": 486,
+    "timestamp": 1761401382.976772
+  },
+  {
+    "chunk_index": 13,
+    "original_length": 1451,
+    "translation_length": 409,
+    "timestamp": 1761401394.2679384
+  },
+  {
+    "chunk_index": 14,
+    "original_length": 742,
+    "translation_length": 254,
+    "timestamp": 1761401403.1024609
+  },
+  {
+    "chunk_index": 15,
+    "original_length": 1393,
+    "translation_length": 433,
+    "timestamp": 1761401414.9418604
+  },
+  {
+    "chunk_index": 16,
+    "original_length": 1346,
+    "translation_length": 458,
+    "timestamp": 1761401426.5466812
+  },
+  {
+    "chunk_index": 17,
+    "original_length": 1369,
+    "translation_length": 439,
+    "timestamp": 1761401438.6330574
+  },
+  {
+    "chunk_index": 18,
+    "original_length": 1372,
+    "translation_length": 413,
+    "timestamp": 1761401451.0573876
+  },
+  {
+    "chunk_index": 19,
+    "original_length": 1480,
+    "translation_length": 521,
+    "timestamp": 1761401464.8848133
+  },
+  {
+    "chunk_index": 20,
+    "original_length": 1468,
+    "translation_length": 478,
+    "timestamp": 1761401482.6516287
+  },
+  {
+    "chunk_index": 21,
+    "original_length": 1382,
+    "translation_length": 525,
+    "timestamp": 1761401497.074141
+  },
+  {
+    "chunk_index": 22,
+    "original_length": 1489,
+    "translation_length": 473,
+    "timestamp": 1761401510.810062
+  },
+  {
+    "chunk_index": 23,
+    "original_length": 1465,
+    "translation_length": 425,
+    "timestamp": 1761401523.1705027
+  },
+  {
+    "chunk_index": 24,
+    "original_length": 1305,
+    "translation_length": 446,
+    "timestamp": 1761401535.676751
+  },
+  {
+    "chunk_index": 25,
+    "original_length": 1435,
+    "translation_length": 472,
+    "timestamp": 1761401548.0141802
+  },
+  {
+    "chunk_index": 26,
+    "original_length": 1476,
+    "translation_length": 473,
+    "timestamp": 1761401561.213011
+  },
+  {
+    "chunk_index": 27,
+    "original_length": 1473,
+    "translation_length": 476,
+    "timestamp": 1761401574.4141903
+  },
+  {
+    "chunk_index": 28,
+    "original_length": 1479,
+    "translation_length": 476,
+    "timestamp": 1761401586.9233322
+  },
+  {
+    "chunk_index": 29,
+    "original_length": 1450,
+    "translation_length": 484,
+    "timestamp": 1761401601.032787
+  },
+  {
+    "chunk_index": 30,
+    "original_length": 1361,
+    "translation_length": 425,
+    "timestamp": 1761401617.1512074
+  },
+  {
+    "chunk_index": 31,
+    "original_length": 1429,
+    "translation_length": 467,
+    "timestamp": 1761401630.5979218
+  },
+  {
+    "chunk_index": 32,
+    "original_length": 1455,
+    "translation_length": 436,
+    "timestamp": 1761401642.0096338
+  },
+  {
+    "chunk_index": 33,
+    "original_length": 1333,
+    "translation_length": 459,
+    "timestamp": 1761401654.0540466
+  },
+  {
+    "chunk_index": 34,
+    "original_length": 1388,
+    "translation_length": 444,
+    "timestamp": 1761401665.8604848
+  },
+  {
+    "chunk_index": 35,
+    "original_length": 1419,
+    "translation_length": 439,
+    "timestamp": 1761401677.5790968
+  },
+  {
+    "chunk_index": 36,
+    "original_length": 1051,
+    "translation_length": 386,
+    "timestamp": 1761401688.7145712
+  },
+  {
+    "chunk_index": 37,
+    "original_length": 1481,
+    "translation_length": 481,
+    "timestamp": 1761401701.0984313
+  },
+  {
+    "chunk_index": 38,
+    "original_length": 1360,
+    "translation_length": 481,
+    "timestamp": 1761401713.8817666
+  },
+  {
+    "chunk_index": 39,
+    "original_length": 1468,
+    "translation_length": 446,
+    "timestamp": 1761401725.7913034
+  },
+  {
+    "chunk_index": 40,
+    "original_length": 1471,
+    "translation_length": 473,
+    "timestamp": 1761401743.1447504
+  },
+  {
+    "chunk_index": 41,
+    "original_length": 1441,
+    "translation_length": 465,
+    "timestamp": 1761401754.8949711
+  },
+  {
+    "chunk_index": 42,
+    "original_length": 1340,
+    "translation_length": 519,
+    "timestamp": 1761401767.6764672
+  },
+  {
+    "chunk_index": 43,
+    "original_length": 1480,
+    "translation_length": 545,
+    "timestamp": 1761401781.9028
+  },
+  {
+    "chunk_index": 44,
+    "original_length": 1497,
+    "translation_length": 507,
+    "timestamp": 1761401795.0467424
+  },
+  {
+    "chunk_index": 45,
+    "original_length": 1308,
+    "translation_length": 531,
+    "timestamp": 1761401809.0715992
+  },
+  {
+    "chunk_index": 46,
+    "original_length": 1369,
+    "translation_length": 499,
+    "timestamp": 1761401822.2678385
+  },
+  {
+    "chunk_index": 47,
+    "original_length": 1433,
+    "translation_length": 492,
+    "timestamp": 1761401835.6037786
+  },
+  {
+    "chunk_index": 48,
+    "original_length": 1492,
+    "translation_length": 501,
+    "timestamp": 1761401848.4954927
+  },
+  {
+    "chunk_index": 49,
+    "original_length": 1438,
+    "translation_length": 461,
+    "timestamp": 1761401861.038128
+  },
+  {
+    "chunk_index": 50,
+    "original_length": 1440,
+    "translation_length": 418,
+    "timestamp": 1761401877.229059
+  },
+  {
+    "chunk_index": 51,
+    "original_length": 1446,
+    "translation_length": 493,
+    "timestamp": 1761401891.4820035
+  },
+  {
+    "chunk_index": 52,
+    "original_length": 1485,
+    "translation_length": 454,
+    "timestamp": 1761401904.90263
+  },
+  {
+    "chunk_index": 53,
+    "original_length": 1391,
+    "translation_length": 409,
+    "timestamp": 1761401918.0810347
+  },
+  {
+    "chunk_index": 54,
+    "original_length": 1453,
+    "translation_length": 535,
+    "timestamp": 1761401932.250509
+  },
+  {
+    "chunk_index": 55,
+    "original_length": 1402,
+    "translation_length": 478,
+    "timestamp": 1761401946.023388
+  },
+  {
+    "chunk_index": 56,
+    "original_length": 1468,
+    "translation_length": 514,
+    "timestamp": 1761401960.3934093
+  },
+  {
+    "chunk_index": 57,
+    "original_length": 1454,
+    "translation_length": 486,
+    "timestamp": 1761401974.6161606
+  },
+  {
+    "chunk_index": 58,
+    "original_length": 1244,
+    "translation_length": 461,
+    "timestamp": 1761401989.1208448
+  },
+  {
+    "chunk_index": 59,
+    "original_length": 1397,
+    "translation_length": 397,
+    "timestamp": 1761402003.0744703
+  },
+  {
+    "chunk_index": 60,
+    "original_length": 1375,
+    "translation_length": 492,
+    "timestamp": 1761402022.2920072
+  },
+  {
+    "chunk_index": 61,
+    "original_length": 1388,
+    "translation_length": 461,
+    "timestamp": 1761402036.1889753
+  },
+  {
+    "chunk_index": 62,
+    "original_length": 1499,
+    "translation_length": 540,
+    "timestamp": 1761402052.4324758
+  },
+  {
+    "chunk_index": 63,
+    "original_length": 1426,
+    "translation_length": 418,
+    "timestamp": 1761402065.0943496
+  },
+  {
+    "chunk_index": 64,
+    "original_length": 1412,
+    "translation_length": 501,
+    "timestamp": 1761402079.064024
+  },
+  {
+    "chunk_index": 65,
+    "original_length": 1470,
+    "translation_length": 530,
+    "timestamp": 1761402092.7477376
+  },
+  {
+    "chunk_index": 66,
+    "original_length": 1467,
+    "translation_length": 477,
+    "timestamp": 1761402106.3418465
+  },
+  {
+    "chunk_index": 67,
+    "original_length": 1444,
+    "translation_length": 510,
+    "timestamp": 1761402120.5544233
+  },
+  {
+    "chunk_index": 68,
+    "original_length": 1253,
+    "translation_length": 468,
+    "timestamp": 1761402134.181779
+  },
+  {
+    "chunk_index": 69,
+    "original_length": 1404,
+    "translation_length": 510,
+    "timestamp": 1761402147.8511834
+  },
+  {
+    "chunk_index": 70,
+    "original_length": 1437,
+    "translation_length": 522,
+    "timestamp": 1761402165.7159028
+  },
+  {
+    "chunk_index": 71,
+    "original_length": 1341,
+    "translation_length": 538,
+    "timestamp": 1761402179.7999377
+  },
+  {
+    "chunk_index": 72,
+    "original_length": 1434,
+    "translation_length": 466,
+    "timestamp": 1761402192.2849917
+  },
+  {
+    "chunk_index": 73,
+    "original_length": 1370,
+    "translation_length": 438,
+    "timestamp": 1761402205.7975168
+  },
+  {
+    "chunk_index": 74,
+    "original_length": 1218,
+    "translation_length": 402,
+    "timestamp": 1761402217.82437
+  },
+  {
+    "chunk_index": 75,
+    "original_length": 1315,
+    "translation_length": 384,
+    "timestamp": 1761402228.6896958
+  },
+  {
+    "chunk_index": 76,
+    "original_length": 1441,
+    "translation_length": 518,
+    "timestamp": 1761402243.3288345
+  },
+  {
+    "chunk_index": 77,
+    "original_length": 1476,
+    "translation_length": 491,
+    "timestamp": 1761402256.7286935
+  },
+  {
+    "chunk_index": 78,
+    "original_length": 1432,
+    "translation_length": 482,
+    "timestamp": 1761402269.4312627
+  },
+  {
+    "chunk_index": 79,
+    "original_length": 1486,
+    "translation_length": 468,
+    "timestamp": 1761402281.6394958
+  },
+  {
+    "chunk_index": 80,
+    "original_length": 1370,
+    "translation_length": 410,
+    "timestamp": 1761402297.9861374
+  },
+  {
+    "chunk_index": 81,
+    "original_length": 1463,
+    "translation_length": 529,
+    "timestamp": 1761402311.778818
+  },
+  {
+    "chunk_index": 82,
+    "original_length": 1485,
+    "translation_length": 499,
+    "timestamp": 1761402325.989886
+  },
+  {
+    "chunk_index": 83,
+    "original_length": 1477,
+    "translation_length": 530,
+    "timestamp": 1761402340.1138117
+  },
+  {
+    "chunk_index": 84,
+    "original_length": 1453,
+    "translation_length": 600,
+    "timestamp": 1761402353.9496434
+  },
+  {
+    "chunk_index": 85,
+    "original_length": 1437,
+    "translation_length": 515,
+    "timestamp": 1761402367.4762638
+  },
+  {
+    "chunk_index": 86,
+    "original_length": 1334,
+    "translation_length": 534,
+    "timestamp": 1761402381.9530246
+  },
+  {
+    "chunk_index": 87,
+    "original_length": 1415,
+    "translation_length": 821,
+    "timestamp": 1761402403.5234215
+  },
+  {
+    "chunk_index": 88,
+    "original_length": 1472,
+    "translation_length": 906,
+    "timestamp": 1761402425.3517618
+  },
+  {
+    "chunk_index": 89,
+    "original_length": 1495,
+    "translation_length": 914,
+    "timestamp": 1761402446.3115902
+  },
+  {
+    "chunk_index": 90,
+    "original_length": 1498,
+    "translation_length": 906,
+    "timestamp": 1761402471.2642937
+  },
+  {
+    "chunk_index": 91,
+    "original_length": 1389,
+    "translation_length": 858,
+    "timestamp": 1761402491.8551178
+  },
+  {
+    "chunk_index": 92,
+    "original_length": 1494,
+    "translation_length": 976,
+    "timestamp": 1761402513.205453
+  },
+  {
+    "chunk_index": 93,
+    "original_length": 1101,
+    "translation_length": 812,
+    "timestamp": 1761402532.374827
+  },
+  {
+    "chunk_index": 94,
+    "original_length": 1469,
+    "translation_length": 987,
+    "timestamp": 1761402555.205441
+  },
+  {
+    "chunk_index": 95,
+    "original_length": 1484,
+    "translation_length": 941,
+    "timestamp": 1761402576.9654124
+  },
+  {
+    "chunk_index": 96,
+    "original_length": 1448,
+    "translation_length": 913,
+    "timestamp": 1761402598.5935025
+  },
+  {
+    "chunk_index": 97,
+    "original_length": 1432,
+    "translation_length": 923,
+    "timestamp": 1761402619.5802975
+  },
+  {
+    "chunk_index": 98,
+    "original_length": 1451,
+    "translation_length": 902,
+    "timestamp": 1761402641.2520437
+  },
+  {
+    "chunk_index": 99,
+    "original_length": 1244,
+    "translation_length": 791,
+    "timestamp": 1761402660.3381965
+  },
+  {
+    "chunk_index": 100,
+    "original_length": 1443,
+    "translation_length": 880,
+    "timestamp": 1761402684.7906613
+  },
+  {
+    "chunk_index": 101,
+    "original_length": 1501,
+    "translation_length": 927,
+    "timestamp": 1761402706.7780232
+  },
+  {
+    "chunk_index": 102,
+    "original_length": 1428,
+    "translation_length": 888,
+    "timestamp": 1761402726.6907268
+  },
+  {
+    "chunk_index": 103,
+    "original_length": 1390,
+    "translation_length": 805,
+    "timestamp": 1761402748.537271
+  },
+  {
+    "chunk_index": 104,
+    "original_length": 1420,
+    "translation_length": 885,
+    "timestamp": 1761402771.7440262
+  },
+  {
+    "chunk_index": 105,
+    "original_length": 1482,
+    "translation_length": 866,
+    "timestamp": 1761402792.9395661
+  },
+  {
+    "chunk_index": 106,
+    "original_length": 1378,
+    "translation_length": 854,
+    "timestamp": 1761402813.2775135
+  },
+  {
+    "chunk_index": 107,
+    "original_length": 1419,
+    "translation_length": 847,
+    "timestamp": 1761402834.4647558
+  },
+  {
+    "chunk_index": 108,
+    "original_length": 1367,
+    "translation_length": 928,
+    "timestamp": 1761402855.330119
+  },
+  {
+    "chunk_index": 109,
+    "original_length": 1440,
+    "translation_length": 880,
+    "timestamp": 1761402875.8130393
+  },
+  {
+    "chunk_index": 110,
+    "original_length": 1381,
+    "translation_length": 854,
+    "timestamp": 1761402899.3205843
+  },
+  {
+    "chunk_index": 111,
+    "original_length": 1485,
+    "translation_length": 854,
+    "timestamp": 1761402921.4400218
+  },
+  {
+    "chunk_index": 112,
+    "original_length": 1416,
+    "translation_length": 1119,
+    "timestamp": 1761402944.4359357
+  },
+  {
+    "chunk_index": 113,
+    "original_length": 1458,
+    "translation_length": 922,
+    "timestamp": 1761402967.8972983
+  },
+  {
+    "chunk_index": 114,
+    "original_length": 1493,
+    "translation_length": 841,
+    "timestamp": 1761402988.0928466
+  },
+  {
+    "chunk_index": 115,
+    "original_length": 1266,
+    "translation_length": 780,
+    "timestamp": 1761403007.4315732
+  },
+  {
+    "chunk_index": 116,
+    "original_length": 1225,
+    "translation_length": 828,
+    "timestamp": 1761403026.951779
+  },
+  {
+    "chunk_index": 117,
+    "original_length": 1318,
+    "translation_length": 855,
+    "timestamp": 1761403048.1035242
+  },
+  {
+    "chunk_index": 118,
+    "original_length": 1456,
+    "translation_length": 968,
+    "timestamp": 1761403071.2131264
+  },
+  {
+    "chunk_index": 119,
+    "original_length": 1250,
+    "translation_length": 848,
+    "timestamp": 1761403092.2065785
+  },
+  {
+    "chunk_index": 120,
+    "original_length": 1475,
+    "translation_length": 886,
+    "timestamp": 1761403117.3388772
+  },
+  {
+    "chunk_index": 121,
+    "original_length": 1371,
+    "translation_length": 911,
+    "timestamp": 1761403141.643224
+  },
+  {
+    "chunk_index": 122,
+    "original_length": 1376,
+    "translation_length": 789,
+    "timestamp": 1761403165.068316
+  },
+  {
+    "chunk_index": 123,
+    "original_length": 1414,
+    "translation_length": 808,
+    "timestamp": 1761403186.3922634
+  },
+  {
+    "chunk_index": 124,
+    "original_length": 1209,
+    "translation_length": 715,
+    "timestamp": 1761403206.2947397
+  },
+  {
+    "chunk_index": 125,
+    "original_length": 1483,
+    "translation_length": 737,
+    "timestamp": 1761403226.241726
+  },
+  {
+    "chunk_index": 126,
+    "original_length": 1444,
+    "translation_length": 806,
+    "timestamp": 1761403247.7098677
+  },
+  {
+    "chunk_index": 127,
+    "original_length": 1425,
+    "translation_length": 778,
+    "timestamp": 1761403268.900809
+  },
+  {
+    "chunk_index": 128,
+    "original_length": 1391,
+    "translation_length": 784,
+    "timestamp": 1761403289.601716
+  },
+  {
+    "chunk_index": 129,
+    "original_length": 1292,
+    "translation_length": 778,
+    "timestamp": 1761403309.3270664
+  },
+  {
+    "chunk_index": 130,
+    "original_length": 1329,
+    "translation_length": 925,
+    "timestamp": 1761403336.5287874
+  },
+  {
+    "chunk_index": 131,
+    "original_length": 1486,
+    "translation_length": 843,
+    "timestamp": 1761403357.8873842
+  },
+  {
+    "chunk_index": 132,
+    "original_length": 1374,
+    "translation_length": 804,
+    "timestamp": 1761403378.2669349
+  },
+  {
+    "chunk_index": 133,
+    "original_length": 1362,
+    "translation_length": 800,
+    "timestamp": 1761403398.8796408
+  },
+  {
+    "chunk_index": 134,
+    "original_length": 1490,
+    "translation_length": 806,
+    "timestamp": 1761403420.0166843
+  },
+  {
+    "chunk_index": 135,
+    "original_length": 1406,
+    "translation_length": 790,
+    "timestamp": 1761403441.2486708
+  },
+  {
+    "chunk_index": 136,
+    "original_length": 1357,
+    "translation_length": 746,
+    "timestamp": 1761403462.4433393
+  },
+  {
+    "chunk_index": 137,
+    "original_length": 1501,
+    "translation_length": 772,
+    "timestamp": 1761403483.0050344
+  },
+  {
+    "chunk_index": 138,
+    "original_length": 1500,
+    "translation_length": 826,
+    "timestamp": 1761403506.8697224
+  },
+  {
+    "chunk_index": 139,
+    "original_length": 1491,
+    "translation_length": 788,
+    "timestamp": 1761403528.045577
+  },
+  {
+    "chunk_index": 140,
+    "original_length": 1489,
+    "translation_length": 812,
+    "timestamp": 1761403553.3178744
+  },
+  {
+    "chunk_index": 141,
+    "original_length": 1482,
+    "translation_length": 798,
+    "timestamp": 1761403573.4879184
+  },
+  {
+    "chunk_index": 142,
+    "original_length": 1395,
+    "translation_length": 780,
+    "timestamp": 1761403592.902949
+  },
+  {
+    "chunk_index": 143,
+    "original_length": 1478,
+    "translation_length": 881,
+    "timestamp": 1761403614.065106
+  },
+  {
+    "chunk_index": 144,
+    "original_length": 1334,
+    "translation_length": 808,
+    "timestamp": 1761403635.10562
+  },
+  {
+    "chunk_index": 145,
+    "original_length": 1499,
+    "translation_length": 852,
+    "timestamp": 1761403657.6814005
+  },
+  {
+    "chunk_index": 146,
+    "original_length": 1334,
+    "translation_length": 810,
+    "timestamp": 1761403679.2203064
+  },
+  {
+    "chunk_index": 147,
+    "original_length": 1249,
+    "translation_length": 767,
+    "timestamp": 1761403698.7877862
+  },
+  {
+    "chunk_index": 148,
+    "original_length": 1465,
+    "translation_length": 861,
+    "timestamp": 1761403721.0191963
+  },
+  {
+    "chunk_index": 149,
+    "original_length": 1469,
+    "translation_length": 858,
+    "timestamp": 1761403742.7046964
+  },
+  {
+    "chunk_index": 150,
+    "original_length": 1483,
+    "translation_length": 810,
+    "timestamp": 1761403767.7633848
+  },
+  {
+    "chunk_index": 151,
+    "original_length": 1475,
+    "translation_length": 856,
+    "timestamp": 1761403790.577402
+  },
+  {
+    "chunk_index": 152,
+    "original_length": 1441,
+    "translation_length": 814,
+    "timestamp": 1761403812.6983998
+  },
+  {
+    "chunk_index": 153,
+    "original_length": 1484,
+    "translation_length": 840,
+    "timestamp": 1761403834.4605446
+  },
+  {
+    "chunk_index": 154,
+    "original_length": 1310,
+    "translation_length": 805,
+    "timestamp": 1761403854.716788
+  },
+  {
+    "chunk_index": 155,
+    "original_length": 1445,
+    "translation_length": 735,
+    "timestamp": 1761403876.1404564
+  },
+  {
+    "chunk_index": 156,
+    "original_length": 1461,
+    "translation_length": 820,
+    "timestamp": 1761403897.593227
+  },
+  {
+    "chunk_index": 157,
+    "original_length": 1460,
+    "translation_length": 878,
+    "timestamp": 1761403919.7160122
+  },
+  {
+    "chunk_index": 158,
+    "original_length": 1222,
+    "translation_length": 813,
+    "timestamp": 1761403941.0803425
+  },
+  {
+    "chunk_index": 159,
+    "original_length": 1432,
+    "translation_length": 906,
+    "timestamp": 1761403961.8542783
+  },
+  {
+    "chunk_index": 160,
+    "original_length": 1405,
+    "translation_length": 831,
+    "timestamp": 1761403986.9458032
+  },
+  {
+    "chunk_index": 161,
+    "original_length": 1417,
+    "translation_length": 864,
+    "timestamp": 1761404009.4543545
+  },
+  {
+    "chunk_index": 162,
+    "original_length": 1445,
+    "translation_length": 886,
+    "timestamp": 1761404031.2300825
+  },
+  {
+    "chunk_index": 163,
+    "original_length": 1447,
+    "translation_length": 903,
+    "timestamp": 1761404052.745075
+  },
+  {
+    "chunk_index": 164,
+    "original_length": 1415,
+    "translation_length": 915,
+    "timestamp": 1761404072.7176442
+  },
+  {
+    "chunk_index": 165,
+    "original_length": 1441,
+    "translation_length": 1066,
+    "timestamp": 1761404094.761324
+  },
+  {
+    "chunk_index": 166,
+    "original_length": 1404,
+    "translation_length": 959,
+    "timestamp": 1761404116.6471453
+  },
+  {
+    "chunk_index": 167,
+    "original_length": 1445,
+    "translation_length": 1039,
+    "timestamp": 1761404140.3579738
+  },
+  {
+    "chunk_index": 168,
+    "original_length": 1414,
+    "translation_length": 891,
+    "timestamp": 1761404161.391215
+  },
+  {
+    "chunk_index": 169,
+    "original_length": 1478,
+    "translation_length": 925,
+    "timestamp": 1761404182.8665588
+  },
+  {
+    "chunk_index": 170,
+    "original_length": 1495,
+    "translation_length": 944,
+    "timestamp": 1761404207.785911
+  },
+  {
+    "chunk_index": 171,
+    "original_length": 1460,
+    "translation_length": 905,
+    "timestamp": 1761404228.585486
+  },
+  {
+    "chunk_index": 172,
+    "original_length": 1479,
+    "translation_length": 1059,
+    "timestamp": 1761404252.371285
+  },
+  {
+    "chunk_index": 173,
+    "original_length": 1374,
+    "translation_length": 1005,
+    "timestamp": 1761404274.8688781
+  },
+  {
+    "chunk_index": 174,
+    "original_length": 1338,
+    "translation_length": 941,
+    "timestamp": 1761404295.3098786
+  },
+  {
+    "chunk_index": 175,
+    "original_length": 1440,
+    "translation_length": 961,
+    "timestamp": 1761404316.4770696
+  },
+  {
+    "chunk_index": 176,
+    "original_length": 1474,
+    "translation_length": 968,
+    "timestamp": 1761404337.120558
+  },
+  {
+    "chunk_index": 177,
+    "original_length": 1350,
+    "translation_length": 952,
+    "timestamp": 1761404358.1376927
+  },
+  {
+    "chunk_index": 178,
+    "original_length": 1422,
+    "translation_length": 1036,
+    "timestamp": 1761404378.975554
+  },
+  {
+    "chunk_index": 179,
+    "original_length": 1070,
+    "translation_length": 970,
+    "timestamp": 1761404397.233787
+  },
+  {
+    "chunk_index": 180,
+    "original_length": 1392,
+    "translation_length": 867,
+    "timestamp": 1761404424.7629368
+  },
+  {
+    "chunk_index": 181,
+    "original_length": 1426,
+    "translation_length": 984,
+    "timestamp": 1761404444.1951754
+  },
+  {
+    "chunk_index": 182,
+    "original_length": 1381,
+    "translation_length": 1022,
+    "timestamp": 1761404466.940982
+  },
+  {
+    "chunk_index": 183,
+    "original_length": 1449,
+    "translation_length": 1118,
+    "timestamp": 1761404487.9821568
+  },
+  {
+    "chunk_index": 184,
+    "original_length": 1258,
+    "translation_length": 977,
+    "timestamp": 1761404506.784564
+  },
+  {
+    "chunk_index": 185,
+    "original_length": 1495,
+    "translation_length": 946,
+    "timestamp": 1761404527.2154083
+  },
+  {
+    "chunk_index": 186,
+    "original_length": 1393,
+    "translation_length": 974,
+    "timestamp": 1761404547.532562
+  },
+  {
+    "chunk_index": 187,
+    "original_length": 1450,
+    "translation_length": 976,
+    "timestamp": 1761404568.6442933
+  },
+  {
+    "chunk_index": 188,
+    "original_length": 1403,
+    "translation_length": 890,
+    "timestamp": 1761404588.9168296
+  },
+  {
+    "chunk_index": 189,
+    "original_length": 1386,
+    "translation_length": 873,
+    "timestamp": 1761404607.8928053
+  },
+  {
+    "chunk_index": 190,
+    "original_length": 1486,
+    "translation_length": 929,
+    "timestamp": 1761404631.8951101
+  },
+  {
+    "chunk_index": 191,
+    "original_length": 1446,
+    "translation_length": 905,
+    "timestamp": 1761404652.1070867
+  },
+  {
+    "chunk_index": 192,
+    "original_length": 1387,
+    "translation_length": 790,
+    "timestamp": 1761404671.4158142
+  },
+  {
+    "chunk_index": 193,
+    "original_length": 1482,
+    "translation_length": 891,
+    "timestamp": 1761404691.9585145
+  },
+  {
+    "chunk_index": 194,
+    "original_length": 1321,
+    "translation_length": 833,
+    "timestamp": 1761404711.1911755
+  },
+  {
+    "chunk_index": 195,
+    "original_length": 1489,
+    "translation_length": 906,
+    "timestamp": 1761404732.3952084
+  },
+  {
+    "chunk_index": 196,
+    "original_length": 1414,
+    "translation_length": 887,
+    "timestamp": 1761404755.0542817
+  },
+  {
+    "chunk_index": 197,
+    "original_length": 1459,
+    "translation_length": 849,
+    "timestamp": 1761404775.8266203
+  },
+  {
+    "chunk_index": 198,
+    "original_length": 1446,
+    "translation_length": 829,
+    "timestamp": 1761404796.2244797
+  },
+  {
+    "chunk_index": 199,
+    "original_length": 1491,
+    "translation_length": 894,
+    "timestamp": 1761404816.8282585
+  },
+  {
+    "chunk_index": 200,
+    "original_length": 1368,
+    "translation_length": 844,
+    "timestamp": 1761404842.4027193
+  },
+  {
+    "chunk_index": 201,
+    "original_length": 1401,
+    "translation_length": 856,
+    "timestamp": 1761404862.7524445
+  },
+  {
+    "chunk_index": 202,
+    "original_length": 1440,
+    "translation_length": 883,
+    "timestamp": 1761404883.888321
+  },
+  {
+    "chunk_index": 203,
+    "original_length": 1446,
+    "translation_length": 866,
+    "timestamp": 1761404904.5301733
+  },
+  {
+    "chunk_index": 204,
+    "original_length": 1452,
+    "translation_length": 831,
+    "timestamp": 1761404925.045899
+  },
+  {
+    "chunk_index": 205,
+    "original_length": 1423,
+    "translation_length": 903,
+    "timestamp": 1761404945.277407
+  },
+  {
+    "chunk_index": 206,
+    "original_length": 1283,
+    "translation_length": 806,
+    "timestamp": 1761404965.4173348
+  },
+  {
+    "chunk_index": 207,
+    "original_length": 1451,
+    "translation_length": 858,
+    "timestamp": 1761404984.5241826
+  },
+  {
+    "chunk_index": 208,
+    "original_length": 1427,
+    "translation_length": 849,
+    "timestamp": 1761405005.5092611
+  },
+  {
+    "chunk_index": 209,
+    "original_length": 1406,
+    "translation_length": 826,
+    "timestamp": 1761405024.6286197
+  },
+  {
+    "chunk_index": 210,
+    "original_length": 1378,
+    "translation_length": 827,
+    "timestamp": 1761405048.0372107
+  },
+  {
+    "chunk_index": 211,
+    "original_length": 1450,
+    "translation_length": 878,
+    "timestamp": 1761405068.5269024
+  },
+  {
+    "chunk_index": 212,
+    "original_length": 1461,
+    "translation_length": 854,
+    "timestamp": 1761405088.727569
+  },
+  {
+    "chunk_index": 213,
+    "original_length": 1348,
+    "translation_length": 944,
+    "timestamp": 1761405109.0312762
+  },
+  {
+    "chunk_index": 214,
+    "original_length": 1438,
+    "translation_length": 903,
+    "timestamp": 1761405129.8823743
+  },
+  {
+    "chunk_index": 215,
+    "original_length": 1243,
+    "translation_length": 887,
+    "timestamp": 1761405149.9783328
+  },
+  {
+    "chunk_index": 216,
+    "original_length": 1359,
+    "translation_length": 903,
+    "timestamp": 1761405168.9885912
+  },
+  {
+    "chunk_index": 217,
+    "original_length": 1328,
+    "translation_length": 939,
+    "timestamp": 1761405187.510409
+  },
+  {
+    "chunk_index": 218,
+    "original_length": 1484,
+    "translation_length": 889,
+    "timestamp": 1761405208.7338083
+  },
+  {
+    "chunk_index": 219,
+    "original_length": 1434,
+    "translation_length": 932,
+    "timestamp": 1761405228.4227831
+  },
+  {
+    "chunk_index": 220,
+    "original_length": 1282,
+    "translation_length": 904,
+    "timestamp": 1761405251.4726717
+  },
+  {
+    "chunk_index": 221,
+    "original_length": 1376,
+    "translation_length": 974,
+    "timestamp": 1761405269.9246104
+  },
+  {
+    "chunk_index": 222,
+    "original_length": 1458,
+    "translation_length": 1034,
+    "timestamp": 1761405291.5415657
+  },
+  {
+    "chunk_index": 223,
+    "original_length": 1351,
+    "translation_length": 991,
+    "timestamp": 1761405311.6979227
+  },
+  {
+    "chunk_index": 224,
+    "original_length": 1424,
+    "translation_length": 936,
+    "timestamp": 1761405332.2831001
+  },
+  {
+    "chunk_index": 225,
+    "original_length": 1455,
+    "translation_length": 1004,
+    "timestamp": 1761405354.0213807
+  },
+  {
+    "chunk_index": 226,
+    "original_length": 1475,
+    "translation_length": 934,
+    "timestamp": 1761405374.7862968
+  },
+  {
+    "chunk_index": 227,
+    "original_length": 1443,
+    "translation_length": 916,
+    "timestamp": 1761405396.4258497
+  },
+  {
+    "chunk_index": 228,
+    "original_length": 1452,
+    "translation_length": 897,
+    "timestamp": 1761405419.3541572
+  },
+  {
+    "chunk_index": 229,
+    "original_length": 1434,
+    "translation_length": 944,
+    "timestamp": 1761405439.955574
+  },
+  {
+    "chunk_index": 230,
+    "original_length": 1442,
+    "translation_length": 872,
+    "timestamp": 1761405464.06786
+  },
+  {
+    "chunk_index": 231,
+    "original_length": 1377,
+    "translation_length": 883,
+    "timestamp": 1761405483.5015013
+  },
+  {
+    "chunk_index": 232,
+    "original_length": 1451,
+    "translation_length": 981,
+    "timestamp": 1761405505.9525485
+  },
+  {
+    "chunk_index": 233,
+    "original_length": 1473,
+    "translation_length": 1032,
+    "timestamp": 1761405529.9807966
+  },
+  {
+    "chunk_index": 234,
+    "original_length": 1399,
+    "translation_length": 980,
+    "timestamp": 1761405553.5049028
+  },
+  {
+    "chunk_index": 235,
+    "original_length": 1501,
+    "translation_length": 989,
+    "timestamp": 1761405575.9412994
+  },
+  {
+    "chunk_index": 236,
+    "original_length": 1495,
+    "translation_length": 920,
+    "timestamp": 1761405598.0674243
+  },
+  {
+    "chunk_index": 237,
+    "original_length": 1483,
+    "translation_length": 950,
+    "timestamp": 1761405622.019607
+  },
+  {
+    "chunk_index": 238,
+    "original_length": 1434,
+    "translation_length": 847,
+    "timestamp": 1761405643.5953548
+  },
+  {
+    "chunk_index": 239,
+    "original_length": 1476,
+    "translation_length": 923,
+    "timestamp": 1761405666.209346
+  },
+  {
+    "chunk_index": 240,
+    "original_length": 1476,
+    "translation_length": 821,
+    "timestamp": 1761405690.4723022
+  },
+  {
+    "chunk_index": 241,
+    "original_length": 1497,
+    "translation_length": 952,
+    "timestamp": 1761405712.2865424
+  },
+  {
+    "chunk_index": 242,
+    "original_length": 1495,
+    "translation_length": 964,
+    "timestamp": 1761405733.95943
+  },
+  {
+    "chunk_index": 243,
+    "original_length": 1466,
+    "translation_length": 872,
+    "timestamp": 1761405756.0356793
+  },
+  {
+    "chunk_index": 244,
+    "original_length": 1500,
+    "translation_length": 985,
+    "timestamp": 1761405778.740163
+  },
+  {
+    "chunk_index": 245,
+    "original_length": 1303,
+    "translation_length": 931,
+    "timestamp": 1761405801.438425
+  },
+  {
+    "chunk_index": 246,
+    "original_length": 1487,
+    "translation_length": 970,
+    "timestamp": 1761405823.4462104
+  },
+  {
+    "chunk_index": 247,
+    "original_length": 1496,
+    "translation_length": 918,
+    "timestamp": 1761405845.386678
+  },
+  {
+    "chunk_index": 248,
+    "original_length": 1432,
+    "translation_length": 1089,
+    "timestamp": 1761405868.258344
+  },
+  {
+    "chunk_index": 249,
+    "original_length": 1486,
+    "translation_length": 980,
+    "timestamp": 1761405892.075617
+  },
+  {
+    "chunk_index": 250,
+    "original_length": 1421,
+    "translation_length": 861,
+    "timestamp": 1761405918.752686
+  },
+  {
+    "chunk_index": 251,
+    "original_length": 1414,
+    "translation_length": 969,
+    "timestamp": 1761405941.0429535
+  },
+  {
+    "chunk_index": 252,
+    "original_length": 1413,
+    "translation_length": 1051,
+    "timestamp": 1761405963.056223
+  },
+  {
+    "chunk_index": 253,
+    "original_length": 1430,
+    "translation_length": 1053,
+    "timestamp": 1761405985.99218
+  },
+  {
+    "chunk_index": 254,
+    "original_length": 1318,
+    "translation_length": 974,
+    "timestamp": 1761406006.3276534
+  },
+  {
+    "chunk_index": 255,
+    "original_length": 1448,
+    "translation_length": 948,
+    "timestamp": 1761406026.996362
+  },
+  {
+    "chunk_index": 256,
+    "original_length": 1350,
+    "translation_length": 896,
+    "timestamp": 1761406045.7564342
+  },
+  {
+    "chunk_index": 257,
+    "original_length": 1261,
+    "translation_length": 906,
+    "timestamp": 1761406066.0454092
+  },
+  {
+    "chunk_index": 258,
+    "original_length": 1432,
+    "translation_length": 1001,
+    "timestamp": 1761406088.1878862
+  },
+  {
+    "chunk_index": 259,
+    "original_length": 1328,
+    "translation_length": 817,
+    "timestamp": 1761406109.0436096
+  },
+  {
+    "chunk_index": 260,
+    "original_length": 1466,
+    "translation_length": 930,
+    "timestamp": 1761406136.4308646
+  },
+  {
+    "chunk_index": 261,
+    "original_length": 1454,
+    "translation_length": 929,
+    "timestamp": 1761406157.1516702
+  },
+  {
+    "chunk_index": 262,
+    "original_length": 1305,
+    "translation_length": 900,
+    "timestamp": 1761406178.8222933
+  },
+  {
+    "chunk_index": 263,
+    "original_length": 1491,
+    "translation_length": 975,
+    "timestamp": 1761406200.4665766
+  },
+  {
+    "chunk_index": 264,
+    "original_length": 1469,
+    "translation_length": 985,
+    "timestamp": 1761406222.393114
+  },
+  {
+    "chunk_index": 265,
+    "original_length": 1444,
+    "translation_length": 1132,
+    "timestamp": 1761406244.701446
+  },
+  {
+    "chunk_index": 266,
+    "original_length": 1221,
+    "translation_length": 813,
+    "timestamp": 1761406264.6286864
+  },
+  {
+    "chunk_index": 267,
+    "original_length": 1478,
+    "translation_length": 981,
+    "timestamp": 1761406286.8714623
+  },
+  {
+    "chunk_index": 268,
+    "original_length": 1451,
+    "translation_length": 968,
+    "timestamp": 1761406307.3180761
+  },
+  {
+    "chunk_index": 269,
+    "original_length": 1491,
+    "translation_length": 944,
+    "timestamp": 1761406327.483178
+  },
+  {
+    "chunk_index": 270,
+    "original_length": 1497,
+    "translation_length": 885,
+    "timestamp": 1761406352.59675
+  },
+  {
+    "chunk_index": 271,
+    "original_length": 1442,
+    "translation_length": 935,
+    "timestamp": 1761406375.1657457
+  },
+  {
+    "chunk_index": 272,
+    "original_length": 1475,
+    "translation_length": 847,
+    "timestamp": 1761406396.8228288
+  },
+  {
+    "chunk_index": 273,
+    "original_length": 1409,
+    "translation_length": 922,
+    "timestamp": 1761406417.6815016
+  },
+  {
+    "chunk_index": 274,
+    "original_length": 1416,
+    "translation_length": 864,
+    "timestamp": 1761406439.1495116
+  },
+  {
+    "chunk_index": 275,
+    "original_length": 1313,
+    "translation_length": 977,
+    "timestamp": 1761406462.397175
+  },
+  {
+    "chunk_index": 276,
+    "original_length": 1335,
+    "translation_length": 961,
+    "timestamp": 1761406482.5646925
+  },
+  {
+    "chunk_index": 277,
+    "original_length": 1489,
+    "translation_length": 878,
+    "timestamp": 1761406502.481377
+  },
+  {
+    "chunk_index": 278,
+    "original_length": 1396,
+    "translation_length": 915,
+    "timestamp": 1761406520.8764842
+  },
+  {
+    "chunk_index": 279,
+    "original_length": 1341,
+    "translation_length": 1058,
+    "timestamp": 1761406543.9387574
+  },
+  {
+    "chunk_index": 280,
+    "original_length": 1397,
+    "translation_length": 938,
+    "timestamp": 1761406568.4291537
+  },
+  {
+    "chunk_index": 281,
+    "original_length": 1495,
+    "translation_length": 968,
+    "timestamp": 1761406588.7825155
+  },
+  {
+    "chunk_index": 282,
+    "original_length": 1340,
+    "translation_length": 919,
+    "timestamp": 1761406611.1475224
+  },
+  {
+    "chunk_index": 283,
+    "original_length": 1497,
+    "translation_length": 950,
+    "timestamp": 1761406633.5016644
+  },
+  {
+    "chunk_index": 284,
+    "original_length": 1426,
+    "translation_length": 874,
+    "timestamp": 1761406655.437157
+  },
+  {
+    "chunk_index": 285,
+    "original_length": 1437,
+    "translation_length": 950,
+    "timestamp": 1761406676.407352
+  },
+  {
+    "chunk_index": 286,
+    "original_length": 1433,
+    "translation_length": 980,
+    "timestamp": 1761406696.9608653
+  },
+  {
+    "chunk_index": 287,
+    "original_length": 1487,
+    "translation_length": 868,
+    "timestamp": 1761406716.4074576
+  },
+  {
+    "chunk_index": 288,
+    "original_length": 1423,
+    "translation_length": 877,
+    "timestamp": 1761406735.469178
+  },
+  {
+    "chunk_index": 289,
+    "original_length": 1290,
+    "translation_length": 893,
+    "timestamp": 1761406753.438877
+  },
+  {
+    "chunk_index": 290,
+    "original_length": 1472,
+    "translation_length": 872,
+    "timestamp": 1761406777.6269567
+  },
+  {
+    "chunk_index": 291,
+    "original_length": 1207,
+    "translation_length": 857,
+    "timestamp": 1761406797.6770463
+  },
+  {
+    "chunk_index": 292,
+    "original_length": 1132,
+    "translation_length": 799,
+    "timestamp": 1761406816.4206011
+  },
+  {
+    "chunk_index": 293,
+    "original_length": 1390,
+    "translation_length": 913,
+    "timestamp": 1761406836.5638068
+  },
+  {
+    "chunk_index": 294,
+    "original_length": 1483,
+    "translation_length": 918,
+    "timestamp": 1761406859.121926
+  },
+  {
+    "chunk_index": 295,
+    "original_length": 1336,
+    "translation_length": 917,
+    "timestamp": 1761406878.8813472
+  },
+  {
+    "chunk_index": 296,
+    "original_length": 1384,
+    "translation_length": 818,
+    "timestamp": 1761406899.3497474
+  },
+  {
+    "chunk_index": 297,
+    "original_length": 1470,
+    "translation_length": 945,
+    "timestamp": 1761406920.56016
+  },
+  {
+    "chunk_index": 298,
+    "original_length": 1368,
+    "translation_length": 856,
+    "timestamp": 1761406941.0267105
+  },
+  {
+    "chunk_index": 299,
+    "original_length": 1423,
+    "translation_length": 954,
+    "timestamp": 1761406962.1295187
+  },
+  {
+    "chunk_index": 300,
+    "original_length": 1440,
+    "translation_length": 871,
+    "timestamp": 1761406987.4126232
+  },
+  {
+    "chunk_index": 301,
+    "original_length": 1458,
+    "translation_length": 923,
+    "timestamp": 1761407008.9556463
+  },
+  {
+    "chunk_index": 302,
+    "original_length": 1500,
+    "translation_length": 867,
+    "timestamp": 1761407029.1914363
+  },
+  {
+    "chunk_index": 303,
+    "original_length": 1385,
+    "translation_length": 947,
+    "timestamp": 1761407050.606686
+  },
+  {
+    "chunk_index": 304,
+    "original_length": 1485,
+    "translation_length": 860,
+    "timestamp": 1761407070.3684242
+  },
+  {
+    "chunk_index": 305,
+    "original_length": 1430,
+    "translation_length": 984,
+    "timestamp": 1761407090.438145
+  },
+  {
+    "chunk_index": 306,
+    "original_length": 1443,
+    "translation_length": 952,
+    "timestamp": 1761407113.5773215
+  },
+  {
+    "chunk_index": 307,
+    "original_length": 1402,
+    "translation_length": 869,
+    "timestamp": 1761407133.7554636
+  },
+  {
+    "chunk_index": 308,
+    "original_length": 1458,
+    "translation_length": 877,
+    "timestamp": 1761407155.0052075
+  },
+  {
+    "chunk_index": 309,
+    "original_length": 1462,
+    "translation_length": 941,
+    "timestamp": 1761407175.11181
+  },
+  {
+    "chunk_index": 310,
+    "original_length": 1437,
+    "translation_length": 894,
+    "timestamp": 1761407198.1145384
+  },
+  {
+    "chunk_index": 311,
+    "original_length": 1303,
+    "translation_length": 853,
+    "timestamp": 1761407217.9330845
+  },
+  {
+    "chunk_index": 312,
+    "original_length": 1396,
+    "translation_length": 885,
+    "timestamp": 1761407237.0591383
+  },
+  {
+    "chunk_index": 313,
+    "original_length": 1392,
+    "translation_length": 860,
+    "timestamp": 1761407255.9629676
+  },
+  {
+    "chunk_index": 314,
+    "original_length": 1477,
+    "translation_length": 896,
+    "timestamp": 1761407274.5142999
+  },
+  {
+    "chunk_index": 315,
+    "original_length": 1211,
+    "translation_length": 810,
+    "timestamp": 1761407291.5085094
+  },
+  {
+    "chunk_index": 316,
+    "original_length": 1480,
+    "translation_length": 837,
+    "timestamp": 1761407311.0907054
+  },
+  {
+    "chunk_index": 317,
+    "original_length": 1435,
+    "translation_length": 836,
+    "timestamp": 1761407330.2383254
+  },
+  {
+    "chunk_index": 318,
+    "original_length": 1442,
+    "translation_length": 826,
+    "timestamp": 1761407349.719363
+  },
+  {
+    "chunk_index": 319,
+    "original_length": 1367,
+    "translation_length": 889,
+    "timestamp": 1761407370.6901753
+  },
+  {
+    "chunk_index": 320,
+    "original_length": 1442,
+    "translation_length": 887,
+    "timestamp": 1761407394.9423032
+  },
+  {
+    "chunk_index": 321,
+    "original_length": 1311,
+    "translation_length": 828,
+    "timestamp": 1761407413.5740623
+  },
+  {
+    "chunk_index": 322,
+    "original_length": 1455,
+    "translation_length": 821,
+    "timestamp": 1761407432.4013839
+  },
+  {
+    "chunk_index": 323,
+    "original_length": 1313,
+    "translation_length": 850,
+    "timestamp": 1761407450.7958553
+  },
+  {
+    "chunk_index": 324,
+    "original_length": 1474,
+    "translation_length": 831,
+    "timestamp": 1761407468.3532825
+  },
+  {
+    "chunk_index": 325,
+    "original_length": 1494,
+    "translation_length": 893,
+    "timestamp": 1761407488.718123
+  },
+  {
+    "chunk_index": 326,
+    "original_length": 1391,
+    "translation_length": 786,
+    "timestamp": 1761407506.5627506
+  },
+  {
+    "chunk_index": 327,
+    "original_length": 1392,
+    "translation_length": 858,
+    "timestamp": 1761407524.1167736
+  },
+  {
+    "chunk_index": 328,
+    "original_length": 1276,
+    "translation_length": 818,
+    "timestamp": 1761407542.982523
+  },
+  {
+    "chunk_index": 329,
+    "original_length": 1426,
+    "translation_length": 833,
+    "timestamp": 1761407559.9950752
+  },
+  {
+    "chunk_index": 330,
+    "original_length": 1432,
+    "translation_length": 853,
+    "timestamp": 1761407583.2615268
+  },
+  {
+    "chunk_index": 331,
+    "original_length": 1439,
+    "translation_length": 909,
+    "timestamp": 1761407602.8789082
+  },
+  {
+    "chunk_index": 332,
+    "original_length": 1442,
+    "translation_length": 911,
+    "timestamp": 1761407622.3992863
+  },
+  {
+    "chunk_index": 333,
+    "original_length": 1480,
+    "translation_length": 972,
+    "timestamp": 1761407642.5380783
+  },
+  {
+    "chunk_index": 334,
+    "original_length": 1429,
+    "translation_length": 974,
+    "timestamp": 1761407663.9009674
+  },
+  {
+    "chunk_index": 335,
+    "original_length": 1407,
+    "translation_length": 892,
+    "timestamp": 1761407684.01504
+  },
+  {
+    "chunk_index": 336,
+    "original_length": 1439,
+    "translation_length": 874,
+    "timestamp": 1761407703.101535
+  },
+  {
+    "chunk_index": 337,
+    "original_length": 1349,
+    "translation_length": 882,
+    "timestamp": 1761407723.5343094
+  },
+  {
+    "chunk_index": 338,
+    "original_length": 1490,
+    "translation_length": 846,
+    "timestamp": 1761407741.7104456
+  },
+  {
+    "chunk_index": 339,
+    "original_length": 1461,
+    "translation_length": 913,
+    "timestamp": 1761407763.3504195
+  },
+  {
+    "chunk_index": 340,
+    "original_length": 1458,
+    "translation_length": 910,
+    "timestamp": 1761407788.5402732
+  },
+  {
+    "chunk_index": 341,
+    "original_length": 1395,
+    "translation_length": 884,
+    "timestamp": 1761407808.6806293
+  },
+  {
+    "chunk_index": 342,
+    "original_length": 1420,
+    "translation_length": 845,
+    "timestamp": 1761407829.7923882
+  },
+  {
+    "chunk_index": 343,
+    "original_length": 1464,
+    "translation_length": 894,
+    "timestamp": 1761407851.4191184
+  },
+  {
+    "chunk_index": 344,
+    "original_length": 1484,
+    "translation_length": 924,
+    "timestamp": 1761407872.8716874
+  },
+  {
+    "chunk_index": 345,
+    "original_length": 1421,
+    "translation_length": 925,
+    "timestamp": 1761407893.7433915
+  },
+  {
+    "chunk_index": 346,
+    "original_length": 1454,
+    "translation_length": 912,
+    "timestamp": 1761407914.264912
+  },
+  {
+    "chunk_index": 347,
+    "original_length": 1347,
+    "translation_length": 873,
+    "timestamp": 1761407934.0524738
+  },
+  {
+    "chunk_index": 348,
+    "original_length": 1481,
+    "translation_length": 905,
+    "timestamp": 1761407956.8379192
+  },
+  {
+    "chunk_index": 349,
+    "original_length": 1346,
+    "translation_length": 833,
+    "timestamp": 1761407976.769506
+  },
+  {
+    "chunk_index": 350,
+    "original_length": 1456,
+    "translation_length": 951,
+    "timestamp": 1761408003.5818841
+  },
+  {
+    "chunk_index": 351,
+    "original_length": 1429,
+    "translation_length": 952,
+    "timestamp": 1761408024.8901744
+  },
+  {
+    "chunk_index": 352,
+    "original_length": 1435,
+    "translation_length": 838,
+    "timestamp": 1761408043.2828395
+  },
+  {
+    "chunk_index": 353,
+    "original_length": 1429,
+    "translation_length": 837,
+    "timestamp": 1761408065.010087
+  },
+  {
+    "chunk_index": 354,
+    "original_length": 1424,
+    "translation_length": 922,
+    "timestamp": 1761408086.0575342
+  },
+  {
+    "chunk_index": 355,
+    "original_length": 1477,
+    "translation_length": 870,
+    "timestamp": 1761408106.8962855
+  },
+  {
+    "chunk_index": 356,
+    "original_length": 1498,
+    "translation_length": 941,
+    "timestamp": 1761408130.2648852
+  },
+  {
+    "chunk_index": 357,
+    "original_length": 1448,
+    "translation_length": 921,
+    "timestamp": 1761408152.0481644
+  },
+  {
+    "chunk_index": 358,
+    "original_length": 1306,
+    "translation_length": 886,
+    "timestamp": 1761408170.7572227
+  },
+  {
+    "chunk_index": 359,
+    "original_length": 1486,
+    "translation_length": 880,
+    "timestamp": 1761408190.6430254
+  },
+  {
+    "chunk_index": 360,
+    "original_length": 1408,
+    "translation_length": 927,
+    "timestamp": 1761408215.175791
+  },
+  {
+    "chunk_index": 361,
+    "original_length": 1478,
+    "translation_length": 955,
+    "timestamp": 1761408235.5588741
+  },
+  {
+    "chunk_index": 362,
+    "original_length": 1410,
+    "translation_length": 999,
+    "timestamp": 1761408255.6815488
+  },
+  {
+    "chunk_index": 363,
+    "original_length": 1252,
+    "translation_length": 885,
+    "timestamp": 1761408274.6543152
+  },
+  {
+    "chunk_index": 364,
+    "original_length": 1446,
+    "translation_length": 934,
+    "timestamp": 1761408296.320937
+  },
+  {
+    "chunk_index": 365,
+    "original_length": 1464,
+    "translation_length": 870,
+    "timestamp": 1761408315.9738634
+  },
+  {
+    "chunk_index": 366,
+    "original_length": 1356,
+    "translation_length": 873,
+    "timestamp": 1761408334.7353954
+  },
+  {
+    "chunk_index": 367,
+    "original_length": 1468,
+    "translation_length": 793,
+    "timestamp": 1761408353.8560488
+  },
+  {
+    "chunk_index": 368,
+    "original_length": 1484,
+    "translation_length": 869,
+    "timestamp": 1761408373.5248709
+  },
+  {
+    "chunk_index": 369,
+    "original_length": 1460,
+    "translation_length": 847,
+    "timestamp": 1761408393.1348686
+  },
+  {
+    "chunk_index": 370,
+    "original_length": 1453,
+    "translation_length": 901,
+    "timestamp": 1761408417.0386658
+  },
+  {
+    "chunk_index": 371,
+    "original_length": 1412,
+    "translation_length": 885,
+    "timestamp": 1761408436.4399023
+  },
+  {
+    "chunk_index": 372,
+    "original_length": 1291,
+    "translation_length": 794,
+    "timestamp": 1761408453.8493886
+  },
+  {
+    "chunk_index": 373,
+    "original_length": 1393,
+    "translation_length": 869,
+    "timestamp": 1761408472.9436202
+  },
+  {
+    "chunk_index": 374,
+    "original_length": 1473,
+    "translation_length": 870,
+    "timestamp": 1761408490.177362
+  },
+  {
+    "chunk_index": 375,
+    "original_length": 1335,
+    "translation_length": 834,
+    "timestamp": 1761408508.3591437
+  },
+  {
+    "chunk_index": 376,
+    "original_length": 1462,
+    "translation_length": 946,
+    "timestamp": 1761408527.614813
+  },
+  {
+    "chunk_index": 377,
+    "original_length": 1467,
+    "translation_length": 1001,
+    "timestamp": 1761408550.0807269
+  },
+  {
+    "chunk_index": 378,
+    "original_length": 1432,
+    "translation_length": 882,
+    "timestamp": 1761408570.5146418
+  },
+  {
+    "chunk_index": 379,
+    "original_length": 1408,
+    "translation_length": 794,
+    "timestamp": 1761408589.774709
+  },
+  {
+    "chunk_index": 380,
+    "original_length": 1454,
+    "translation_length": 959,
+    "timestamp": 1761408614.5241003
+  },
+  {
+    "chunk_index": 381,
+    "original_length": 1494,
+    "translation_length": 962,
+    "timestamp": 1761408635.8823903
+  },
+  {
+    "chunk_index": 382,
+    "original_length": 1456,
+    "translation_length": 1035,
+    "timestamp": 1761408658.3106468
+  },
+  {
+    "chunk_index": 383,
+    "original_length": 1353,
+    "translation_length": 936,
+    "timestamp": 1761408679.1882079
+  },
+  {
+    "chunk_index": 384,
+    "original_length": 1461,
+    "translation_length": 926,
+    "timestamp": 1761408700.9976068
+  },
+  {
+    "chunk_index": 385,
+    "original_length": 1367,
+    "translation_length": 860,
+    "timestamp": 1761408721.7694352
+  },
+  {
+    "chunk_index": 386,
+    "original_length": 1379,
+    "translation_length": 907,
+    "timestamp": 1761408741.9679577
+  },
+  {
+    "chunk_index": 387,
+    "original_length": 1465,
+    "translation_length": 904,
+    "timestamp": 1761408763.180323
+  },
+  {
+    "chunk_index": 388,
+    "original_length": 1442,
+    "translation_length": 898,
+    "timestamp": 1761408784.4817002
+  },
+  {
+    "chunk_index": 389,
+    "original_length": 1376,
+    "translation_length": 902,
+    "timestamp": 1761408805.4820533
+  },
+  {
+    "chunk_index": 390,
+    "original_length": 1392,
+    "translation_length": 903,
+    "timestamp": 1761408830.3677466
+  },
+  {
+    "chunk_index": 391,
+    "original_length": 1457,
+    "translation_length": 936,
+    "timestamp": 1761408852.9541097
+  },
+  {
+    "chunk_index": 392,
+    "original_length": 1351,
+    "translation_length": 838,
+    "timestamp": 1761408871.800349
+  },
+  {
+    "chunk_index": 393,
+    "original_length": 1473,
+    "translation_length": 889,
+    "timestamp": 1761408892.1587448
+  },
+  {
+    "chunk_index": 394,
+    "original_length": 1440,
+    "translation_length": 896,
+    "timestamp": 1761408912.531172
+  },
+  {
+    "chunk_index": 395,
+    "original_length": 1349,
+    "translation_length": 888,
+    "timestamp": 1761408932.8924549
+  },
+  {
+    "chunk_index": 396,
+    "original_length": 1458,
+    "translation_length": 904,
+    "timestamp": 1761408951.4507458
+  },
+  {
+    "chunk_index": 397,
+    "original_length": 1331,
+    "translation_length": 841,
+    "timestamp": 1761408970.4305663
+  },
+  {
+    "chunk_index": 398,
+    "original_length": 1430,
+    "translation_length": 919,
+    "timestamp": 1761408990.0470026
+  },
+  {
+    "chunk_index": 399,
+    "original_length": 1447,
+    "translation_length": 943,
+    "timestamp": 1761409012.1950743
+  },
+  {
+    "chunk_index": 400,
+    "original_length": 1450,
+    "translation_length": 897,
+    "timestamp": 1761409036.6898348
+  },
+  {
+    "chunk_index": 401,
+    "original_length": 1149,
+    "translation_length": 858,
+    "timestamp": 1761409055.367289
+  },
+  {
+    "chunk_index": 402,
+    "original_length": 1468,
+    "translation_length": 877,
+    "timestamp": 1761409074.275964
+  },
+  {
+    "chunk_index": 403,
+    "original_length": 1333,
+    "translation_length": 907,
+    "timestamp": 1761409094.7892709
+  },
+  {
+    "chunk_index": 404,
+    "original_length": 1419,
+    "translation_length": 924,
+    "timestamp": 1761409115.337035
+  },
+  {
+    "chunk_index": 405,
+    "original_length": 1078,
+    "translation_length": 868,
+    "timestamp": 1761409134.4027562
+  },
+  {
+    "chunk_index": 406,
+    "original_length": 1355,
+    "translation_length": 929,
+    "timestamp": 1761409155.372137
+  },
+  {
+    "chunk_index": 407,
+    "original_length": 1416,
+    "translation_length": 975,
+    "timestamp": 1761409178.2189841
+  },
+  {
+    "chunk_index": 408,
+    "original_length": 1447,
+    "translation_length": 1159,
+    "timestamp": 1761409206.4060755
+  },
+  {
+    "chunk_index": 409,
+    "original_length": 1407,
+    "translation_length": 904,
+    "timestamp": 1761409229.2488437
+  },
+  {
+    "chunk_index": 410,
+    "original_length": 1443,
+    "translation_length": 1003,
+    "timestamp": 1761409254.2933862
+  },
+  {
+    "chunk_index": 411,
+    "original_length": 1436,
+    "translation_length": 1029,
+    "timestamp": 1761409276.216597
+  },
+  {
+    "chunk_index": 412,
+    "original_length": 1379,
+    "translation_length": 1046,
+    "timestamp": 1761409299.648081
+  },
+  {
+    "chunk_index": 413,
+    "original_length": 1367,
+    "translation_length": 1017,
+    "timestamp": 1761409321.3081477
+  },
+  {
+    "chunk_index": 414,
+    "original_length": 1220,
+    "translation_length": 900,
+    "timestamp": 1761409340.7844267
+  },
+  {
+    "chunk_index": 415,
+    "original_length": 1367,
+    "translation_length": 962,
+    "timestamp": 1761409360.5085082
+  },
+  {
+    "chunk_index": 416,
+    "original_length": 1391,
+    "translation_length": 1074,
+    "timestamp": 1761409383.2877998
+  },
+  {
+    "chunk_index": 417,
+    "original_length": 1445,
+    "translation_length": 1013,
+    "timestamp": 1761409405.13007
+  },
+  {
+    "chunk_index": 418,
+    "original_length": 1378,
+    "translation_length": 1051,
+    "timestamp": 1761409425.768594
+  },
+  {
+    "chunk_index": 419,
+    "original_length": 1405,
+    "translation_length": 986,
+    "timestamp": 1761409446.237052
+  },
+  {
+    "chunk_index": 420,
+    "original_length": 1412,
+    "translation_length": 1040,
+    "timestamp": 1761409470.420347
+  },
+  {
+    "chunk_index": 421,
+    "original_length": 1441,
+    "translation_length": 1070,
+    "timestamp": 1761409491.5802982
+  },
+  {
+    "chunk_index": 422,
+    "original_length": 1473,
+    "translation_length": 998,
+    "timestamp": 1761409513.231076
+  },
+  {
+    "chunk_index": 423,
+    "original_length": 1319,
+    "translation_length": 942,
+    "timestamp": 1761409531.8486032
+  },
+  {
+    "chunk_index": 424,
+    "original_length": 1460,
+    "translation_length": 1090,
+    "timestamp": 1761409554.050287
+  },
+  {
+    "chunk_index": 425,
+    "original_length": 1344,
+    "translation_length": 953,
+    "timestamp": 1761409573.6184006
+  },
+  {
+    "chunk_index": 426,
+    "original_length": 1368,
+    "translation_length": 1016,
+    "timestamp": 1761409594.3380353
+  },
+  {
+    "chunk_index": 427,
+    "original_length": 1381,
+    "translation_length": 987,
+    "timestamp": 1761409614.8962083
+  },
+  {
+    "chunk_index": 428,
+    "original_length": 1441,
+    "translation_length": 1005,
+    "timestamp": 1761409635.0883663
+  },
+  {
+    "chunk_index": 429,
+    "original_length": 1410,
+    "translation_length": 900,
+    "timestamp": 1761409654.9420702
+  },
+  {
+    "chunk_index": 430,
+    "original_length": 1453,
+    "translation_length": 1024,
+    "timestamp": 1761409682.6373472
+  },
+  {
+    "chunk_index": 431,
+    "original_length": 1302,
+    "translation_length": 946,
+    "timestamp": 1761409704.055781
+  },
+  {
+    "chunk_index": 432,
+    "original_length": 1365,
+    "translation_length": 953,
+    "timestamp": 1761409725.3702636
+  },
+  {
+    "chunk_index": 433,
+    "original_length": 1471,
+    "translation_length": 1092,
+    "timestamp": 1761409747.7015836
+  },
+  {
+    "chunk_index": 434,
+    "original_length": 1456,
+    "translation_length": 1053,
+    "timestamp": 1761409769.8631494
+  },
+  {
+    "chunk_index": 435,
+    "original_length": 1434,
+    "translation_length": 1045,
+    "timestamp": 1761409791.9423323
+  },
+  {
+    "chunk_index": 436,
+    "original_length": 1439,
+    "translation_length": 1102,
+    "timestamp": 1761409813.9512768
+  },
+  {
+    "chunk_index": 437,
+    "original_length": 1426,
+    "translation_length": 1045,
+    "timestamp": 1761409836.3378785
+  },
+  {
+    "chunk_index": 438,
+    "original_length": 1494,
+    "translation_length": 1084,
+    "timestamp": 1761409860.8153603
+  },
+  {
+    "chunk_index": 439,
+    "original_length": 1472,
+    "translation_length": 1144,
+    "timestamp": 1761409882.7712588
+  },
+  {
+    "chunk_index": 440,
+    "original_length": 1444,
+    "translation_length": 982,
+    "timestamp": 1761409908.0726285
+  },
+  {
+    "chunk_index": 441,
+    "original_length": 1454,
+    "translation_length": 1022,
+    "timestamp": 1761409929.4837809
+  },
+  {
+    "chunk_index": 442,
+    "original_length": 1467,
+    "translation_length": 986,
+    "timestamp": 1761409951.392857
+  },
+  {
+    "chunk_index": 443,
+    "original_length": 1377,
+    "translation_length": 949,
+    "timestamp": 1761409972.697285
+  },
+  {
+    "chunk_index": 444,
+    "original_length": 1493,
+    "translation_length": 959,
+    "timestamp": 1761409993.535031
+  },
+  {
+    "chunk_index": 445,
+    "original_length": 1485,
+    "translation_length": 1038,
+    "timestamp": 1761410015.4561474
+  },
+  {
+    "chunk_index": 446,
+    "original_length": 1318,
+    "translation_length": 927,
+    "timestamp": 1761410036.8302784
+  },
+  {
+    "chunk_index": 447,
+    "original_length": 1484,
+    "translation_length": 1082,
+    "timestamp": 1761410059.0664022
+  },
+  {
+    "chunk_index": 448,
+    "original_length": 1441,
+    "translation_length": 1025,
+    "timestamp": 1761410080.9861574
+  },
+  {
+    "chunk_index": 449,
+    "original_length": 1394,
+    "translation_length": 1091,
+    "timestamp": 1761410103.3694408
+  },
+  {
+    "chunk_index": 450,
+    "original_length": 1461,
+    "translation_length": 1096,
+    "timestamp": 1761410129.794712
+  },
+  {
+    "chunk_index": 451,
+    "original_length": 1355,
+    "translation_length": 1020,
+    "timestamp": 1761410150.4005914
+  },
+  {
+    "chunk_index": 452,
+    "original_length": 1427,
+    "translation_length": 990,
+    "timestamp": 1761410172.9288025
+  },
+  {
+    "chunk_index": 453,
+    "original_length": 1396,
+    "translation_length": 982,
+    "timestamp": 1761410195.9189777
+  },
+  {
+    "chunk_index": 454,
+    "original_length": 1368,
+    "translation_length": 939,
+    "timestamp": 1761410218.0741005
+  },
+  {
+    "chunk_index": 455,
+    "original_length": 1463,
+    "translation_length": 979,
+    "timestamp": 1761410239.4163926
+  },
+  {
+    "chunk_index": 456,
+    "original_length": 1391,
+    "translation_length": 937,
+    "timestamp": 1761410260.097334
+  },
+  {
+    "chunk_index": 457,
+    "original_length": 1339,
+    "translation_length": 913,
+    "timestamp": 1761410281.3596385
+  },
+  {
+    "chunk_index": 458,
+    "original_length": 1443,
+    "translation_length": 1032,
+    "timestamp": 1761410303.1390219
+  },
+  {
+    "chunk_index": 459,
+    "original_length": 1450,
+    "translation_length": 1031,
+    "timestamp": 1761410325.354586
+  },
+  {
+    "chunk_index": 460,
+    "original_length": 1474,
+    "translation_length": 1079,
+    "timestamp": 1761410352.2483172
+  },
+  {
+    "chunk_index": 461,
+    "original_length": 1346,
+    "translation_length": 1082,
+    "timestamp": 1761410373.0578487
+  },
+  {
+    "chunk_index": 462,
+    "original_length": 1418,
+    "translation_length": 954,
+    "timestamp": 1761410395.1010833
+  },
+  {
+    "chunk_index": 463,
+    "original_length": 1326,
+    "translation_length": 896,
+    "timestamp": 1761410416.4670143
+  },
+  {
+    "chunk_index": 464,
+    "original_length": 1491,
+    "translation_length": 984,
+    "timestamp": 1761410438.24813
+  },
+  {
+    "chunk_index": 465,
+    "original_length": 1430,
+    "translation_length": 963,
+    "timestamp": 1761410461.4304805
+  },
+  {
+    "chunk_index": 466,
+    "original_length": 1444,
+    "translation_length": 990,
+    "timestamp": 1761410483.884017
+  },
+  {
+    "chunk_index": 467,
+    "original_length": 1328,
+    "translation_length": 928,
+    "timestamp": 1761410505.8934982
+  },
+  {
+    "chunk_index": 468,
+    "original_length": 1375,
+    "translation_length": 958,
+    "timestamp": 1761410527.1837857
+  },
+  {
+    "chunk_index": 469,
+    "original_length": 1500,
+    "translation_length": 941,
+    "timestamp": 1761410549.3262157
+  },
+  {
+    "chunk_index": 470,
+    "original_length": 1393,
+    "translation_length": 948,
+    "timestamp": 1761410576.2585697
+  },
+  {
+    "chunk_index": 471,
+    "original_length": 1410,
+    "translation_length": 1011,
+    "timestamp": 1761410598.3308687
+  },
+  {
+    "chunk_index": 472,
+    "original_length": 1316,
+    "translation_length": 905,
+    "timestamp": 1761410620.9771717
+  },
+  {
+    "chunk_index": 473,
+    "original_length": 1446,
+    "translation_length": 906,
+    "timestamp": 1761410644.3622773
+  },
+  {
+    "chunk_index": 474,
+    "original_length": 1440,
+    "translation_length": 887,
+    "timestamp": 1761410666.0086577
+  },
+  {
+    "chunk_index": 475,
+    "original_length": 1480,
+    "translation_length": 898,
+    "timestamp": 1761410687.5200999
+  },
+  {
+    "chunk_index": 476,
+    "original_length": 1400,
+    "translation_length": 876,
+    "timestamp": 1761410710.0584714
+  },
+  {
+    "chunk_index": 477,
+    "original_length": 1442,
+    "translation_length": 927,
+    "timestamp": 1761410731.3061564
+  },
+  {
+    "chunk_index": 478,
+    "original_length": 1469,
+    "translation_length": 906,
+    "timestamp": 1761410752.7554102
+  },
+  {
+    "chunk_index": 479,
+    "original_length": 1430,
+    "translation_length": 916,
+    "timestamp": 1761410775.0279505
+  },
+  {
+    "chunk_index": 480,
+    "original_length": 1487,
+    "translation_length": 932,
+    "timestamp": 1761410802.5670886
+  },
+  {
+    "chunk_index": 481,
+    "original_length": 1480,
+    "translation_length": 934,
+    "timestamp": 1761410824.6666126
+  },
+  {
+    "chunk_index": 482,
+    "original_length": 1446,
+    "translation_length": 929,
+    "timestamp": 1761410847.2715807
+  },
+  {
+    "chunk_index": 483,
+    "original_length": 1430,
+    "translation_length": 940,
+    "timestamp": 1761410869.492928
+  },
+  {
+    "chunk_index": 484,
+    "original_length": 1353,
+    "translation_length": 867,
+    "timestamp": 1761410889.5255785
+  },
+  {
+    "chunk_index": 485,
+    "original_length": 1412,
+    "translation_length": 968,
+    "timestamp": 1761410912.6367257
+  },
+  {
+    "chunk_index": 486,
+    "original_length": 1462,
+    "translation_length": 1004,
+    "timestamp": 1761410936.3594089
+  },
+  {
+    "chunk_index": 487,
+    "original_length": 1495,
+    "translation_length": 944,
+    "timestamp": 1761410957.954612
+  },
+  {
+    "chunk_index": 488,
+    "original_length": 1499,
+    "translation_length": 924,
+    "timestamp": 1761410980.0276897
+  },
+  {
+    "chunk_index": 489,
+    "original_length": 1095,
+    "translation_length": 843,
+    "timestamp": 1761411000.5914989
+  },
+  {
+    "chunk_index": 490,
+    "original_length": 1465,
+    "translation_length": 944,
+    "timestamp": 1761411026.1771264
+  },
+  {
+    "chunk_index": 491,
+    "original_length": 1490,
+    "translation_length": 961,
+    "timestamp": 1761411049.004998
+  },
+  {
+    "chunk_index": 492,
+    "original_length": 1472,
+    "translation_length": 987,
+    "timestamp": 1761411071.967817
+  },
+  {
+    "chunk_index": 493,
+    "original_length": 1433,
+    "translation_length": 971,
+    "timestamp": 1761411094.1375675
+  },
+  {
+    "chunk_index": 494,
+    "original_length": 1400,
+    "translation_length": 1042,
+    "timestamp": 1761411116.8701675
+  },
+  {
+    "chunk_index": 495,
+    "original_length": 1321,
+    "translation_length": 1055,
+    "timestamp": 1761411139.5807388
+  },
+  {
+    "chunk_index": 496,
+    "original_length": 1466,
+    "translation_length": 1013,
+    "timestamp": 1761411161.2996857
+  },
+  {
+    "chunk_index": 497,
+    "original_length": 1489,
+    "translation_length": 938,
+    "timestamp": 1761411182.1060593
+  },
+  {
+    "chunk_index": 498,
+    "original_length": 1436,
+    "translation_length": 918,
+    "timestamp": 1761411204.1919978
+  },
+  {
+    "chunk_index": 499,
+    "original_length": 1451,
+    "translation_length": 1018,
+    "timestamp": 1761411226.570578
+  },
+  {
+    "chunk_index": 500,
+    "original_length": 1484,
+    "translation_length": 1004,
+    "timestamp": 1761411252.777319
+  },
+  {
+    "chunk_index": 501,
+    "original_length": 1422,
+    "translation_length": 1032,
+    "timestamp": 1761411274.95114
+  },
+  {
+    "chunk_index": 502,
+    "original_length": 1378,
+    "translation_length": 940,
+    "timestamp": 1761411296.658421
+  },
+  {
+    "chunk_index": 503,
+    "original_length": 1448,
+    "translation_length": 1052,
+    "timestamp": 1761411318.526176
+  },
+  {
+    "chunk_index": 504,
+    "original_length": 1439,
+    "translation_length": 964,
+    "timestamp": 1761411342.080702
+  },
+  {
+    "chunk_index": 505,
+    "original_length": 1403,
+    "translation_length": 890,
+    "timestamp": 1761411364.592831
+  },
+  {
+    "chunk_index": 506,
+    "original_length": 1424,
+    "translation_length": 1013,
+    "timestamp": 1761411386.6948118
+  },
+  {
+    "chunk_index": 507,
+    "original_length": 1441,
+    "translation_length": 994,
+    "timestamp": 1761411409.1745293
+  },
+  {
+    "chunk_index": 508,
+    "original_length": 1421,
+    "translation_length": 874,
+    "timestamp": 1761411429.1046517
+  },
+  {
+    "chunk_index": 509,
+    "original_length": 1465,
+    "translation_length": 878,
+    "timestamp": 1761411448.6628683
+  },
+  {
+    "chunk_index": 510,
+    "original_length": 1309,
+    "translation_length": 836,
+    "timestamp": 1761411470.7056684
+  },
+  {
+    "chunk_index": 511,
+    "original_length": 1376,
+    "translation_length": 897,
+    "timestamp": 1761411491.50145
+  },
+  {
+    "chunk_index": 512,
+    "original_length": 1487,
+    "translation_length": 1014,
+    "timestamp": 1761411515.3256674
+  },
+  {
+    "chunk_index": 513,
+    "original_length": 1450,
+    "translation_length": 991,
+    "timestamp": 1761411537.2955637
+  },
+  {
+    "chunk_index": 514,
+    "original_length": 1405,
+    "translation_length": 982,
+    "timestamp": 1761411559.8508787
+  },
+  {
+    "chunk_index": 515,
+    "original_length": 1307,
+    "translation_length": 921,
+    "timestamp": 1761411581.1652875
+  },
+  {
+    "chunk_index": 516,
+    "original_length": 1337,
+    "translation_length": 938,
+    "timestamp": 1761411603.0490627
+  },
+  {
+    "chunk_index": 517,
+    "original_length": 1438,
+    "translation_length": 944,
+    "timestamp": 1761411626.1035337
+  },
+  {
+    "chunk_index": 518,
+    "original_length": 1448,
+    "translation_length": 974,
+    "timestamp": 1761411647.54831
+  },
+  {
+    "chunk_index": 519,
+    "original_length": 1501,
+    "translation_length": 1102,
+    "timestamp": 1761411671.0494492
+  },
+  {
+    "chunk_index": 520,
+    "original_length": 1277,
+    "translation_length": 954,
+    "timestamp": 1761411697.2911155
+  },
+  {
+    "chunk_index": 521,
+    "original_length": 1442,
+    "translation_length": 1036,
+    "timestamp": 1761411719.0074925
+  },
+  {
+    "chunk_index": 522,
+    "original_length": 1426,
+    "translation_length": 1013,
+    "timestamp": 1761411741.6147842
+  },
+  {
+    "chunk_index": 523,
+    "original_length": 1442,
+    "translation_length": 919,
+    "timestamp": 1761411762.7191334
+  },
+  {
+    "chunk_index": 524,
+    "original_length": 1448,
+    "translation_length": 983,
+    "timestamp": 1761411784.423692
+  },
+  {
+    "chunk_index": 525,
+    "original_length": 1413,
+    "translation_length": 1047,
+    "timestamp": 1761411809.0559509
+  },
+  {
+    "chunk_index": 526,
+    "original_length": 1341,
+    "translation_length": 996,
+    "timestamp": 1761411830.9051075
+  },
+  {
+    "chunk_index": 527,
+    "original_length": 1457,
+    "translation_length": 986,
+    "timestamp": 1761411851.7634702
+  },
+  {
+    "chunk_index": 528,
+    "original_length": 1458,
+    "translation_length": 1000,
+    "timestamp": 1761411875.1734302
+  },
+  {
+    "chunk_index": 529,
+    "original_length": 1492,
+    "translation_length": 1020,
+    "timestamp": 1761411897.9289188
+  },
+  {
+    "chunk_index": 530,
+    "original_length": 1483,
+    "translation_length": 1048,
+    "timestamp": 1761411924.9673529
+  },
+  {
+    "chunk_index": 531,
+    "original_length": 1450,
+    "translation_length": 1045,
+    "timestamp": 1761411947.22632
+  },
+  {
+    "chunk_index": 532,
+    "original_length": 1408,
+    "translation_length": 1085,
+    "timestamp": 1761411969.5505564
+  },
+  {
+    "chunk_index": 533,
+    "original_length": 1413,
+    "translation_length": 992,
+    "timestamp": 1761411990.6727815
+  },
+  {
+    "chunk_index": 534,
+    "original_length": 1431,
+    "translation_length": 1086,
+    "timestamp": 1761412013.9594598
+  },
+  {
+    "chunk_index": 535,
+    "original_length": 1501,
+    "translation_length": 1157,
+    "timestamp": 1761412037.367738
+  },
+  {
+    "chunk_index": 536,
+    "original_length": 1460,
+    "translation_length": 1113,
+    "timestamp": 1761412059.1806884
+  },
+  {
+    "chunk_index": 537,
+    "original_length": 1429,
+    "translation_length": 1034,
+    "timestamp": 1761412079.4453874
+  },
+  {
+    "chunk_index": 538,
+    "original_length": 1286,
+    "translation_length": 1053,
+    "timestamp": 1761412100.8226156
+  },
+  {
+    "chunk_index": 539,
+    "original_length": 1238,
+    "translation_length": 1065,
+    "timestamp": 1761412122.3970737
+  },
+  {
+    "chunk_index": 540,
+    "original_length": 1342,
+    "translation_length": 1036,
+    "timestamp": 1761412146.4864168
+  },
+  {
+    "chunk_index": 541,
+    "original_length": 1384,
+    "translation_length": 999,
+    "timestamp": 1761412167.8130014
+  },
+  {
+    "chunk_index": 542,
+    "original_length": 1457,
+    "translation_length": 993,
+    "timestamp": 1761412187.9130456
+  },
+  {
+    "chunk_index": 543,
+    "original_length": 1494,
+    "translation_length": 1044,
+    "timestamp": 1761412209.511022
+  },
+  {
+    "chunk_index": 544,
+    "original_length": 1454,
+    "translation_length": 1002,
+    "timestamp": 1761412230.9341695
+  },
+  {
+    "chunk_index": 545,
+    "original_length": 1456,
+    "translation_length": 1044,
+    "timestamp": 1761412251.3120396
+  },
+  {
+    "chunk_index": 546,
+    "original_length": 1418,
+    "translation_length": 1065,
+    "timestamp": 1761412271.6879082
+  },
+  {
+    "chunk_index": 547,
+    "original_length": 1399,
+    "translation_length": 1035,
+    "timestamp": 1761412292.9773316
+  },
+  {
+    "chunk_index": 548,
+    "original_length": 1417,
+    "translation_length": 982,
+    "timestamp": 1761412314.3580337
+  },
+  {
+    "chunk_index": 549,
+    "original_length": 1397,
+    "translation_length": 964,
+    "timestamp": 1761412335.1861784
+  },
+  {
+    "chunk_index": 550,
+    "original_length": 1443,
+    "translation_length": 994,
+    "timestamp": 1761412362.7121022
+  },
+  {
+    "chunk_index": 551,
+    "original_length": 1496,
+    "translation_length": 1023,
+    "timestamp": 1761412384.436501
+  },
+  {
+    "chunk_index": 552,
+    "original_length": 1422,
+    "translation_length": 1032,
+    "timestamp": 1761412406.0241265
+  },
+  {
+    "chunk_index": 553,
+    "original_length": 1491,
+    "translation_length": 981,
+    "timestamp": 1761412427.6385665
+  },
+  {
+    "chunk_index": 554,
+    "original_length": 1392,
+    "translation_length": 1009,
+    "timestamp": 1761412447.527383
+  },
+  {
+    "chunk_index": 555,
+    "original_length": 1366,
+    "translation_length": 1005,
+    "timestamp": 1761412466.2256262
+  },
+  {
+    "chunk_index": 556,
+    "original_length": 1419,
+    "translation_length": 990,
+    "timestamp": 1761412484.9292793
+  },
+  {
+    "chunk_index": 557,
+    "original_length": 1464,
+    "translation_length": 926,
+    "timestamp": 1761412505.008843
+  },
+  {
+    "chunk_index": 558,
+    "original_length": 1250,
+    "translation_length": 863,
+    "timestamp": 1761412522.6490304
+  },
+  {
+    "chunk_index": 559,
+    "original_length": 1491,
+    "translation_length": 977,
+    "timestamp": 1761412544.22583
+  },
+  {
+    "chunk_index": 560,
+    "original_length": 1461,
+    "translation_length": 895,
+    "timestamp": 1761412568.4345322
+  },
+  {
+    "chunk_index": 561,
+    "original_length": 1429,
+    "translation_length": 983,
+    "timestamp": 1761412589.8557646
+  },
+  {
+    "chunk_index": 562,
+    "original_length": 1482,
+    "translation_length": 991,
+    "timestamp": 1761412608.913792
+  },
+  {
+    "chunk_index": 563,
+    "original_length": 1367,
+    "translation_length": 998,
+    "timestamp": 1761412629.4649124
+  },
+  {
+    "chunk_index": 564,
+    "original_length": 1483,
+    "translation_length": 1010,
+    "timestamp": 1761412650.5381017
+  },
+  {
+    "chunk_index": 565,
+    "original_length": 1335,
+    "translation_length": 1023,
+    "timestamp": 1761412670.3641984
+  },
+  {
+    "chunk_index": 566,
+    "original_length": 1463,
+    "translation_length": 1017,
+    "timestamp": 1761412690.545722
+  },
+  {
+    "chunk_index": 567,
+    "original_length": 1190,
+    "translation_length": 846,
+    "timestamp": 1761412708.276529
+  },
+  {
+    "chunk_index": 568,
+    "original_length": 1264,
+    "translation_length": 1023,
+    "timestamp": 1761412729.3726344
+  },
+  {
+    "chunk_index": 569,
+    "original_length": 1475,
+    "translation_length": 1161,
+    "timestamp": 1761412751.083337
+  },
+  {
+    "chunk_index": 570,
+    "original_length": 1380,
+    "translation_length": 956,
+    "timestamp": 1761412774.9399276
+  },
+  {
+    "chunk_index": 571,
+    "original_length": 1451,
+    "translation_length": 1080,
+    "timestamp": 1761412796.8397102
+  },
+  {
+    "chunk_index": 572,
+    "original_length": 1477,
+    "translation_length": 1030,
+    "timestamp": 1761412818.6365933
+  },
+  {
+    "chunk_index": 573,
+    "original_length": 1490,
+    "translation_length": 1066,
+    "timestamp": 1761412840.5488207
+  },
+  {
+    "chunk_index": 574,
+    "original_length": 1465,
+    "translation_length": 1006,
+    "timestamp": 1761412862.3422904
+  },
+  {
+    "chunk_index": 575,
+    "original_length": 1495,
+    "translation_length": 994,
+    "timestamp": 1761412885.4189525
+  },
+  {
+    "chunk_index": 576,
+    "original_length": 1475,
+    "translation_length": 1072,
+    "timestamp": 1761412909.4508834
+  },
+  {
+    "chunk_index": 577,
+    "original_length": 1427,
+    "translation_length": 1004,
+    "timestamp": 1761412931.287337
+  },
+  {
+    "chunk_index": 578,
+    "original_length": 1405,
+    "translation_length": 1020,
+    "timestamp": 1761412952.6795712
+  },
+  {
+    "chunk_index": 579,
+    "original_length": 1284,
+    "translation_length": 891,
+    "timestamp": 1761412972.4401307
+  },
+  {
+    "chunk_index": 580,
+    "original_length": 1447,
+    "translation_length": 908,
+    "timestamp": 1761412996.0555482
+  },
+  {
+    "chunk_index": 581,
+    "original_length": 1402,
+    "translation_length": 940,
+    "timestamp": 1761413017.7403867
+  },
+  {
+    "chunk_index": 582,
+    "original_length": 1234,
+    "translation_length": 829,
+    "timestamp": 1761413037.7265975
+  },
+  {
+    "chunk_index": 583,
+    "original_length": 1461,
+    "translation_length": 948,
+    "timestamp": 1761413058.069321
+  },
+  {
+    "chunk_index": 584,
+    "original_length": 1449,
+    "translation_length": 979,
+    "timestamp": 1761413077.758036
+  },
+  {
+    "chunk_index": 585,
+    "original_length": 1393,
+    "translation_length": 1009,
+    "timestamp": 1761413099.2030532
+  },
+  {
+    "chunk_index": 586,
+    "original_length": 1458,
+    "translation_length": 953,
+    "timestamp": 1761413119.231978
+  },
+  {
+    "chunk_index": 587,
+    "original_length": 1425,
+    "translation_length": 909,
+    "timestamp": 1761413140.7549686
+  },
+  {
+    "chunk_index": 588,
+    "original_length": 1455,
+    "translation_length": 932,
+    "timestamp": 1761413161.8949318
+  },
+  {
+    "chunk_index": 589,
+    "original_length": 1402,
+    "translation_length": 920,
+    "timestamp": 1761413180.2144587
+  },
+  {
+    "chunk_index": 590,
+    "original_length": 1445,
+    "translation_length": 947,
+    "timestamp": 1761413203.8250887
+  },
+  {
+    "chunk_index": 591,
+    "original_length": 1439,
+    "translation_length": 978,
+    "timestamp": 1761413223.336784
+  },
+  {
+    "chunk_index": 592,
+    "original_length": 1286,
+    "translation_length": 968,
+    "timestamp": 1761413242.9830325
+  },
+  {
+    "chunk_index": 593,
+    "original_length": 1325,
+    "translation_length": 1015,
+    "timestamp": 1761413263.3675964
+  },
+  {
+    "chunk_index": 594,
+    "original_length": 1359,
+    "translation_length": 1005,
+    "timestamp": 1761413285.5983872
+  },
+  {
+    "chunk_index": 595,
+    "original_length": 1483,
+    "translation_length": 1051,
+    "timestamp": 1761413307.5936599
+  },
+  {
+    "chunk_index": 596,
+    "original_length": 1356,
+    "translation_length": 974,
+    "timestamp": 1761413327.1534033
+  },
+  {
+    "chunk_index": 597,
+    "original_length": 1411,
+    "translation_length": 956,
+    "timestamp": 1761413346.4848313
+  },
+  {
+    "chunk_index": 598,
+    "original_length": 1309,
+    "translation_length": 1026,
+    "timestamp": 1761413367.9169908
+  },
+  {
+    "chunk_index": 599,
+    "original_length": 1494,
+    "translation_length": 997,
+    "timestamp": 1761413389.3861861
+  },
+  {
+    "chunk_index": 600,
+    "original_length": 1449,
+    "translation_length": 975,
+    "timestamp": 1761413413.053267
+  },
+  {
+    "chunk_index": 601,
+    "original_length": 1455,
+    "translation_length": 946,
+    "timestamp": 1761413432.2137127
+  },
+  {
+    "chunk_index": 602,
+    "original_length": 1489,
+    "translation_length": 1087,
+    "timestamp": 1761413455.8171084
+  },
+  {
+    "chunk_index": 603,
+    "original_length": 1325,
+    "translation_length": 936,
+    "timestamp": 1761413475.5836549
+  },
+  {
+    "chunk_index": 604,
+    "original_length": 1483,
+    "translation_length": 1041,
+    "timestamp": 1761413497.6966875
+  },
+  {
+    "chunk_index": 605,
+    "original_length": 1431,
+    "translation_length": 968,
+    "timestamp": 1761413518.0474207
+  },
+  {
+    "chunk_index": 606,
+    "original_length": 1345,
+    "translation_length": 963,
+    "timestamp": 1761413537.7970436
+  },
+  {
+    "chunk_index": 607,
+    "original_length": 1274,
+    "translation_length": 1027,
+    "timestamp": 1761413558.9514482
+  },
+  {
+    "chunk_index": 608,
+    "original_length": 1426,
+    "translation_length": 1000,
+    "timestamp": 1761413580.7840369
+  },
+  {
+    "chunk_index": 609,
+    "original_length": 1498,
+    "translation_length": 1074,
+    "timestamp": 1761413602.3492823
+  },
+  {
+    "chunk_index": 610,
+    "original_length": 1439,
+    "translation_length": 1037,
+    "timestamp": 1761413627.7601745
+  },
+  {
+    "chunk_index": 611,
+    "original_length": 1404,
+    "translation_length": 1024,
+    "timestamp": 1761413649.111417
+  },
+  {
+    "chunk_index": 612,
+    "original_length": 1436,
+    "translation_length": 1047,
+    "timestamp": 1761413670.651551
+  },
+  {
+    "chunk_index": 613,
+    "original_length": 1481,
+    "translation_length": 1064,
+    "timestamp": 1761413691.0070567
+  },
+  {
+    "chunk_index": 614,
+    "original_length": 1452,
+    "translation_length": 1143,
+    "timestamp": 1761413713.2137804
+  },
+  {
+    "chunk_index": 615,
+    "original_length": 1386,
+    "translation_length": 1037,
+    "timestamp": 1761413734.3582172
+  },
+  {
+    "chunk_index": 616,
+    "original_length": 1296,
+    "translation_length": 1016,
+    "timestamp": 1761413754.0318508
+  },
+  {
+    "chunk_index": 617,
+    "original_length": 1391,
+    "translation_length": 1016,
+    "timestamp": 1761413774.3041015
+  },
+  {
+    "chunk_index": 618,
+    "original_length": 1264,
+    "translation_length": 926,
+    "timestamp": 1761413793.2395544
+  },
+  {
+    "chunk_index": 619,
+    "original_length": 1377,
+    "translation_length": 1117,
+    "timestamp": 1761413813.4376814
+  },
+  {
+    "chunk_index": 620,
+    "original_length": 1267,
+    "translation_length": 1140,
+    "timestamp": 1761413839.2688525
+  },
+  {
+    "chunk_index": 621,
+    "original_length": 1390,
+    "translation_length": 1143,
+    "timestamp": 1761413859.527056
+  },
+  {
+    "chunk_index": 622,
+    "original_length": 1417,
+    "translation_length": 1217,
+    "timestamp": 1761413882.0535192
+  },
+  {
+    "chunk_index": 623,
+    "original_length": 1476,
+    "translation_length": 1160,
+    "timestamp": 1761413902.6563642
+  },
+  {
+    "chunk_index": 624,
+    "original_length": 1480,
+    "translation_length": 1139,
+    "timestamp": 1761413925.3370728
+  },
+  {
+    "chunk_index": 625,
+    "original_length": 1421,
+    "translation_length": 1163,
+    "timestamp": 1761413946.7947395
+  },
+  {
+    "chunk_index": 626,
+    "original_length": 1386,
+    "translation_length": 1086,
+    "timestamp": 1761413968.3552215
+  },
+  {
+    "chunk_index": 627,
+    "original_length": 1496,
+    "translation_length": 1286,
+    "timestamp": 1761413991.6728163
+  },
+  {
+    "chunk_index": 628,
+    "original_length": 1496,
+    "translation_length": 1307,
+    "timestamp": 1761414014.9467347
+  },
+  {
+    "chunk_index": 629,
+    "original_length": 1450,
+    "translation_length": 1060,
+    "timestamp": 1761414038.5982685
+  },
+  {
+    "chunk_index": 630,
+    "original_length": 1425,
+    "translation_length": 1177,
+    "timestamp": 1761414064.98376
+  },
+  {
+    "chunk_index": 631,
+    "original_length": 1402,
+    "translation_length": 1274,
+    "timestamp": 1761414087.7629414
+  },
+  {
+    "chunk_index": 632,
+    "original_length": 1438,
+    "translation_length": 1307,
+    "timestamp": 1761414108.4105089
+  },
+  {
+    "chunk_index": 633,
+    "original_length": 1461,
+    "translation_length": 1187,
+    "timestamp": 1761414129.858712
+  },
+  {
+    "chunk_index": 634,
+    "original_length": 1480,
+    "translation_length": 1046,
+    "timestamp": 1761414150.0873368
+  },
+  {
+    "chunk_index": 635,
+    "original_length": 1390,
+    "translation_length": 1277,
+    "timestamp": 1761414173.7178802
+  },
+  {
+    "chunk_index": 636,
+    "original_length": 1405,
+    "translation_length": 1168,
+    "timestamp": 1761414194.3870456
+  },
+  {
+    "chunk_index": 637,
+    "original_length": 1493,
+    "translation_length": 1163,
+    "timestamp": 1761414218.2329226
+  },
+  {
+    "chunk_index": 638,
+    "original_length": 1392,
+    "translation_length": 1179,
+    "timestamp": 1761414240.324813
+  },
+  {
+    "chunk_index": 639,
+    "original_length": 1428,
+    "translation_length": 1187,
+    "timestamp": 1761414263.88127
+  },
+  {
+    "chunk_index": 640,
+    "original_length": 1406,
+    "translation_length": 1284,
+    "timestamp": 1761414292.9596667
+  },
+  {
+    "chunk_index": 641,
+    "original_length": 1399,
+    "translation_length": 1102,
+    "timestamp": 1761414314.7221053
+  },
+  {
+    "chunk_index": 642,
+    "original_length": 1442,
+    "translation_length": 1387,
+    "timestamp": 1761414342.176921
+  },
+  {
+    "chunk_index": 643,
+    "original_length": 1415,
+    "translation_length": 1126,
+    "timestamp": 1761414364.7940698
+  },
+  {
+    "chunk_index": 644,
+    "original_length": 1487,
+    "translation_length": 1102,
+    "timestamp": 1761414390.5349202
+  },
+  {
+    "chunk_index": 645,
+    "original_length": 1482,
+    "translation_length": 1231,
+    "timestamp": 1761414417.0831625
+  },
+  {
+    "chunk_index": 646,
+    "original_length": 1396,
+    "translation_length": 1142,
+    "timestamp": 1761414442.8512669
+  },
+  {
+    "chunk_index": 647,
+    "original_length": 1457,
+    "translation_length": 1148,
+    "timestamp": 1761414468.0946305
+  },
+  {
+    "chunk_index": 648,
+    "original_length": 1473,
+    "translation_length": 1188,
+    "timestamp": 1761414495.390469
+  },
+  {
+    "chunk_index": 649,
+    "original_length": 1495,
+    "translation_length": 1397,
+    "timestamp": 1761414525.9176261
+  },
+  {
+    "chunk_index": 650,
+    "original_length": 1498,
+    "translation_length": 1340,
+    "timestamp": 1761414559.666118
+  },
+  {
+    "chunk_index": 651,
+    "original_length": 1457,
+    "translation_length": 1290,
+    "timestamp": 1761414588.674735
+  },
+  {
+    "chunk_index": 652,
+    "original_length": 1499,
+    "translation_length": 1306,
+    "timestamp": 1761414618.020846
+  },
+  {
+    "chunk_index": 653,
+    "original_length": 1470,
+    "translation_length": 1339,
+    "timestamp": 1761414647.1183786
+  },
+  {
+    "chunk_index": 654,
+    "original_length": 1486,
+    "translation_length": 1302,
+    "timestamp": 1761414675.6238616
+  },
+  {
+    "chunk_index": 655,
+    "original_length": 692,
+    "translation_length": 938,
+    "timestamp": 1761414695.3685114
+  }
+]
